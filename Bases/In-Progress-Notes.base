@@ -1,0 +1,23 @@
+filters:
+  and:
+    - status == "WIP"
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - file.mtime
+      - priority
+      - tags
+      - file.tags
+      - status
+    sort:
+      - property: file.mtime
+        direction: DESC
+      - property: tags
+        direction: ASC
+    columnSize:
+      file.mtime: 227
+  - type: cards
+    name: Cards
+    image: note.art

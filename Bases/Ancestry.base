@@ -1,0 +1,16 @@
+filters:
+  and:
+    - file.tags.contains("Ancestry")
+    - '!file.path.contains("Templates")'
+views:
+  - type: cards
+    name: Cards
+    image: note.art
+  - type: table
+    name: View
+    order:
+      - file.name
+    sort:
+      - property: file.name
+        direction: ASC
+    image: note.art

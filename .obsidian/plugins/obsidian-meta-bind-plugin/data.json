@@ -1,0 +1,561 @@
+{
+  "devMode": false,
+  "ignoreCodeBlockRestrictions": true,
+  "preferredDateFormat": "DD/MM/yyyy",
+  "firstWeekday": {
+    "index": 1,
+    "name": "Monday",
+    "shortName": "Mo"
+  },
+  "syncInterval": 200,
+  "enableJs": false,
+  "viewFieldDisplayNullAsEmpty": true,
+  "enableSyntaxHighlighting": true,
+  "enableEditorRightClickMenu": true,
+  "inputFieldTemplates": [
+    {
+      "name": "Tags",
+      "declaration": "INPUT[inlineSelect(option(Meta), option(Story), option(Plot), option(Scene), option(Concept), option(History), option(Lore), option(Cosmos), option(Creature), option(Flora), option(Geography), option(POI), option(Resource), option(Settlement), option(Ancestry), option(Character), option(Culture/Art), option(Country), option(Economy), option(Language), option(Organization), option(Politics), option(Religion), option(Condition), option(Magic), option(Object), option(Technology))]"
+    },
+    {
+      "name": "Age",
+      "declaration": "INPUT[inlineSelect(option(Child), option(Young Adult), option(Adult), option(Middle-aged), option(Elder))]"
+    },
+    {
+      "name": "Gender",
+      "declaration": "INPUT[inlineSelect(option(Male), option(Female), option(Other), option(N/A))]"
+    },
+    {
+      "name": "Lifespan",
+      "declaration": "INPUT[inlineSelect(option(Brief), option(Normal), option(Long), option(Immortal))]"
+    },
+    {
+      "name": "Build",
+      "declaration": "INPUT[inlineSelect(option(Tiny), option(Small), option(Medium), option(Large), option(Huge))]"
+    },
+    {
+      "name": "Origin",
+      "declaration": "INPUT[inlineSelect(option(Natural), option(Created), option(Transformed))]"
+    },
+    {
+      "name": "ConceptType",
+      "declaration": "INPUT[inlineSelect(option(Philosophical), option(Magical), option(Societal), option(Natural Law), option(Metaphysical), option(Scientific), option(Artistic), option(Moral/Ethical))]"
+    },
+    {
+      "name": "ConceptScope",
+      "declaration": "INPUT[inlineSelect(option(Universal), option(Regional), option(Cultural), option(Personal))]"
+    },
+    {
+      "name": "ThematicImportance",
+      "declaration": "INPUT[inlineSelect(option(Central Theme), option(Supporting Element), option(Background Detail))]"
+    },
+    {
+      "name": "ConceptOrigin",
+      "declaration": "INPUT[inlineSelect(option(Inherent), option(Discovered), option(Revealed), option(Invented), option(Imported))]"
+    },
+    {
+      "name": "Awareness",
+      "declaration": "INPUT[inlineSelect(option(Universal), option(Scholarly), option(Esoteric), option(Intuitive), option(Forgotten))]"
+    },
+    {
+      "name": "TruthStatus",
+      "declaration": "INPUT[inlineSelect(option(True), option(False), option(Partial), option(Subjective))]"
+    },
+    {
+      "name": "CosmicType",
+      "declaration": "INPUT[inlineSelect(option(Star), option(Planet), option(Moon), option(Constellation), option(Phenomenon), option(Anomaly), option(Ring))]"
+    },
+    {
+      "name": "Visibility",
+      "declaration": "INPUT[inlineSelect(option(Constant), option(Seasonal), option(Cyclical), option(Rare), option(Hidden), option(Fading))]"
+    },
+    {
+      "name": "Significance",
+      "declaration": "INPUT[inlineListSuggester(option(Navigation), option(Religious), option(Magical), option(Decorative), option(Ominous), option(Scientific), option(Timekeeping), option(Mythological))]"
+    },
+    {
+      "name": "HistoricalScope",
+      "declaration": "INPUT[inlineSelect(option(Event), option(Period), option(Era), option(Recurring))]"
+    },
+    {
+      "name": "Scope",
+      "declaration": "INPUT[inlineSelect(option(Local), option(Regional), option(National), option(Continental), option(Global), option(Cosmic))]"
+    },
+    {
+      "name": "DocumentType",
+      "declaration": "INPUT[inlineSelect(option(Historical), option(Religious), option(Personal), option(Legal), option(Scholarly), option(Literary), option(Technical), option(Propaganda), option(Prophetic))]"
+    },
+    {
+      "name": "Form",
+      "declaration": "INPUT[inlineSelect(option(Text), option(Oral), option(Inscription), option(Magical))]"
+    },
+    {
+      "name": "Authenticity",
+      "declaration": "INPUT[inlineSelect(option(Original), option(Copy), option(Translation), option(Fragment), option(Forgery), option(Corrupted))]"
+    },
+    {
+      "name": "Preservation",
+      "declaration": "INPUT[inlineSelect(option(Excellent), option(Good), option(Poor), option(Fragmentary), option(Lost))]"
+    },
+    {
+      "name": "Access",
+      "declaration": "INPUT[inlineSelect(option(Public), option(Restricted), option(Secret), option(Lost), option(Forbidden))]"
+    },
+    {
+      "name": "CreatureType",
+      "declaration": "INPUT[inlineSelect(option(Beast), option(Magical), option(Undead), option(Construct), option(Spirit), option(Hybrid), option(Aberration), option(Shapeshifter))]"
+    },
+    {
+      "name": "Intelligence",
+      "declaration": "INPUT[inlineSelect(option(Animal), option(Low), option(Average), option(High), option(Alien), option(Hive-mind), option(Varies))]"
+    },
+    {
+      "name": "Temperament",
+      "declaration": "INPUT[inlineSelect(option(Docile), option(Neutral), option(Aggressive), option(Territorial), option(Curious), option(Predatory), option(Varies))]"
+    },
+    {
+      "name": "Rarity",
+      "declaration": "INPUT[inlineSelect(option(Common), option(Uncommon), option(Rare), option(Legendary), option(Extinct), option(Mythical))]"
+    },
+    {
+      "name": "Diet",
+      "declaration": "INPUT[inlineSelect(option(Herbivore), option(Carnivore), option(Omnivore), option(Magical), option(Inorganic), option(None))]"
+    },
+    {
+      "name": "Size",
+      "declaration": "INPUT[inlineSelect(option(Tiny), option(Small), option(Medium), option(Large), option(Huge), option(Gargantuan))]"
+    },
+    {
+      "name": "PlantType",
+      "declaration": "INPUT[inlineListSuggester(option(Tree), option(Shrub), option(Herb), option(Flower), option(Fungus), option(Vine), option(Grass), option(Fern), option(Moss), option(Aquatic), option(Carnivorous), option(Parasitic))]"
+    },
+    {
+      "name": "FloraRarity",
+      "declaration": "INPUT[inlineSelect(option(Common), option(Uncommon), option(Rare), option(Legendary), option(Extinct), option(Seasonal))]"
+    },
+    {
+      "name": "FloraProperties",
+      "declaration": "INPUT[inlineListSuggester(option(Mundane), option(Medicinal), option(Magical), option(Poisonous), option(Hallucinogenic), option(Nutritious), option(Aromatic), option(Luminescent))]"
+    },
+    {
+      "name": "FloraSize",
+      "declaration": "INPUT[inlineSelect(option(Tiny), option(Small), option(Medium), option(Large), option(Massive))]"
+    },
+    {
+      "name": "Lifecycle",
+      "declaration": "INPUT[inlineSelect(option(Annual), option(Perennial), option(Immortal), option(Reactive))]"
+    },
+    {
+      "name": "Terrain",
+      "declaration": "INPUT[inlineListSuggester(option(Mountain), option(Forest), option(Desert), option(Plains), option(Swamp), option(Coast), option(Tundra), option(Canyon), option(Volcanic), option(Cave System), option(Island), option(Lake), option(River), option(Ocean))]"
+    },
+    {
+      "name": "Climate",
+      "declaration": "INPUT[inlineListSuggester(option(Tropical), option(Temperate), option(Cold), option(Arid), option(Mediterranean), option(Monsoon), option(Magical), option(Unstable), option(Eternal))]"
+    },
+    {
+      "name": "Habitability",
+      "declaration": "INPUT[inlineSelect(option(Welcoming), option(Habitable), option(Harsh), option(Dangerous), option(Uninhabitable), option(Seasonal), option(Magically Dependent))]"
+    },
+    {
+      "name": "RegionType",
+      "declaration": "INPUT[inlineListSuggester(option(Natural Formation), option(Cultural Region), option(Political Region), option(Trade Corridor), option(Border Region), option(Sacred Land), option(Resource Region), option(Strategic Location), option(Wilderness))]"
+    },
+    {
+      "name": "GeoSize",
+      "declaration": "INPUT[inlineSelect(option(Tiny), option(Small), option(Medium), option(Large), option(Vast))]"
+    },
+    {
+      "name": "POIType",
+      "declaration": "INPUT[inlineListSuggester(option(Ruin), option(Natural Wonder), option(Magical Site), option(Landmark), option(Structure), option(Shrine), option(Dungeon), option(Battlefield))]"
+    },
+    {
+      "name": "Condition",
+      "declaration": "INPUT[inlineSelect(option(Pristine), option(Weathered), option(Ruined), option(Hidden), option(Dangerous), option(Active), option(Abandoned))]"
+    },
+    {
+      "name": "POIAccess",
+      "declaration": "INPUT[inlineSelect(option(Open), option(Restricted), option(Hidden), option(Dangerous), option(Forbidden), option(Seasonal))]"
+    },
+    {
+      "name": "POISignificance",
+      "declaration": "INPUT[inlineListSuggester(option(Historical), option(Religious), option(Strategic), option(Cultural), option(Economic), option(Mysterious), option(Personal), option(Mundane), option(Narrative))]"
+    },
+    {
+      "name": "ResourceType",
+      "declaration": "INPUT[inlineListSuggester(option(Mineral), option(Organic), option(Magical), option(Crafted), option(Liquid), option(Energy))]"
+    },
+    {
+      "name": "ResourceRarity",
+      "declaration": "INPUT[inlineSelect(option(Abundant), option(Common), option(Uncommon), option(Scarce), option(Rare), option(Legendary))]"
+    },
+    {
+      "name": "Renewability",
+      "declaration": "INPUT[inlineSelect(option(Renewable), option(Sustainable), option(Limited), option(Finite), option(Seasonal))]"
+    },
+    {
+      "name": "State",
+      "declaration": "INPUT[inlineSelect(option(Raw), option(Refined), option(Both))]"
+    },
+    {
+      "name": "Value",
+      "declaration": "INPUT[inlineSelect(option(Worthless), option(Cheap), option(Moderate), option(Valuable), option(Priceless))]"
+    },
+    {
+      "name": "PrimaryUse",
+      "declaration": "INPUT[inlineListSuggester(option(Construction), option(Crafting), option(Fuel), option(Food), option(Medicine), option(Magic), option(Trade), option(Decorative))]"
+    },
+    {
+      "name": "SettlementSize",
+      "declaration": "INPUT[inlineSelect(option(Hamlet), option(Village), option(Town), option(City), option(Metropolis), option(Outpost), option(Ruins))]"
+    },
+    {
+      "name": "SettlementType",
+      "declaration": "INPUT[inlineListSuggester(option(Agricultural), option(Trade Hub), option(Port), option(Mining), option(Religious), option(Military), option(Academic), option(Industrial), option(Capital))]"
+    },
+    {
+      "name": "Prosperity",
+      "declaration": "INPUT[inlineSelect(option(Destitute), option(Struggling), option(Stable), option(Prosperous), option(Thriving), option(Declining))]"
+    },
+    {
+      "name": "Defense",
+      "declaration": "INPUT[inlineSelect(option(None), option(Militia), option(Guarded), option(Fortified), option(Fortress))]"
+    },
+    {
+      "name": "Government",
+      "declaration": "INPUT[inlineSelect(option(Monarchy), option(Republic), option(Theocracy), option(Tribal), option(Council), option(Dictatorship), option(Magocracy), option(Confederation), option(Feudal), option(Anarchy))]"
+    },
+    {
+      "name": "Size",
+      "declaration": "INPUT[inlineSelect(option(City-State), option(Small), option(Medium), option(Large), option(Empire))]"
+    },
+    {
+      "name": "WealthLevel",
+      "declaration": "INPUT[inlineSelect(option(Impoverished), option(Poor), option(Modest), option(Prosperous), option(Wealthy), option(Opulent))]"
+    },
+    {
+      "name": "Stability",
+      "declaration": "INPUT[inlineSelect(option(Chaotic), option(Unstable), option(Tenuous), option(Stable), option(Entrenched))]"
+    },
+    {
+      "name": "MilitaryPower",
+      "declaration": "INPUT[inlineSelect(option(Defenseless), option(Weak), option(Moderate), option(Strong), option(Dominant))]"
+    },
+    {
+      "name": "EconomicType",
+      "declaration": "INPUT[inlineListSuggester(option(Currency), option(Trade Route), option(Market), option(Industry), option(System), option(Cartel))]"
+    },
+    {
+      "name": "EconomicStability",
+      "declaration": "INPUT[inlineSelect(option(Collapsing), option(Volatile), option(Declining), option(Stable), option(Growing), option(Booming))]"
+    },
+    {
+      "name": "EconomicModel",
+      "declaration": "INPUT[inlineSelect(option(Barter), option(Mercantile), option(Agricultural), option(Industrial), option(Magical), option(Mixed))]"
+    },
+    {
+      "name": "TechStage",
+      "declaration": "INPUT[inlineSelect(option(Emerging), option(Established), option(Declining), option(Lost), option(Rediscovered))]"
+    },
+    {
+      "name": "Availability",
+      "declaration": "INPUT[inlineSelect(option(Widespread), option(Limited), option(Exclusive), option(Secret), option(Forbidden))]"
+    },
+    {
+      "name": "TechType",
+      "declaration": "INPUT[inlineListSuggester(option(Mechanical), option(Alchemical), option(Magical), option(Biological), option(Hybrid))]"
+    },
+    {
+      "name": "Complexity",
+      "declaration": "INPUT[inlineSelect(option(Simple), option(Moderate), option(Complex), option(Advanced))]"
+    },
+    {
+      "name": "ObjectRarity",
+      "declaration": "INPUT[inlineSelect(option(Common), option(Uncommon), option(Rare), option(Unique), option(Legendary))]"
+    },
+    {
+      "name": "ObjectCondition",
+      "declaration": "INPUT[inlineSelect(option(Pristine), option(Good), option(Worn), option(Damaged), option(Broken), option(Cursed))]"
+    },
+    {
+      "name": "ObjectSignificance",
+      "declaration": "INPUT[inlineListSuggester(option(Mundane), option(Personal), option(Valuable), option(Historical), option(Magical), option(Legendary), option(Religious), option(Cursed))]"
+    },
+    {
+      "name": "MagicScope",
+      "declaration": "INPUT[inlineSelect(option(System), option(Discipline), option(Technique), option(Spell), option(Item))]"
+    },
+    {
+      "name": "MagicType",
+      "declaration": "INPUT[inlineListSuggester(option(Arcane), option(Divine), option(Innate), option(Environmental), option(Blood), option(Pact), option(Chaos), option(Necromantic))]"
+    },
+    {
+      "name": "LearningMethod",
+      "declaration": "INPUT[inlineListSuggester(option(Study), option(Bloodline), option(Divine Calling), option(Natural Talent), option(Ritual), option(Artifact), option(Unlearnable))]"
+    },
+    {
+      "name": "SocietalView",
+      "declaration": "INPUT[inlineSelect(option(Revered), option(Accepted), option(Tolerated), option(Feared), option(Forbidden), option(Unknown))]"
+    },
+    {
+      "name": "MagicRarity",
+      "declaration": "INPUT[inlineSelect(option(Common), option(Uncommon), option(Rare), option(Legendary), option(Forbidden), option(Lost))]"
+    },
+    {
+      "name": "ConditionType",
+      "declaration": "INPUT[inlineListSuggester(option(Curse), option(Disease), option(Blessing), option(Transformation), option(Mutation), option(Possession), option(Madness), option(Poisoning))]"
+    },
+    {
+      "name": "OriginType",
+      "declaration": "INPUT[inlineListSuggester(option(Magical), option(Divine), option(Natural), option(Hereditary), option(Alchemical), option(Parasitic), option(Psychic))]"
+    },
+    {
+      "name": "Severity",
+      "declaration": "INPUT[inlineSelect(option(Minor), option(Moderate), option(Severe), option(Terminal), option(Beneficial))]"
+    },
+    {
+      "name": "Duration",
+      "declaration": "INPUT[inlineSelect(option(Temporary), option(Chronic), option(Permanent), option(Progressive), option(Episodic))]"
+    },
+    {
+      "name": "Transmission",
+      "declaration": "INPUT[inlineListSuggester(option(Non-Contagious), option(Contact), option(Airborne), option(Bloodborne), option(Magical), option(Hereditary))]"
+    },
+    {
+      "name": "BeliefType",
+      "declaration": "INPUT[inlineListSuggester(option(Monotheistic), option(Polytheistic), option(Dualistic), option(Animistic), option(Philosophical), option(Ancestor Worship), option(Pantheistic), option(Atheistic))]"
+    },
+    {
+      "name": "InfluenceLevel",
+      "declaration": "INPUT[inlineSelect(option(State), option(Widespread), option(Minority), option(Underground), option(Extinct), option(Emerging))]"
+    },
+    {
+      "name": "OrganizationalStructure",
+      "declaration": "INPUT[inlineSelect(option(Hierarchical), option(Decentralized), option(Tribal), option(Monastic), option(None))]"
+    },
+    {
+      "name": "PoliticalType",
+      "declaration": "INPUT[inlineListSuggester(option(Law), option(Treaty), option(Conflict), option(Alliance), option(Policy), option(Embargo), option(Succession), option(Reform))]"
+    },
+    {
+      "name": "PoliticalStatus",
+      "declaration": "INPUT[inlineSelect(option(Active), option(Proposed), option(Historical), option(Repealed), option(Violated), option(Disputed))]"
+    },
+    {
+      "name": "Outcome",
+      "declaration": "INPUT[inlineSelect(option(Successful), option(Failed), option(Ongoing), option(Stalemate), option(Mixed))]"
+    },
+    {
+      "name": "OrgType",
+      "declaration": "INPUT[inlineSelect(option(Guild), option(Religious), option(Military), option(Academic), option(Criminal), option(Political), option(Commercial), option(Secret Society), option(Charitable), option(Knightly Order))]"
+    },
+    {
+      "name": "Secrecy",
+      "declaration": "INPUT[inlineSelect(option(Public), option(Discreet), option(Secret), option(Unknown), option(Rumored))]"
+    },
+    {
+      "name": "OrgSize",
+      "declaration": "INPUT[inlineSelect(option(Tiny), option(Small), option(Medium), option(Large), option(Massive))]"
+    },
+    {
+      "name": "Influence",
+      "declaration": "INPUT[inlineSelect(option(Negligible), option(Minor), option(Moderate), option(Major), option(Dominant))]"
+    },
+    {
+      "name": "Usage",
+      "declaration": "INPUT[inlineSelect(option(Common), option(Ceremonial), option(Scholarly), option(Ancient), option(Dead), option(Liturgical), option(Trade))]"
+    },
+    {
+      "name": "Script",
+      "declaration": "INPUT[inlineSelect(option(None), option(Simple), option(Complex), option(Magical), option(Pictographic), option(Runic))]"
+    },
+    {
+      "name": "Prevalence",
+      "declaration": "INPUT[inlineSelect(option(Widespread), option(Common), option(Limited), option(Rare), option(Extinct))]"
+    }
+  ],
+  "buttonTemplates": [
+    {
+      "label": "New Excalidraw",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "New-Excalidraw",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "command",
+          "command": "obsidian-excalidraw-plugin:excalidraw-autocreate-newtab"
+        }
+      ],
+      "cssStyle": "background-color:gray"
+    },
+    {
+      "label": "Reload Obsidian",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "Reload-Obsidian",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "app:reload"
+        }
+      ],
+      "cssStyle": "background-color:gray"
+    },
+    {
+      "label": "New Character",
+      "hidden": false,
+      "id": "NewCharacter",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/T_World/Template_Character.md",
+          "fileName": "NewCharacter",
+          "openNote": true
+        }
+      ]
+    },
+    {
+      "label": "New Meta Note",
+      "hidden": false,
+      "id": "MetaNoteSelector",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/z_Scripts/Button_Meta_Selector.md",
+          "fileName": "NewMetaNote",
+          "openNote": true
+        }
+      ]
+    },
+    {
+      "label": "Open Web Viewer",
+      "icon": "",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "background-color:gray",
+      "tooltip": "",
+      "id": "OpenWebViewer",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "command",
+          "command": "webviewer:open"
+        }
+      ]
+    },
+    {
+      "label": "New World Note",
+      "hidden": false,
+      "id": "WorldNoteSelector",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/z_Scripts/Button_World_Selector.md",
+          "fileName": "NewWorldNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Create a new content note for the world."
+    },
+    {
+      "label": "Convert to Excalidraw",
+      "hidden": false,
+      "class": "",
+      "tooltip": "Converts to an excalidraw note",
+      "id": "Convert-Excalidraw",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "command",
+          "command": "obsidian-excalidraw-plugin:convert-to-excalidraw"
+        }
+      ],
+      "cssStyle": "background-color:gray"
+    },
+    {
+      "label": "Create New Story",
+      "hidden": false,
+      "id": "NewStory",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/T_Story/Template_Story.md",
+          "fileName": "NewStoryNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Create a new story"
+    },
+    {
+      "label": "New Plot",
+      "hidden": false,
+      "id": "NewPlot",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/T_Story/Template_Plot.md",
+          "fileName": "NewStoryNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Plot outlines, themes, etc."
+    },
+    {
+      "label": "New Scene",
+      "hidden": false,
+      "id": "NewScene",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/T_Story/Template_Scene.md",
+          "fileName": "NewStoryNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": ""
+    },
+    {
+      "label": "New Scene Timeline",
+      "hidden": false,
+      "id": "NewSceneTimeline",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/T_Story/Template_Scene_Timeline.md",
+          "fileName": "NewStoryNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": ""
+    },
+    {
+      "label": "New Story Note",
+      "hidden": false,
+      "id": "StoryNoteSelector",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/z_Scripts/Button_Story_Selector.md",
+          "fileName": "NewStoryNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Create a new content note for the world."
+    }
+  ],
+  "excludedFolders": [],
+  "minSyncInterval": 50,
+  "maxSyncInterval": 1000
+}

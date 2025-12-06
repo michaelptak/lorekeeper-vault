@@ -1,0 +1,11 @@
+{
+  "cssTheme": "ITS Theme",
+  "accentColor": "#557873",
+  "enabledCssSnippets": [
+    "CollapseProperties",
+    "LimitMarkdownEmbed",
+    "infobox-callouts",
+    "NoHoverPreview"
+  ],
+  "theme": "obsidian"
+}

@@ -1,0 +1,17 @@
+filters:
+  and:
+    - file.tags.contains("Character")
+    - '!file.path.contains("Templates/")'
+views:
+  - type: table
+    name: View
+    sort:
+      - property: file.mtime
+        direction: DESC
+    image: note.art
+  - type: cards
+    name: Cards
+    sort:
+      - property: file.mtime
+        direction: DESC
+    image: note.art

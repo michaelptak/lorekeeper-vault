@@ -1,0 +1,20 @@
+filters:
+  and:
+    - purpose == "Vault"
+    - '!file.path.contains("Templates")'
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - file.mtime
+      - purpose
+      - status
+    sort:
+      - property: status
+        direction: ASC
+    columnSize:
+      file.mtime: 221
+  - type: cards
+    name: Cards
+    image: note.art

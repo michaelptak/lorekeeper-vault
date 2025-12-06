@@ -1,0 +1,10 @@
+filters:
+  and:
+    - purpose.contains("Brainstorm")
+    - '!file.path.contains("Templates")'
+views:
+  - type: table
+    name: Table
+  - type: cards
+    name: Cards
+    image: note.art

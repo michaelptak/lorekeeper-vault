@@ -1,0 +1,16 @@
+filters:
+  and:
+    - file.tags.contains("Meta")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - file.mtime
+      - status
+      - related
+      - purpose
+      - priority
+      - project_id
+    columnSize:
+      file.mtime: 233

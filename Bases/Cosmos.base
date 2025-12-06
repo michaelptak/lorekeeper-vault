@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.tags.contains("Cosmos")
+    - '!file.path.contains("Templates/")'
+views:
+  - type: table
+    name: View
+    sort:
+      - property: file.name
+        direction: ASC
+    image: note.art
+  - type: cards
+    name: Cards
+    image: note.art

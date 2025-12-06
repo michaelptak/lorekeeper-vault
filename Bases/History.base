@@ -1,0 +1,23 @@
+filters:
+  and:
+    - file.tags.contains("History")
+    - '!file.path.contains("Templates/")'
+views:
+  - type: table
+    name: View
+    order:
+      - file.name
+      - status
+      - timelines
+      - scope
+      - fc-date
+      - event_type
+      - fc-category
+      - historical_scope
+    sort:
+      - property: fc-date
+        direction: ASC
+    image: note.art
+  - type: cards
+    name: Cards
+    image: note.art

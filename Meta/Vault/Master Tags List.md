@@ -1,0 +1,1024 @@
+---
+tags: Meta
+status: Complete
+related:
+purpose: Vault
+priority:
+project_id:
+---
+> [!metadata]- Meta Data
+> #### General
+>  |
+> ---|---|
+> **Tags** | `INPUT[Tags][inlineListSuggester:tags]` |
+> **Status** | `INPUT[select(option(Stub), option(Planned), option(WIP), option(Complete)):status]` |
+> **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates"), useLinks(partial)):related]` |
+> 
+> #### Meta Properties
+>  |
+> ---|---|
+> **Purpose** | Vault |
+> **Priority** | `INPUT[select(option(High), option(Med), option(Low)):priority]` |
+> **Project ID** | `INPUT[text:project_id]` |
+
+> [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]- Navigation
+> **Quick Links:** [[Obsidian-Vault.base|Vault Notes]] | [[Meta.base|All Meta Notes]] | [[Home]]
+> 
+> [[#Meta]]
+> 
+> [[#Story]] ([[#Plot]] · [[#Scene]] · [[#Scene Timeline]])
+> 
+> **Core Worldbuilding:** [[#Concept]] | [[#History]] | [[#Timeline]] | [[#Lore]]
+> 
+> **Physical World:** [[#Cosmos]] | [[#Creature]] | [[#Flora]] | [[#Geography]] | [[#POI]] | [[#Resource]] | [[#Settlement]]
+> 
+> **People & Society:** [[#Ancestry]] | [[#Character]] | [[#Culture/Art]]
+> 
+> **Systems & Institutions:** [[#Country]] | [[#Economy]] | [[#Language]] | [[#Organization]] | [[#Politics]] | [[#Religion]]
+> 
+> **Supernatural & Material:** [[#Condition]] | [[#Magic]] | [[#Object]] | [[#Technology]]
+
+# **`=this.file.name`**
+> [!example]- Making Edits
+> This is Obsidian. It is possible to change almost anything if you really want. Recommended Approach:
+> 1. Always start with editing the respective template for permanent changes. Don't sweat changing old notes immediately, just update them as you go along.
+> 	- There are 1-3 places the changes are necessary. 1. An input field in the Meta Data callout. 2. If applicable, a view under the infobox callout 3. The frontmatter if a default value is desired (Auto-populated by metadata input field though)
+> 		- The syntax looks confusing at first but you can copy it or if you really don't understand sent it to AI
+> 2. **Most** properties where you select an option from a dropdown menu, can be edited in Meta Bind -> Input Field Templates. This is convenient as it requires no changes in any template or any note.
+> 	- Alt approach: Edit `.obsidian/plugins/obsidian-meta-bind-plugin/data.json`
+> 
+> Not recommended:
+> - Changing the folder structure around (Hard-coded in many templater scripts. Adding new folders however is fine)
+> - Renaming the property name itself (Might break some existing dataview/Bases queries. It's very doable but honestly pointless as these are not really something you are ever viewing)
+
+
+## Naming Convention
+- Metadata takes the form of {property}:{Value} where property is always lowercase, and the value is always uppercased. Except for tags which are also uppercased.
+
+## Default Properties
+- **Note: Generally come with every template**
+- `status`
+  - `Stub` - basic notes, no immediate development plans
+  - `Planned` - ready to develop when time allows, higher priority than stubs
+  - `WIP` - actively working on in near future
+  - `Complete` - developed enough to be considered finished
+  - `Archived` notes that are considered defunct, low quality, irrelevant, etc. 
+    - Move to the "Archive" folder automatically using Templater 
+- `related` 
+  - Broadly link to any note if it doesn't fall under one of the usual properties.
+  - Particularly useful for linking any note to a `concept` as this is a very broad category. Also great for `meta` research notes
+
+## Universal Properties
+- **Note: Not always applicable but used by many templates.**
+- `art` image(s) associated with the note
+- **Calendar / Timeline Related**
+  - `fc-date` - timeline integration with world chronology
+  - `fc-end` - for multi-day scenes
+  - `fc-calendar` - calendar name for Calendarium integration
+  - `fc-category` - event category for calendar display 
+  - `fc-display-name` - optional override for event title
+  - `aat-event-picture` - unfortunately only way I could get this to work is providing a text field
+  - `aat-render-enabled` - true/false - Toggle for event to show up in timelines or not.
+  - `aat-event-body` - custom description for timeline display (optional)
+  - `timelines` - List timeline names (defaults to world-history)
+
+## Categories (Tags)
+### Meta
+- **Meta** (for example brainstorming, notes, to-dos, as well as researach-something like a master list of all categories would fall under this)
+  - `purpose` - brainstorming, research, to-do, reference
+    - Project (Indicates specific projects that span multiple notes)
+    - Planning (To-dos, Tasks lists, writing schedules, etc.)
+    - Research (broadly anything related to research rather than the world itself)
+    - Brainstorm (Raw, unformed ideas before you know what they are.)
+    - Vault (Related to Obsidian and the vault itself as opposed to the world- useful to keep some resources here)
+    - Reference (Basically a resource, something to drop in from external source that will not be changing much)
+      - Image board: (Art/Photos for reference, useful to filter out stuff related to the actual world itself)
+    - Insipiration (External sources, quotes, or ideas from other media that might influence your world)
+  - `priority`- High, Med, Low
+  - `project-id` If this note is a project, provide a unique id referencing that specific project
+
+### Story
+- **Story** (narrative planning and story development using your fictional world)
+  - `story_title` - "Story Title" (e.g. "The Fellowship of the Ring")
+  - `status` - existing universal 
+  - `related` - existing universal
+  
+#### Plot
+- **Plot** (story structure, arcs, conflicts, themes, and major story beats)
+  - `story_title` - "Story Title" (e.g. "The Fellowship of the Ring")
+  - `plot_type` - Arc, Conflict, Theme, Outline, Beat
+  - `plot_scope` - Story, Act, Chapter
+  - `plot_focus` - Character Arc, World Conflict, Thematic Element
+  - `involves_world` → links to **Character**, **Settlement**, etc.
+    - This is a bit redundant with `related` - however the distinction specifically for story notes just makes intuitive sense to me 
+
+#### Scene  
+- **Scene** (individual scene outlines and story timeline events)
+  - `story_title` - "Story Title" (e.g. "The Fellowship of the Ring")
+  - `story_order` - chapter.scene.beat format for sorting (e.g. "1.2.3")
+    - This might be confusing at first but is really useful and will organize the note nicely in bases. Once again, avoiding using folders at all. 
+  - `involves_world` → links to **Character**, **Settlement**, etc.
+  - `pov_character` → links to **Character**
+  - **Calendar / Timeline Related**
+    - `fc-date` - timeline integration with world chronology
+    - `fc-end` - for multi-day scenes
+    - `fc-calendar` - calendar name for Calendarium integration
+    - `fc-category` - event category for calendar display 
+    - `fc-display-name` - optional override for event title
+    - `aat-event-picture` - unfortunately only way I could get this to work is providing a text field
+    - `aat-render-enabled` - true/false - Toggle for event to show up in timelines or not.
+    - `aat-event-body` - custom description for timeline display (optional)
+    - `timelines` - List timeline names (defaults to world-history)
+
+#### Scene Timeline
+- **Scene** (individual scene outlines and story timeline events)
+  - `story_title` - "Story Title" (e.g. "The Fellowship of the Ring")
+  - `timelines` - Relevant timeline
+
+### Core Worldbuilding Elements
+
+#### Concept
+- `concept_type`
+  - philosophical
+  - magical
+  - societal
+  - natural_law
+  - metaphysical
+  - scientific
+  - artistic
+  - moral/ethical
+- `concept_scope`
+  - universal
+  - regional
+  - cultural
+  - personal
+- `thematic_importance`
+  - central theme
+  - supporting element
+  - background detail
+- `origin`
+  - inherent (exists naturally in your world)
+  - discovered (people figured it out)
+  - revealed (divine/magical revelation)
+  - invented (created by people)
+  - imported (came from elsewhere)
+- `awareness`
+  - universal (everyone knows)
+  - scholarly (only educated know)
+  - esoteric (secret/rare knowledge)
+  - intuitive (people feel it but don't articulate it)
+  - forgotten (was known, now lost)
+- `truth_status`
+  - true (actually exists/works as believed)
+  - false (misconception)
+  - partial (somewhat true)
+  - subjective (varies by perspective)
+
+#### History
+- `historical_scope` - Event, Period, Era, Recurring
+  - Event = specific occurrences
+  - Period = longer than an event but shorter than an era
+  - Era = broader time periods (ages, epochs- whatever you want to call them)
+  - Recurring = events that happen repeatedly (like holidays)
+- `event_type` - War, Founding, Disaster, Discovery, Cultural -Shift (free-form list)
+- `scope` - Local, Regional, National, Continental, Global, Cosmic
+- `era` - "The Great Convergence" (actual named era/period)
+- `involved_characters` → links to **Character**
+- `involved_organizations` → links to **Organization**  
+- `involved_countries` → links to **Country**
+- `locations` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos**
+- `fc-calendar` - calendar name for Calendarium integration
+- `fc-date` - start date in YYYY-MM-DD format
+- `fc-end` - end date in YYYY-MM-DD format (optional)
+- `fc-category` - event category for calendar display (optional)
+- `fc-display-name` - optional override for event title (optional)
+- `aat-event-picture` - unfortunately only way I could get this to work is providing a 
+- `aat-render-enabled` - true/false - Toggle for event to show up in timelines or not.
+- `aat-event-body` - custom description for timeline display (optional)
+- `timelines` - List timeline names (defaults to world-history)
+  - This is the ID used by April's Automatic Timelines. By default all history will go to the global world-history timeline, if you want smaller more specific timelines you do it through here. 
+- `preceded_by` → links to **History** (predecessor events)
+- `led_to` → links to **History** (successor events)
+- `concurrent_with` → links to **History** (simultaneous events)
+  - Use this for "sub"/"parent" events
+- `primary_sources` → links to **Lore**
+- `secondary_sources` → links to **Lore**
+- `evidence` → links to **Object**, **POI** (Archaeological evidence)
+
+#### Timeline
+(used as a better and more visual index for history and alternative elements)
+- `historical_scope` - Event, Period, Era, Recurring
+- `scope` - Local, Regional, National, Continental, Global, Cosmic
+- `era` - "The Great Convergence" (actual named era/period)
+- `timelines` - List timeline names (defaults to world-history)
+
+#### Lore
+(Actual writings and primary sources from within the world itself)
+- `document_type`
+  - historical
+  - religious
+  - personal (letters, diaries, memoirs)
+  - legal (laws, treaties, contracts)
+  - scholarly (research, theories, textbooks)
+  - literary (poetry, fiction, plays)
+  - technical (manuals, recipes, instructions)
+  - propaganda
+  - prophetic
+- `form`
+  - text (book, scroll, codex)
+  - oral (song, spoken tradition)
+  - inscription (carved, engraved)
+  - magical (enchanted, living text)
+- `authenticity`
+  - original
+  - copy
+  - translation
+  - fragment
+  - forgery
+  - corrupted (damaged/altered over time)
+- `preservation`
+  - excellent
+  - good
+  - poor
+  - fragmentary
+  - lost (known to exist but unavailable)
+- `languages` → links to **Language**
+- `access`
+  - public
+  - restricted
+  - secret
+  - lost
+  - forbidden
+- `author` → links to **Character**
+- `commissioned_by` → links to **Character**, **Organization**
+- `current_location` → links to **Settlement**, **POI**, **Organization**
+- `original_location` → links to **Settlement**, **POI** (where it was created)
+- `mentions` → links to **Character**, **History**, **Geography**, etc. (what/who appears in the document)
+- `contradicts` → links to other **Lore** (conflicting accounts)
+- `supports` → links to other **Lore** (corroborating sources)
+- `fc-date` - When it was written (YYYY-MM-DD format)
+- **Calendar / Timeline Related (all by default empty)**
+  - `fc-calendar` - calendar name for Calendarium integration
+  - `fc-category` - event category for calendar display 
+  - `fc-display-name` - optional override for event title
+  - `aat-event-picture` - image for timeline display
+  - `aat-render-enabled` - true/false - Toggle for timeline visibility
+  - `aat-event-body` - custom description for timeline display
+  - `timelines` - List timeline names (defaults to world-history)
+
+### Physical World
+#### Cosmos
+(i.e things in the visible sky/space)
+- `cosmic_type`
+  - star (single or multiple star systems)
+  - planet (in your world's sky)
+  - moon (natural satellites)
+  - constellation (star patterns)
+  - phenomenon (aurora, comet, meteor shower, eclipse, cosmic storm)
+  - anomaly (unusual or unexplained celestial occurrence)
+  - ring (planetary rings, cosmic debris fields)
+- `visibility`
+  - constant (always visible when night/conditions allow)
+  - seasonal (only certain times of year)
+  - cyclical (appears on a predictable schedule)
+  - rare (infrequent, unpredictable appearances)
+  - hidden (requires magic, special conditions, or specific locations)
+  - fading (becoming less visible over time)
+- `significance`
+  - navigation (used for wayfinding, travel)
+  - religious (sacred, worshipped, part of creation myths)
+  - magical (source of power, affects spellcasting)
+  - decorative (aesthetic, cultural art/poetry subject)
+  - ominous (associated with bad luck, disasters, prophecy)
+  - scientific (studied by scholars, astronomers)
+  - timekeeping (marks seasons, festivals, calendar events)
+  - mythological (features in legends but practical use unclear)
+- `locations` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos** (where it's best visible from, if relevant)
+- `associated_with` → links to **Religion**, **Magic**, **Lore** (cultural connections)
+
+#### Creature
+- `creature_type` 
+  - beast (natural animals)
+  - magical (innately magical creatures)
+  - undead (reanimated or spirits of the dead)
+  - construct (artificially created, golems)
+  - spirit (elemental, fey, incorporeal)
+  - hybrid (combination of multiple types)
+  - aberration (unnatural, otherworldly)
+  - shapeshifter (can change form)
+- `intelligence` 
+  - animal (instinct-driven)
+  - low (basic problem-solving)
+  - average (human-equivalent reasoning)
+  - high (superior intellect)
+  - alien (incomprehensible thought patterns)
+  - hive-mind (collective intelligence)
+  - varies (unable to be easily categorized)
+- `temperament`
+  - docile (peaceful, non-threatening)
+  - neutral (indifferent to others)
+  - aggressive (actively hostile)
+  - territorial (defensive of specific areas)
+  - curious (investigative, potentially friendly)
+  - predatory (hunts other creatures)
+  - varies (depends on individual/circumstances)
+- `rarity`
+  - common
+  - uncommon
+  - rare
+  - legendary
+  - extinct (thought to be gone)
+  - mythical (existence unconfirmed)
+- `habitat` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos** (specific terrain/climate preferences)
+- `diet`
+  - herbivore
+  - carnivore
+  - omnivore
+  - magical (feeds on mana, emotions, dreams)
+  - inorganic (metals, minerals, energy)
+  - none
+- `size`
+  - tiny (smaller than a housecat - insects, pixies, sprites)
+  - small (housecat to large dog - foxes, wolves, small drakes)
+  - medium (human-sized - bears, tigers, centaurs)
+  - large (elephant-sized - giants, young dragons, dire beasts)
+  - huge (building-sized - adult dragons, krakens, colossi)
+  - gargantuan (mountain-sized - ancient wyrms, kaiju, titans)
+- `domesticated_by` → links to **Ancestry**, **Organization**
+- `produces` → links to **Resource**
+- `hunted_by` → links to **Ancestry**, **Organization**, **Creature**
+- `preys_on` → links to **Creature**, **Ancestry**
+- `created_by` → links to **Character**, **Organization**, **Technology**, **Magic**
+
+#### Flora
+- `plant_type`
+  - tree (woody perennial with trunk)
+  - shrub (woody multi-stemmed plant)
+  - herb (non-woody flowering plant)
+  - flower (ornamental blooming plant)
+  - fungus (mushroom, mold, lichen)
+  - vine (climbing or trailing plant)
+  - grass (cereal or ornamental grasses)
+  - fern (non-flowering vascular plant)
+  - moss (non-vascular ground cover)
+  - aquatic (water plants, algae, seaweed)
+  - carnivorous (traps and digests creatures)
+  - parasitic (feeds off other plants)
+- `rarity`
+  - common (widespread, abundant)
+  - uncommon (limited regions)
+  - rare (few known locations)
+  - legendary (rumored to exist)
+  - extinct (no longer found)
+  - seasonal (only appears certain times)
+- `properties`
+  - mundane (no special properties)
+  - medicinal (healing, therapeutic)
+  - magical (inherent magic, spell components)
+  - poisonous (toxic, deadly)
+  - hallucinogenic (mind-altering effects)
+  - nutritious (food source)
+  - aromatic (fragrant, used in perfumes)
+  - luminescent (glows in dark)
+- `size`
+  - tiny (moss, small flowers)
+  - small (herbs, small shrubs)
+  - medium (large shrubs, young trees)
+  - large (mature trees)
+  - massive (ancient trees, giant fungi)
+- `lifecycle`
+  - annual (lives one season)
+  - perennial (lives multiple years)
+  - immortal (doesn't naturally die)
+  - reactive (triggered growth/bloom)
+- `habitat` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos** (specific terrain/climate)
+- `cultivated_by` → links to **Ancestry**, **Organization**
+- `produces` → links to **Resource**
+- `requires` → links to **Resource**, **Condition** (special growing requirements)
+- `consumed_by` → links to **Creature**, **Ancestry** (what eats it)**
+- `created_by` → links to **Character**, **Organization**, **Technology**, **Magic**
+
+#### Geography
+- `terrain`
+  - mountain (peaks, ranges, highlands)
+  - forest (woods, jungle, rainforest)
+  - desert (sand, rock, wasteland)
+  - plains (grassland, savanna, steppe)
+  - swamp (marsh, bog, wetland)
+  - coast (beach, cliffs, shoreline)
+  - tundra (frozen plains, permafrost)
+  - canyon (gorge, ravine, valley)
+  - volcanic (active/dormant volcanoes, lava fields)
+  - cave system (underground networks, caverns)
+  - island (archipelago, atoll)
+  - lake (freshwater body)
+  - river (waterway, delta)
+  - ocean (sea, deep water)
+- `climate`
+  - tropical (hot, humid)
+  - temperate (moderate seasons)
+  - cold (arctic, subarctic)
+  - arid (dry, low precipitation)
+  - Mediterranean (hot dry summers, mild wet winters)
+  - monsoon (seasonal heavy rains)
+  - magical (weather controlled by magic)
+  - unstable (unpredictable, chaotic)
+  - eternal (unchanging seasons)
+- `habitability`
+  - welcoming (easy to settle, abundant resources)
+  - habitable (livable with effort)
+  - harsh (difficult conditions, survival challenging)
+  - dangerous (hostile environment, deadly threats)
+  - uninhabitable (cannot support life)
+  - seasonal (habitable only certain times of year)
+  - magically dependent (requires magic to survive)
+- `region_type`
+  - natural formation (mountain range, river valley, peninsula)
+  - cultural region (historical territory, ethnic homeland)
+  - political region (province, state, territory)
+  - trade corridor (route, passage, crossroads)
+  - border region (frontier, march, buffer zone)
+  - sacred land (holy site, forbidden zone)
+  - resource region (mining area, fertile plains, fishing grounds)
+  - strategic location (chokepoint, defensive position)
+  - wilderness (unexplored, untamed)
+- `size`
+  - tiny (small landmark or feature)
+  - small (local area, neighborhood-sized)
+  - medium (town or city-sized region)
+  - large (province or state-sized)
+  - vast (country or continental-sized)
+- `notable_features` → links to **POI** (landmarks within this geography)
+- `locations` → links to **Geography** (sub-regions or neighboring areas)
+- `settlements` → links to **Settlement** (towns/cities in this region)
+- `jurisdiction` → links to **Country**
+- `controlled_by` → links to **Organization**
+- `contested_by` → links to **Country**, **Organization** (disputed territory)
+- `native_inhabitants` → links to **Ancestry**, **Creature**, **Flora** (who/what naturally lives here)
+- `resources` → links to **Resource** (what's found here)
+
+#### POI
+(Point of Interest)
+- `poi_type`
+  - ruin (ancient structure, abandoned site)
+  - natural wonder (unique geological formation, spectacular view)
+  - magical site (nexus, ley line, enchanted location)
+  - landmark (monument, statue, notable feature)
+  - structure (building, fortress, bridge)
+  - shrine (temple, altar, sacred site)
+  - dungeon (underground complex, labyrinth)
+  - battlefield (historic combat site)
+- `condition`
+  - pristine (well-maintained, untouched)
+  - weathered (aged but intact)
+  - ruined (partially collapsed, damaged)
+  - hidden (concealed, hard to find)
+  - dangerous (unstable, hazardous)
+  - active (still in use)
+  - abandoned (deserted, forgotten)
+- `access`
+  - open (publicly accessible)
+  - restricted (permission required)
+  - hidden (secret location)
+  - dangerous (hazardous to approach)
+  - forbidden (illegal or taboo to enter)
+  - seasonal (only accessible certain times)
+- `significance`
+  - historical (important past events)
+  - religious (sacred, holy)
+  - strategic (military, defensive)
+  - cultural (artistic, symbolic)
+  - economic (resource-related, trade)
+  - mysterious (unknown purpose)
+  - personal (character residence, private location)
+  - mundane (everyday location, no special significance)
+  - narrative (story-important but not world-important)
+- `locations` → links to **Geography**, **Cosmos**
+- `jurisdiction` → links to **Country**
+- `controlled_by` → links to **Organization**
+- `discovered_by` → links to **Character**, **Organization**
+#### Resource
+- `resource_type`
+  - mineral (ore, stone, gems, metals)
+  - organic (wood, food, fiber, animal products)
+  - magical (mana crystals, enchanted materials, spell components)
+  - crafted (refined goods, processed materials)
+  - liquid (water, oil, potions, alchemical fluids)
+  - energy (magical power, natural forces)
+- `rarity`
+  - abundant (everywhere, unlimited supply)
+  - common (readily available, widespread)
+  - uncommon (limited distribution, moderate supply)
+  - scarce (hard to find, low supply)
+  - rare (very limited, precious)
+  - legendary (extremely rare, nearly unique)
+- `renewability`
+  - renewable (replenishes naturally)
+  - sustainable (can be harvested responsibly)
+  - limited (slow regeneration, can be depleted)
+  - finite (non-renewable, exhaustible)
+  - seasonal (only available certain times)
+- `state`
+  - raw (unprocessed natural state)
+  - refined (processed, purified)
+  - both (available in multiple forms)
+- `value`
+  - worthless (no economic value)
+  - cheap (low value, common trade good)
+  - moderate (standard commodity)
+  - valuable (high trade value)
+  - priceless (beyond monetary value)
+- `primary_use`
+  - construction (building materials)
+  - crafting (manufacturing, artisan work)
+  - fuel (energy source)
+  - food (sustenance)
+  - medicine (healing, alchemy)
+  - magic (spell components, enchanting)
+  - trade (currency, valuable commodity)
+  - decorative (luxury, aesthetic)
+- `locations` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos** (where it's found)
+- `source` → links to **Geography**, **Creature**, **Flora**, **POI**, **Cosmos** (what produces it)
+- `harvested_by` → links to **Ancestry**, **Organization** (who collects it)
+- `required_for` → links to **Object**, **Magic**, **Technology** (what needs this resource)
+- `traded_via` → links to **Economy**
+
+#### Settlement
+- `settlement_size`
+  - hamlet (tiny rural settlement, <100 people)
+  - village (small community, 100-1,000 people)
+  - town (established settlement, 1,000-10,000 people)
+  - city (major urban center, 10,000-100,000 people)
+  - metropolis (massive urban sprawl, 100,000+ people)
+  - outpost (frontier settlement, military camp)
+  - ruins (abandoned settlement)
+- `settlement_type`
+  - agricultural (farming community)
+  - trade hub (commercial center, market town)
+  - port (coastal/river settlement, shipping)
+  - mining (resource extraction)
+  - religious (temple city, pilgrimage site)
+  - military (fortress, garrison town)
+  - academic (university town, scholar's city)
+  - industrial (manufacturing center)
+  - capital (seat of government)
+- `prosperity`
+  - destitute (extreme poverty, failing)
+  - struggling (barely surviving, hardship)
+  - stable (self-sufficient, maintaining)
+  - prosperous (growing wealth, opportunity)
+  - thriving (booming economy, affluent)
+  - declining (deteriorating, losing population/wealth)
+- `defense`
+  - none (undefended, vulnerable)
+  - militia (citizen defenders, basic watch)
+  - guarded (professional guards, walls)
+  - fortified (strong defenses, garrison)
+  - fortress (military stronghold, impregnable)
+- `inhabitants` → links to **Ancestry**
+- `notable_sites` → links to **POI** (important sites within settlement)
+- `locations` → links to **Geography**, **Cosmos** (where it's located)
+- `jurisdiction` → links to **Country**
+- `controlled_by` → links to **Organization**
+- `rulers` → links to **Character**
+- `founded_by` → links to **Character**, **Organization**, **Country**
+- `fc-date` - When settlement was founded (YYYY-MM-DD format)
+- `trade_partners` → links to other **Settlement**, **Country**
+- `produces` → links to **Resource** (what this settlement exports)
+- `imports` → links to **Resource** (what this settlement needs)
+- `economy` → links to **Economy** (local markets, trade routes they're part of,etc.)
+
+### People & Society
+
+#### Ancestry
+(Often called "race" in most fantasy worlds like elf,dwarf,human etc.)
+- `lifespan` (brief, normal, long, immortal)
+- `build` (tiny, small, medium, large, huge)
+- `origin` (natural, created, transformed)
+- `homeland` → links to **Geography**, **Country**, **Cosmos**
+- `languages` → links to **Language**
+- `parent_ancestry` → links to **Ancestry**
+- `notable_members` → links to **Character**
+- `associated_deities` -> Links to **Character**, **Religion**
+
+#### Character
+- `gender`
+- `age`
+- `fc-date` - represents DATE OF BIRTH
+- `fc-end` - represents DATE OF DEATH
+- `aliases`
+- `role` - The Character's role in the story. Ex: Protagonist, antagonist, mentor, ally, neutral.
+- `social_class` commoner, merchant, noble, outcast, ruler
+- `ancestry` (link to ancestry)
+- `profession` (text field)
+- `life_status` (alive, dead, unknown, undead)
+- `organization` (link to organization)
+- `location` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos**
+- `family` → links to other **Character** (relatives)
+- `allies` → links to other **Character**
+- `enemies` → links to other **Character**
+- `lover` → links to **Character** (romantic relationships)
+- `other_relations` → links to **Character** (any other)
+- `hometown` → links to **Settlement**, **Geography**
+- `owns` → links to **Object** (important possessions)
+- `conditions` → links to **Condition**
+- `knows_magic` → links to **Magic**
+- `follows_religion` → links to **Religion**
+- `speaks` → links to **Language**
+- `involved_in` → links to **History** (significant events they participated in)
+- `created` → links to **Object**, **Lore**, **Organization** (things they made/founded)
+- **Calendar / Timeline Related** - Use case more niche, these are more if you want to track things like birthdates, succession on a kingdom, etc. 
+  - `fc-calendar` - calendar name for Calendarium integration
+  - `fc-category` - event category for calendar display 
+  - `fc-display-name` - optional override for event title
+  - `aat-event-picture` - unfortunately only way I could get this to work is providing a 
+  - `aat-render-enabled` - true/false - Toggle for event to show up in timelines or not.
+  - `aat-event-body` - custom description for timeline display (optional)
+  - `timelines` - List timeline names (defaults to world-history)
+
+#### Culture/Art
+- `art_type` - Free text field (visual, performance, literary, musical, craft, culinary, architectural, textile, ceremonial, martial)
+- `cultural_focus` - Free text field (honor, knowledge, nature, war, trade, magic, family, ancestors, innovation, tradition, spirituality, beauty)
+- `medium` - Free text field (oil painting, epic poetry, bronze casting, silk weaving, ritual dance, stone carving, oral storytelling)
+- `era` - Free text field ("The Great Convergence" (actual named era/period))
+- `vitality` (thriving, established, declining, lost, revival)
+- `associated_ancestry` → links to **Ancestry**
+- `locations` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos**
+- `influenced_by` → links to other **Culture/Art**
+- `patron` → links to **Character**, **Organization**
+- `practitioners` → links to **Character**, **Organization** (who practices this art/culture)
+- `core_concepts` → links to **Concept**
+
+### Systems & Institutions
+#### Country
+- `government`
+  - monarchy (hereditary rule by king/queen)
+  - republic (elected representatives)
+  - theocracy (religious rule)
+  - tribal (clan/tribal council)
+  - council (ruling council, oligarchy)
+  - dictatorship (single authoritarian ruler)
+  - magocracy (rule by mages/wizards)
+  - confederation (loose alliance of states)
+  - feudal (decentralized lord system)
+  - anarchy (no formal government)
+- `size`
+  - city-state (single city and surroundings)
+  - small (minor kingdom, principality)
+  - medium (regional kingdom)
+  - large (major kingdom, nation)
+  - empire (multi-national superpower)
+- `wealth_level`
+  - impoverished (widespread poverty, economic collapse)
+  - poor (struggling economy, limited resources)
+  - modest (stable but not prosperous)
+  - prosperous (growing economy, comfortable)
+  - wealthy (strong economy, abundant resources)
+  - opulent (extreme wealth, economic powerhouse)
+- `stability`
+  - chaotic (civil war, collapse)
+  - unstable (frequent unrest, weak government)
+  - tenuous (fragile peace, tensions)
+  - stable (functioning government, order)
+  - entrenched (strong, long-lasting stability)
+- `military_power`
+  - defenseless (no military)
+  - weak (small, poorly equipped)
+  - moderate (adequate defense)
+  - strong (powerful military)
+  - dominant (regional/global military power)
+- `capital` → links to **Settlement**
+- `rulers` → links to **Character**
+- `major_cities` → links to **Settlement**
+- `territory` → links to **Geography** (lands controlled)
+- `allies` → links to other **Country**
+- `enemies` → links to other **Country**
+- `vassals` → links to other **Country** (subordinate states)
+- `overlord` → links to **Country** (if vassal of another)
+- `inhabitants` → links to **Ancestry**
+- `official_religion` → links to **Religion**
+- `languages` → links to **Language** (official/common languages)
+- `economy` → links to **Economy** (national economic systems)
+
+#### Economy
+- `economic_type`
+  - currency (monetary system, coinage)
+  - trade_route (commercial pathway, shipping lane)
+  - market (marketplace, trading hub)
+  - industry (manufacturing, production sector)
+  - system (economic framework, financial institution)
+  - cartel (controlling organization, monopoly)
+- `stability`
+  - collapsing (economic crisis, failing)
+  - volatile (unpredictable, unstable)
+  - declining (weakening, contracting)
+  - stable (steady, reliable)
+  - growing (expanding, strengthening)
+  - booming (rapid growth, prosperity)
+- `scope` (Local, Regional, National, Continental, Global, Cosmic)
+- `economic_model`
+  - barter (direct exchange)
+  - mercantile (trade-focused)
+  - agricultural (farming-based)
+  - industrial (manufacturing-based)
+  - magical (magic-dependent)
+  - mixed (combination of systems)
+- `controlled_by` → links to **Organization**, **Country**
+- `trades_in` → links to **Resource**, **Object**
+- `commodity` → links to **Resource** (if economic_type is commodity-focused)
+- `connects` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos**
+- `competitors` → links to other **Economy** (rival systems/routes)
+
+#### Language
+- `usage`
+  - common (everyday speech)
+  - ceremonial (rituals, formal events)
+  - scholarly (academic, research)
+  - ancient (historical, classical)
+  - dead (no native speakers)
+  - liturgical (religious use only)
+  - trade (commerce, pidgin)
+- `script`
+  - none (oral only)
+  - simple (basic alphabet/syllabary)
+  - complex (logographic, intricate)
+  - magical (enchanted writing)
+  - pictographic (symbol-based)
+  - runic (carved symbols)
+- `family` - Free text field (Elvish languages, Dwarven dialects, etc.)
+- `prevalence`
+  - widespread (millions of speakers)
+  - common (thousands of speakers)
+  - limited (hundreds of speakers)
+  - rare (dozens of speakers)
+  - extinct (no speakers, only records)
+- `spoken_by` → links to **Ancestry**, **Organization**, **Country**
+- `related_languages` → links to other **Language**
+- `derived_from` → links to **Language** (parent language)
+- `written_works` → links to **Lore**
+- `locations` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos**
+
+#### Organization
+- `org_type`
+  - guild (craft/trade association)
+  - religious (faith-based institution)
+  - military (army, mercenary company)
+  - academic (university, research institute)
+  - criminal (thieves' guild, syndicate)
+  - political (party, council, movement)
+  - commercial (trading company, merchant house)
+  - secret society (hidden agenda, select membership)
+  - charitable (aid organization, charity)
+  - knightly order (warrior brotherhood)
+- `scope` (Local, Regional, National, Continental, Global, Cosmic)
+- `secrecy`
+  - public (openly known, transparent)
+  - discreet (known but private)
+  - secret (hidden membership)
+  - unknown (existence unconfirmed)
+  - rumored (suspected but unproven)
+- `size`
+  - tiny (<10 members)
+  - small (10-50 members)
+  - medium (50-500 members)
+  - large (500-5000 members)
+  - massive (5000+ members)
+- `influence`
+  - negligible (no real power)
+  - minor (limited influence)
+  - moderate (respected, some sway)
+  - major (significant power)
+  - dominant (controls region/sector)
+- `headquarters` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos**
+- `leader` → links to **Character**
+- `members` → links to **Character**
+- `founded_by` → links to **Character**, **Organization**
+- `allies` → links to other **Organization**, **Country**
+- `rivals` → links to other **Organization**, **Country**
+- `operates_in` → links to **Country**, **Settlement**, **Geography**, **Cosmos**
+- `controls` → links to **Settlement**, **POI**, **Geography**, **Resource**
+- `associated_religion` → links to **Religion**
+
+#### Politics
+- `political_type`
+  - law (legislation, legal code)
+  - treaty (agreement, pact, accord)
+  - conflict (war, dispute, rivalry)
+  - alliance (coalition, partnership)
+  - policy (government decision, decree)
+  - embargo (trade restriction, sanction)
+  - succession (inheritance, transition of power)
+  - reform (systemic change, revolution)
+- `political_status`
+  - active (currently in effect)
+  - proposed (under consideration)
+  - historical (past, no longer active)
+  - repealed (officially cancelled)
+  - violated (broken, not honored)
+  - disputed (contested validity)
+- `scope` (Local, Regional, National, Continental, Global, Cosmic)
+- `outcome`
+  - successful (achieved goals)
+  - failed (did not achieve goals)
+  - ongoing (still in progress)
+  - stalemate (unresolved)
+  - mixed (partial success)
+- `parties_involved` → links to **Country**, **Organization**, **Character**
+- `supersedes` → links to other **Politics**
+- `led_to` → links to **Politics**, **History** (what resulted from this)
+- `locations` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos** (where it occurred/applies)
+
+#### Religion
+- `belief_type`
+  - monotheistic (single god)
+  - polytheistic (multiple gods)
+  - dualistic (two opposing forces)
+  - animistic (spirits in nature)
+  - philosophical (ethical system, no deity)
+  - ancestor worship (veneration of the dead)
+  - pantheistic (god is everything)
+  - atheistic (denies divine existence)
+- `influence_level`
+  - state (official religion, government-backed)
+  - widespread (majority religion)
+  - minority (smaller following)
+  - underground (secret, persecuted)
+  - extinct (no longer practiced)
+  - emerging (new, growing)
+- `organizational_structure`
+  - hierarchical (organized clergy, centralized)
+  - decentralized (independent practitioners)
+  - tribal (community-based)
+  - monastic (isolated communities)
+  - none (no formal organization)
+- `primary_focus`
+  - afterlife (salvation, reincarnation)
+  - morality (ethics, conduct)
+  - power (divine magic, miracles)
+  - nature (harmony, balance)
+  - knowledge (enlightenment, truth)
+  - war (conquest, glory)
+  - prosperity (wealth, success)
+- `deities` → links to **Character** (gods/religious figures)
+- `practiced_by` → links to **Ancestry**, **Country**, **Organization**
+- `holy_sites` → links to **POI**, **Settlement**, **Geography**, **Country**, **Cosmos**
+- `sacred_objects` → links to **Object**
+- `sacred_texts` → links to **Lore**
+- `religious_leaders` → links to **Character**
+- `core_concepts` → links to **Concept**
+- `associated_magic` → links to **Magic**
+- `rival_religions` → links to other **Religion**
+
+### Supernatural & Material
+#### Condition
+- `condition_type`
+  - curse (magical affliction, hex)
+  - disease (illness, infection, plague)
+  - blessing (beneficial condition, boon)
+  - transformation (physical/mental change)
+  - mutation (permanent alteration)
+  - possession (entity inhabiting host)
+  - madness (mental affliction)
+  - poisoning (toxic exposure)
+- `origin_type`
+  - magical (spell, enchantment)
+  - divine (god-given, religious)
+  - natural (disease, environmental)
+  - hereditary (genetic, bloodline)
+  - alchemical (potion, chemical)
+  - parasitic (creature-caused)
+  - psychic (mind-based)
+- `severity`
+  - minor (inconvenient, easily managed)
+  - moderate (significant impact)
+  - severe (debilitating, dangerous)
+  - terminal (fatal, incurable)
+  - beneficial (positive effect)
+- `duration`
+  - temporary (short-term, passes naturally)
+  - chronic (long-lasting, manageable)
+  - permanent (irreversible)
+  - progressive (worsens over time)
+  - episodic (comes and goes)
+- `transmission`
+  - non-contagious (cannot spread)
+  - contact (touch, physical)
+  - airborne (breathed, spreads easily)
+  - bloodborne (through fluids)
+  - magical (curse transfer)
+  - hereditary (passed to offspring)
+- `caused_by` → links to **Magic**, **Creature**, **Object**, **Character**, **Geography**, **Cosmos**
+- `affects` → links to **Ancestry**, **Creature**, **Flora** (what can get it)
+- `cured_by` → links to **Object**, **Magic**, **Character**, **Technology**, **Resource**
+- `symptoms` - Free text field (describe effects)
+- `known_cases` → links to **Character** (notable afflicted individuals)
+
+#### Magic
+- `magic_scope`
+  - system (entire school/tradition of magic)
+  - discipline (branch within a system)
+  - technique (specific method or style)
+  - spell (individual magical effect)
+  - item (potion, scroll, enchantment)
+- `magic_type`
+  - arcane (scholarly study, formulaic)
+  - divine (granted by deity, faith-based)
+  - innate (inborn ability, natural)
+  - environmental (drawn from nature, location-based)
+  - blood (hereditary, ancestral power)
+  - pact (bargained for, contracted)
+  - chaos (wild, unpredictable)
+  - necromantic (death-based, soul manipulation)
+- `learning_method`
+  - study (academic, requires training)
+  - bloodline (inherited, genetic)
+  - divine calling (chosen by deity)
+  - natural talent (intuitive, self-taught)
+  - ritual (ceremony, initiation required)
+  - artifact (granted by object)
+  - unlearnable (cannot be taught)
+- `societal_view`
+  - revered (respected, honored)
+  - accepted (normal, commonplace)
+  - tolerated (allowed but watched)
+  - feared (mistrusted, dangerous)
+  - forbidden (illegal, persecuted)
+  - unknown (secret, hidden)
+- `rarity`
+  - common (widespread practitioners)
+  - uncommon (limited practitioners)
+  - rare (very few practitioners)
+  - legendary (thought to be myth)
+  - forbidden (illegal to practice)
+  - lost (knowledge forgotten)
+- `power_source` → links to **Concept**, **Cosmos**, **Geography** (where power comes from)
+- `practiced_by` → links to **Ancestry**, **Organization**, **Character**, **Religion**
+- `requires` → links to **Object**, **Resource**, **Condition**
+- `taught_at` → links to **Organization**, **Settlement**, **POI**
+- `enables` → links to **Object**, **Magic**, **Concept** (what this magic makes possible)
+- `countered_by` → links to other **Magic**, **Object**, **Condition**
+
+#### Object
+- `object_type` - Free text field (weapon, tool, jewelry, relic, mundane, clothing, furniture, art, document, container, instrument, etc.)
+- `rarity`
+  - common (mass-produced, widespread)
+  - uncommon (limited production, available)
+  - rare (few examples exist)
+  - unique (one-of-a-kind)
+  - legendary (thought to be myth)
+- `condition`
+  - pristine (perfect, mint condition)
+  - good (well-maintained, functional)
+  - worn (used, showing age)
+  - damaged (impaired, needs repair)
+  - broken (non-functional, destroyed)
+  - cursed (corrupted, tainted)
+- `significance`
+  - mundane (ordinary item, no special importance)
+  - personal (sentimental value)
+  - valuable (expensive, sought-after)
+  - historical (important past events)
+  - magical (enchanted, supernatural)
+  - legendary (famous, storied)
+  - religious (sacred, holy)
+  - cursed (dangerous, evil)
+- `creator` → links to **Character**, **Organization**
+- `current_owner` → links to **Character**, **Organization**
+- `original_owner` → links to **Character**, **Organization** (first owner)
+- `made_from` → links to **Resource**
+- `enchanted_by` → links to **Character**, **Magic**
+- `created_at` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos** (where it was made)
+- `currently_located` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos** (where it is now)
+- `associated_with` → links to **History**, **Character** (important events/people)
+
+#### Technology
+- `tech_stage`
+  - emerging (newly developed, experimental)
+  - established (widely adopted, proven)
+  - declining (being replaced, outdated)
+  - lost (knowledge forgotten, no longer exists)
+  - rediscovered (ancient tech being recovered)
+- `availability`
+  - widespread (common, accessible to most)
+  - limited (restricted distribution, some access)
+  - exclusive (rare, tightly controlled)
+  - secret (hidden, known to few)
+  - forbidden (illegal, banned)
+- `tech_type`
+  - mechanical (gears, engines, clockwork)
+  - alchemical (chemical processes, transmutation)
+  - magical (enchanted devices, spell-powered)
+  - biological (living technology, organic)
+  - hybrid (combination of types)
+- `complexity`
+  - simple (basic tools, easy to understand)
+  - moderate (requires training)
+  - complex (specialized knowledge needed)
+  - advanced (cutting-edge, difficult to replicate)
+- `created_by` → links to **Ancestry**, **Organization**, **Character**, **Country**
+- `requires` → links to **Resource**, **Magic**, **Object** (materials needed)
+- `replaces` → links to other **Technology**
+- `enables` → links to **Object**, **Magic**, **Concept** (what this tech makes possible)
+- `discovered_at` → links to **Settlement**, **POI**, **Country**, **Geography**, **Cosmos** (where tech was developed/discovered)
+- `used_by` → links to **Ancestry**, **Organization**, **Character**, **Country** 
+- `documentation` → links to **Lore**

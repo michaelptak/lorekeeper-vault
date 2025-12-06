@@ -1,0 +1,9 @@
+filters:
+  and:
+    - file.path.contains("Assets/World")
+views:
+  - type: cards
+    name: View
+    image: file.file
+  - type: table
+    name: Table

@@ -1,0 +1,10 @@
+filters:
+  and:
+    - '!file.path.contains("Template")'
+    - file.tags.contains("#Story")
+views:
+  - type: table
+    name: Table
+  - type: cards
+    name: Cards
+    image: note.art

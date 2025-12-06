@@ -1,0 +1,17 @@
+/* Disable hover preview for specific notes */
+.no-hover-preview .internal-link {
+  pointer-events: none;
+}
+
+.no-hover-preview .internal-link:hover {
+  text-decoration: none;
+}
+
+/* Re-enable click functionality */
+.no-hover-preview .internal-link {
+  pointer-events: auto;
+}
+
+.no-hover-preview .internal-link:hover {
+  pointer-events: none;
+}

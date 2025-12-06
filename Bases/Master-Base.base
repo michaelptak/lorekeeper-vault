@@ -1,0 +1,17 @@
+filters:
+  and:
+    - file.ext == "base"
+    - file.name != "Master Base.base"
+views:
+  - type: table
+    name: Table
+    order:
+      - file.basename
+      - file.name
+      - file.mtime
+    sort: []
+    columnSize:
+      file.mtime: 215
+  - type: cards
+    name: Cards
+    image: note.art

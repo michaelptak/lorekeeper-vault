@@ -1,0 +1,20 @@
+{
+  "readableLineLength": false,
+  "defaultViewMode": "preview",
+  "attachmentFolderPath": "Assets",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "livePreview": true,
+  "vimMode": false,
+  "showInlineTitle": false,
+  "propertiesInDocument": "visible",
+  "strictLineBreaks": false,
+  "showLineNumber": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 75
+  },
+  "promptDelete": false
+}
