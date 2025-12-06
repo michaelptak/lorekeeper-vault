@@ -1,11 +1,15 @@
 {
   "dayCounts": {
-    "2025/11/6": 18
+    "2025/11/6": 26
   },
   "todaysWordCount": {
     "Meta/Vault/Useful Websites & Tools.md": {
       "initial": 294,
       "current": 312
+    },
+    "lorekeeper_meta.md": {
+      "initial": 1,
+      "current": 9
     }
   }
 }

@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Obsidian-Vault",
+      "path": "Bases/Obsidian-Vault.base"
+    },
+    {
+      "basename": "README",
+      "path": "Meta/Vault/README.md"
+    },
+    {
+      "basename": "Useful Websites & Tools",
+      "path": "Meta/Vault/Useful Websites & Tools.md"
+    },
+    {
+      "basename": "Style & CSS Ideas",
+      "path": "Meta/Vault/Style & CSS Ideas.md"
+    },
+    {
       "basename": "Master Tags List",
       "path": "Meta/Vault/Master Tags List.md"
     },
@@ -9,8 +25,32 @@
       "path": "Home.md"
     },
     {
-      "basename": "Useful Websites & Tools",
-      "path": "Meta/Vault/Useful Websites & Tools.md"
+      "basename": "Template_Settlement",
+      "path": "Templates/T_World/Template_Settlement.md"
+    },
+    {
+      "basename": "Buttons",
+      "path": "Meta/Vault/Buttons.md"
+    },
+    {
+      "basename": "Template_Geography",
+      "path": "Templates/T_World/Template_Geography.md"
+    },
+    {
+      "basename": "Template_Country",
+      "path": "Templates/T_World/Template_Country.md"
+    },
+    {
+      "basename": "Obsidian Vault Navigation Guide",
+      "path": "Meta/Vault/Obsidian Vault Navigation Guide.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "lorekeeper_meta",
+      "path": "lorekeeper_meta.md"
     },
     {
       "basename": "Scratch Note",
@@ -81,14 +121,6 @@
       "path": "World/Magic/Fire.md"
     },
     {
-      "basename": "Buttons",
-      "path": "Meta/Vault/Buttons.md"
-    },
-    {
-      "basename": "Obsidian Vault Navigation Guide",
-      "path": "Meta/Vault/Obsidian Vault Navigation Guide.md"
-    },
-    {
       "basename": "Flora",
       "path": "Bases/Flora.base"
     },
@@ -107,10 +139,6 @@
     {
       "basename": "World Images",
       "path": "Bases/World Images.base"
-    },
-    {
-      "basename": "README",
-      "path": "Meta/Vault/README.md"
     },
     {
       "basename": "card-country",
@@ -171,34 +199,6 @@
     {
       "basename": "The Great Dragon Migration",
       "path": "World/History/The Great Dragon Migration.md"
-    },
-    {
-      "basename": "Template_Meta_Daily-Note",
-      "path": "Archive/Template_Meta_Daily-Note.md"
-    },
-    {
-      "basename": "Placeholder-Generic",
-      "path": "Assets/TemplateImg/Placeholder-Generic.jpg"
-    },
-    {
-      "basename": "Placeholder-Character",
-      "path": "Assets/TemplateImg/Placeholder-Character.jpg"
-    },
-    {
-      "basename": "example-map",
-      "path": "Assets/Maps/example-map.jpg"
-    },
-    {
-      "basename": "Templater Cheat Sheet",
-      "path": "Meta/Reference/Templater Cheat Sheet.md"
-    },
-    {
-      "basename": "Quality Control Dashboard",
-      "path": "Meta/Vault/Quality Control Dashboard.md"
-    },
-    {
-      "basename": "Style & CSS Ideas",
-      "path": "Meta/Vault/Style & CSS Ideas.md"
     }
   ],
   "omittedPaths": [],
