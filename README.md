@@ -6,7 +6,11 @@ There were a lot of excellent options out there related to TTRPGs, but I needed 
 
 This system is highly tailored to my own needs, but as is the nature of Obsidian, anything can be changed to your liking, or at least used as a reference point on what is possible.
 
-This vault tries to do most of the heavy lifting on organization, metadata tracking, and linking notes out of the box so that you can focus on the actual writing and ideas. Accomplished through a large set of custom templates, scripts, and useful plugins ready to use. 
+This vault tries to do most of the heavy lifting on organization, metadata tracking, and linking notes out of the box so that you can focus on the actual writing and ideas. Accomplished through a large set of custom templates, scripts, and useful plugins ready to use.
+
+## Dashboard Preview
+![Lorekeeper home dashboard](.github/images/dashboard-preview.png)
+*Note*: These images were all sourced from the internet, they are semi-placeholders as I plan to draw them all myself. (Eventually, when I’ve developed my drawing skills enough, because I don’t want to use AI).
 
 ## Features
 - A visually appealing homepage to navigate the vault 

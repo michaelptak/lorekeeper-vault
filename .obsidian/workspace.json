@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "98748322b4ef2bbd",
+            "id": "57a6e913afd6f0dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "README"
             }
-          },
-          {
-            "id": "b0fcd9a146f8eaab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Home"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,10 +119,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home.md"
+                "file": "README.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Home"
+              "title": "File properties for README"
             }
           },
           {
@@ -146,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +141,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Home"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -208,13 +193,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Home"
+              "title": "Outline of README"
             }
           }
         ],
@@ -245,7 +230,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 513.5
+    "width": 419.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -264,14 +249,15 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "b0fcd9a146f8eaab",
+  "active": "57a6e913afd6f0dd",
   "lastOpenFiles": [
-    "Meta/Vault/Quality Control Dashboard.md",
+    "World/Resource/a.md",
+    "Meta/Vault/Buttons.md",
+    "README.md",
     "Home.md",
     "Meta/Planning/Scratch Note.md",
-    "README.md",
+    "Meta/Vault/Quality Control Dashboard.md",
     "World/Resource/terst.md",
-    "Meta/Vault/Buttons.md",
     "Meta/Vault/NewStoryNote.md",
     "World/Geography/Mountains.md",
     "World/Object/test.md",
@@ -299,7 +285,6 @@
     "Story/The Fellowship of the Ring/Scenes/A Shadow of the Past.md",
     "Bases/Timeline.base",
     "Story/The Fellowship of the Ring/Plot",
-    "Story/The Fellowship of the Ring/Scenes/Three is Company.md",
     "Story/The Fellowship of the Ring/The Fellowship of the Ring-Manuscript.epub",
     "Story/The Fellowship of the Ring/Scenes",
     "Assets/Banners/card-country.jpeg",
