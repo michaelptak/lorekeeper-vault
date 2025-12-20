@@ -39,7 +39,7 @@ if (hasNewStoryTitle || hasUntitledTitle) {
 }
 
 // Move file to Plot folder
-const targetFolder = "Story/Plot";
+const targetFolder = `Story/${selectedStory}/Plot`;
 await tp.file.move(`${targetFolder}/${title}`);
 _%>
 ---
@@ -47,6 +47,15 @@ tags:
   - Plot
 art: Assets/TemplateImg/Placeholder-Generic.jpg
 story_title: <% selectedStory %>
+status:
+related:
+plot_type:
+plot_scope:
+plot_focus:
+story_order:
+scenes:
+pov_character:
+involves_world:
 ---
 
 > [!metadata]- Plot Data
@@ -58,13 +67,20 @@ story_title: <% selectedStory %>
 > **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates"), useLinks(partial)):related]` |
 > **Art** | `INPUT[imageSuggester(optionQuery("Assets/WorldImg")):art]` |
 > 
-> #### Story Details
+> #### Story Structure
 >  |
 > ---|---|
 > **Story Title** | `INPUT[text(placeholder(The Fellowship of the Ring)):story_title]` |
 > **Plot Type** | `INPUT[text(placeholder(Arc/Conflict/Theme/Outline/Beat)):plot_type]` |
 > **Plot Scope** | `INPUT[text(placeholder(Story/Act/Chapter)):plot_scope]` |
-> **Plot Focus** | `INPUT[text(placeholder(Character_Arc/World_Conflict/Thematic_Element)):plot_focus]` |
+> **Plot Focus** | `INPUT[text(placeholder(Character Arc/World Conflict/Thematic Element)):plot_focus]` |
+> **Story Order** | `INPUT[text(placeholder(1.1 = Chapter 1 - Scene 1)):story_order]` |
+> 
+> #### Scene Planning
+>  |
+> ---|---|
+> **Linked Scenes** | `INPUT[inlineListSuggester(optionQuery(#Scene AND !"Templates"), useLinks(partial)):scenes]` |
+> **POV Character** | `INPUT[inlineListSuggester(optionQuery(#Character AND !"Templates"), useLinks(partial)):pov_character]` |
 > 
 > #### World Connections
 >  |
@@ -73,4 +89,20 @@ story_title: <% selectedStory %>
 
 > [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
 > [[<% selectedStory %>]] | [[Story|All Stories]] | [[Home]]
+
 # **`=this.file.name`**
+
+## Overview
+<!-- What is this plot element about? Summary, purpose, themes -->
+
+## Key Beats
+<!-- Major story beats, turning points, conflicts -->
+
+## Character Arcs
+<!-- How do characters change through this section? -->
+
+## World Elements
+<!-- Important worldbuilding aspects, settings, magic systems at play -->
+
+## Notes
+<!-- Additional planning thoughts, alternatives considered, etc. -->

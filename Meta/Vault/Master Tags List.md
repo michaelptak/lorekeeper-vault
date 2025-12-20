@@ -26,7 +26,7 @@ project_id:
 > 
 > [[#Meta]]
 > 
-> [[#Story]] ([[#Plot]] · [[#Scene]] · [[#Scene Timeline]])
+> [[#Story]] ([[#Plot]] · [[#Scene]])
 > 
 > **Core Worldbuilding:** [[#Concept]] | [[#History]] | [[#Timeline]] | [[#Lore]]
 > 
@@ -104,36 +104,28 @@ project_id:
   - `related` - existing universal
   
 #### Plot
-- **Plot** (story structure, arcs, conflicts, themes, and major story beats)
+- **Plot** (story structure, arcs, conflicts, themes, and major story beats - all planning/outline work)
   - `story_title` - "Story Title" (e.g. "The Fellowship of the Ring")
-  - `plot_type` - Arc, Conflict, Theme, Outline, Beat
-  - `plot_scope` - Story, Act, Chapter
-  - `plot_focus` - Character Arc, World Conflict, Thematic Element
+  - `plot_type` - Free text field (Arc, Conflict, Theme, Outline, Beat)
+  - `plot_scope` - Free text field (Story, Act, Chapter)
+  - `plot_focus` - Free text field (Character Arc, World Conflict, Thematic Element)
+  - `story_order` - Optional ordering for chapter outlines (e.g. "1.0" for Chapter 1)
+  - `scenes` → links to **Scene** notes (the actual prose files)
+  - `pov_character` → links to **Character** (if this plot element focuses on specific POV)
   - `involves_world` → links to **Character**, **Settlement**, etc.
     - This is a bit redundant with `related` - however the distinction specifically for story notes just makes intuitive sense to me 
 
 #### Scene  
-- **Scene** (individual scene outlines and story timeline events)
+- **Scene** (individual scenes containing actual prose/story content)
   - `story_title` - "Story Title" (e.g. "The Fellowship of the Ring")
-  - `story_order` - chapter.scene.beat format for sorting (e.g. "1.2.3")
-    - This might be confusing at first but is really useful and will organize the note nicely in bases. Once again, avoiding using folders at all. 
-  - `involves_world` → links to **Character**, **Settlement**, etc.
-  - `pov_character` → links to **Character**
-  - **Calendar / Timeline Related**
-    - `fc-date` - timeline integration with world chronology
-    - `fc-end` - for multi-day scenes
-    - `fc-calendar` - calendar name for Calendarium integration
-    - `fc-category` - event category for calendar display 
-    - `fc-display-name` - optional override for event title
-    - `aat-event-picture` - unfortunately only way I could get this to work is providing a text field
-    - `aat-render-enabled` - true/false - Toggle for event to show up in timelines or not.
-    - `aat-event-body` - custom description for timeline display (optional)
-    - `timelines` - List timeline names (defaults to world-history)
-
-#### Scene Timeline
-- **Scene** (individual scene outlines and story timeline events)
-  - `story_title` - "Story Title" (e.g. "The Fellowship of the Ring")
-  - `timelines` - Relevant timeline
+  - `story_order` - chapter.scene.beat format for sorting (e.g. "1.2.3" for Chapter 1, Scene 2, Beat 3)
+    - First number determines chapter grouping in manuscript compilation
+    - Full format enables precise ordering within chapters
+  - `status` -existing universal
+  - `revisions` - Number (tracks revision count, starts at 1)
+  - `pov` - Free text field or link to **Character** (perspective for this scene)
+  - `scene_outline` → link to **Plot** note (optional reference to planning document)
+  - `related` - existing universal
 
 ### Core Worldbuilding Elements
 

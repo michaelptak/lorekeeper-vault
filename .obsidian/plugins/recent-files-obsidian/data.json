@@ -1,12 +1,112 @@
 {
   "recentFiles": [
     {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "Quality Control Dashboard",
+      "path": "Meta/Vault/Quality Control Dashboard.md"
+    },
+    {
+      "basename": "Scratch Note",
+      "path": "Meta/Planning/Scratch Note.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Buttons",
+      "path": "Meta/Vault/Buttons.md"
+    },
+    {
+      "basename": "Geography",
+      "path": "Bases/Geography.base"
+    },
+    {
+      "basename": "Story",
+      "path": "Story/Story.md"
+    },
+    {
+      "basename": "Template_Story",
+      "path": "Templates/T_Story/Template_Story.md"
+    },
+    {
+      "basename": "ExampleMap",
+      "path": "Assets/Maps/ExampleMap.md"
+    },
+    {
+      "basename": "In-Progress-Notes",
+      "path": "Bases/In-Progress-Notes.base"
+    },
+    {
+      "basename": "Template_Compile_Manuscript",
+      "path": "Templates/T_Story/Template_Compile_Manuscript.md"
+    },
+    {
+      "basename": "Obsidian Vault Navigation Guide",
+      "path": "Meta/Vault/Obsidian Vault Navigation Guide.md"
+    },
+    {
       "basename": "Obsidian-Vault",
       "path": "Bases/Obsidian-Vault.base"
     },
     {
-      "basename": "README",
-      "path": "Meta/Vault/README.md"
+      "basename": "World History Timeline",
+      "path": "World/Timeline/World History Timeline.md"
+    },
+    {
+      "basename": "Succession of Kingdom of Valor",
+      "path": "World/Timeline/Succession of Kingdom of Valor.md"
+    },
+    {
+      "basename": "The Bastard's Rebellion",
+      "path": "World/History/The Bastard's Rebellion.md"
+    },
+    {
+      "basename": "Master Tags List",
+      "path": "Meta/Vault/Master Tags List.md"
+    },
+    {
+      "basename": "Meta",
+      "path": "Bases/Meta.base"
+    },
+    {
+      "basename": "Timeline",
+      "path": "Bases/Timeline.base"
+    },
+    {
+      "basename": "Template_Scene",
+      "path": "Templates/T_Story/Template_Scene.md"
+    },
+    {
+      "basename": "Template_Plot",
+      "path": "Templates/T_Story/Template_Plot.md"
+    },
+    {
+      "basename": "Template_Plot_old",
+      "path": "Archive/Template_Plot_old.md"
+    },
+    {
+      "basename": "Template_Scene_old",
+      "path": "Archive/Template_Scene_old.md"
+    },
+    {
+      "basename": "lorekeeper_meta",
+      "path": "lorekeeper_meta.md"
+    },
+    {
+      "basename": "Template_Scene_Timeline",
+      "path": "Archive/Template_Scene_Timeline.md"
+    },
+    {
+      "basename": "Master-Base",
+      "path": "Bases/Master-Base.base"
+    },
+    {
+      "basename": "Lore",
+      "path": "Bases/Lore.base"
     },
     {
       "basename": "Useful Websites & Tools",
@@ -17,20 +117,24 @@
       "path": "Meta/Vault/Style & CSS Ideas.md"
     },
     {
-      "basename": "Master Tags List",
-      "path": "Meta/Vault/Master Tags List.md"
+      "basename": "Template_Character",
+      "path": "Templates/T_World/Template_Character.md"
     },
     {
-      "basename": "Home",
-      "path": "Home.md"
+      "basename": "Button_World_Selector",
+      "path": "Templates/z_Scripts/Button_World_Selector.md"
+    },
+    {
+      "basename": "Button_Story_Selector",
+      "path": "Templates/z_Scripts/Button_Story_Selector.md"
+    },
+    {
+      "basename": "README",
+      "path": "Meta/Vault/README.md"
     },
     {
       "basename": "Template_Settlement",
       "path": "Templates/T_World/Template_Settlement.md"
-    },
-    {
-      "basename": "Buttons",
-      "path": "Meta/Vault/Buttons.md"
     },
     {
       "basename": "Template_Geography",
@@ -41,28 +145,8 @@
       "path": "Templates/T_World/Template_Country.md"
     },
     {
-      "basename": "Obsidian Vault Navigation Guide",
-      "path": "Meta/Vault/Obsidian Vault Navigation Guide.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "lorekeeper_meta",
-      "path": "lorekeeper_meta.md"
-    },
-    {
-      "basename": "Scratch Note",
-      "path": "Meta/Planning/Scratch Note.md"
-    },
-    {
       "basename": "Template_Cosmos",
       "path": "Templates/T_World/Template_Cosmos.md"
-    },
-    {
-      "basename": "Template_Character",
-      "path": "Templates/T_World/Template_Character.md"
     },
     {
       "basename": "Template_Ancestry",
@@ -71,14 +155,6 @@
     {
       "basename": "Button_Meta_Selector",
       "path": "Templates/z_Scripts/Button_Meta_Selector.md"
-    },
-    {
-      "basename": "Button_World_Selector",
-      "path": "Templates/z_Scripts/Button_World_Selector.md"
-    },
-    {
-      "basename": "Button_Story_Selector",
-      "path": "Templates/z_Scripts/Button_Story_Selector.md"
     },
     {
       "basename": "Metabind Function",
@@ -95,110 +171,6 @@
     {
       "basename": "Inspiration",
       "path": "Bases/Inspiration.base"
-    },
-    {
-      "basename": "In-Progress-Notes",
-      "path": "Bases/In-Progress-Notes.base"
-    },
-    {
-      "basename": "example-map.excalidraw",
-      "path": "Assets/Maps/example-map.excalidraw.md"
-    },
-    {
-      "basename": "ExampleMap",
-      "path": "Assets/Maps/ExampleMap.md"
-    },
-    {
-      "basename": "Master-Base",
-      "path": "Bases/Master-Base.base"
-    },
-    {
-      "basename": "The Celestial Convergence",
-      "path": "World/History/The Celestial Convergence.md"
-    },
-    {
-      "basename": "Fire",
-      "path": "World/Magic/Fire.md"
-    },
-    {
-      "basename": "Flora",
-      "path": "Bases/Flora.base"
-    },
-    {
-      "basename": "Language",
-      "path": "Bases/Language.base"
-    },
-    {
-      "basename": "Story",
-      "path": "Story/Story.md"
-    },
-    {
-      "basename": "Excalidraw",
-      "path": "Bases/Excalidraw.base"
-    },
-    {
-      "basename": "World Images",
-      "path": "Bases/World Images.base"
-    },
-    {
-      "basename": "card-country",
-      "path": "Assets/Banners/card-country.jpeg"
-    },
-    {
-      "basename": "card-settlement",
-      "path": "Assets/Banners/card-settlement.jpeg"
-    },
-    {
-      "basename": "card-culture",
-      "path": "Assets/Banners/card-culture.jpeg"
-    },
-    {
-      "basename": "Culture-Art",
-      "path": "Bases/Culture-Art.base"
-    },
-    {
-      "basename": "Character",
-      "path": "Bases/Character.base"
-    },
-    {
-      "basename": "card-religion",
-      "path": "Assets/Banners/card-religion.jpeg"
-    },
-    {
-      "basename": "card-creature",
-      "path": "Assets/Banners/card-creature.jpeg"
-    },
-    {
-      "basename": "card-politics",
-      "path": "Assets/Banners/card-politics.jpg"
-    },
-    {
-      "basename": "card-poi",
-      "path": "Assets/Banners/card-poi.jpg"
-    },
-    {
-      "basename": "card-language",
-      "path": "Assets/Banners/card-language.jpeg"
-    },
-    {
-      "basename": "card-cosmos",
-      "path": "Assets/Banners/card-cosmos.jpeg"
-    },
-    {
-      "basename": "card-magic",
-      "path": "Assets/Banners/card-magic.jpeg"
-    },
-    {
-      "basename": "war-peace-banner",
-      "path": "Assets/Banners/war-peace-banner.jpeg"
-    },
-    {
-      "basename": "quill-and-ink",
-      "path": "Assets/Banners/quill-and-ink.jpeg"
-    },
-    {
-      "basename": "The Great Dragon Migration",
-      "path": "World/History/The Great Dragon Migration.md"
     }
   ],
   "omittedPaths": [],

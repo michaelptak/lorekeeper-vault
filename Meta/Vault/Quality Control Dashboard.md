@@ -20,6 +20,8 @@ priority: High
 > **Purpose** | `INPUT[select(option(Project), option(Planning), option(Research), option(Brainstorm), option(Daily-Note), option(Vault), option(Reference), option(Inspiration)):purpose]` |
 > **Priority** | `INPUT[select(option(High), option(Med), option(Low)):priority]` |
 
+> [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
+> **Quick Links:** [[Obsidian-Vault.base|Vault Notes]] | [[Meta.base|All Meta Notes]] | [[Home]]
 # **Quality Control Dashboard**
 
 This dashboard helps maintain vault quality by identifying notes that need attention.

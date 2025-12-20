@@ -1,6 +1,7 @@
 ---
 cssclasses:
   - hcl
+obsidianUIMode: preview
 ---
 # Story Dashboard
 

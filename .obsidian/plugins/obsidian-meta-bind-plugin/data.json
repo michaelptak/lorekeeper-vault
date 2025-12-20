@@ -553,6 +553,23 @@
         }
       ],
       "tooltip": "Create a new content note for the world."
+    },
+    {
+      "label": "Compile Manuscript",
+      "hidden": false,
+      "id": "CompileManuscript",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/T_Story/Template_Compile_Manuscript.md",
+          "fileName": "",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Concatenate all scenes into one document.",
+      "class": "",
+      "cssStyle": "background-color:DarkSlateGray;"
     }
   ],
   "excludedFolders": [],

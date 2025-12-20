@@ -10,7 +10,7 @@ if (hasNewStoryTitle || hasUntitledTitle) {
     title = tp.file.title;
 }
 // Move file to Plot folder
-const targetFolder = "Story";
+const targetFolder = `Story/${title}`;
 await tp.file.move(`${targetFolder}/${title}`);
 _%>
 ---
@@ -21,6 +21,7 @@ status:
 related:
 story_title: <% title %>
 cssclasses: dvl-c
+obsidianUIMode: preview
 ---
 
 > [!metadata]- Story Data
@@ -45,7 +46,7 @@ cssclasses: dvl-c
 >> [!tip|no-i] Quick Add Buttons
 >> - 📝 `BUTTON[NewPlot]`
 >> - 🎬 `BUTTON[NewScene]`
->> - 📅 `BUTTON[NewSceneTimeline]`
+>> - `BUTTON[CompileManuscript]`
 >
 >> [!warning|no-i] Notes
 >>  `INPUT[textArea(placeholder(Add any quick notes here. Works in view mode!)):story_notes]`
@@ -100,33 +101,16 @@ views:
       - file.name
       - story_order
       - status
-      - pov_character
+      - revisions
+      - pov
       - related
       - involves_world
-      - timelines
     sort:
       - property: story_order
         direction: ASC
-
-```
-
-## Scene Timeline
-```base
-filters:
-  and:
-    - file.hasTag("Story-Timeline")
-    - story_title == "<% title %>"
-views:
-  - type: table
-    name: Scenes
-    order:
-      - file.name
-      - status
-      - timelines
-      - related
-    sort:
-      - property: story_order
-        direction: ASC
+    columnSize:
+      note.status: 84
+      note.revisions: 97
 
 ```
 

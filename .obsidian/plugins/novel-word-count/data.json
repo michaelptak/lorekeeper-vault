@@ -1,0 +1,4859 @@
+{
+  "settings": {
+    "useAdvancedFormatting": false,
+    "countType": "word",
+    "countConfig": {
+      "customSuffix": "w",
+      "$sessionCountType": "word"
+    },
+    "countType2": "none",
+    "countConfig2": {
+      "$sessionCountType": "word"
+    },
+    "countType3": "none",
+    "countConfig3": {
+      "$sessionCountType": "word"
+    },
+    "pipeSeparator": "|",
+    "abbreviateDescriptions": false,
+    "alignment": "inline",
+    "showSameCountsOnFolders": true,
+    "folderCountType": "word",
+    "folderCountConfig": {
+      "customSuffix": "w",
+      "$sessionCountType": "word"
+    },
+    "folderCountType2": "none",
+    "folderCountConfig2": {
+      "$sessionCountType": "word"
+    },
+    "folderCountType3": "none",
+    "folderCountConfig3": {
+      "$sessionCountType": "word"
+    },
+    "folderPipeSeparator": "|",
+    "folderAbbreviateDescriptions": false,
+    "folderAlignment": "inline",
+    "showSameCountsOnRoot": true,
+    "rootCountType": "word",
+    "rootCountConfig": {
+      "customSuffix": "w",
+      "$sessionCountType": "word"
+    },
+    "rootCountType2": "none",
+    "rootCountConfig2": {
+      "$sessionCountType": "word"
+    },
+    "rootCountType3": "none",
+    "rootCountConfig3": {
+      "$sessionCountType": "word"
+    },
+    "rootPipeSeparator": "|",
+    "rootAbbreviateDescriptions": false,
+    "showAdvanced": false,
+    "labelOpacity": 0.75,
+    "wordsPerMinute": 265,
+    "charsPerMinute": 500,
+    "wordsPerPage": 300,
+    "charsPerPage": 1500,
+    "charsPerPageIncludesWhitespace": false,
+    "characterCountType": "AllCharacters",
+    "pageCountType": "ByWords",
+    "includeDirectories": "",
+    "excludeComments": false,
+    "excludeCodeBlocks": false,
+    "excludeNonVisibleLinkPortions": false,
+    "excludeFootnotes": false,
+    "momentDateFormat": "",
+    "debugMode": false
+  },
+  "cachedCounts": {
+    "lorekeeper_meta.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 11,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.03666666666666667,
+      "characterCount": 91,
+      "nonWhitespaceCharacterCount": 77,
+      "newlineCount": 4,
+      "readingTimeInMinutes": 0.04150943396226415,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1765049359324,
+      "modifiedDate": 1765049436453,
+      "sizeInBytes": 91,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.03666666666666667,
+        "wordCount": 11,
+        "characterCount": 91,
+        "nonWhitespaceCharacterCount": 77,
+        "newlineCount": 4
+      }
+    },
+    "World/Timeline/World History Timeline.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 43,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.14333333333333334,
+      "characterCount": 841,
+      "nonWhitespaceCharacterCount": 752,
+      "newlineCount": 25,
+      "readingTimeInMinutes": 0.16226415094339622,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758730312211,
+      "modifiedDate": 1758730612788,
+      "sizeInBytes": 939,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.14333333333333334,
+        "wordCount": 43,
+        "characterCount": 841,
+        "nonWhitespaceCharacterCount": 752,
+        "newlineCount": 25
+      },
+      "frontmatter": {
+        "tags": [
+          "Timeline"
+        ],
+        "status": null,
+        "related": null,
+        "historical_scope": null,
+        "scope": null,
+        "era": null,
+        "timelines": "world-history"
+      }
+    },
+    "World/Timeline/Succession of Kingdom of Valor.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 53,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.17666666666666667,
+      "characterCount": 963,
+      "nonWhitespaceCharacterCount": 861,
+      "newlineCount": 27,
+      "readingTimeInMinutes": 0.2,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758730221175,
+      "modifiedDate": 1758833046997,
+      "sizeInBytes": 1104,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.17666666666666667,
+        "wordCount": 53,
+        "characterCount": 963,
+        "nonWhitespaceCharacterCount": 861,
+        "newlineCount": 27
+      },
+      "frontmatter": {
+        "tags": [
+          "Timeline"
+        ],
+        "status": "WIP",
+        "related": null,
+        "historical_scope": "Period",
+        "scope": "National",
+        "era": "The Great Reckoning",
+        "timelines": "valor-succession"
+      }
+    },
+    "World/History/The last coronation.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 14,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.04666666666666667,
+      "characterCount": 81,
+      "nonWhitespaceCharacterCount": 64,
+      "newlineCount": 5,
+      "readingTimeInMinutes": 0.052830188679245285,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758730960856,
+      "modifiedDate": 1760191002026,
+      "sizeInBytes": 1094,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.04666666666666667,
+        "wordCount": 14,
+        "characterCount": 81,
+        "nonWhitespaceCharacterCount": 64,
+        "newlineCount": 5
+      },
+      "frontmatter": {
+        "tags": [
+          "History"
+        ],
+        "status": "Stub",
+        "related": [
+          "[[The Great Reckoning]]",
+          "[[The Bastard's Rebellion]]"
+        ],
+        "historical_scope": "Event",
+        "event_type": [
+          "Founding",
+          "Cultural_Shift"
+        ],
+        "scope": "National",
+        "era": "The Great Reckoning",
+        "involved_characters": [
+          "[[King Valar XII]]",
+          "[[Archbishop Morteus]]"
+        ],
+        "involved_organizations": [
+          "[[Council of Seven]]",
+          "[[Church of the Divine Light]]"
+        ],
+        "involved_countries": [
+          "[[Kingdom of Valar]]"
+        ],
+        "locations": [
+          "[[Throne Peak]]"
+        ],
+        "fc-calendar": "Gregorian Calendar",
+        "fc-date": "1498-01-01",
+        "fc-end": "1498-01-02",
+        "fc-category": "Royal Event",
+        "fc-display-name": "Final Valar Coronation",
+        "aat-render-enabled": true,
+        "aat-event-body": "The last ruler of the Valar dynasty takes the crown as shadows gather",
+        "timelines": [
+          "world-history",
+          "valar-succession"
+        ],
+        "aat-event-picture": "[[card-religion.jpeg]]",
+        "preceded_by": [
+          "[[The Plague Years]]"
+        ],
+        "led_to": [
+          "[[The Fall of Valar]]"
+        ],
+        "concurrent_with": [
+          "[[The Northern Invasion]]"
+        ],
+        "primary_sources": null,
+        "secondary_sources": null,
+        "evidence": null,
+        "art": "Assets/Banners/card-religion.jpg"
+      }
+    },
+    "World/History/The War of Three Princes.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 22,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.07333333333333333,
+      "characterCount": 127,
+      "nonWhitespaceCharacterCount": 102,
+      "newlineCount": 5,
+      "readingTimeInMinutes": 0.0830188679245283,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758730885675,
+      "modifiedDate": 1760190688495,
+      "sizeInBytes": 1323,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.07333333333333333,
+        "wordCount": 22,
+        "characterCount": 127,
+        "nonWhitespaceCharacterCount": 102,
+        "newlineCount": 5
+      },
+      "frontmatter": {
+        "tags": [
+          "History"
+        ],
+        "status": "Complete",
+        "related": [
+          "[[The First Coronation]]"
+        ],
+        "historical_scope": "Event",
+        "event_type": [
+          "War",
+          "Cultural_Shift"
+        ],
+        "scope": "National",
+        "era": "The Great Reckoning",
+        "involved_characters": [
+          "[[Prince Aldric]]",
+          "[[Prince Borin]]",
+          "[[Prince Cassius]]",
+          "[[King Valar III]]"
+        ],
+        "involved_organizations": [
+          "[[Royal Guard]]",
+          "[[Merchant's Guild]]"
+        ],
+        "involved_countries": [
+          "[[Kingdom of Valar]]",
+          "[[Duchy of Westmarch]]"
+        ],
+        "locations": [
+          "[[Fields of Sorrow]]",
+          "[[Blackwater Keep]]"
+        ],
+        "fc-calendar": "Gregorian Calendar",
+        "fc-date": "1145-06-01",
+        "fc-end": "1148-09-30",
+        "fc-category": "Succession Crisis",
+        "fc-display-name": "War of Three Princes",
+        "aat-render-enabled": true,
+        "aat-event-body": "A brutal succession war that nearly destroyed the Valar dynasty",
+        "timelines": [
+          "world-history",
+          "valar-succession"
+        ],
+        "aat-event-picture": "[[war-peace-banner.jpg]]",
+        "preceded_by": [
+          "[[Death of King Valar III]]"
+        ],
+        "led_to": [
+          "[[The Broken Crown Treaty]]"
+        ],
+        "concurrent_with": [
+          "[[The Southern Raids]]"
+        ],
+        "primary_sources": [
+          "[[Letters of Prince Aldric]]"
+        ],
+        "secondary_sources": [
+          "[[The Histories of Master Geron]]"
+        ],
+        "evidence": [
+          "[[Battlefield of Sorrow Memorial]]"
+        ],
+        "art": "Assets/Banners/war-peace-banner.jpg"
+      }
+    },
+    "World/History/The Quiet Ascension.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 16,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.05333333333333334,
+      "characterCount": 112,
+      "nonWhitespaceCharacterCount": 93,
+      "newlineCount": 5,
+      "readingTimeInMinutes": 0.06037735849056604,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758730896191,
+      "modifiedDate": 1758733238966,
+      "sizeInBytes": 1043,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.05333333333333334,
+        "wordCount": 16,
+        "characterCount": 112,
+        "nonWhitespaceCharacterCount": 93,
+        "newlineCount": 5
+      },
+      "frontmatter": {
+        "tags": [
+          "History"
+        ],
+        "status": "Complete",
+        "related": [
+          "[[The War of Three Princes]]"
+        ],
+        "historical_scope": "Event",
+        "event_type": [
+          "Founding"
+        ],
+        "scope": "National",
+        "era": "The Great Reckoning",
+        "involved_characters": [
+          "[[Queen Valar VII]]",
+          "[[Lord Commander Theron]]"
+        ],
+        "involved_organizations": [
+          "[[Council of Seven]]"
+        ],
+        "involved_countries": [
+          "[[Kingdom of Valar]]"
+        ],
+        "locations": [
+          "[[Throne Peak]]"
+        ],
+        "fc-calendar": "Gregorian Calendar",
+        "fc-date": "1235-11-12",
+        "fc-end": "1235-11-13",
+        "fc-category": "Royal Event",
+        "fc-display-name": "First Queen of Valar",
+        "aat-render-enabled": true,
+        "aat-event-body": "The first female ruler of Valar takes the throne peacefully",
+        "timelines": [
+          "world-history",
+          "valar-succession"
+        ],
+        "aat-event-picture": "[[quill-and-ink.jpeg]]",
+        "preceded_by": [
+          "[[Death of King Valar VI]]"
+        ],
+        "led_to": [
+          "[[The Golden Peace]]"
+        ],
+        "concurrent_with": null,
+        "primary_sources": [
+          "[[Royal Decree 1235-A]]"
+        ],
+        "secondary_sources": null,
+        "evidence": null,
+        "art": "Assets/Banners/quill-and-ink.jpg"
+      }
+    },
+    "World/History/The Plague Years.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 16,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.05333333333333334,
+      "characterCount": 95,
+      "nonWhitespaceCharacterCount": 76,
+      "newlineCount": 5,
+      "readingTimeInMinutes": 0.06037735849056604,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758731018725,
+      "modifiedDate": 1758731138168,
+      "sizeInBytes": 1160,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.05333333333333334,
+        "wordCount": 16,
+        "characterCount": 95,
+        "nonWhitespaceCharacterCount": 76,
+        "newlineCount": 5
+      },
+      "frontmatter": {
+        "tags": [
+          "History"
+        ],
+        "status": "Complete",
+        "related": [
+          "[[The Great Reckoning]]"
+        ],
+        "historical_scope": "Period",
+        "event_type": [
+          "Disaster"
+        ],
+        "scope": "Global",
+        "era": "The Great Reckoning",
+        "involved_characters": [
+          "[[Healer Morgana]]",
+          "[[Patient Zero]]"
+        ],
+        "involved_organizations": [
+          "[[Healer's Guild]]",
+          "[[Church of Divine Light]]"
+        ],
+        "involved_countries": [
+          "[[All Known Nations]]"
+        ],
+        "locations": [
+          "[[Port City of Blackwater]]",
+          "[[The Quarantine Islands]]"
+        ],
+        "fc-calendar": "Gregorian Calendar",
+        "fc-date": "1420-03-01",
+        "fc-end": "1425-11-30",
+        "fc-category": "Disaster",
+        "fc-display-name": "The Black Death",
+        "aat-render-enabled": true,
+        "aat-event-body": "A mysterious plague decimates populations across the known world",
+        "timelines": [
+          "world-history"
+        ],
+        "aat-event-picture": "[[card-condition.jpg]]",
+        "preceded_by": [
+          "[[The Trade Route Opening]]"
+        ],
+        "led_to": [
+          "[[The last coronation]]",
+          "[[The Age of Recovery]]"
+        ],
+        "concurrent_with": null,
+        "primary_sources": [
+          "[[Healer's Notes on the Plague]]"
+        ],
+        "secondary_sources": [
+          "[[Death Rolls of 1423]]"
+        ],
+        "evidence": [
+          "[[Mass Grave Sites]]"
+        ],
+        "art": "Assets/Banners/card-condition.jpg"
+      }
+    },
+    "World/History/The Mage Uprising.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 12,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.04,
+      "characterCount": 81,
+      "nonWhitespaceCharacterCount": 66,
+      "newlineCount": 5,
+      "readingTimeInMinutes": 0.045283018867924525,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758730972034,
+      "modifiedDate": 1760190970020,
+      "sizeInBytes": 1258,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.04,
+        "wordCount": 12,
+        "characterCount": 81,
+        "nonWhitespaceCharacterCount": 66,
+        "newlineCount": 5
+      },
+      "frontmatter": {
+        "tags": [
+          "History"
+        ],
+        "status": "Complete",
+        "related": [
+          "[[The Great Reckoning]]"
+        ],
+        "historical_scope": "Event",
+        "event_type": [
+          "War",
+          "Cultural_Shift"
+        ],
+        "scope": "Continental",
+        "era": "The Great Reckoning",
+        "involved_characters": [
+          "[[Archmage Zephyr]]",
+          "[[General Ironwood]]",
+          "[[Pingus]]"
+        ],
+        "involved_organizations": [
+          "[[Circle of Magi]]",
+          "[[Templar Order]]",
+          "[[Free Mage Coalition]]"
+        ],
+        "involved_countries": [
+          "[[Republic of Astoria]]",
+          "[[Kingdom of Valar]]",
+          "[[Eastern Provinces]]"
+        ],
+        "locations": [
+          "[[Tower of Stars]]",
+          "[[Burning Fields]]"
+        ],
+        "fc-calendar": "Gregorian Calendar",
+        "fc-date": "1156-04-20",
+        "fc-end": "1159-12-31",
+        "fc-category": "Magical Conflict",
+        "fc-display-name": "The Great Mage Uprising",
+        "aat-render-enabled": true,
+        "aat-event-body": "Mages across the continent rise against centuries of oppression",
+        "timelines": [
+          "world-history"
+        ],
+        "aat-event-picture": "[[card-magic.jpeg]]",
+        "preceded_by": [
+          "[[The Templar Purges]]"
+        ],
+        "led_to": [
+          "[[The Accord of Powers]]"
+        ],
+        "concurrent_with": [
+          "[[The War of Three Princes]]"
+        ],
+        "primary_sources": [
+          "[[Manifesto of Liberation]]"
+        ],
+        "secondary_sources": [
+          "[[Templar Battle Records]]"
+        ],
+        "evidence": [
+          "[[Scorched Tower Ruins]]"
+        ],
+        "art": "Assets/Banners/card-magic.jpg"
+      }
+    },
+    "World/History/The Great Reckoning.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 405,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.35,
+      "characterCount": 5891,
+      "nonWhitespaceCharacterCount": 5172,
+      "newlineCount": 136,
+      "readingTimeInMinutes": 1.528301886792453,
+      "linkCount": 6,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758724491037,
+      "modifiedDate": 1759591550992,
+      "sizeInBytes": 6410,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 1.35,
+        "wordCount": 405,
+        "characterCount": 5891,
+        "nonWhitespaceCharacterCount": 5172,
+        "newlineCount": 136
+      },
+      "frontmatter": {
+        "tags": [
+          "History"
+        ],
+        "status": "Complete",
+        "related": null,
+        "historical_scope": "Era",
+        "event_type": [
+          "Era"
+        ],
+        "scope": "Global",
+        "era": "The Great Reckoning",
+        "involved_characters": [
+          "[[Pingus]]"
+        ],
+        "involved_organizations": null,
+        "involved_countries": null,
+        "locations": null,
+        "fc-calendar": "Gregorian Calendar",
+        "fc-date": "1000-09-24",
+        "fc-end": "1500-09-24",
+        "fc-category": "",
+        "fc-display-name": null,
+        "aat-render-enabled": true,
+        "aat-event-body": "A time of great change in the world",
+        "timelines": [
+          "world-history"
+        ],
+        "aat-event-picture": "[[card-history.jpg]]",
+        "art": "Assets/WorldImg/Character/pingus.jpg"
+      }
+    },
+    "World/History/The Great Dragon Migration.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758731006865,
+      "modifiedDate": 1758731006865,
+      "sizeInBytes": 0,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "World/History/The First Coronation.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 20,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.06666666666666667,
+      "characterCount": 117,
+      "nonWhitespaceCharacterCount": 94,
+      "newlineCount": 5,
+      "readingTimeInMinutes": 0.07547169811320754,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758730835965,
+      "modifiedDate": 1758730851248,
+      "sizeInBytes": 1190,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.06666666666666667,
+        "wordCount": 20,
+        "characterCount": 117,
+        "nonWhitespaceCharacterCount": 94,
+        "newlineCount": 5
+      },
+      "frontmatter": {
+        "tags": [
+          "History"
+        ],
+        "status": "Complete",
+        "related": [
+          "[[The Great Reckoning]]"
+        ],
+        "historical_scope": "Event",
+        "event_type": [
+          "Founding",
+          "Cultural_Shift"
+        ],
+        "scope": "National",
+        "era": "The Great Reckoning",
+        "involved_characters": [
+          "[[King Valar I]]",
+          "[[High Priestess Elara]]"
+        ],
+        "involved_organizations": [
+          "[[Council of Seven]]",
+          "[[Order of the Crown]]"
+        ],
+        "involved_countries": [
+          "[[Kingdom of Valar]]"
+        ],
+        "locations": [
+          "[[Throne Peak]]",
+          "[[Capital City of Valaris]]"
+        ],
+        "fc-calendar": "Gregorian Calendar",
+        "fc-date": "1001-03-15",
+        "fc-end": "1001-03-16",
+        "fc-category": "Royal Event",
+        "fc-display-name": "Coronation of Valar I",
+        "aat-render-enabled": true,
+        "aat-event-body": "The founding monarch of the Valar dynasty ascends to power, establishing traditions that would last centuries",
+        "timelines": [
+          "world-history",
+          "valar-succession"
+        ],
+        "aat-event-picture": "[[medieval-forge.jpg]]",
+        "preceded_by": null,
+        "led_to": [
+          "[[The Valar Expansion]]"
+        ],
+        "concurrent_with": null,
+        "primary_sources": [
+          "[[Chronicle of the First Crown]]"
+        ],
+        "secondary_sources": null,
+        "evidence": [
+          "[[The Original Crown of Valar]]"
+        ],
+        "art": "Assets/Banners/medieval-forge.jpg"
+      }
+    },
+    "World/History/The Discovery of the New Lands.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 17,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.056666666666666664,
+      "characterCount": 97,
+      "nonWhitespaceCharacterCount": 77,
+      "newlineCount": 5,
+      "readingTimeInMinutes": 0.06415094339622641,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758730995501,
+      "modifiedDate": 1758731001787,
+      "sizeInBytes": 1220,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.056666666666666664,
+        "wordCount": 17,
+        "characterCount": 97,
+        "nonWhitespaceCharacterCount": 77,
+        "newlineCount": 5
+      },
+      "frontmatter": {
+        "tags": [
+          "History"
+        ],
+        "status": "Complete",
+        "related": null,
+        "historical_scope": "Event",
+        "event_type": [
+          "Discovery"
+        ],
+        "scope": "Global",
+        "era": "The Great Reckoning",
+        "involved_characters": [
+          "[[Captain Elias Blackwater]]",
+          "[[Navigator Stella]]"
+        ],
+        "involved_organizations": [
+          "[[Royal Navy]]",
+          "[[Explorer's Guild]]"
+        ],
+        "involved_countries": [
+          "[[Maritime Federation]]"
+        ],
+        "locations": [
+          "[[Port of Last Hope]]",
+          "[[The Western Shores]]",
+          "[[New Continent]]"
+        ],
+        "fc-calendar": "Gregorian Calendar",
+        "fc-date": "1275-08-15",
+        "fc-end": "1275-10-22",
+        "fc-category": "Exploration",
+        "fc-display-name": "Discovery of the New World",
+        "aat-render-enabled": true,
+        "aat-event-body": "First contact with lands beyond the Western Sea changes everything",
+        "timelines": [
+          "world-history"
+        ],
+        "aat-event-picture": "[[card-geography.jpg]]",
+        "preceded_by": [
+          "[[The Long Voyage Preparations]]"
+        ],
+        "led_to": [
+          "[[The Colonial Rush]]",
+          "[[First Contact Wars]]"
+        ],
+        "concurrent_with": null,
+        "primary_sources": [
+          "[[Captain's Log of the Endeavor]]"
+        ],
+        "secondary_sources": [
+          "[[Maritime Archives Vol. XII]]"
+        ],
+        "evidence": [
+          "[[The Endeavor's Anchor]]",
+          "[[First Landing Monument]]"
+        ],
+        "art": "Assets/Banners/card-geography.jpg"
+      }
+    },
+    "World/History/The Celestial Convergence.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 16,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.05333333333333334,
+      "characterCount": 104,
+      "nonWhitespaceCharacterCount": 85,
+      "newlineCount": 5,
+      "readingTimeInMinutes": 0.06037735849056604,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758731030416,
+      "modifiedDate": 1760191014747,
+      "sizeInBytes": 1152,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.05333333333333334,
+        "wordCount": 16,
+        "characterCount": 104,
+        "nonWhitespaceCharacterCount": 85,
+        "newlineCount": 5
+      },
+      "frontmatter": {
+        "tags": [
+          "History"
+        ],
+        "status": "Planned",
+        "related": [
+          "[[The Great Reckoning]]"
+        ],
+        "historical_scope": "Event",
+        "event_type": [
+          "Discovery",
+          "Cultural_Shift"
+        ],
+        "scope": "Cosmic",
+        "era": "The Great Reckoning",
+        "involved_characters": [
+          "[[Astronomer Galileus]]",
+          "[[Prophet Ezra]]"
+        ],
+        "involved_organizations": [
+          "[[Observatory of the Stars]]",
+          "[[Prophetic Order]]"
+        ],
+        "involved_countries": null,
+        "locations": [
+          "[[Mount Observatory]]",
+          "[[The Sacred Stones]]"
+        ],
+        "fc-calendar": "Gregorian Calendar",
+        "fc-date": "1111-11-11",
+        "fc-end": "1111-11-12",
+        "fc-category": "Celestial Event",
+        "fc-display-name": "The Great Convergence",
+        "aat-render-enabled": true,
+        "aat-event-body": "All seven moons align for the first time in recorded history",
+        "timelines": [
+          "world-history"
+        ],
+        "aat-event-picture": "[[card-cosmos.jpeg]]",
+        "preceded_by": null,
+        "led_to": [
+          "[[The Age of Prophecy]]",
+          "[[Rise of the Star Cults]]"
+        ],
+        "concurrent_with": null,
+        "primary_sources": [
+          "[[Observatory Records 1111]]"
+        ],
+        "secondary_sources": [
+          "[[Prophetic Texts of the Convergence]]"
+        ],
+        "evidence": [
+          "[[The Convergence Stone Circle]]"
+        ],
+        "art": "Assets/Banners/card-cosmos.jpg"
+      }
+    },
+    "World/History/The Bastard's Rebellion.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 16,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.05333333333333334,
+      "characterCount": 114,
+      "nonWhitespaceCharacterCount": 95,
+      "newlineCount": 5,
+      "readingTimeInMinutes": 0.06037735849056604,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758730907898,
+      "modifiedDate": 1758730918775,
+      "sizeInBytes": 1233,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.05333333333333334,
+        "wordCount": 16,
+        "characterCount": 114,
+        "nonWhitespaceCharacterCount": 95,
+        "newlineCount": 5
+      },
+      "frontmatter": {
+        "tags": [
+          "History"
+        ],
+        "status": "Planned",
+        "related": [
+          "[[The Quiet Ascension]]"
+        ],
+        "historical_scope": "Event",
+        "event_type": [
+          "War",
+          "Cultural_Shift"
+        ],
+        "scope": "Regional",
+        "era": "The Great Reckoning",
+        "involved_characters": [
+          "[[Roderick the Bastard]]",
+          "[[King Valar IX]]",
+          "[[General Marcus Steelhold]]"
+        ],
+        "involved_organizations": [
+          "[[Brotherhood of the Black Banner]]",
+          "[[Royal Legion]]"
+        ],
+        "involved_countries": [
+          "[[Kingdom of Valar]]"
+        ],
+        "locations": [
+          "[[The Northern Marches]]",
+          "[[Ironhold Fortress]]"
+        ],
+        "fc-calendar": "Gregorian Calendar",
+        "fc-date": "1389-02-14",
+        "fc-end": "1391-07-22",
+        "fc-category": "Rebellion",
+        "fc-display-name": "Bastard's Uprising",
+        "aat-render-enabled": true,
+        "aat-event-body": "An illegitimate son challenges the throne with surprising support",
+        "timelines": [
+          "world-history",
+          "valar-succession"
+        ],
+        "aat-event-picture": "[[card-politics.jpg]]",
+        "preceded_by": [
+          "[[The Recognition Decree]]"
+        ],
+        "led_to": [
+          "[[The Legitimacy Laws]]"
+        ],
+        "concurrent_with": [
+          "[[The Eastern Trade Crisis]]"
+        ],
+        "primary_sources": null,
+        "secondary_sources": [
+          "[[Songs of the Black Banner]]"
+        ],
+        "evidence": [
+          "[[Ruins of Ironhold]]"
+        ],
+        "art": "Assets/Banners/card-politics.jpg"
+      }
+    },
+    "Templates/z_Scripts/Metabind JS test.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 84,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.28,
+      "characterCount": 872,
+      "nonWhitespaceCharacterCount": 742,
+      "newlineCount": 28,
+      "readingTimeInMinutes": 0.3169811320754717,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758303472692,
+      "modifiedDate": 1758567149693,
+      "sizeInBytes": 872,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.28,
+        "wordCount": 84,
+        "characterCount": 872,
+        "nonWhitespaceCharacterCount": 742,
+        "newlineCount": 28
+      }
+    },
+    "Templates/z_Scripts/Metabind Function.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 76,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.25333333333333335,
+      "characterCount": 1121,
+      "nonWhitespaceCharacterCount": 989,
+      "newlineCount": 33,
+      "readingTimeInMinutes": 0.28679245283018867,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758307781517,
+      "modifiedDate": 1758567140623,
+      "sizeInBytes": 1121,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.25333333333333335,
+        "wordCount": 76,
+        "characterCount": 1121,
+        "nonWhitespaceCharacterCount": 989,
+        "newlineCount": 33
+      }
+    },
+    "Templates/z_Scripts/Button_World_Selector.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 96,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.32,
+      "characterCount": 1206,
+      "nonWhitespaceCharacterCount": 948,
+      "newlineCount": 32,
+      "readingTimeInMinutes": 0.3622641509433962,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758567078534,
+      "modifiedDate": 1759599775229,
+      "sizeInBytes": 1206,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.32,
+        "wordCount": 96,
+        "characterCount": 1206,
+        "nonWhitespaceCharacterCount": 948,
+        "newlineCount": 32
+      }
+    },
+    "Templates/z_Scripts/Button_Story_Selector.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 96,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.32,
+      "characterCount": 1192,
+      "nonWhitespaceCharacterCount": 940,
+      "newlineCount": 32,
+      "readingTimeInMinutes": 0.3622641509433962,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759017378901,
+      "modifiedDate": 1759599924598,
+      "sizeInBytes": 1192,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.32,
+        "wordCount": 96,
+        "characterCount": 1192,
+        "nonWhitespaceCharacterCount": 940,
+        "newlineCount": 32
+      }
+    },
+    "Templates/z_Scripts/Button_Meta_Selector.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 96,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.32,
+      "characterCount": 1188,
+      "nonWhitespaceCharacterCount": 936,
+      "newlineCount": 32,
+      "readingTimeInMinutes": 0.3622641509433962,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758467002069,
+      "modifiedDate": 1759599912439,
+      "sizeInBytes": 1188,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.32,
+        "wordCount": 96,
+        "characterCount": 1188,
+        "nonWhitespaceCharacterCount": 936,
+        "newlineCount": 32
+      }
+    },
+    "Templates/T_World/Template_Technology.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 235,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.7833333333333333,
+      "characterCount": 3400,
+      "nonWhitespaceCharacterCount": 3015,
+      "newlineCount": 89,
+      "readingTimeInMinutes": 0.8867924528301887,
+      "linkCount": 6,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759670920178,
+      "modifiedDate": 1759786489229,
+      "sizeInBytes": 3482,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.7833333333333333,
+        "wordCount": 235,
+        "characterCount": 3400,
+        "nonWhitespaceCharacterCount": 3015,
+        "newlineCount": 89
+      },
+      "frontmatter": {
+        "tags": [
+          "Technology"
+        ],
+        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+      }
+    },
+    "Templates/T_World/Template_Settlement.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 278,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.9266666666666666,
+      "characterCount": 4349,
+      "nonWhitespaceCharacterCount": 3880,
+      "newlineCount": 111,
+      "readingTimeInMinutes": 1.049056603773585,
+      "linkCount": 9,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759667725927,
+      "modifiedDate": 1759785278452,
+      "sizeInBytes": 4435,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.9266666666666666,
+        "wordCount": 278,
+        "characterCount": 4349,
+        "nonWhitespaceCharacterCount": 3880,
+        "newlineCount": 111
+      },
+      "frontmatter": {
+        "tags": [
+          "Settlement"
+        ],
+        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+      }
+    },
+    "Templates/T_World/Template_Resource.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 242,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.8066666666666666,
+      "characterCount": 3424,
+      "nonWhitespaceCharacterCount": 3024,
+      "newlineCount": 94,
+      "readingTimeInMinutes": 0.9132075471698113,
+      "linkCount": 6,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759634579401,
+      "modifiedDate": 1759785595189,
+      "sizeInBytes": 3504,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.8066666666666666,
+        "wordCount": 242,
+        "characterCount": 3424,
+        "nonWhitespaceCharacterCount": 3024,
+        "newlineCount": 94
+      },
+      "frontmatter": {
+        "tags": [
+          "Resource"
+        ],
+        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+      }
+    },
+    "Templates/T_World/Template_Religion.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 245,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.8166666666666667,
+      "characterCount": 3853,
+      "nonWhitespaceCharacterCount": 3433,
+      "newlineCount": 99,
+      "readingTimeInMinutes": 0.9245283018867925,
+      "linkCount": 7,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759676079806,
+      "modifiedDate": 1759785676021,
+      "sizeInBytes": 3935,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.8166666666666667,
+        "wordCount": 245,
+        "characterCount": 3853,
+        "nonWhitespaceCharacterCount": 3433,
+        "newlineCount": 99
+      },
+      "frontmatter": {
+        "tags": [
+          "Religion"
+        ],
+        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+      }
+    },
+    "Templates/T_World/Template_Politics.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 194,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.6466666666666666,
+      "characterCount": 2865,
+      "nonWhitespaceCharacterCount": 2539,
+      "newlineCount": 80,
+      "readingTimeInMinutes": 0.7320754716981132,
+      "linkCount": 6,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759676500795,
+      "modifiedDate": 1759777737597,
+      "sizeInBytes": 2945,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.6466666666666666,
+        "wordCount": 194,
+        "characterCount": 2865,
+        "nonWhitespaceCharacterCount": 2539,
+        "newlineCount": 80
+      },
+      "frontmatter": {
+        "tags": [
+          "Politics"
+        ],
+        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+      }
+    },
+    "Templates/T_World/Template_POI.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 187,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.6233333333333333,
+      "characterCount": 2807,
+      "nonWhitespaceCharacterCount": 2488,
+      "newlineCount": 82,
+      "readingTimeInMinutes": 0.7056603773584905,
+      "linkCount": 6,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759634125069,
+      "modifiedDate": 1759778200390,
+      "sizeInBytes": 2882,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.6233333333333333,
+        "wordCount": 187,
+        "characterCount": 2807,
+        "nonWhitespaceCharacterCount": 2488,
+        "newlineCount": 82
+      },
+      "frontmatter": {
+        "tags": [
+          "POI"
+        ],
+        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+      }
+    },
+    "Templates/T_World/Template_Organization.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 254,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.8466666666666667,
+      "characterCount": 3855,
+      "nonWhitespaceCharacterCount": 3427,
+      "newlineCount": 101,
+      "readingTimeInMinutes": 0.9584905660377359,
+      "linkCount": 6,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759713163414,
+      "modifiedDate": 1759713234399,
+      "sizeInBytes": 3939,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.8466666666666667,
+        "wordCount": 254,
+        "characterCount": 3855,
+        "nonWhitespaceCharacterCount": 3427,
+        "newlineCount": 101
+      },
+      "frontmatter": {
+        "tags": [
+          "Organization"
+        ],
+        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+      }
+    },
+    "Templates/T_World/Template_Object.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 249,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.83,
+      "characterCount": 3813,
+      "nonWhitespaceCharacterCount": 3398,
+      "newlineCount": 99,
+      "readingTimeInMinutes": 0.939622641509434,
+      "linkCount": 6,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759671569710,
+      "modifiedDate": 1759671603987,
+      "sizeInBytes": 3891,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.83,
+        "wordCount": 249,
+        "characterCount": 3813,
+        "nonWhitespaceCharacterCount": 3398,
+        "newlineCount": 99
+      },
+      "frontmatter": {
+        "tags": [
+          "Object"
+        ],
+        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+      }
+    },
+    "Templates/T_World/Template_Magic.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 250,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.8333333333333334,
+      "characterCount": 3472,
+      "nonWhitespaceCharacterCount": 3060,
+      "newlineCount": 96,
+      "readingTimeInMinutes": 0.9433962264150944,
+      "linkCount": 6,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759673043814,
+      "modifiedDate": 1759777667926,
+      "sizeInBytes": 3549,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.8333333333333334,
+        "wordCount": 250,
+        "characterCount": 3472,
+        "nonWhitespaceCharacterCount": 3060,
+        "newlineCount": 96
+      },
+      "frontmatter": {
+        "tags": [
+          "Magic"
+        ],
+        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+      }
+    },
+    "Templates/T_World/Template_Lore.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 273,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.91,
+      "characterCount": 4506,
+      "nonWhitespaceCharacterCount": 4032,
+      "newlineCount": 115,
+      "readingTimeInMinutes": 1.030188679245283,
+      "linkCount": 6,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759625682350,
+      "modifiedDate": 1759630298328,
+      "sizeInBytes": 4582,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.91,
+        "wordCount": 273,
+        "characterCount": 4506,
+        "nonWhitespaceCharacterCount": 4032,
+        "newlineCount": 115
+      },
+      "frontmatter": {
+        "tags": [
+          "Lore"
+        ],
+        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+      }
+    },
+    "Templates/T_World/Template_Language.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 224,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.7466666666666667,
+      "characterCount": 3234,
+      "nonWhitespaceCharacterCount": 2862,
+      "newlineCount": 90,
+      "readingTimeInMinutes": 0.8452830188679246,
+      "linkCount": 6,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759713889601,
+      "modifiedDate": 1759777792814,
+      "sizeInBytes": 3314,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.7466666666666667,
+        "wordCount": 224,
+        "characterCount": 3234,
+        "nonWhitespaceCharacterCount": 2862,
+        "newlineCount": 90
+      },
+      "frontmatter": {
+        "tags": [
+          "Language"
+        ],
+        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+      }
+    },
+    "Templates/T_World/Template_History_Timeline.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 82,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.2733333333333333,
+      "characterCount": 1268,
+      "nonWhitespaceCharacterCount": 1110,
+      "newlineCount": 44,
+      "readingTimeInMinutes": 0.30943396226415093,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759625570880,
+      "modifiedDate": 1759630264713,
+      "sizeInBytes": 1294,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.2733333333333333,
+        "wordCount": 82,
+        "characterCount": 1268,
+        "nonWhitespaceCharacterCount": 1110,
+        "newlineCount": 44
+      },
+      "frontmatter": {
+        "tags": [
+          "Timeline"
+        ]
+      }
+    },
+    "Templates/T_World/Template_History.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 314,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.0466666666666666,
+      "characterCount": 5097,
+      "nonWhitespaceCharacterCount": 4549,
+      "newlineCount": 120,
+      "readingTimeInMinutes": 1.1849056603773584,
+      "linkCount": 7,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759625487050,
+      "modifiedDate": 1759778499029,
+      "sizeInBytes": 5235,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 1.0466666666666666,
+        "wordCount": 314,
+        "characterCount": 5097,
+        "nonWhitespaceCharacterCount": 4549,
+        "newlineCount": 120
+      },
+      "frontmatter": {
+        "tags": [
+          "History"
+        ],
+        "art": "Assets/TemplateImg/Placeholder-Generic.jpg",
+        "fc-calendar": "Gregorian Calendar",
+        "aat-render-enabled": true
+      }
+    },
+    "Templates/T_World/Template_Geography.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 250,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.8333333333333334,
+      "characterCount": 3930,
+      "nonWhitespaceCharacterCount": 3505,
+      "newlineCount": 105,
+      "readingTimeInMinutes": 0.9433962264150944,
+      "linkCount": 8,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759632417599,
+      "modifiedDate": 1759633281873,
+      "sizeInBytes": 4013,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.8333333333333334,
+        "wordCount": 250,
+        "characterCount": 3930,
+        "nonWhitespaceCharacterCount": 3505,
+        "newlineCount": 105
+      },
+      "frontmatter": {
+        "tags": [
+          "Geography"
+        ],
+        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+      }
+    },
+    "Templates/T_World/Template_Flora.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 262,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.8733333333333333,
+      "characterCount": 3722,
+      "nonWhitespaceCharacterCount": 3295,
+      "newlineCount": 103,
+      "readingTimeInMinutes": 0.9886792452830189,
+      "linkCount": 10,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759627275963,
+      "modifiedDate": 1759786191268,
+      "sizeInBytes": 3805,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.8733333333333333,
+        "wordCount": 262,
+        "characterCount": 3722,
+        "nonWhitespaceCharacterCount": 3295,
+        "newlineCount": 103
+      },
+      "frontmatter": {
+        "tags": [
+          "Flora"
+        ],
+        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+      }
+    },
+    "Templates/T_World/Template_Economy.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 200,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.6666666666666666,
+      "characterCount": 3044,
+      "nonWhitespaceCharacterCount": 2706,
+      "newlineCount": 83,
+      "readingTimeInMinutes": 0.7547169811320755,
+      "linkCount": 6,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759669893659,
+      "modifiedDate": 1759777858819,
+      "sizeInBytes": 3123,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.6666666666666666,
+        "wordCount": 200,
+        "characterCount": 3044,
+        "nonWhitespaceCharacterCount": 2706,
+        "newlineCount": 83
+      },
+      "frontmatter": {
+        "tags": [
+          "Economy"
+        ],
+        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+      }
+    },
+    "Templates/T_World/Template_Culture-Art.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 245,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.8166666666666667,
+      "characterCount": 3810,
+      "nonWhitespaceCharacterCount": 3403,
+      "newlineCount": 98,
+      "readingTimeInMinutes": 0.9245283018867925,
+      "linkCount": 6,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759668341406,
+      "modifiedDate": 1759785834444,
+      "sizeInBytes": 3893,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.8166666666666667,
+        "wordCount": 245,
+        "characterCount": 3810,
+        "nonWhitespaceCharacterCount": 3403,
+        "newlineCount": 98
+      },
+      "frontmatter": {
+        "tags": [
+          "Culture/Art"
+        ],
+        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+      }
+    },
+    "Templates/T_World/Template_Creature.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 253,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.8433333333333334,
+      "characterCount": 3690,
+      "nonWhitespaceCharacterCount": 3273,
+      "newlineCount": 103,
+      "readingTimeInMinutes": 0.9547169811320755,
+      "linkCount": 9,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759626830521,
+      "modifiedDate": 1759786209856,
+      "sizeInBytes": 3774,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.8433333333333334,
+        "wordCount": 253,
+        "characterCount": 3690,
+        "nonWhitespaceCharacterCount": 3273,
+        "newlineCount": 103
+      },
+      "frontmatter": {
+        "tags": [
+          "Creature"
+        ],
+        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+      }
+    },
+    "Templates/T_World/Template_Country.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 290,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.9666666666666667,
+      "characterCount": 4584,
+      "nonWhitespaceCharacterCount": 4089,
+      "newlineCount": 119,
+      "readingTimeInMinutes": 1.0943396226415094,
+      "linkCount": 10,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759668995062,
+      "modifiedDate": 1759785368343,
+      "sizeInBytes": 4669,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.9666666666666667,
+        "wordCount": 290,
+        "characterCount": 4584,
+        "nonWhitespaceCharacterCount": 4089,
+        "newlineCount": 119
+      },
+      "frontmatter": {
+        "tags": [
+          "Country"
+        ],
+        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+      }
+    },
+    "Templates/T_World/Template_Cosmos.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 183,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.61,
+      "characterCount": 2480,
+      "nonWhitespaceCharacterCount": 2190,
+      "newlineCount": 70,
+      "readingTimeInMinutes": 0.690566037735849,
+      "linkCount": 6,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759624624785,
+      "modifiedDate": 1759778430413,
+      "sizeInBytes": 2558,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.61,
+        "wordCount": 183,
+        "characterCount": 2480,
+        "nonWhitespaceCharacterCount": 2190,
+        "newlineCount": 70
+      },
+      "frontmatter": {
+        "tags": [
+          "Cosmos"
+        ],
+        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+      }
+    },
+    "Templates/T_World/Template_Condition.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 235,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.7833333333333333,
+      "characterCount": 3331,
+      "nonWhitespaceCharacterCount": 2948,
+      "newlineCount": 89,
+      "readingTimeInMinutes": 0.8867924528301887,
+      "linkCount": 7,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759675541647,
+      "modifiedDate": 1759675552600,
+      "sizeInBytes": 3414,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.7833333333333333,
+        "wordCount": 235,
+        "characterCount": 3331,
+        "nonWhitespaceCharacterCount": 2948,
+        "newlineCount": 89
+      },
+      "frontmatter": {
+        "tags": [
+          "Condition"
+        ],
+        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+      }
+    },
+    "Templates/T_World/Template_Concept.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 186,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.62,
+      "characterCount": 2476,
+      "nonWhitespaceCharacterCount": 2176,
+      "newlineCount": 76,
+      "readingTimeInMinutes": 0.7018867924528301,
+      "linkCount": 6,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759625472701,
+      "modifiedDate": 1759629924778,
+      "sizeInBytes": 2555,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.62,
+        "wordCount": 186,
+        "characterCount": 2476,
+        "nonWhitespaceCharacterCount": 2176,
+        "newlineCount": 76
+      },
+      "frontmatter": {
+        "tags": [
+          "Concept"
+        ],
+        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+      }
+    },
+    "Templates/T_World/Template_Ancestry.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 254,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.8466666666666667,
+      "characterCount": 3571,
+      "nonWhitespaceCharacterCount": 3160,
+      "newlineCount": 99,
+      "readingTimeInMinutes": 0.9584905660377359,
+      "linkCount": 9,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759623229184,
+      "modifiedDate": 1759786259889,
+      "sizeInBytes": 3657,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.8466666666666667,
+        "wordCount": 254,
+        "characterCount": 3571,
+        "nonWhitespaceCharacterCount": 3160,
+        "newlineCount": 99
+      },
+      "frontmatter": {
+        "tags": [
+          "Ancestry"
+        ],
+        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+      }
+    },
+    "Templates/T_World/Template_Character.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 370,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.2333333333333334,
+      "characterCount": 6206,
+      "nonWhitespaceCharacterCount": 5561,
+      "newlineCount": 139,
+      "readingTimeInMinutes": 1.3962264150943395,
+      "linkCount": 9,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758427291469,
+      "modifiedDate": 1759778001433,
+      "sizeInBytes": 6293,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 1.2333333333333334,
+        "wordCount": 370,
+        "characterCount": 6206,
+        "nonWhitespaceCharacterCount": 5561,
+        "newlineCount": 139
+      },
+      "frontmatter": {
+        "tags": [
+          "Character"
+        ],
+        "art": "Assets/TemplateImg/Placeholder-Character.jpg"
+      }
+    },
+    "Templates/T_Story/Template_Story.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 212,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.7066666666666667,
+      "characterCount": 2848,
+      "nonWhitespaceCharacterCount": 2232,
+      "newlineCount": 134,
+      "readingTimeInMinutes": 0.8,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1765052020939,
+      "modifiedDate": 1766248084269,
+      "sizeInBytes": 2852,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.7066666666666667,
+        "wordCount": 212,
+        "characterCount": 2848,
+        "nonWhitespaceCharacterCount": 2232,
+        "newlineCount": 134
+      }
+    },
+    "Templates/T_Story/Template_Scene.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 106,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.35333333333333333,
+      "characterCount": 1557,
+      "nonWhitespaceCharacterCount": 1179,
+      "newlineCount": 54,
+      "readingTimeInMinutes": 0.4,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1765052186824,
+      "modifiedDate": 1766245474933,
+      "sizeInBytes": 1557,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.35333333333333333,
+        "wordCount": 106,
+        "characterCount": 1557,
+        "nonWhitespaceCharacterCount": 1179,
+        "newlineCount": 54
+      }
+    },
+    "Templates/T_Story/Template_Plot.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 233,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.7766666666666666,
+      "characterCount": 3531,
+      "nonWhitespaceCharacterCount": 2923,
+      "newlineCount": 108,
+      "readingTimeInMinutes": 0.879245283018868,
+      "linkCount": 3,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1766240945239,
+      "modifiedDate": 1766241489759,
+      "sizeInBytes": 3531,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.7766666666666666,
+        "wordCount": 233,
+        "characterCount": 3531,
+        "nonWhitespaceCharacterCount": 2923,
+        "newlineCount": 108
+      }
+    },
+    "Templates/T_Story/Template_Compile_Manuscript.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 321,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.07,
+      "characterCount": 4183,
+      "nonWhitespaceCharacterCount": 3289,
+      "newlineCount": 120,
+      "readingTimeInMinutes": 1.211320754716981,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1766243144385,
+      "modifiedDate": 1766247979965,
+      "sizeInBytes": 4189,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 1.07,
+        "wordCount": 321,
+        "characterCount": 4183,
+        "nonWhitespaceCharacterCount": 3289,
+        "newlineCount": 120
+      }
+    },
+    "Templates/T_Snippets/Snippet_Relationship.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 12,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.04,
+      "characterCount": 120,
+      "nonWhitespaceCharacterCount": 107,
+      "newlineCount": 2,
+      "readingTimeInMinutes": 0.045283018867924525,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1751466257919,
+      "modifiedDate": 1758459258220,
+      "sizeInBytes": 120,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.04,
+        "wordCount": 12,
+        "characterCount": 120,
+        "nonWhitespaceCharacterCount": 107,
+        "newlineCount": 2
+      }
+    },
+    "Templates/T_Snippets/Snippet_Map(Leaflet).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 244,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.8133333333333334,
+      "characterCount": 1784,
+      "nonWhitespaceCharacterCount": 1467,
+      "newlineCount": 31,
+      "readingTimeInMinutes": 0.9207547169811321,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758682183009,
+      "modifiedDate": 1758682402874,
+      "sizeInBytes": 1899,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.8133333333333334,
+        "wordCount": 244,
+        "characterCount": 1784,
+        "nonWhitespaceCharacterCount": 1467,
+        "newlineCount": 31
+      },
+      "frontmatter": {
+        "map_height_y": 2048,
+        "map_width_x": 1642,
+        "scale_pixels": 268,
+        "scale_pixels_range": 25,
+        "mapCalc1": 0.09328358208955223
+      }
+    },
+    "Templates/T_Meta/Template_Meta_Vault.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 68,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.22666666666666666,
+      "characterCount": 1103,
+      "nonWhitespaceCharacterCount": 969,
+      "newlineCount": 32,
+      "readingTimeInMinutes": 0.25660377358490566,
+      "linkCount": 3,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759764858932,
+      "modifiedDate": 1759764858932,
+      "sizeInBytes": 1175,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.22666666666666666,
+        "wordCount": 68,
+        "characterCount": 1103,
+        "nonWhitespaceCharacterCount": 969,
+        "newlineCount": 32
+      },
+      "frontmatter": {
+        "tags": "Meta",
+        "status": null,
+        "related": null,
+        "purpose": "Vault",
+        "priority": null,
+        "project_id": null
+      }
+    },
+    "Templates/T_Meta/Template_Meta_Research.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 88,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.29333333333333333,
+      "characterCount": 1268,
+      "nonWhitespaceCharacterCount": 1108,
+      "newlineCount": 38,
+      "readingTimeInMinutes": 0.3320754716981132,
+      "linkCount": 3,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759764861468,
+      "modifiedDate": 1759764861468,
+      "sizeInBytes": 1343,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.29333333333333333,
+        "wordCount": 88,
+        "characterCount": 1268,
+        "nonWhitespaceCharacterCount": 1108,
+        "newlineCount": 38
+      },
+      "frontmatter": {
+        "tags": "Meta",
+        "status": null,
+        "related": null,
+        "purpose": "Research",
+        "priority": null,
+        "project_id": null
+      }
+    },
+    "Templates/T_Meta/Template_Meta_Reference_ImageBoard.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 77,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.25666666666666665,
+      "characterCount": 1257,
+      "nonWhitespaceCharacterCount": 1113,
+      "newlineCount": 36,
+      "readingTimeInMinutes": 0.29056603773584905,
+      "linkCount": 3,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759764853510,
+      "modifiedDate": 1759764853511,
+      "sizeInBytes": 1361,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.25666666666666665,
+        "wordCount": 77,
+        "characterCount": 1257,
+        "nonWhitespaceCharacterCount": 1113,
+        "newlineCount": 36
+      },
+      "frontmatter": {
+        "tags": [
+          "Meta"
+        ],
+        "status": null,
+        "related": null,
+        "purpose": [
+          "Reference",
+          "Image Board"
+        ],
+        "priority": null,
+        "project_id": null,
+        "": null
+      }
+    },
+    "Templates/T_Meta/Template_Meta_Reference.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 69,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.23,
+      "characterCount": 1119,
+      "nonWhitespaceCharacterCount": 984,
+      "newlineCount": 32,
+      "readingTimeInMinutes": 0.26037735849056604,
+      "linkCount": 3,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759764861583,
+      "modifiedDate": 1759764861583,
+      "sizeInBytes": 1195,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.23,
+        "wordCount": 69,
+        "characterCount": 1119,
+        "nonWhitespaceCharacterCount": 984,
+        "newlineCount": 32
+      },
+      "frontmatter": {
+        "tags": "Meta",
+        "status": null,
+        "related": null,
+        "purpose": "Reference",
+        "priority": null,
+        "project_id": null
+      }
+    },
+    "Templates/T_Meta/Template_Meta_Project.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 67,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.22333333333333333,
+      "characterCount": 1099,
+      "nonWhitespaceCharacterCount": 966,
+      "newlineCount": 32,
+      "readingTimeInMinutes": 0.2528301886792453,
+      "linkCount": 3,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759764861712,
+      "modifiedDate": 1759764861712,
+      "sizeInBytes": 1173,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.22333333333333333,
+        "wordCount": 67,
+        "characterCount": 1099,
+        "nonWhitespaceCharacterCount": 966,
+        "newlineCount": 32
+      },
+      "frontmatter": {
+        "tags": "Meta",
+        "status": null,
+        "related": null,
+        "purpose": "Project",
+        "priority": null,
+        "project_id": null
+      }
+    },
+    "Templates/T_Meta/Template_Meta_Planning.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 67,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.22333333333333333,
+      "characterCount": 1103,
+      "nonWhitespaceCharacterCount": 970,
+      "newlineCount": 32,
+      "readingTimeInMinutes": 0.2528301886792453,
+      "linkCount": 3,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759764861856,
+      "modifiedDate": 1759764861856,
+      "sizeInBytes": 1178,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.22333333333333333,
+        "wordCount": 67,
+        "characterCount": 1103,
+        "nonWhitespaceCharacterCount": 970,
+        "newlineCount": 32
+      },
+      "frontmatter": {
+        "tags": "Meta",
+        "status": null,
+        "related": null,
+        "purpose": "Planning",
+        "priority": null,
+        "project_id": null
+      }
+    },
+    "Templates/T_Meta/Template_Meta_Inspiration.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 67,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.22333333333333333,
+      "characterCount": 1118,
+      "nonWhitespaceCharacterCount": 985,
+      "newlineCount": 32,
+      "readingTimeInMinutes": 0.2528301886792453,
+      "linkCount": 3,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759764862002,
+      "modifiedDate": 1759764862002,
+      "sizeInBytes": 1196,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.22333333333333333,
+        "wordCount": 67,
+        "characterCount": 1118,
+        "nonWhitespaceCharacterCount": 985,
+        "newlineCount": 32
+      },
+      "frontmatter": {
+        "tags": "Meta",
+        "status": null,
+        "related": null,
+        "purpose": "Inspiration",
+        "priority": null,
+        "project_id": null
+      }
+    },
+    "Templates/T_Meta/Template_Meta_Brainstorm.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 67,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.22333333333333333,
+      "characterCount": 1115,
+      "nonWhitespaceCharacterCount": 980,
+      "newlineCount": 34,
+      "readingTimeInMinutes": 0.2528301886792453,
+      "linkCount": 3,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759764862146,
+      "modifiedDate": 1759764862146,
+      "sizeInBytes": 1192,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.22333333333333333,
+        "wordCount": 67,
+        "characterCount": 1115,
+        "nonWhitespaceCharacterCount": 980,
+        "newlineCount": 34
+      },
+      "frontmatter": {
+        "tags": "Meta",
+        "status": null,
+        "related": null,
+        "purpose": "Brainstorm",
+        "priority": null,
+        "project_id": null
+      }
+    },
+    "Templates/T_Meta/Template_Meta_Blank.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 78,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.26,
+      "characterCount": 1257,
+      "nonWhitespaceCharacterCount": 1108,
+      "newlineCount": 38,
+      "readingTimeInMinutes": 0.2943396226415094,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759764862290,
+      "modifiedDate": 1759764862290,
+      "sizeInBytes": 1323,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.26,
+        "wordCount": 78,
+        "characterCount": 1257,
+        "nonWhitespaceCharacterCount": 1108,
+        "newlineCount": 38
+      },
+      "frontmatter": {
+        "tags": "Meta",
+        "status": null,
+        "related": null,
+        "purpose": null,
+        "priority": null,
+        "project_id": null
+      }
+    },
+    "Templates/T_Actions/Action_Archive.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 8,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.02666666666666667,
+      "characterCount": 120,
+      "nonWhitespaceCharacterCount": 104,
+      "newlineCount": 6,
+      "readingTimeInMinutes": 0.03018867924528302,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758460454095,
+      "modifiedDate": 1758461977588,
+      "sizeInBytes": 144,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.02666666666666667,
+        "wordCount": 8,
+        "characterCount": 120,
+        "nonWhitespaceCharacterCount": 104,
+        "newlineCount": 6
+      },
+      "frontmatter": {
+        "status": "Archived"
+      }
+    },
+    "Story/Story.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 29,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.09666666666666666,
+      "characterCount": 342,
+      "nonWhitespaceCharacterCount": 254,
+      "newlineCount": 20,
+      "readingTimeInMinutes": 0.10943396226415095,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758746887523,
+      "modifiedDate": 1766248038745,
+      "sizeInBytes": 393,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.09666666666666666,
+        "wordCount": 29,
+        "characterCount": 342,
+        "nonWhitespaceCharacterCount": 254,
+        "newlineCount": 20
+      },
+      "frontmatter": {
+        "cssclasses": [
+          "hcl"
+        ],
+        "obsidianUIMode": "preview"
+      }
+    },
+    "README.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 696,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 2.32,
+      "characterCount": 4508,
+      "nonWhitespaceCharacterCount": 3735,
+      "newlineCount": 69,
+      "readingTimeInMinutes": 2.6264150943396225,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1765040778086,
+      "modifiedDate": 1766250952309,
+      "sizeInBytes": 4530,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 2.32,
+        "wordCount": 696,
+        "characterCount": 4508,
+        "nonWhitespaceCharacterCount": 3735,
+        "newlineCount": 69
+      }
+    },
+    "Meta/Vault/Useful Websites & Tools.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 220,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.7333333333333333,
+      "characterCount": 2276,
+      "nonWhitespaceCharacterCount": 1966,
+      "newlineCount": 49,
+      "readingTimeInMinutes": 0.8301886792452831,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758488385475,
+      "modifiedDate": 1765037037164,
+      "sizeInBytes": 2360,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.7333333333333333,
+        "wordCount": 220,
+        "characterCount": 2276,
+        "nonWhitespaceCharacterCount": 1966,
+        "newlineCount": 49
+      },
+      "frontmatter": {
+        "tags": "Meta",
+        "status": "WIP",
+        "related": null,
+        "purpose": "Vault",
+        "priority": null,
+        "project_id": null
+      }
+    },
+    "Meta/Vault/Style & CSS Ideas.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 64,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.21333333333333335,
+      "characterCount": 903,
+      "nonWhitespaceCharacterCount": 789,
+      "newlineCount": 27,
+      "readingTimeInMinutes": 0.24150943396226415,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758400003034,
+      "modifiedDate": 1758569787827,
+      "sizeInBytes": 979,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.21333333333333335,
+        "wordCount": 64,
+        "characterCount": 903,
+        "nonWhitespaceCharacterCount": 789,
+        "newlineCount": 27
+      },
+      "frontmatter": {
+        "tags": "Meta",
+        "status": "WIP",
+        "related": null,
+        "purpose": "Vault",
+        "priority": null,
+        "project_id": null
+      }
+    },
+    "Meta/Vault/README.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 564,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.88,
+      "characterCount": 3865,
+      "nonWhitespaceCharacterCount": 3222,
+      "newlineCount": 54,
+      "readingTimeInMinutes": 2.128301886792453,
+      "linkCount": 8,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758480688064,
+      "modifiedDate": 1760475072359,
+      "sizeInBytes": 3946,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 1.88,
+        "wordCount": 564,
+        "characterCount": 3865,
+        "nonWhitespaceCharacterCount": 3222,
+        "newlineCount": 54
+      },
+      "frontmatter": {
+        "tags": "Meta",
+        "status": "Complete",
+        "related": null,
+        "purpose": "Vault",
+        "priority": null,
+        "project_id": null
+      }
+    },
+    "Meta/Vault/Quality Control Dashboard.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 715,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 2.3833333333333333,
+      "characterCount": 7032,
+      "nonWhitespaceCharacterCount": 5774,
+      "newlineCount": 270,
+      "readingTimeInMinutes": 2.69811320754717,
+      "linkCount": 3,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759543277237,
+      "modifiedDate": 1766247524955,
+      "sizeInBytes": 7122,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 2.3833333333333333,
+        "wordCount": 715,
+        "characterCount": 7032,
+        "nonWhitespaceCharacterCount": 5774,
+        "newlineCount": 270
+      },
+      "frontmatter": {
+        "tags": "Meta",
+        "status": "Complete",
+        "related": null,
+        "purpose": "Vault",
+        "priority": "High"
+      }
+    },
+    "Meta/Vault/Obsidian Vault Navigation Guide.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 664,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 2.2133333333333334,
+      "characterCount": 7061,
+      "nonWhitespaceCharacterCount": 5137,
+      "newlineCount": 185,
+      "readingTimeInMinutes": 2.5056603773584905,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758458486759,
+      "modifiedDate": 1766247809528,
+      "sizeInBytes": 8164,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 2.2133333333333334,
+        "wordCount": 664,
+        "characterCount": 7061,
+        "nonWhitespaceCharacterCount": 5137,
+        "newlineCount": 185
+      },
+      "frontmatter": {
+        "tags": "Meta",
+        "status": "Complete",
+        "related": null,
+        "purpose": "Vault",
+        "priority": null,
+        "project_id": null
+      }
+    },
+    "Meta/Vault/Master Tags List.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 4525,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 15.083333333333334,
+      "characterCount": 43173,
+      "nonWhitespaceCharacterCount": 36093,
+      "newlineCount": 1009,
+      "readingTimeInMinutes": 17.07547169811321,
+      "linkCount": 31,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759593333668,
+      "modifiedDate": 1766247607709,
+      "sizeInBytes": 43573,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 15.083333333333334,
+        "wordCount": 4525,
+        "characterCount": 43173,
+        "nonWhitespaceCharacterCount": 36093,
+        "newlineCount": 1009
+      },
+      "frontmatter": {
+        "tags": "Meta",
+        "status": "Complete",
+        "related": null,
+        "purpose": "Vault",
+        "priority": null,
+        "project_id": null
+      }
+    },
+    "Meta/Vault/Buttons.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 146,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.4866666666666667,
+      "characterCount": 1237,
+      "nonWhitespaceCharacterCount": 1041,
+      "newlineCount": 35,
+      "readingTimeInMinutes": 0.5509433962264151,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759544791454,
+      "modifiedDate": 1766247154455,
+      "sizeInBytes": 1245,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.4866666666666667,
+        "wordCount": 146,
+        "characterCount": 1237,
+        "nonWhitespaceCharacterCount": 1041,
+        "newlineCount": 35
+      }
+    },
+    "Meta/Reference/Templater Cheat Sheet.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 1925,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 6.416666666666667,
+      "characterCount": 15770,
+      "nonWhitespaceCharacterCount": 13195,
+      "newlineCount": 573,
+      "readingTimeInMinutes": 7.264150943396227,
+      "linkCount": 21,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1751466257350,
+      "modifiedDate": 1758470065760,
+      "sizeInBytes": 15854,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 6.416666666666667,
+        "wordCount": 1925,
+        "characterCount": 15770,
+        "nonWhitespaceCharacterCount": 13195,
+        "newlineCount": 573
+      },
+      "frontmatter": {
+        "tags": "Meta",
+        "status": null,
+        "related": null,
+        "purpose": "Reference",
+        "priority": null,
+        "project_id": null
+      }
+    },
+    "Meta/Planning/Scratch Note.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 36,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.12,
+      "characterCount": 721,
+      "nonWhitespaceCharacterCount": 644,
+      "newlineCount": 19,
+      "readingTimeInMinutes": 0.13584905660377358,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1758462071547,
+      "modifiedDate": 1760191208947,
+      "sizeInBytes": 809,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.12,
+        "wordCount": 36,
+        "characterCount": 721,
+        "nonWhitespaceCharacterCount": 644,
+        "newlineCount": 19
+      },
+      "frontmatter": {
+        "tags": "Meta",
+        "status": "Complete",
+        "related": null,
+        "purpose": "Planning",
+        "priority": "Med",
+        "project_id": null
+      }
+    },
+    "Home.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 189,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.63,
+      "characterCount": 2988,
+      "nonWhitespaceCharacterCount": 2714,
+      "newlineCount": 120,
+      "readingTimeInMinutes": 0.7132075471698113,
+      "linkCount": 42,
+      "embedCount": 27,
+      "aliases": null,
+      "createdDate": 1758494775571,
+      "modifiedDate": 1760191143807,
+      "sizeInBytes": 3106,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.63,
+        "wordCount": 189,
+        "characterCount": 2988,
+        "nonWhitespaceCharacterCount": 2714,
+        "newlineCount": 120
+      },
+      "frontmatter": {
+        "obsidianUIMode": "preview",
+        "banner": "Assets/Banners/war-peace-banner.jpeg",
+        "banner-x": 50,
+        "banner-y": 37
+      }
+    },
+    "Bases/World Images.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765999552,
+      "modifiedDate": 1759765999552,
+      "sizeInBytes": 148,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Timeline.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765999453,
+      "modifiedDate": 1759765999453,
+      "sizeInBytes": 375,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Technology.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765973349,
+      "modifiedDate": 1759765973349,
+      "sizeInBytes": 207,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Story.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765973236,
+      "modifiedDate": 1759765973236,
+      "sizeInBytes": 182,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Settlement.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765973121,
+      "modifiedDate": 1759765973121,
+      "sizeInBytes": 207,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Resource.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765973024,
+      "modifiedDate": 1759765973024,
+      "sizeInBytes": 205,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Research.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765972926,
+      "modifiedDate": 1759765972926,
+      "sizeInBytes": 183,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Religion.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765939218,
+      "modifiedDate": 1759765939218,
+      "sizeInBytes": 205,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Reference.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765939106,
+      "modifiedDate": 1759765939106,
+      "sizeInBytes": 184,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Project.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765938976,
+      "modifiedDate": 1759765938976,
+      "sizeInBytes": 182,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Politics.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765938880,
+      "modifiedDate": 1759765938880,
+      "sizeInBytes": 205,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Planning.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765906020,
+      "modifiedDate": 1759765906020,
+      "sizeInBytes": 183,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/POI.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765938797,
+      "modifiedDate": 1759765938797,
+      "sizeInBytes": 200,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Organization.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765905891,
+      "modifiedDate": 1759765905891,
+      "sizeInBytes": 209,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Obsidian-Vault.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765905775,
+      "modifiedDate": 1759765905775,
+      "sizeInBytes": 348,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Object.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765905678,
+      "modifiedDate": 1759765905678,
+      "sizeInBytes": 203,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Meta.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759180162652,
+      "modifiedDate": 1759180253273,
+      "sizeInBytes": 257,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Master-Base.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765905580,
+      "modifiedDate": 1759765905580,
+      "sizeInBytes": 291,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Magic.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765871193,
+      "modifiedDate": 1759765871193,
+      "sizeInBytes": 202,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Lore.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765871081,
+      "modifiedDate": 1759765871081,
+      "sizeInBytes": 201,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Language.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765870967,
+      "modifiedDate": 1759765870967,
+      "sizeInBytes": 205,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Inspiration.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765870869,
+      "modifiedDate": 1759765870869,
+      "sizeInBytes": 186,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/In-Progress-Notes.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765870787,
+      "modifiedDate": 1759765870787,
+      "sizeInBytes": 387,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/History.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765834938,
+      "modifiedDate": 1759765834938,
+      "sizeInBytes": 419,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Geography.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765812977,
+      "modifiedDate": 1759765812977,
+      "sizeInBytes": 206,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Flora.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765834856,
+      "modifiedDate": 1759765834856,
+      "sizeInBytes": 202,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Excalidraw.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765812864,
+      "modifiedDate": 1759765812864,
+      "sizeInBytes": 360,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Economy.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765812766,
+      "modifiedDate": 1759765812766,
+      "sizeInBytes": 204,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Culture-Art.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765812669,
+      "modifiedDate": 1759765812669,
+      "sizeInBytes": 208,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Creature.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765812587,
+      "modifiedDate": 1759765812587,
+      "sizeInBytes": 205,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Country.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765776289,
+      "modifiedDate": 1759765776289,
+      "sizeInBytes": 204,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Cosmos.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765757747,
+      "modifiedDate": 1759765757747,
+      "sizeInBytes": 264,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Condition.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765736846,
+      "modifiedDate": 1759765736846,
+      "sizeInBytes": 206,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Concept.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765718611,
+      "modifiedDate": 1759765718611,
+      "sizeInBytes": 204,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Character.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765682378,
+      "modifiedDate": 1759765682378,
+      "sizeInBytes": 332,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Brainstorm.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1759765621385,
+      "modifiedDate": 1759765621385,
+      "sizeInBytes": 185,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Bases/Ancestry.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758566495789,
+      "modifiedDate": 1759765972482,
+      "sizeInBytes": 294,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/TemplateImg/Placeholder-Generic.jpg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758495713970,
+      "modifiedDate": 1758495713966,
+      "sizeInBytes": 4142,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/TemplateImg/Placeholder-Character.jpg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1751466257890,
+      "modifiedDate": 1728826187000,
+      "sizeInBytes": 9318,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Maps/example-map.jpg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758494580274,
+      "modifiedDate": 1758494580275,
+      "sizeInBytes": 160174,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Maps/example-map.excalidraw.md": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758585767076,
+      "modifiedDate": 1759092497936,
+      "sizeInBytes": 3490,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Maps/ExampleMap.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 433,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.4433333333333334,
+      "characterCount": 2583,
+      "nonWhitespaceCharacterCount": 2088,
+      "newlineCount": 55,
+      "readingTimeInMinutes": 1.6339622641509435,
+      "linkCount": 0,
+      "embedCount": 1,
+      "aliases": null,
+      "createdDate": 1751466257299,
+      "modifiedDate": 1766246642221,
+      "sizeInBytes": 2585,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 1.4433333333333334,
+        "wordCount": 433,
+        "characterCount": 2583,
+        "nonWhitespaceCharacterCount": 2088,
+        "newlineCount": 55
+      }
+    },
+    "Assets/Banners/war-peace-banner.jpeg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758491530115,
+      "modifiedDate": 1760190800482,
+      "sizeInBytes": 1284382,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/quill-and-ink.jpeg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758494093055,
+      "modifiedDate": 1758494942751,
+      "sizeInBytes": 34964,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/medieval-forge.jpg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758494014113,
+      "modifiedDate": 1758494014114,
+      "sizeInBytes": 25293,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/card-timeline.jpg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758744780138,
+      "modifiedDate": 1758744780138,
+      "sizeInBytes": 64428,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/card-technology.jpg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758506363636,
+      "modifiedDate": 1758506363653,
+      "sizeInBytes": 115385,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/card-settlement.jpeg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758498924892,
+      "modifiedDate": 1760191143811,
+      "sizeInBytes": 62429,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/card-resource.jpg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758500797431,
+      "modifiedDate": 1758500797433,
+      "sizeInBytes": 120149,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/card-religion.jpeg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758504985741,
+      "modifiedDate": 1760191045751,
+      "sizeInBytes": 128549,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/card-politics.jpg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758504904727,
+      "modifiedDate": 1758504904736,
+      "sizeInBytes": 31071,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/card-poi.jpg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758500339676,
+      "modifiedDate": 1758500339677,
+      "sizeInBytes": 106185,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/card-organization.jpg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758502839652,
+      "modifiedDate": 1758502839653,
+      "sizeInBytes": 186564,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/card-object.jpg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758551712432,
+      "modifiedDate": 1758551712432,
+      "sizeInBytes": 127502,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/card-magic.jpeg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758505525996,
+      "modifiedDate": 1760190977913,
+      "sizeInBytes": 70709,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/card-lore.jpg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758549608112,
+      "modifiedDate": 1758549608122,
+      "sizeInBytes": 103376,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/card-language.jpeg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758504649541,
+      "modifiedDate": 1760190956798,
+      "sizeInBytes": 137582,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/card-history.jpg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758551502833,
+      "modifiedDate": 1758551502834,
+      "sizeInBytes": 62197,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/card-geography.jpg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758497793559,
+      "modifiedDate": 1758499131109,
+      "sizeInBytes": 94935,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/card-flora.jpeg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758499255870,
+      "modifiedDate": 1758499352842,
+      "sizeInBytes": 39499,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/card-economy.jpg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758504452999,
+      "modifiedDate": 1758504453016,
+      "sizeInBytes": 109091,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/card-culture.jpeg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758502175174,
+      "modifiedDate": 1760191133173,
+      "sizeInBytes": 240440,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/card-creature.jpeg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758496869946,
+      "modifiedDate": 1760191058624,
+      "sizeInBytes": 121987,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/card-country.jpeg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758506762413,
+      "modifiedDate": 1760191170285,
+      "sizeInBytes": 596440,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/card-cosmos.jpeg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758500638046,
+      "modifiedDate": 1760191014750,
+      "sizeInBytes": 122556,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/card-condition.jpg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758506457540,
+      "modifiedDate": 1758506457526,
+      "sizeInBytes": 165564,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/card-concept.jpg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758549178141,
+      "modifiedDate": 1758549178129,
+      "sizeInBytes": 153574,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/card-characters.jpg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758502935480,
+      "modifiedDate": 1758502935517,
+      "sizeInBytes": 114108,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Banners/card-ancestry.jpg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758501430603,
+      "modifiedDate": 1758501430617,
+      "sizeInBytes": 105387,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Archive/Template_Scene_old.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 206,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.6866666666666666,
+      "characterCount": 3515,
+      "nonWhitespaceCharacterCount": 2938,
+      "newlineCount": 104,
+      "readingTimeInMinutes": 0.7773584905660378,
+      "linkCount": 3,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1766241525974,
+      "modifiedDate": 1766241525974,
+      "sizeInBytes": 3515,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.6866666666666666,
+        "wordCount": 206,
+        "characterCount": 3515,
+        "nonWhitespaceCharacterCount": 2938,
+        "newlineCount": 104
+      }
+    },
+    "Archive/Template_Scene_Timeline.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 154,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.5133333333333333,
+      "characterCount": 2440,
+      "nonWhitespaceCharacterCount": 1962,
+      "newlineCount": 81,
+      "readingTimeInMinutes": 0.5811320754716981,
+      "linkCount": 3,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1765052437093,
+      "modifiedDate": 1765052437093,
+      "sizeInBytes": 2440,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.5133333333333333,
+        "wordCount": 154,
+        "characterCount": 2440,
+        "nonWhitespaceCharacterCount": 1962,
+        "newlineCount": 81
+      }
+    },
+    "Archive/Template_Plot_old.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 159,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.53,
+      "characterCount": 2656,
+      "nonWhitespaceCharacterCount": 2162,
+      "newlineCount": 77,
+      "readingTimeInMinutes": 0.6,
+      "linkCount": 3,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1765052623987,
+      "modifiedDate": 1765052623987,
+      "sizeInBytes": 2656,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.53,
+        "wordCount": 159,
+        "characterCount": 2656,
+        "nonWhitespaceCharacterCount": 2162,
+        "newlineCount": 77
+      }
+    },
+    "Archive/Template_Meta_Daily-Note.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 101,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.33666666666666667,
+      "characterCount": 1345,
+      "nonWhitespaceCharacterCount": 1164,
+      "newlineCount": 43,
+      "readingTimeInMinutes": 0.38113207547169814,
+      "linkCount": 1,
+      "embedCount": 1,
+      "aliases": null,
+      "createdDate": 1758468961283,
+      "modifiedDate": 1758677653197,
+      "sizeInBytes": 1431,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.33666666666666667,
+        "wordCount": 101,
+        "characterCount": 1345,
+        "nonWhitespaceCharacterCount": 1164,
+        "newlineCount": 43
+      },
+      "frontmatter": {
+        "tags": "Meta",
+        "status": "Archived",
+        "related": null,
+        "purpose": "Daily-Note",
+        "priority": null,
+        "project_id": null
+      }
+    }
+  }
+}

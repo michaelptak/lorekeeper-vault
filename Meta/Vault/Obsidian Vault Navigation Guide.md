@@ -22,7 +22,7 @@ project_id:
 > **Project ID** | `INPUT[text:project_id]` |
 # **`=this.file.name`**
 # Strategy/Tips
-- **Avoid using folder navigation for the most part.** 
+- **Avoid using folder navigation for the most part, unless you are working on a Story or something related to the vault like Templates** 
 	- Navigate from the Home Page. Accessed multiple places on the left file navigation or far left sidebar icon.
 		- Can always `CTRL+O` search for "Home"
 	- Use links:  typing open brackets `[[` will allow automatically selecting notes to create links
@@ -71,8 +71,9 @@ Root Directory/
 │   ├── Research/             # Information gathering and analysis
 │   └── Vault/                # Obsidian-specific configuration and maintenance
 ├── Story/                     # Narrative planning and story development
-│   ├── Plot/                 # Story structure, arcs, conflicts, and themes
-│   └── Scene/                # Individual scene outlines and story timeline
+	├── Example story/        # Project directory for a story
+	│   ├── Plot/                 # Story structure, arcs, conflicts, and themes
+	│   └── Scene/                # Individual scenes with actual prose
 ├── Templates/                 # Automated note creation and formatting
 │   ├── T_Actions/            # Templater automation scripts
 │   ├── T_Meta/               # Templates for vault management notes
@@ -155,8 +156,6 @@ Root Directory/
 │   ├── Research/
 │   └── Vault/
 ├── Story/
-│   ├── Plot/
-│   └── Scene/
 ├── Templates/
 │   ├── T_Actions/
 │   ├── T_Meta/

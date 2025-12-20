@@ -12,6 +12,9 @@
 > 2. Using Excalidraw (and embedding into the note)
 > 	- Pros: A lot more flexible with what you can do with it. You can stitch maps together, add text, import custom icons and markers, etc.
 > 	- Cons: You can't interact with the map itself on the note (But better than a static image, as you can simply double click to open it)
+> 3. Static Image
+> 	- Pros: Simplest solution
+> 	- Cons: You can’t connect points on the map to notes from your world
 
 # Leaflet Map
 ```leaflet
