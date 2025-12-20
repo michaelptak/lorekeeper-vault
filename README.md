@@ -53,7 +53,7 @@ The vault separates **planning** (Plot notes) from **writing** (Scene notes) to 
 - **Plot notes** = planning, outlines, meta-work
 - **Scene notes** = actual prose that appears in your final manuscript
 - **story_order** format: `chapter.scene.beat` (e.g. `1.1`, `2.3.1`)
-	- Using just chapters (e.g. `1.1`, `1.2`) is sufficient for most cases, but you can partition however you want
+	- Using just chapters (e.g. `1.0`, `2.0`) is sufficient for most cases, but you can partition however you want
 - **Compilation** seamlessly stitches all scenes together using Obsidian's embed syntax
 
 #### Useful Plugins for Writing
