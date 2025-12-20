@@ -26,11 +26,14 @@ This vault tries to do most of the heavy lifting on organization, metadata track
 1. Download or clone this repository
 2. Open the vault in Obsidian
 3. When prompted to enable plugins, click yes.
+4. Reload the vault to fix any visual oddities
 
 ## Usage
 In terms of customizability, you can get the most out of the vault if you have existing knowledge of Obsidian features such as templates and Bases, and plugins like Templater and MetaBind.
 
 However, I tried my best to make it as comprehensive and user-friendly as possible, given the complexity. There are many written resources within the vault itself to get an understanding of the structure and organization system. I recommend simply playing around with it and seeing how it works.
+
+Be sure to reference the `Master Tags List` note if you are ever confused on what a metadata property is supposed to contain.
 
 ### Story Writing Workflow
 The vault separates **planning** (Plot notes) from **writing** (Scene notes) to keep your creative process organized. Scene notes are minimalist for a cleaner writing experience. 
@@ -39,7 +42,9 @@ The vault separates **planning** (Plot notes) from **writing** (Scene notes) to 
 1. **Create a Story dashboard** using the Story template (use "New Story Note" button) - this becomes your central hub
 2. **Plan with Plot notes** - outline chapters, character arcs, themes, and story structure
 3. **Write with Scene notes** - each scene is a separate note containing only prose
-   - Use `story_order` property (e.g. `1.2.3` for Chapter 1, Scene 2, Beat 3) to organize scenes
+   - Use `story_order` property (e.g. `1.2.3` for Chapter 1, Scene 2, Beat 3) to organize scenes. (This is necessary if you want to automate compiling the manuscript in order)
+![Properties View](.github/images/properties-view.png)
+   - For these notes, edit the properties in the “File Properties” view. By default, I’ve disabled the properties being visible at the top of the document, since majority of notes use Meta Bind selectors anyways. This gives a much cleaner writing experience as well. If you ever lose this, just press `CTRL+SHIFT+P` to open it again.
    - The first number determines chapter grouping in your manuscript
    - *Tip:* `Ctrl+R` toggles readable line length for a more comfortable writing experience
 4. **Track progress** on your Story dashboard - see all scenes sorted by order with status and revision counts
@@ -48,6 +53,11 @@ The vault separates **planning** (Plot notes) from **writing** (Scene notes) to 
    - All scenes embedded in order
    - Proper metadata for export
 6. **Export** using the Pandoc plugin to DOCX, PDF, or ePub formats
+
+**Multiple Drafts**:
+There are multiple ways you could approach this, and I admit I haven’t found an the single best way to do so yet, but here are some ideas:
+- Just use the `revisions` property to track how many time you’ve revised a scene/chapter, and duplicate the chapter before a major revision if you want to save its contents. You can easily filter out older revisions on Obsidian Bases queries over time.
+- Keep just one note for the chapter, but organize revisions underneath headings (i.e. `#Revision 1`, `#Revision 2`, etc.), copy pasting and pushing down older revisions as you go. Could be convenient if you want everything all in one note, but will require you to clean up every note before you export the manuscript.
 
 **Key concepts:**
 - **Plot notes** = planning, outlines, meta-work

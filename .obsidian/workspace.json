@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "57a6e913afd6f0dd",
+            "id": "6d445a3c4e68f20d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -100,21 +100,7 @@
         "dimension": 56.681034482758626,
         "children": [
           {
-            "id": "e71db1b98ea5a4ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Meta/Planning/Scratch Note.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Scratch Note"
-            }
-          },
-          {
-            "id": "c7b357b0947c1b7a",
+            "id": "e668dbd57f5955f6",
             "type": "leaf",
             "state": {
               "type": "file-properties",
@@ -202,8 +188,7 @@
               "title": "Outline of README"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "b649fa7a5734e9c2",
@@ -249,44 +234,43 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "57a6e913afd6f0dd",
+  "active": "6d445a3c4e68f20d",
   "lastOpenFiles": [
-    "World/Resource/a.md",
-    "Meta/Vault/Buttons.md",
-    "README.md",
     "Home.md",
     "Meta/Planning/Scratch Note.md",
+    "README.md",
+    "Meta/Vault/Buttons.md",
+    "Meta/Vault/NewMetaNote.md",
+    "Story/The Best Story Ever/The Best Story Ever.md",
+    "Story/The Best Story Ever/Scenes/The Best First Chapter Ever.md",
+    "Meta/Vault/Master Tags List.md",
+    "Story/The Best Story Ever/Scenes",
+    "Story/Story.md",
+    "Story/The Best Story Ever",
+    "Story/Tester/Tester.md",
+    "Story/Tester/Scenes/Chapter 1.md",
+    "Story/Tester/Scenes",
+    "Story/Tester/Plot/Plolt Outline.md",
+    "Story/Tester/Plot",
+    "Story/Tester",
+    "Bases/Obsidian-Vault.base",
+    "Bases/In-Progress-Notes.base",
+    "Assets/Maps/ExampleMap.md",
+    "World/Resource/a.md",
     "Meta/Vault/Quality Control Dashboard.md",
     "World/Resource/terst.md",
     "Meta/Vault/NewStoryNote.md",
     "World/Geography/Mountains.md",
     "World/Object/test.md",
-    "Meta/Vault/NewMetaNote.md",
     "Bases/Geography.base",
     "Story/The Fellowship of the Ring/The Fellowship of the Ring-Manuscript.md",
     "Story/The Fellowship of the Ring/The Fellowship of the Ring-Manuscript.docx",
     "Story/The Fellowship of the Ring/The Fellowship of the Ring-Manuscript.odt",
     "Story/The Fellowship of the Ring/The Fellowship of the Ring.md",
-    "Story/Story.md",
     "Templates/T_Story/Template_Story.md",
-    "Assets/Maps/ExampleMap.md",
-    "Bases/In-Progress-Notes.base",
     "Templates/T_Story/Template_Compile_Manuscript.md",
     "Story/The Fellowship of the Ring/Scenes/A Long-Expected Party.md",
     "Meta/Vault/Obsidian Vault Navigation Guide.md",
-    "Bases/Obsidian-Vault.base",
-    "World/Timeline/World History Timeline.md",
-    "World/Timeline/Succession of Kingdom of Valor.md",
-    "World/History/The Bastard's Rebellion.md",
-    "Meta/Vault/Master Tags List.md",
-    "Bases/Meta.base",
-    "World/Magic/Fire.md",
-    "Story/The Fellowship of the Ring/Plot/Plot Outline.md",
-    "Story/The Fellowship of the Ring/Scenes/A Shadow of the Past.md",
-    "Bases/Timeline.base",
-    "Story/The Fellowship of the Ring/Plot",
-    "Story/The Fellowship of the Ring/The Fellowship of the Ring-Manuscript.epub",
-    "Story/The Fellowship of the Ring/Scenes",
     "Assets/Banners/card-country.jpeg",
     "Assets/Banners/card-settlement.jpeg",
     "Assets/Banners/card-culture.jpeg",
