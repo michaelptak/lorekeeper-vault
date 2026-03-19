@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "Story",
+      "path": "Story/Story.md"
+    },
+    {
+      "basename": "Excalidraw",
+      "path": "Bases/Excalidraw.base"
+    },
+    {
+      "basename": "Economy",
+      "path": "Bases/Economy.base"
+    },
+    {
+      "basename": "Creature",
+      "path": "Bases/Creature.base"
+    },
+    {
+      "basename": "Condition",
+      "path": "Bases/Condition.base"
+    },
+    {
+      "basename": "Character",
+      "path": "Bases/Character.base"
+    },
+    {
+      "basename": "Ancestry",
+      "path": "Bases/Ancestry.base"
+    },
+    {
+      "basename": "lorekeeper_meta",
+      "path": "lorekeeper_meta.md"
     },
     {
       "basename": "Scratch Note",
@@ -19,10 +51,6 @@
     {
       "basename": "Master Tags List",
       "path": "Meta/Vault/Master Tags List.md"
-    },
-    {
-      "basename": "Story",
-      "path": "Story/Story.md"
     },
     {
       "basename": "Obsidian-Vault",
@@ -57,18 +85,6 @@
       "path": "Meta/Vault/Obsidian Vault Navigation Guide.md"
     },
     {
-      "basename": "World History Timeline",
-      "path": "World/Timeline/World History Timeline.md"
-    },
-    {
-      "basename": "Succession of Kingdom of Valor",
-      "path": "World/Timeline/Succession of Kingdom of Valor.md"
-    },
-    {
-      "basename": "The Bastard's Rebellion",
-      "path": "World/History/The Bastard's Rebellion.md"
-    },
-    {
       "basename": "Meta",
       "path": "Bases/Meta.base"
     },
@@ -91,10 +107,6 @@
     {
       "basename": "Template_Scene_old",
       "path": "Archive/Template_Scene_old.md"
-    },
-    {
-      "basename": "lorekeeper_meta",
-      "path": "lorekeeper_meta.md"
     },
     {
       "basename": "Template_Scene_Timeline",
