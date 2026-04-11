@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.tags.contains("Meta")
+    - file.tags.contains("Notes")
 views:
   - type: table
     name: Table
@@ -9,8 +9,8 @@ views:
       - file.mtime
       - status
       - related
-      - purpose
+      - note_purpose
+      - story_title
       - priority
-      - project_id
     columnSize:
       file.mtime: 233

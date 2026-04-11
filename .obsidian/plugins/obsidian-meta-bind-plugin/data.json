@@ -15,7 +15,7 @@
   "inputFieldTemplates": [
     {
       "name": "Tags",
-      "declaration": "INPUT[inlineSelect(option(Meta), option(Story), option(Plot), option(Scene), option(Concept), option(History), option(Lore), option(Cosmos), option(Creature), option(Flora), option(Geography), option(POI), option(Resource), option(Settlement), option(Ancestry), option(Character), option(Culture/Art), option(Country), option(Economy), option(Language), option(Organization), option(Politics), option(Religion), option(Condition), option(Magic), option(Object), option(Technology))]"
+      "declaration": "INPUT[inlineSelect(option(Notes), option(Story), option(Plot), option(Scene), option(Concept), option(History), option(Lore), option(Cosmos), option(Creature), option(Flora), option(Geography), option(POI), option(Resource), option(Settlement), option(Ancestry), option(Character), option(Culture/Art), option(Country), option(Economy), option(Language), option(Organization), option(Politics), option(Religion), option(Condition), option(Magic), option(Object), option(Technology))]"
     },
     {
       "name": "Age",
@@ -420,15 +420,15 @@
       ]
     },
     {
-      "label": "New Meta Note",
+      "label": "New Note",
       "hidden": false,
-      "id": "MetaNoteSelector",
+      "id": "NotesNoteSelector",
       "style": "primary",
       "actions": [
         {
           "type": "templaterCreateNote",
-          "templateFile": "Templates/z_Scripts/Button_Meta_Selector.md",
-          "fileName": "NewMetaNote",
+          "templateFile": "Templates/z_Scripts/Button_Notes_Selector.md",
+          "fileName": "NewNote",
           "openNote": true
         }
       ]

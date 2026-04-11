@@ -1,108 +1,124 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
       "basename": "Home",
       "path": "Home.md"
     },
     {
-      "basename": "Story",
-      "path": "Story/Story.md"
+      "basename": "Notes",
+      "path": "Bases/Notes.base"
     },
     {
-      "basename": "Excalidraw",
-      "path": "Bases/Excalidraw.base"
+      "basename": "Buttons",
+      "path": "Notes/Documentation/Buttons.md"
     },
     {
-      "basename": "Economy",
-      "path": "Bases/Economy.base"
+      "basename": "Documentation",
+      "path": "Bases/Documentation.base"
     },
     {
-      "basename": "Creature",
-      "path": "Bases/Creature.base"
+      "basename": "README",
+      "path": "README.md"
     },
     {
-      "basename": "Condition",
-      "path": "Bases/Condition.base"
+      "basename": "Template_Notes_Research",
+      "path": "Templates/T_Notes/Template_Notes_Research.md"
     },
     {
-      "basename": "Character",
-      "path": "Bases/Character.base"
+      "basename": "Template_Notes_Planning",
+      "path": "Templates/T_Notes/Template_Notes_Planning.md"
     },
     {
-      "basename": "Ancestry",
-      "path": "Bases/Ancestry.base"
+      "basename": "Template_Notes_Documentation",
+      "path": "Templates/T_Notes/Template_Notes_Documentation.md"
+    },
+    {
+      "basename": "Template_Notes_Blank",
+      "path": "Templates/T_Notes/Template_Notes_Blank.md"
+    },
+    {
+      "basename": "Scratch Note",
+      "path": "Notes/Scratch Note.md"
+    },
+    {
+      "basename": "Template_Notes_Brainstorm",
+      "path": "Templates/T_Notes/Template_Notes_Brainstorm.md"
+    },
+    {
+      "basename": "Useful Websites & Tools",
+      "path": "Notes/Documentation/Useful Websites & Tools.md"
+    },
+    {
+      "basename": "Style & CSS Ideas",
+      "path": "Notes/Documentation/Style & CSS Ideas.md"
+    },
+    {
+      "basename": "Templater Cheat Sheet",
+      "path": "Notes/Documentation/Templater Cheat Sheet.md"
+    },
+    {
+      "basename": "README",
+      "path": "Notes/Documentation/README.md"
+    },
+    {
+      "basename": "Quality Control Dashboard",
+      "path": "Notes/Documentation/Quality Control Dashboard.md"
+    },
+    {
+      "basename": "Obsidian Vault Navigation Guide",
+      "path": "Notes/Documentation/Obsidian Vault Navigation Guide.md"
+    },
+    {
+      "basename": "Master Tags List",
+      "path": "Notes/Documentation/Master Tags List.md"
     },
     {
       "basename": "lorekeeper_meta",
       "path": "lorekeeper_meta.md"
     },
     {
-      "basename": "Scratch Note",
-      "path": "Meta/Planning/Scratch Note.md"
-    },
-    {
-      "basename": "Buttons",
-      "path": "Meta/Vault/Buttons.md"
-    },
-    {
-      "basename": "Master Tags List",
-      "path": "Meta/Vault/Master Tags List.md"
-    },
-    {
-      "basename": "Obsidian-Vault",
-      "path": "Bases/Obsidian-Vault.base"
-    },
-    {
-      "basename": "In-Progress-Notes",
-      "path": "Bases/In-Progress-Notes.base"
-    },
-    {
-      "basename": "ExampleMap",
-      "path": "Assets/Maps/ExampleMap.md"
-    },
-    {
-      "basename": "Quality Control Dashboard",
-      "path": "Meta/Vault/Quality Control Dashboard.md"
-    },
-    {
-      "basename": "Geography",
-      "path": "Bases/Geography.base"
-    },
-    {
-      "basename": "Template_Story",
-      "path": "Templates/T_Story/Template_Story.md"
+      "basename": "Story",
+      "path": "Story/Story.md"
     },
     {
       "basename": "Template_Compile_Manuscript",
       "path": "Templates/T_Story/Template_Compile_Manuscript.md"
     },
     {
-      "basename": "Obsidian Vault Navigation Guide",
-      "path": "Meta/Vault/Obsidian Vault Navigation Guide.md"
+      "basename": "Template_History_Timeline",
+      "path": "Templates/T_World/Template_History_Timeline.md"
     },
     {
-      "basename": "Meta",
-      "path": "Bases/Meta.base"
+      "basename": "Template_Ancestry",
+      "path": "Templates/T_World/Template_Ancestry.md"
     },
     {
-      "basename": "Timeline",
-      "path": "Bases/Timeline.base"
-    },
-    {
-      "basename": "Template_Scene",
-      "path": "Templates/T_Story/Template_Scene.md"
+      "basename": "Template_Story",
+      "path": "Templates/T_Story/Template_Story.md"
     },
     {
       "basename": "Template_Plot",
       "path": "Templates/T_Story/Template_Plot.md"
     },
     {
-      "basename": "Template_Plot_old",
-      "path": "Archive/Template_Plot_old.md"
+      "basename": "Template_Character",
+      "path": "Templates/T_World/Template_Character.md"
+    },
+    {
+      "basename": "Character",
+      "path": "Bases/Character.base"
+    },
+    {
+      "basename": "Creature",
+      "path": "Bases/Creature.base"
+    },
+    {
+      "basename": "Concept",
+      "path": "Bases/Concept.base"
+    },
+    {
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
     },
     {
       "basename": "Template_Scene_old",
@@ -113,76 +129,52 @@
       "path": "Archive/Template_Scene_Timeline.md"
     },
     {
-      "basename": "Master-Base",
-      "path": "Bases/Master-Base.base"
+      "basename": "Template_Plot_old",
+      "path": "Archive/Template_Plot_old.md"
     },
     {
-      "basename": "Lore",
-      "path": "Bases/Lore.base"
+      "basename": "Template_Meta_Daily-Note",
+      "path": "Archive/Template_Meta_Daily-Note.md"
     },
     {
-      "basename": "Useful Websites & Tools",
-      "path": "Meta/Vault/Useful Websites & Tools.md"
+      "basename": "ExampleMap",
+      "path": "Assets/Maps/ExampleMap.md"
     },
     {
-      "basename": "Style & CSS Ideas",
-      "path": "Meta/Vault/Style & CSS Ideas.md"
+      "basename": "example-map.excalidraw",
+      "path": "Assets/Maps/example-map.excalidraw.md"
     },
     {
-      "basename": "Template_Character",
-      "path": "Templates/T_World/Template_Character.md"
+      "basename": "example-map",
+      "path": "Assets/Maps/example-map.jpg"
     },
     {
-      "basename": "Button_World_Selector",
-      "path": "Templates/z_Scripts/Button_World_Selector.md"
+      "basename": "war-peace-banner",
+      "path": "Assets/Banners/war-peace-banner.jpeg"
     },
     {
-      "basename": "Button_Story_Selector",
-      "path": "Templates/z_Scripts/Button_Story_Selector.md"
+      "basename": "medieval-forge",
+      "path": "Assets/Banners/medieval-forge.jpg"
     },
     {
-      "basename": "README",
-      "path": "Meta/Vault/README.md"
+      "basename": "quill-and-ink",
+      "path": "Assets/Banners/quill-and-ink.jpeg"
     },
     {
-      "basename": "Template_Settlement",
-      "path": "Templates/T_World/Template_Settlement.md"
+      "basename": "card-ancestry",
+      "path": "Assets/Banners/card-ancestry.jpg"
     },
     {
-      "basename": "Template_Geography",
-      "path": "Templates/T_World/Template_Geography.md"
+      "basename": "Excalidraw",
+      "path": "Bases/Excalidraw.base"
     },
     {
-      "basename": "Template_Country",
-      "path": "Templates/T_World/Template_Country.md"
+      "basename": "Economy",
+      "path": "Bases/Economy.base"
     },
     {
-      "basename": "Template_Cosmos",
-      "path": "Templates/T_World/Template_Cosmos.md"
-    },
-    {
-      "basename": "Template_Ancestry",
-      "path": "Templates/T_World/Template_Ancestry.md"
-    },
-    {
-      "basename": "Button_Meta_Selector",
-      "path": "Templates/z_Scripts/Button_Meta_Selector.md"
-    },
-    {
-      "basename": "Metabind Function",
-      "path": "Templates/z_Scripts/Metabind Function.md"
-    },
-    {
-      "basename": "Metabind JS test",
-      "path": "Templates/z_Scripts/Metabind JS test.md"
-    },
-    {
-      "basename": "Research",
-      "path": "Bases/Research.base"
-    },
-    {
-      "basename": "Inspiration",
-      "path": "Bases/Inspiration.base"
+      "basename": "Condition",
+      "path": "Bases/Condition.base"
     }
   ],
   "omittedPaths": [],

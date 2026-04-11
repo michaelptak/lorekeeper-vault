@@ -1,8 +1,9 @@
 ---
-tags: Meta
+tags: Notes
 status: Complete
 related:
-purpose: Vault
+note_purpose: Vault
+story_title:
 priority: High
 ---
 
@@ -14,14 +15,15 @@ priority: High
 > **Status** | `INPUT[select(option(Stub), option(Planned), option(WIP), option(Complete)):status]` |
 > **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates"), useLinks(partial)):related]` |
 >
-> #### Meta Properties
+> #### Notes Properties
 >  |
 > ---|---|
-> **Purpose** | `INPUT[select(option(Project), option(Planning), option(Research), option(Brainstorm), option(Daily-Note), option(Vault), option(Reference), option(Inspiration)):purpose]` |
+> **Note Purpose** | `INPUT[text:note_purpose]` |
+> **Story Title** | `INPUT[text:story_title]` |
 > **Priority** | `INPUT[select(option(High), option(Med), option(Low)):priority]` |
 
 > [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
-> **Quick Links:** [[Obsidian-Vault.base|Vault Notes]] | [[Meta.base|All Meta Notes]] | [[Home]]
+> **Quick Links:** [[Documentation.base|Documentation]] | [[Notes.base|All Notes]] | [[Home]]
 # **Quality Control Dashboard**
 
 This dashboard helps maintain vault quality by identifying notes that need attention.

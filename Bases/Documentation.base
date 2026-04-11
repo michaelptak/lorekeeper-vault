@@ -1,6 +1,9 @@
 filters:
   and:
-    - purpose == "Vault"
+    - or:
+        - note_purpose.contains("Documentation")
+        - note_purpose.contains("Vault")
+        - file.path.contains("Notes/Documentation")
     - '!file.path.contains("Templates")'
 views:
   - type: table
@@ -8,7 +11,7 @@ views:
     order:
       - file.name
       - file.mtime
-      - purpose
+      - note_purpose
       - status
     sort:
       - property: status

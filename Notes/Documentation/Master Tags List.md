@@ -1,10 +1,10 @@
 ---
-tags: Meta
+tags: Notes
 status: Complete
 related:
-purpose: Vault
+note_purpose: Vault
+story_title:
 priority:
-project_id:
 ---
 > [!metadata]- Meta Data
 > #### General
@@ -14,17 +14,17 @@ project_id:
 > **Status** | `INPUT[select(option(Stub), option(Planned), option(WIP), option(Complete)):status]` |
 > **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates"), useLinks(partial)):related]` |
 > 
-> #### Meta Properties
+> #### Notes Properties
 >  |
 > ---|---|
-> **Purpose** | Vault |
+> **Note Purpose** | `INPUT[text:note_purpose]` |
+> **Story Title** | `INPUT[text:story_title]` |
 > **Priority** | `INPUT[select(option(High), option(Med), option(Low)):priority]` |
-> **Project ID** | `INPUT[text:project_id]` |
 
 > [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]- Navigation
-> **Quick Links:** [[Obsidian-Vault.base|Vault Notes]] | [[Meta.base|All Meta Notes]] | [[Home]]
+> **Quick Links:** [[Documentation.base|Documentation]] | [[Notes.base|All Notes]] | [[Home]]
 > 
-> [[#Meta]]
+> [[#Notes]]
 > 
 > [[#Story]] ([[#Plot]] · [[#Scene]])
 > 
@@ -66,7 +66,7 @@ project_id:
     - Move to the "Archive" folder automatically using Templater 
 - `related` 
   - Broadly link to any note if it doesn't fall under one of the usual properties.
-  - Particularly useful for linking any note to a `concept` as this is a very broad category. Also great for `meta` research notes
+  - Particularly useful for linking any note to a `concept` as this is a very broad category. Also great for research notes
 
 ## Universal Properties
 - **Note: Not always applicable but used by many templates.**
@@ -83,19 +83,11 @@ project_id:
   - `timelines` - List timeline names (defaults to world-history)
 
 ## Categories (Tags)
-### Meta
-- **Meta** (for example brainstorming, notes, to-dos, as well as researach-something like a master list of all categories would fall under this)
-  - `purpose` - brainstorming, research, to-do, reference
-    - Project (Indicates specific projects that span multiple notes)
-    - Planning (To-dos, Tasks lists, writing schedules, etc.)
-    - Research (broadly anything related to research rather than the world itself)
-    - Brainstorm (Raw, unformed ideas before you know what they are.)
-    - Vault (Related to Obsidian and the vault itself as opposed to the world- useful to keep some resources here)
-    - Reference (Basically a resource, something to drop in from external source that will not be changing much)
-      - Image board: (Art/Photos for reference, useful to filter out stuff related to the actual world itself)
-    - Insipiration (External sources, quotes, or ideas from other media that might influence your world)
-  - `priority`- High, Med, Low
-  - `project-id` If this note is a project, provide a unique id referencing that specific project
+### Notes
+- **Notes** (catch-all for anything that isn't World, Story, Assets, Indexes, or Templates — brainstorming, research, to-dos, documentation, references, etc.)
+  - `note_purpose` - free text field describing the note's purpose (e.g. Brainstorm, Research, Planning, Reference, Documentation)
+  - `story_title` - text field for filtering on stories (optional)
+  - `priority` - High, Med, Low
 
 ### Story
 - **Story** (narrative planning and story development using your fictional world)

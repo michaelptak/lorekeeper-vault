@@ -4,3 +4,7 @@ lorekeeper_meta.md
 # Automation scripts 
 /*.py 
 /*.sh
+
+# Claude 
+.claude
+CLAUDE.md

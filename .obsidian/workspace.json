@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Home"
             }
           }
         ]
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5
+    "width": 311.5,
+    "collapsed": true
   },
   "right": {
     "id": "1ecafacdc1e79d14",
@@ -105,10 +106,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "Home.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for README"
+              "title": "File properties for Home"
             }
           },
           {
@@ -202,7 +203,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meta/Vault/Buttons.md",
+                "file": "Notes/Documentation/Buttons.md",
                 "mode": "source",
                 "source": false
               },
@@ -236,51 +237,52 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "lorekeeper_meta.md~",
+    "Notes/tester.md",
+    "Bases/Notes.base",
+    "Notes/Documentation/Buttons.md",
     "Home.md",
-    "World/Timeline",
-    "World/History",
-    "World/Timeline/World History Timeline.md",
-    "World/Timeline/Succession of Kingdom of Valor.md",
-    "Story/Story.md",
-    "Bases/Excalidraw.base",
-    "Bases/Economy.base",
-    "Bases/Creature.base",
-    "Bases/Condition.base",
-    "Bases/Character.base",
-    "Bases/Ancestry.base",
+    "Bases/Documentation.base",
+    "Notes/Documentation/README.md.tmp.81630.1775921535536",
     "README.md",
-    "lorekeeper_meta.md",
-    "Meta/Planning/Scratch Note.md",
-    "Meta/Vault/Buttons.md",
-    "Meta/Vault/NewMetaNote.md",
-    "Story/The Best Story Ever/The Best Story Ever.md",
-    "Story/The Best Story Ever/Scenes/The Best First Chapter Ever.md",
-    "Meta/Vault/Master Tags List.md",
-    "Story/The Best Story Ever/Scenes",
-    "Story/The Best Story Ever",
-    "Story/Tester/Tester.md",
-    "Story/Tester/Scenes/Chapter 1.md",
-    "Story/Tester/Plot/Plolt Outline.md",
-    "Assets/Maps/ExampleMap.md",
-    "World/Resource/a.md",
-    "Meta/Vault/Quality Control Dashboard.md",
-    "World/Resource/terst.md",
-    "Meta/Vault/NewStoryNote.md",
-    "World/Geography/Mountains.md",
-    "World/Object/test.md",
-    "Story/The Fellowship of the Ring/The Fellowship of the Ring-Manuscript.md",
-    "Story/The Fellowship of the Ring/The Fellowship of the Ring.md",
-    "Templates/T_Story/Template_Story.md",
-    "Assets/Banners/card-country.jpeg",
-    "Assets/Banners/card-settlement.jpeg",
-    "Assets/Banners/card-culture.jpeg",
-    "Assets/Banners/card-religion.jpeg",
-    "Assets/Banners/card-creature.jpeg",
-    "Assets/Banners/card-politics.jpg",
-    "Assets/Banners/card-poi.jpg",
-    "Assets/Banners/card-language.jpeg",
-    "Assets/Banners/card-cosmos.jpeg",
-    "Assets/Banners/card-magic.jpeg",
+    "Templates/T_Notes/Template_Notes_Research.md",
+    "Templates/T_Notes/Template_Notes_Planning.md",
+    "Templates/T_Notes/Template_Notes_Documentation.md",
+    "Templates/T_Notes/Template_Notes_Blank.md",
+    "Notes/Scratch Note.md",
+    "Notes/Documentation/Master Tags List.md.tmp.81630.1775919959564",
+    "Notes/Documentation/Master Tags List.md.tmp.81630.1775919952403",
+    "Notes/Documentation/Master Tags List.md.tmp.81630.1775919932266",
+    "Templates/z_Scripts/Button_Notes_Selector.md",
+    "Home.md.tmp.81630.1775919379026",
+    "Bases/Documentation.base.tmp.81630.1775919363648",
+    "Templates/T_Notes/Template_Notes_Brainstorm.md",
+    "Notes/Documentation/Useful Websites & Tools.md",
+    "Notes/Documentation/Style & CSS Ideas.md",
+    "Templates/T_Notes/Template_Notes_Reference.md",
+    "Notes/Documentation/Templater Cheat Sheet.md",
+    "Notes/Documentation/README.md",
+    "Notes/Documentation/Quality Control Dashboard.md",
+    "Notes/Documentation/Obsidian Vault Navigation Guide.md",
+    "Notes/Documentation/Master Tags List.md",
+    "Notes/Documentation/Buttons.md.tmp.81630.1775919228679",
+    "Notes/Documentation/Templater Cheat Sheet.md.tmp.81630.1775919222244",
+    "Templates/T_Meta/Template_Meta_Inspiration.md",
+    "Templates/T_Meta/Template_Meta_Blank.md",
+    "Templates/T_Notes/placeholder.md",
+    "Notes/Documentation/placeholder.md",
+    "Notes/placeholder.md",
+    "Templates/T_Notes.md",
+    "Assets/Maps/example-map.jpg",
+    "Assets/Banners/war-peace-banner.jpeg",
+    "z_exampleimages/war-peace-banner.jpeg",
+    "z_exampleimages/quill-and-ink.jpeg",
+    "z_exampleimages/medieval-forge.jpg",
+    "z_exampleimages/card-timeline.jpg",
+    "z_exampleimages/card-technology.jpg",
+    "z_exampleimages/card-settlement.jpeg",
+    "z_exampleimages/card-resource.jpg",
+    "z_exampleimages/card-religion.jpeg",
     "Meta/BrainstormBoard/BrainstormBoard.canvas",
     "Meta/30 Day Challenge/30 Day Challenge.canvas",
     "06. Unsorted/Seventsian1.0/02. Civilization/Races+Cultures/Mankind/Mankind.canvas",

@@ -1,10 +1,10 @@
 ---
-tags: Meta
+tags: Notes
 status:
 related:
-purpose: Reference
+note_purpose: Reference
+story_title:
 priority:
-project_id:
 ---
 > [!metadata]- Meta Data
 > #### General
@@ -14,12 +14,12 @@ project_id:
 > **Status** | `INPUT[select(option(Stub), option(Planned), option(WIP), option(Complete)):status]` |
 > **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates"), useLinks(partial)):related]` |
 > 
-> #### Meta Properties
+> #### Notes Properties
 >  |
 > ---|---|
-> **Purpose** | Reference |
+> **Note Purpose** | `INPUT[text:note_purpose]` |
+> **Story Title** | `INPUT[text:story_title]` |
 > **Priority** | `INPUT[select(option(High), option(Med), option(Low)):priority]` |
-> **Project ID** | `INPUT[text:project_id]` |
 # **`=this.file.name`**
 # Templater Cheat Sheet 
 for the *Obsidian Plugin "Templater"*

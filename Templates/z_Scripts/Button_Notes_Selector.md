@@ -1,18 +1,18 @@
 <%*
-// Get all template files in T_Meta folder
-const metaTemplateFiles = app.vault.getFiles()
-    .filter(file => file.path.startsWith("Templates/T_Meta/") && file.name.endsWith(".md"))
+// Get all template files in T_Notes folder
+const notesTemplateFiles = app.vault.getFiles()
+    .filter(file => file.path.startsWith("Templates/T_Notes/") && file.name.endsWith(".md"))
     .map(file => ({
-        name: file.name.replace("Template_Meta_", "").replace(".md", ""),
+        name: file.name.replace("Template_Notes_", "").replace(".md", ""),
         path: file.path
     }));
 
-if (metaTemplateFiles.length > 0) {
+if (notesTemplateFiles.length > 0) {
     // Create display names and file paths for suggester
-    const displayNames = metaTemplateFiles.map(template => template.name);
-    const templatePaths = metaTemplateFiles.map(template => template.path);
+    const displayNames = notesTemplateFiles.map(template => template.name);
+    const templatePaths = notesTemplateFiles.map(template => template.path);
     
-    // Let user select from available meta templates
+    // Let user select from available notes templates
     const selectedTemplate = await tp.system.suggester(displayNames, templatePaths);
     
     if (selectedTemplate) {
@@ -27,6 +27,6 @@ if (metaTemplateFiles.length > 0) {
     }
 } else {
     // Fallback if no templates found
-    new Notice("No meta templates found in Templates/T_Meta/", 5000);
+    new Notice("No notes templates found in Templates/T_Notes/", 5000);
 }
 _%>

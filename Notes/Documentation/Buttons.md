@@ -6,7 +6,7 @@
 >
 >> [!Create Notes|clean]
 >> ####
->> `BUTTON[MetaNoteSelector]`
+>> `BUTTON[NotesNoteSelector]`
 >> #####
 >> `BUTTON[WorldNoteSelector]`
 >> #####

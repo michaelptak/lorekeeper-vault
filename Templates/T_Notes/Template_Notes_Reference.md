@@ -1,10 +1,10 @@
 ---
-tags: Meta
+tags: Notes
 status:
 related:
-purpose: Inspiration
+note_purpose: Reference
+story_title:
 priority:
-project_id:
 ---
 > [!metadata]- Meta Data
 > #### General
@@ -14,26 +14,26 @@ project_id:
 > **Status** | `INPUT[select(option(Stub), option(Planned), option(WIP), option(Complete)):status]` |
 > **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates"), useLinks(partial)):related]` |
 > 
-> #### Meta Properties
+> #### Notes Properties
 >  |
 > ---|---|
-> **Purpose** | Inspiration |
+> **Note Purpose** | Reference |
+> **Story Title** | `INPUT[text:story_title]` |
 > **Priority** | `INPUT[select(option(High), option(Med), option(Low)):priority]` |
-> **Project ID** | `INPUT[text:project_id]` |
 
 > [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
-> [[Inspiration.base|Inspiration]] | [[Meta.base|All Meta Notes]] | [[Home]]
+> [[Notes.base|All Notes]] | [[Home]]
 # **`=this.file.name`**
 <%*
-const hasNewMetaTitle = tp.file.title.startsWith("NewMetaNote"); 
+const hasNewNoteTitle = tp.file.title.startsWith("NewNote"); 
 const hasUntitledTitle = tp.file.title.startsWith("Untitled");
 let title;
-if (hasNewMetaTitle || hasUntitledTitle) {
-    title = await tp.system.prompt("Enter Inspiration Note Name");
+if (hasNewNoteTitle || hasUntitledTitle) {
+    title = await tp.system.prompt("Enter Reference Note Name");
     await tp.file.rename(title);
 } else {
     title = tp.file.title;
 }
-const targetFolder = "Meta/Inspiration";
+const targetFolder = "Notes";
 await tp.file.move(`${targetFolder}/${title}`);
 _%>

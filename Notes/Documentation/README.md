@@ -1,10 +1,10 @@
 ---
-tags: Meta
+tags: Notes
 status: Complete
 related:
-purpose: Vault
+note_purpose: Vault
+story_title:
 priority:
-project_id:
 ---
 > [!metadata]- Meta Data
 > #### General
@@ -14,21 +14,21 @@ project_id:
 > **Status** | `INPUT[select(option(Stub), option(Planned), option(WIP), option(Complete)):status]` |
 > **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates"), useLinks(partial)):related]` |
 > 
-> #### Meta Properties
+> #### Notes Properties
 >  |
 > ---|---|
-> **Purpose** | Vault |
+> **Note Purpose** | `INPUT[text:note_purpose]` |
+> **Story Title** | `INPUT[text:story_title]` |
 > **Priority** | `INPUT[select(option(High), option(Med), option(Low)):priority]` |
-> **Project ID** | `INPUT[text:project_id]` |
 
 > [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c] Navigation
-> [[Obsidian-Vault.base|Vault Notes]] | [[Meta.base|All Meta Notes]] | [[Home]]
+> [[Documentation.base|Documentation]] | [[Notes.base|All Notes]] | [[Home]]
 # **`=this.file.name`**
 ## Note
 This vault is not beginner friendly if you want to make your own templates and categories that aren't include in my current system. I did my best to make the system as comprehensive as possible, and to automate as much as I can.
 
-If you ever want to view all the meta notes related to how the vault is set up, check out:
-[[Obsidian-Vault.base]]
+If you ever want to view all the documentation notes related to how the vault is set up, check out:
+[[Documentation.base]]
 
 ## Essentials
 ### View Mode / Live Preview Mode / Source Mode

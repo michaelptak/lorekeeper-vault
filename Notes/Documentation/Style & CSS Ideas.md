@@ -1,10 +1,10 @@
 ---
-tags: Meta
+tags: Notes
 status: WIP
 related:
-purpose: Vault
+note_purpose: Vault
+story_title:
 priority:
-project_id:
 ---
 > [!metadata]- Meta Data
 > #### General
@@ -14,12 +14,12 @@ project_id:
 > **Status** | `INPUT[select(option(Stub), option(Planned), option(WIP), option(Complete)):status]` |
 > **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates"), useLinks(partial)):related]` |
 > 
-> #### Meta Properties
+> #### Notes Properties
 >  |
 > ---|---|
-> **Purpose** | Vault |
+> **Note Purpose** | `INPUT[text:note_purpose]` |
+> **Story Title** | `INPUT[text:story_title]` |
 > **Priority** | `INPUT[select(option(High), option(Med), option(Low)):priority]` |
-> **Project ID** | `INPUT[text:project_id]` |
 # **`=this.file.name`**
 
 # Appearance tab colors that were decent

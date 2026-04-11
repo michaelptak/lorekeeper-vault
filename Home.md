@@ -19,20 +19,16 @@ banner-y: 37
 
 >[!column| no-title flex]
 >> [!summary|clean] # Vault Essentials
->> - [[Obsidian-Vault.base|All Vault Info]]
+>> - [[Documentation.base|Documentation]]
 >> - [[Master Tags List]]
 >> - [[Obsidian Vault Navigation Guide]]
 >> - [[Quality Control Dashboard]]
 >> - [[Master-Base.base | Master Database]]
 >> - [[Buttons]]
->> - [[Scratch Note]]
 >
->> [!note|clean] # Other Meta Notes
->> - 🧠 [[Brainstorm.base|Brainstorming]]
->> - 📋 [[Planning.base|Planning]]
->> - 🔍 [[Research.base|Research]]
->> - 💡 [[Inspiration.base|Inspiration]]
->> - 📚 [[Reference.base|Reference]]
+>> [!note|clean] # Notes
+>> - [[Notes.base|All Notes]]
+>> - [[Scratch Note]]
 >
 >>[!note|clean] # Recent files 
 >> ```dataview
