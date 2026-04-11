@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiArchive",
       "LiNotebook",
       "LiNotepadText",
       "LiScrollText",
-      "LiExcalidrawIcon",
-      "LiDatabase"
+      "LiExcalidrawIcon"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -37,10 +37,10 @@
   "World": "LiEarth",
   "Templates": "LiTemplaterIcon",
   "Assets": "🖼",
-  "Archive": "LiArchive",
-  "Bases": "LiDatabase",
   "Drawings": "LiExcalidrawIcon",
   "Story": "LiScrollText",
   "Home.md": "LiHomepage",
-  "Notes": "LiNotebook"
+  "Notes": "LiNotebook",
+  "Archive": "LiArchive",
+  "Indexes": "LiDatabase"
 }

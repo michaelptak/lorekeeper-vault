@@ -19,7 +19,7 @@ banner-y: 37
 
 >[!column| no-title flex]
 >> [!summary|clean] # Vault Essentials
->> - [[Documentation.base|Documentation]]
+>> - [[Documentation]]
 >> - [[Master Tags List]]
 >> - [[Obsidian Vault Navigation Guide]]
 >> - [[Quality Control Dashboard]]
@@ -27,7 +27,7 @@ banner-y: 37
 >> - [[Buttons]]
 >
 >> [!note|clean] # Notes
->> - [[Notes.base|All Notes]]
+>> - [[Notes|All Notes]]
 >> - [[Scratch Note]]
 >
 >>[!note|clean] # Recent files 

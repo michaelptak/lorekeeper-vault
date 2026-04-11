@@ -7,7 +7,7 @@ story_title:
 priority:
 ---
 > [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
-> [[Documentation.base|Documentation]] | [[Notes.base|All Notes]] | [[Home]]
+> [[Documentation|Documentation]] | [[Notes|All Notes]] | [[Home]]
 # **`=this.file.name`**
 <%*
 const hasNewNoteTitle = tp.file.title.startsWith("NewNote"); 

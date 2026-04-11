@@ -8,17 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "5a518b8fdad34256",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "lorekeeper_meta.md",
-                "mode": "source",
-                "source": false
+                "file": "Indexes/Character.base",
+                "viewName": "View"
               },
-              "icon": "lucide-file",
-              "title": "lorekeeper_meta"
+              "icon": "lucide-table",
+              "title": "Character"
             }
           }
         ]
@@ -105,10 +104,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "lorekeeper_meta.md"
+                "file": "Indexes/Character.base"
               },
               "icon": "lucide-info",
-              "title": "File properties for lorekeeper_meta"
+              "title": "File properties for Character"
             }
           },
           {
@@ -117,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Indexes/Character.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Home"
+              "title": "Backlinks for Character"
             }
           },
           {
@@ -203,7 +202,7 @@
               "type": "markdown",
               "state": {
                 "file": "Notes/Documentation/Buttons.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "pinned": true,
@@ -228,50 +227,52 @@
       "daily-notes:Open today's daily note": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "templater-obsidian:Templater": false,
-      "homepage:Open homepage": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "pexels-banner:🚩 Pixel Banner Menu": false,
-      "calendarium:Open Calendarium": false
+      "calendarium:Open Calendarium": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "5a518b8fdad34256",
   "lastOpenFiles": [
-    "Untitled.md",
-    "lorekeeper_meta.md",
-    "README.md",
-    "Story/Story.md",
-    "Bases/Notes.base",
-    "Notes/Documentation/README.md",
+    "Indexes/Character.md",
+    "Indexes/Character.base",
     "Home.md",
-    "Notes/ResearchTest.md",
-    "lorekeeper_meta.md.tmp.81630.1775924436799",
+    "Indexes/NewWorldNote.md",
+    "World/Character/Bro.md",
+    "Indexes/Concept.base",
+    "Indexes/Character.md.tmp.211135.1775936715410",
+    "Indexes/Condition.base",
+    "Indexes/Creature.base",
+    "Indexes/Culture-Art.base",
+    "Indexes/Documentation.md",
+    "Indexes/Ancestry.base",
+    "Indexes/In-Progress-Notes.base",
+    "Indexes/Language.base",
+    "Indexes/Lore.base",
+    "Indexes/Notes.md",
+    "Notes/Scratch Note.md",
+    "Notes/Test.md",
     "Notes/Documentation/Buttons.md",
-    "Notes/Documentation/Obsidian Vault Navigation Guide.md",
-    "Bases/Documentation.base",
-    "Notes/Documentation/Master Tags List.md",
-    "Templates/Metadata/Seed_Notes_3.md",
-    "Templates/Metadata/Seed_Notes_4.md",
-    "Templates/Metadata/Seed_Notes_5.md",
-    "Templates/Metadata/Seed_Notes_2.md",
-    "Templates/Metadata/Seed_Notes.md",
-    "Templates/Metadata/Seed_Default_5.md",
-    "Templates/Metadata/Seed_Default_4.md",
-    "Templates/Metadata/Seed_Default_2.md",
-    "Templates/Metadata/Seed_Default.md",
-    "Templates/Metadata/Seed_Default_3.md",
-    "Templates/Metadata/Seed_Default.md.tmp.81630.1775924102829",
-    "Notes/Documentation/Templater Cheat Sheet.md.tmp.81630.1775924074071",
-    "Notes/Scratch Note.md.tmp.81630.1775924069856",
-    "Notes/Documentation/Quality Control Dashboard.md.tmp.81630.1775924065498",
-    "Notes/Documentation/Obsidian Vault Navigation Guide.md.tmp.81630.1775924059304",
-    "Notes/Documentation/Master Tags List.md.tmp.81630.1775924054744",
-    "Notes/Documentation/README.md.tmp.81630.1775924049581",
-    "World/Character/Tester.md",
-    "Templates/T_Notes/Template_Notes_Blank.md",
-    "Templates/T_Notes/NewNote.md",
-    "Templates/T_Notes/Template_Notes_Planning.md",
     "Templates/T_Notes/Template_Notes_Documentation.md",
+    "Templates/T_Notes/Template_Notes_Blank.md",
     "Templates/T_Notes/Template_Notes_Brainstorm.md",
+    "Templates/T_Notes/Template_Notes_Planning.md",
+    "Templates/T_Notes/Template_Notes_Reference.md",
+    "Templates/T_Notes/Template_Notes_Research.md",
+    "Notes/Documentation/README.md",
+    "Notes/Documentation/Quality Control Dashboard.md",
+    "Notes/Tester.md",
+    "Templates/T_Story/Template_Story.md",
+    "Indexes/NewNote.md",
+    "CLAUDE.md",
+    "Notes/Documentation/Master Tags List.md",
+    "Notes/Documentation/Obsidian Vault Navigation Guide.md",
+    "Story/Story.md",
+    "lorekeeper_meta.md",
+    "Assets/Banners/card-ancestry.jpg",
+    "Assets/TemplateImg/Placeholder-Generic.jpg",
+    "Assets/TemplateImg/Placeholder-Character.jpg",
     "Assets/Maps/example-map.jpg",
     "Assets/Banners/war-peace-banner.jpeg",
     "z_exampleimages/war-peace-banner.jpeg",
@@ -279,9 +280,6 @@
     "z_exampleimages/medieval-forge.jpg",
     "z_exampleimages/card-timeline.jpg",
     "z_exampleimages/card-technology.jpg",
-    "z_exampleimages/card-settlement.jpeg",
-    "z_exampleimages/card-resource.jpg",
-    "z_exampleimages/card-religion.jpeg",
     "Meta/BrainstormBoard/BrainstormBoard.canvas",
     "Meta/30 Day Challenge/30 Day Challenge.canvas",
     "06. Unsorted/Seventsian1.0/02. Civilization/Races+Cultures/Mankind/Mankind.canvas",

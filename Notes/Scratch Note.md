@@ -8,4 +8,4 @@ priority: Med
 ---
 
 # **`=this.file.name`**
-- [ ] To-Do
+- [ ] Pin this note in a side pane for daily to-dos/reminders

@@ -8,7 +8,7 @@ priority:
 ---
 
 > [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
-> [[Notes.base|All Notes]] | [[Home]]
+> [[Notes|All Notes]] | [[Home]]
 # **`=this.file.name`**
 
 <%*

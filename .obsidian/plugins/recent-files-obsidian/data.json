@@ -1,200 +1,200 @@
 {
   "recentFiles": [
     {
-      "basename": "lorekeeper_meta",
-      "path": "lorekeeper_meta.md"
+      "basename": "Character",
+      "path": "Indexes/Character.base"
     },
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "Story",
-      "path": "Story/Story.md"
-    },
-    {
-      "basename": "Notes",
-      "path": "Bases/Notes.base"
-    },
-    {
-      "basename": "README",
-      "path": "Notes/Documentation/README.md"
+      "basename": "Character",
+      "path": "Indexes/Character.md"
     },
     {
       "basename": "Home",
       "path": "Home.md"
     },
     {
-      "basename": "Buttons",
-      "path": "Notes/Documentation/Buttons.md"
+      "basename": "Concept",
+      "path": "Indexes/Concept.base"
     },
     {
-      "basename": "Obsidian Vault Navigation Guide",
-      "path": "Notes/Documentation/Obsidian Vault Navigation Guide.md"
+      "basename": "Condition",
+      "path": "Indexes/Condition.base"
+    },
+    {
+      "basename": "Creature",
+      "path": "Indexes/Creature.base"
+    },
+    {
+      "basename": "Culture-Art",
+      "path": "Indexes/Culture-Art.base"
     },
     {
       "basename": "Documentation",
-      "path": "Bases/Documentation.base"
+      "path": "Indexes/Documentation.md"
     },
     {
-      "basename": "Master Tags List",
-      "path": "Notes/Documentation/Master Tags List.md"
+      "basename": "Ancestry",
+      "path": "Indexes/Ancestry.base"
     },
     {
-      "basename": "Seed_Notes_3",
-      "path": "Templates/Metadata/Seed_Notes_3.md"
+      "basename": "In-Progress-Notes",
+      "path": "Indexes/In-Progress-Notes.base"
     },
     {
-      "basename": "Seed_Notes_4",
-      "path": "Templates/Metadata/Seed_Notes_4.md"
+      "basename": "Language",
+      "path": "Indexes/Language.base"
     },
     {
-      "basename": "Seed_Notes_5",
-      "path": "Templates/Metadata/Seed_Notes_5.md"
+      "basename": "Lore",
+      "path": "Indexes/Lore.base"
     },
     {
-      "basename": "Seed_Notes_2",
-      "path": "Templates/Metadata/Seed_Notes_2.md"
+      "basename": "Magic",
+      "path": "Indexes/Magic.base"
     },
     {
-      "basename": "Seed_Notes",
-      "path": "Templates/Metadata/Seed_Notes.md"
+      "basename": "Master-Base",
+      "path": "Indexes/Master-Base.base"
     },
     {
-      "basename": "Seed_Default_5",
-      "path": "Templates/Metadata/Seed_Default_5.md"
+      "basename": "Object",
+      "path": "Indexes/Object.base"
     },
     {
-      "basename": "Seed_Default_4",
-      "path": "Templates/Metadata/Seed_Default_4.md"
+      "basename": "Organization",
+      "path": "Indexes/Organization.base"
     },
     {
-      "basename": "Seed_Default_2",
-      "path": "Templates/Metadata/Seed_Default_2.md"
+      "basename": "POI",
+      "path": "Indexes/POI.base"
     },
     {
-      "basename": "Seed_Default",
-      "path": "Templates/Metadata/Seed_Default.md"
+      "basename": "Politics",
+      "path": "Indexes/Politics.base"
     },
     {
-      "basename": "Seed_Default_3",
-      "path": "Templates/Metadata/Seed_Default_3.md"
+      "basename": "Religion",
+      "path": "Indexes/Religion.base"
     },
     {
-      "basename": "Character",
-      "path": "Bases/Character.base"
+      "basename": "Story",
+      "path": "Indexes/Story.base"
     },
     {
-      "basename": "Template_Notes_Blank",
-      "path": "Templates/T_Notes/Template_Notes_Blank.md"
+      "basename": "Resource",
+      "path": "Indexes/Resource.base"
     },
     {
-      "basename": "Template_Notes_Planning",
-      "path": "Templates/T_Notes/Template_Notes_Planning.md"
+      "basename": "Settlement",
+      "path": "Indexes/Settlement.base"
     },
     {
-      "basename": "Template_Notes_Documentation",
-      "path": "Templates/T_Notes/Template_Notes_Documentation.md"
+      "basename": "Technology",
+      "path": "Indexes/Technology.base"
     },
     {
-      "basename": "Template_Notes_Brainstorm",
-      "path": "Templates/T_Notes/Template_Notes_Brainstorm.md"
+      "basename": "Timeline",
+      "path": "Indexes/Timeline.base"
     },
     {
-      "basename": "Template_Character",
-      "path": "Templates/T_World/Template_Character.md"
+      "basename": "World Images",
+      "path": "Indexes/World Images.base"
     },
     {
-      "basename": "Template_Notes_Research",
-      "path": "Templates/T_Notes/Template_Notes_Research.md"
+      "basename": "Notes",
+      "path": "Indexes/Notes.md"
+    },
+    {
+      "basename": "Excalidraw",
+      "path": "Indexes/Excalidraw.base"
+    },
+    {
+      "basename": "Cosmos",
+      "path": "Indexes/Cosmos.base"
+    },
+    {
+      "basename": "Country",
+      "path": "Indexes/Country.base"
     },
     {
       "basename": "Scratch Note",
       "path": "Notes/Scratch Note.md"
     },
     {
-      "basename": "Templater Cheat Sheet",
-      "path": "Notes/Documentation/Templater Cheat Sheet.md"
+      "basename": "Buttons",
+      "path": "Notes/Documentation/Buttons.md"
+    },
+    {
+      "basename": "Template_Notes_Documentation",
+      "path": "Templates/T_Notes/Template_Notes_Documentation.md"
+    },
+    {
+      "basename": "Template_Notes_Blank",
+      "path": "Templates/T_Notes/Template_Notes_Blank.md"
+    },
+    {
+      "basename": "Template_Notes_Brainstorm",
+      "path": "Templates/T_Notes/Template_Notes_Brainstorm.md"
+    },
+    {
+      "basename": "Template_Notes_Planning",
+      "path": "Templates/T_Notes/Template_Notes_Planning.md"
+    },
+    {
+      "basename": "Template_Notes_Reference",
+      "path": "Templates/T_Notes/Template_Notes_Reference.md"
+    },
+    {
+      "basename": "Template_Notes_Research",
+      "path": "Templates/T_Notes/Template_Notes_Research.md"
+    },
+    {
+      "basename": "README",
+      "path": "Notes/Documentation/README.md"
     },
     {
       "basename": "Quality Control Dashboard",
       "path": "Notes/Documentation/Quality Control Dashboard.md"
     },
     {
-      "basename": "Template_Compile_Manuscript",
-      "path": "Templates/T_Story/Template_Compile_Manuscript.md"
-    },
-    {
-      "basename": "Template_History_Timeline",
-      "path": "Templates/T_World/Template_History_Timeline.md"
-    },
-    {
-      "basename": "Template_Ancestry",
-      "path": "Templates/T_World/Template_Ancestry.md"
-    },
-    {
       "basename": "Template_Story",
       "path": "Templates/T_Story/Template_Story.md"
     },
     {
-      "basename": "Template_Plot",
-      "path": "Templates/T_Story/Template_Plot.md"
-    },
-    {
-      "basename": "Creature",
-      "path": "Bases/Creature.base"
-    },
-    {
-      "basename": "Concept",
-      "path": "Bases/Concept.base"
+      "basename": "Economy",
+      "path": "Indexes/Economy.base"
     },
     {
       "basename": "CLAUDE",
       "path": "CLAUDE.md"
     },
     {
-      "basename": "Template_Scene_old",
-      "path": "Archive/Template_Scene_old.md"
+      "basename": "Master Tags List",
+      "path": "Notes/Documentation/Master Tags List.md"
     },
     {
-      "basename": "Template_Scene_Timeline",
-      "path": "Archive/Template_Scene_Timeline.md"
+      "basename": "Obsidian Vault Navigation Guide",
+      "path": "Notes/Documentation/Obsidian Vault Navigation Guide.md"
     },
     {
-      "basename": "Template_Plot_old",
-      "path": "Archive/Template_Plot_old.md"
+      "basename": "Story",
+      "path": "Story/Story.md"
     },
     {
-      "basename": "Template_Meta_Daily-Note",
-      "path": "Archive/Template_Meta_Daily-Note.md"
+      "basename": "lorekeeper_meta",
+      "path": "lorekeeper_meta.md"
     },
     {
-      "basename": "ExampleMap",
-      "path": "Assets/Maps/ExampleMap.md"
+      "basename": "Geography",
+      "path": "Indexes/Geography.base"
     },
     {
-      "basename": "example-map.excalidraw",
-      "path": "Assets/Maps/example-map.excalidraw.md"
+      "basename": "History",
+      "path": "Indexes/History.base"
     },
     {
-      "basename": "example-map",
-      "path": "Assets/Maps/example-map.jpg"
-    },
-    {
-      "basename": "war-peace-banner",
-      "path": "Assets/Banners/war-peace-banner.jpeg"
-    },
-    {
-      "basename": "medieval-forge",
-      "path": "Assets/Banners/medieval-forge.jpg"
-    },
-    {
-      "basename": "quill-and-ink",
-      "path": "Assets/Banners/quill-and-ink.jpeg"
-    },
-    {
-      "basename": "card-ancestry",
-      "path": "Assets/Banners/card-ancestry.jpg"
+      "basename": "Template_Character",
+      "path": "Templates/T_World/Template_Character.md"
     }
   ],
   "omittedPaths": [],

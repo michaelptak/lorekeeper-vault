@@ -1,3 +1,16 @@
+---
+cssclasses:
+  - hcl
+obsidianUIMode: preview
+---
+> [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
+> [[Notes|All Notes]] | [[Home]]
+# Documentation
+
+> [!tip|c-plain no-i text-center title-center wsmall callout-bordered center] New Note
+> `BUTTON[NotesNoteSelector]`
+
+```base
 filters:
   and:
     - or:
@@ -18,6 +31,4 @@ views:
         direction: ASC
     columnSize:
       file.mtime: 221
-  - type: cards
-    name: Cards
-    image: note.art
+```

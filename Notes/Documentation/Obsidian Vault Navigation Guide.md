@@ -2,7 +2,7 @@
 tags: Notes
 status: Complete
 related:
-note_purpose: Vault
+note_purpose: Documentation
 story_title:
 priority:
 ---

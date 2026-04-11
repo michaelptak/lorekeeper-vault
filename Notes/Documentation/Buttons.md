@@ -1,3 +1,7 @@
+---
+note_purpose: Vault
+status: Complete
+---
 
 > [!danger]- PIN ME!
 > Does not save on reloads
