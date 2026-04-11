@@ -1,124 +1,80 @@
 {
   "recentFiles": [
     {
-      "basename": "Character",
-      "path": "Indexes/Character.base"
+      "basename": "lorekeeper_meta",
+      "path": "lorekeeper_meta.md"
     },
     {
-      "basename": "Character",
-      "path": "Indexes/Character.md"
+      "basename": "Story",
+      "path": "Story/Story.md"
     },
     {
       "basename": "Home",
       "path": "Home.md"
     },
     {
-      "basename": "Concept",
-      "path": "Indexes/Concept.base"
+      "basename": "Action_Archive",
+      "path": "Templates/T_Actions/Action_Archive.md"
     },
     {
-      "basename": "Condition",
-      "path": "Indexes/Condition.base"
+      "basename": "Snippet_Map(Leaflet)",
+      "path": "Templates/T_Snippets/Snippet_Map(Leaflet).md"
     },
     {
-      "basename": "Creature",
-      "path": "Indexes/Creature.base"
+      "basename": "Snippet_Relationship",
+      "path": "Templates/T_Snippets/Snippet_Relationship.md"
     },
     {
-      "basename": "Culture-Art",
-      "path": "Indexes/Culture-Art.base"
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
     },
     {
-      "basename": "Documentation",
-      "path": "Indexes/Documentation.md"
+      "basename": "Template_Ancestry",
+      "path": "Templates/T_World/Template_Ancestry.md"
     },
     {
-      "basename": "Ancestry",
-      "path": "Indexes/Ancestry.base"
+      "basename": "Button_Story_Selector",
+      "path": "Templates/z_Scripts/Button_Story_Selector.md"
     },
     {
-      "basename": "In-Progress-Notes",
-      "path": "Indexes/In-Progress-Notes.base"
+      "basename": "Master Tags List",
+      "path": "Notes/Documentation/Master Tags List.md"
     },
     {
-      "basename": "Language",
-      "path": "Indexes/Language.base"
+      "basename": "Quality Control Dashboard",
+      "path": "Notes/Documentation/Quality Control Dashboard.md"
     },
     {
-      "basename": "Lore",
-      "path": "Indexes/Lore.base"
+      "basename": "Obsidian Vault Navigation Guide",
+      "path": "Notes/Documentation/Obsidian Vault Navigation Guide.md"
     },
     {
-      "basename": "Magic",
-      "path": "Indexes/Magic.base"
+      "basename": "README",
+      "path": "Notes/Documentation/README.md"
     },
     {
-      "basename": "Master-Base",
-      "path": "Indexes/Master-Base.base"
+      "basename": "Button_Notes_Selector",
+      "path": "Templates/z_Scripts/Button_Notes_Selector.md"
     },
     {
-      "basename": "Object",
-      "path": "Indexes/Object.base"
+      "basename": "Button_World_Selector",
+      "path": "Templates/z_Scripts/Button_World_Selector.md"
     },
     {
-      "basename": "Organization",
-      "path": "Indexes/Organization.base"
-    },
-    {
-      "basename": "POI",
-      "path": "Indexes/POI.base"
-    },
-    {
-      "basename": "Politics",
-      "path": "Indexes/Politics.base"
-    },
-    {
-      "basename": "Religion",
-      "path": "Indexes/Religion.base"
-    },
-    {
-      "basename": "Story",
-      "path": "Indexes/Story.base"
-    },
-    {
-      "basename": "Resource",
-      "path": "Indexes/Resource.base"
-    },
-    {
-      "basename": "Settlement",
-      "path": "Indexes/Settlement.base"
-    },
-    {
-      "basename": "Technology",
-      "path": "Indexes/Technology.base"
-    },
-    {
-      "basename": "Timeline",
-      "path": "Indexes/Timeline.base"
-    },
-    {
-      "basename": "World Images",
-      "path": "Indexes/World Images.base"
+      "basename": "Scratch Note",
+      "path": "Notes/Scratch Note.md"
     },
     {
       "basename": "Notes",
       "path": "Indexes/Notes.md"
     },
     {
-      "basename": "Excalidraw",
-      "path": "Indexes/Excalidraw.base"
+      "basename": "Documentation",
+      "path": "Indexes/Documentation.md"
     },
     {
-      "basename": "Cosmos",
-      "path": "Indexes/Cosmos.base"
-    },
-    {
-      "basename": "Country",
-      "path": "Indexes/Country.base"
-    },
-    {
-      "basename": "Scratch Note",
-      "path": "Notes/Scratch Note.md"
+      "basename": "Character",
+      "path": "Indexes/Character.md"
     },
     {
       "basename": "Buttons",
@@ -149,48 +105,8 @@
       "path": "Templates/T_Notes/Template_Notes_Research.md"
     },
     {
-      "basename": "README",
-      "path": "Notes/Documentation/README.md"
-    },
-    {
-      "basename": "Quality Control Dashboard",
-      "path": "Notes/Documentation/Quality Control Dashboard.md"
-    },
-    {
       "basename": "Template_Story",
       "path": "Templates/T_Story/Template_Story.md"
-    },
-    {
-      "basename": "Economy",
-      "path": "Indexes/Economy.base"
-    },
-    {
-      "basename": "CLAUDE",
-      "path": "CLAUDE.md"
-    },
-    {
-      "basename": "Master Tags List",
-      "path": "Notes/Documentation/Master Tags List.md"
-    },
-    {
-      "basename": "Obsidian Vault Navigation Guide",
-      "path": "Notes/Documentation/Obsidian Vault Navigation Guide.md"
-    },
-    {
-      "basename": "Story",
-      "path": "Story/Story.md"
-    },
-    {
-      "basename": "lorekeeper_meta",
-      "path": "lorekeeper_meta.md"
-    },
-    {
-      "basename": "Geography",
-      "path": "Indexes/Geography.base"
-    },
-    {
-      "basename": "History",
-      "path": "Indexes/History.base"
     },
     {
       "basename": "Template_Character",

@@ -11,13 +11,14 @@
             "id": "5a518b8fdad34256",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Indexes/Character.base",
-                "viewName": "View"
+                "file": "lorekeeper_meta.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Character"
+              "icon": "lucide-file",
+              "title": "lorekeeper_meta"
             }
           }
         ]
@@ -104,10 +105,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Indexes/Character.base"
+                "file": "lorekeeper_meta.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Character"
+              "title": "File properties for lorekeeper_meta"
             }
           },
           {
@@ -116,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Indexes/Character.base",
+                "file": "lorekeeper_meta.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Character"
+              "title": "Backlinks for lorekeeper_meta"
             }
           },
           {
@@ -214,7 +215,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 419.5
+    "width": 419.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,11 +235,73 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "5a518b8fdad34256",
+  "floating": {
+    "id": "cceaf2aef2e58441",
+    "type": "floating",
+    "children": [
+      {
+        "id": "86a1e91e8f13892b",
+        "type": "window",
+        "children": [
+          {
+            "id": "b117238f77c47920",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3d2604c5d7c27c05",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://www.moritzjung.dev/obsidian-meta-bind-plugin-docs/guides/api/#usage",
+                    "title": "Meta Bind API | Meta Bind Docs",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Meta Bind API | Meta Bind Docs"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 0,
+        "width": 740,
+        "height": 1400,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "e93925b3c096104e",
   "lastOpenFiles": [
-    "Indexes/Character.md",
-    "Indexes/Character.base",
+    "Story/Story.md",
     "Home.md",
+    "Templates/T_Actions/Action_Archive.md",
+    "Templates/T_Snippets/Snippet_Map(Leaflet).md",
+    "Templates/T_Snippets/Snippet_Relationship.md",
+    "Templates/z_Scripts/Metabind Function.md",
+    "Templates/z_Scripts/Metabind JS test.md",
+    "CLAUDE.md",
+    "Templates/T_World/Template_Ancestry.md",
+    "Templates/z_Scripts/Button_Story_Selector.md",
+    "Notes/Documentation/Master Tags List.md",
+    "Notes/Documentation/Quality Control Dashboard.md",
+    "Notes/Documentation/Obsidian Vault Navigation Guide.md",
+    "Notes/Documentation/Quality Control Dashboard.md.tmp.211135.1775937603739",
+    "Notes/Documentation/README.md",
+    "Notes/Documentation/Quality Control Dashboard.md.tmp.211135.1775937539164",
+    "Templates/z_Scripts/Button_Notes_Selector.md",
+    "Templates/z_Scripts/Button_World_Selector.md",
+    "Notes/Scratch Note.md",
+    "lorekeeper_meta.md",
+    "Indexes/Notes.md",
+    "Indexes/Documentation.md",
+    "Indexes/Character.md",
+    "In-Progress-Notes.base",
+    "Notes/Documentation/Buttons.md",
+    "Indexes/Character.base",
     "Indexes/NewWorldNote.md",
     "World/Character/Bro.md",
     "Indexes/Concept.base",
@@ -245,31 +309,9 @@
     "Indexes/Condition.base",
     "Indexes/Creature.base",
     "Indexes/Culture-Art.base",
-    "Indexes/Documentation.md",
     "Indexes/Ancestry.base",
-    "Indexes/In-Progress-Notes.base",
-    "Indexes/Language.base",
-    "Indexes/Lore.base",
-    "Indexes/Notes.md",
-    "Notes/Scratch Note.md",
     "Notes/Test.md",
-    "Notes/Documentation/Buttons.md",
     "Templates/T_Notes/Template_Notes_Documentation.md",
-    "Templates/T_Notes/Template_Notes_Blank.md",
-    "Templates/T_Notes/Template_Notes_Brainstorm.md",
-    "Templates/T_Notes/Template_Notes_Planning.md",
-    "Templates/T_Notes/Template_Notes_Reference.md",
-    "Templates/T_Notes/Template_Notes_Research.md",
-    "Notes/Documentation/README.md",
-    "Notes/Documentation/Quality Control Dashboard.md",
-    "Notes/Tester.md",
-    "Templates/T_Story/Template_Story.md",
-    "Indexes/NewNote.md",
-    "CLAUDE.md",
-    "Notes/Documentation/Master Tags List.md",
-    "Notes/Documentation/Obsidian Vault Navigation Guide.md",
-    "Story/Story.md",
-    "lorekeeper_meta.md",
     "Assets/Banners/card-ancestry.jpg",
     "Assets/TemplateImg/Placeholder-Generic.jpg",
     "Assets/TemplateImg/Placeholder-Character.jpg",

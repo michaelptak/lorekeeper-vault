@@ -2,14 +2,10 @@
   "obsidian-excalidraw-plugin",
   "recent-files-obsidian",
   "templater-obsidian",
-  "dataview",
   "homepage",
   "obsidian-meta-bind-plugin",
   "obsidian-leaflet-plugin",
   "obsidian-style-settings",
-  "aprils-automatic-timelines",
-  "calendarium",
-  "obsidian-charts",
   "obsidian-view-mode-by-frontmatter",
   "obsidian-icon-folder",
   "blockquote-levels",
@@ -19,5 +15,8 @@
   "obsidian-smart-typography",
   "obsidian-pandoc",
   "editing-toolbar",
-  "simple-tab-indent"
+  "simple-tab-indent",
+  "dataview",
+  "languagetool",
+  "novel-word-count"
 ]

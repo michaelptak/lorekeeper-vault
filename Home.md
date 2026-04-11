@@ -9,7 +9,7 @@ banner-y: 37
 >[![[example-map.jpg|sban htiny p+tc]]](ExampleMap.md)
 > 
 >**In Progress**
->[![[medieval-forge.jpg|sban htiny p+cb]]](In-Progress-Notes.base)
+>[![[medieval-forge.jpg|sban htiny p+cb]]](InProgress)
 >
 >**Story**
 >[![[quill-and-ink.jpeg|sban htiny p+cb]]](Story)
@@ -23,7 +23,7 @@ banner-y: 37
 >> - [[Master Tags List]]
 >> - [[Obsidian Vault Navigation Guide]]
 >> - [[Quality Control Dashboard]]
->> - [[Master-Base.base | Master Database]]
+>> - [[Master-Base|Master Index]]
 >> - [[Buttons]]
 >
 >> [!note|clean] # Notes
