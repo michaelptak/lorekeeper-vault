@@ -23,9 +23,9 @@ views:
       - file.name
       - file.mtime
       - status
-      - priority
       - note_purpose
       - story_title
+      - priority
       - related
     columnSize:
       file.mtime: 233

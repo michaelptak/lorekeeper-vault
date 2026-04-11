@@ -56,16 +56,6 @@ priority:
 ## Universal Properties
 - **Note: Not always applicable but used by many templates.**
 - `art` image(s) associated with the note
-- **Calendar / Timeline Related**
-  - `fc-date` - timeline integration with world chronology
-  - `fc-end` - for multi-day scenes
-  - `fc-calendar` - calendar name for Calendarium integration
-  - `fc-category` - event category for calendar display 
-  - `fc-display-name` - optional override for event title
-  - `aat-event-picture` - unfortunately only way I could get this to work is providing a text field
-  - `aat-render-enabled` - true/false - Toggle for event to show up in timelines or not.
-  - `aat-event-body` - custom description for timeline display (optional)
-  - `timelines` - List timeline names (defaults to world-history)
 
 ## Categories (Tags)
 ### Notes
@@ -265,107 +255,14 @@ priority:
 - `locations` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos** (where it's best visible from, if relevant)
 - `associated_with` → links to **Religion**, **Magic**, **Lore** (cultural connections)
 
-#### Creature
-- `creature_type` 
-  - beast (natural animals)
-  - magical (innately magical creatures)
-  - undead (reanimated or spirits of the dead)
-  - construct (artificially created, golems)
-  - spirit (elemental, fey, incorporeal)
-  - hybrid (combination of multiple types)
-  - aberration (unnatural, otherworldly)
-  - shapeshifter (can change form)
-- `intelligence` 
-  - animal (instinct-driven)
-  - low (basic problem-solving)
-  - average (human-equivalent reasoning)
-  - high (superior intellect)
-  - alien (incomprehensible thought patterns)
-  - hive-mind (collective intelligence)
-  - varies (unable to be easily categorized)
-- `temperament`
-  - docile (peaceful, non-threatening)
-  - neutral (indifferent to others)
-  - aggressive (actively hostile)
-  - territorial (defensive of specific areas)
-  - curious (investigative, potentially friendly)
-  - predatory (hunts other creatures)
-  - varies (depends on individual/circumstances)
-- `rarity`
-  - common
-  - uncommon
-  - rare
-  - legendary
-  - extinct (thought to be gone)
-  - mythical (existence unconfirmed)
-- `habitat` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos** (specific terrain/climate preferences)
-- `diet`
-  - herbivore
-  - carnivore
-  - omnivore
-  - magical (feeds on mana, emotions, dreams)
-  - inorganic (metals, minerals, energy)
-  - none
-- `size`
-  - tiny (smaller than a housecat - insects, pixies, sprites)
-  - small (housecat to large dog - foxes, wolves, small drakes)
-  - medium (human-sized - bears, tigers, centaurs)
-  - large (elephant-sized - giants, young dragons, dire beasts)
-  - huge (building-sized - adult dragons, krakens, colossi)
-  - gargantuan (mountain-sized - ancient wyrms, kaiju, titans)
-- `domesticated_by` → links to **Ancestry**, **Organization**
-- `produces` → links to **Resource**
-- `hunted_by` → links to **Ancestry**, **Organization**, **Creature**
-- `preys_on` → links to **Creature**, **Ancestry**
-- `created_by` → links to **Character**, **Organization**, **Technology**, **Magic**
-
-#### Flora
-- `plant_type`
-  - tree (woody perennial with trunk)
-  - shrub (woody multi-stemmed plant)
-  - herb (non-woody flowering plant)
-  - flower (ornamental blooming plant)
-  - fungus (mushroom, mold, lichen)
-  - vine (climbing or trailing plant)
-  - grass (cereal or ornamental grasses)
-  - fern (non-flowering vascular plant)
-  - moss (non-vascular ground cover)
-  - aquatic (water plants, algae, seaweed)
-  - carnivorous (traps and digests creatures)
-  - parasitic (feeds off other plants)
-- `rarity`
-  - common (widespread, abundant)
-  - uncommon (limited regions)
-  - rare (few known locations)
-  - legendary (rumored to exist)
-  - extinct (no longer found)
-  - seasonal (only appears certain times)
-- `properties`
-  - mundane (no special properties)
-  - medicinal (healing, therapeutic)
-  - magical (inherent magic, spell components)
-  - poisonous (toxic, deadly)
-  - hallucinogenic (mind-altering effects)
-  - nutritious (food source)
-  - aromatic (fragrant, used in perfumes)
-  - luminescent (glows in dark)
-- `size`
-  - tiny (moss, small flowers)
-  - small (herbs, small shrubs)
-  - medium (large shrubs, young trees)
-  - large (mature trees)
-  - massive (ancient trees, giant fungi)
-- `lifecycle`
-  - annual (lives one season)
-  - perennial (lives multiple years)
-  - immortal (doesn't naturally die)
-  - reactive (triggered growth/bloom)
-- `habitat` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos** (specific terrain/climate)
-- `cultivated_by` → links to **Ancestry**, **Organization**
-- `produces` → links to **Resource**
-- `requires` → links to **Resource**, **Condition** (special growing requirements)
-- `consumed_by` → links to **Creature**, **Ancestry** (what eats it)**
-- `created_by` → links to **Character**, **Organization**, **Technology**, **Magic**
+#### Nature
+(All living things — animals, plants, fungi, and fantastical organisms. Use sub-tags to distinguish: #Creature, #Plant, #Fungi, #Hybrid)
+- `rarity` - Common, Uncommon, Rare, Legendary, Extinct, Mythical
+- `habitat` → links to **Geography**, **Settlement**, **POI**
+- `produces` → links to **Resource**, **Object**
+- `raised_by` → links to **Ancestry**, **Organization** (domesticated, cultivated, or farmed)
+- `created_by` → links to **Character**, **Organization**, **Magic**
+- Everything else (appearance, behavior, diet, size, lifecycle, special properties) → prose in the note body
 
 #### Geography
 - `terrain`

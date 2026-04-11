@@ -4,7 +4,7 @@ status: Complete
 related:
 note_purpose: Planning
 story_title:
-priority: Med
+priority:
 ---
 
 # **`=this.file.name`**

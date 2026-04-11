@@ -118,3 +118,14 @@ banner-y: 37
 ## Diagrams, Art, Assets
 - 🎨 [[Excalidraw.base|All Excalidraw Notes]]
 - 🗺️ [[World Images.base|World Images]]
+
+# Kanban Test
+> [!kanban]+
+> - [[Character|Characters]]
+> 	- ![[card-characters.jpg]]
+> 	- [[Character|Card]]
+> - [[Link|Lane 2 Title]]
+> 	![[Image without background card styling.png]]
+> 	- [[Link|Card]]
+> - Text
+> 	- [ ] Text
