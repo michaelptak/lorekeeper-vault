@@ -26,13 +26,18 @@
     "excalidraw-open-md": "checkbox",
     "excalidraw-embed-md": "checkbox",
     "fc-end": "date",
-    "purpose": "multitext",
+    "status": "text",
+    "note_purpose": "text",
+    "story_title": "text",
+    "priority": "text",
+    "art": "multitext",
     "excalidraw-export-internal-links": "checkbox",
     "lt-language": "text",
     "lt-picky": "checkbox",
     "lt-autoCheck": "checkbox",
     "lt-dictionary": "multitext",
     "lt-disabledRules": "multitext",
-    "lt-disabledCategories": "multitext"
+    "lt-disabledCategories": "multitext",
+    "related": "multitext"
   }
 }

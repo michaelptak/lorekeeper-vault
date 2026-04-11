@@ -1,6 +1,7 @@
 filters:
   and:
     - file.tags.contains("Notes")
+    - '!file.path.contains("Templates")'
 views:
   - type: table
     name: Table

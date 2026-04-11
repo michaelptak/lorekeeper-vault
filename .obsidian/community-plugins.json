@@ -16,7 +16,8 @@
   "image-converter",
   "pexels-banner",
   "settings-search",
-  "editing-toolbar",
   "obsidian-smart-typography",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "editing-toolbar",
+  "simple-tab-indent"
 ]

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "lorekeeper_meta.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "lorekeeper_meta"
             }
           }
         ]
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5,
-    "collapsed": true
+    "width": 311.5
   },
   "right": {
     "id": "1ecafacdc1e79d14",
@@ -106,10 +105,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home.md"
+                "file": "lorekeeper_meta.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Home"
+              "title": "File properties for lorekeeper_meta"
             }
           },
           {
@@ -204,7 +203,7 @@
               "type": "markdown",
               "state": {
                 "file": "Notes/Documentation/Buttons.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "pinned": true,
@@ -237,42 +236,42 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "lorekeeper_meta.md~",
-    "Notes/tester.md",
-    "Bases/Notes.base",
-    "Notes/Documentation/Buttons.md",
-    "Home.md",
-    "Bases/Documentation.base",
-    "Notes/Documentation/README.md.tmp.81630.1775921535536",
+    "Untitled.md",
+    "lorekeeper_meta.md",
     "README.md",
-    "Templates/T_Notes/Template_Notes_Research.md",
+    "Story/Story.md",
+    "Bases/Notes.base",
+    "Notes/Documentation/README.md",
+    "Home.md",
+    "Notes/ResearchTest.md",
+    "lorekeeper_meta.md.tmp.81630.1775924436799",
+    "Notes/Documentation/Buttons.md",
+    "Notes/Documentation/Obsidian Vault Navigation Guide.md",
+    "Bases/Documentation.base",
+    "Notes/Documentation/Master Tags List.md",
+    "Templates/Metadata/Seed_Notes_3.md",
+    "Templates/Metadata/Seed_Notes_4.md",
+    "Templates/Metadata/Seed_Notes_5.md",
+    "Templates/Metadata/Seed_Notes_2.md",
+    "Templates/Metadata/Seed_Notes.md",
+    "Templates/Metadata/Seed_Default_5.md",
+    "Templates/Metadata/Seed_Default_4.md",
+    "Templates/Metadata/Seed_Default_2.md",
+    "Templates/Metadata/Seed_Default.md",
+    "Templates/Metadata/Seed_Default_3.md",
+    "Templates/Metadata/Seed_Default.md.tmp.81630.1775924102829",
+    "Notes/Documentation/Templater Cheat Sheet.md.tmp.81630.1775924074071",
+    "Notes/Scratch Note.md.tmp.81630.1775924069856",
+    "Notes/Documentation/Quality Control Dashboard.md.tmp.81630.1775924065498",
+    "Notes/Documentation/Obsidian Vault Navigation Guide.md.tmp.81630.1775924059304",
+    "Notes/Documentation/Master Tags List.md.tmp.81630.1775924054744",
+    "Notes/Documentation/README.md.tmp.81630.1775924049581",
+    "World/Character/Tester.md",
+    "Templates/T_Notes/Template_Notes_Blank.md",
+    "Templates/T_Notes/NewNote.md",
     "Templates/T_Notes/Template_Notes_Planning.md",
     "Templates/T_Notes/Template_Notes_Documentation.md",
-    "Templates/T_Notes/Template_Notes_Blank.md",
-    "Notes/Scratch Note.md",
-    "Notes/Documentation/Master Tags List.md.tmp.81630.1775919959564",
-    "Notes/Documentation/Master Tags List.md.tmp.81630.1775919952403",
-    "Notes/Documentation/Master Tags List.md.tmp.81630.1775919932266",
-    "Templates/z_Scripts/Button_Notes_Selector.md",
-    "Home.md.tmp.81630.1775919379026",
-    "Bases/Documentation.base.tmp.81630.1775919363648",
     "Templates/T_Notes/Template_Notes_Brainstorm.md",
-    "Notes/Documentation/Useful Websites & Tools.md",
-    "Notes/Documentation/Style & CSS Ideas.md",
-    "Templates/T_Notes/Template_Notes_Reference.md",
-    "Notes/Documentation/Templater Cheat Sheet.md",
-    "Notes/Documentation/README.md",
-    "Notes/Documentation/Quality Control Dashboard.md",
-    "Notes/Documentation/Obsidian Vault Navigation Guide.md",
-    "Notes/Documentation/Master Tags List.md",
-    "Notes/Documentation/Buttons.md.tmp.81630.1775919228679",
-    "Notes/Documentation/Templater Cheat Sheet.md.tmp.81630.1775919222244",
-    "Templates/T_Meta/Template_Meta_Inspiration.md",
-    "Templates/T_Meta/Template_Meta_Blank.md",
-    "Templates/T_Notes/placeholder.md",
-    "Notes/Documentation/placeholder.md",
-    "Notes/placeholder.md",
-    "Templates/T_Notes.md",
     "Assets/Maps/example-map.jpg",
     "Assets/Banners/war-peace-banner.jpeg",
     "z_exampleimages/war-peace-banner.jpeg",
