@@ -1,28 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Buttons",
+      "path": "Notes/Documentation/Buttons.md"
+    },
+    {
       "basename": "lorekeeper_meta",
       "path": "lorekeeper_meta.md"
     },
     {
-      "basename": "Massive Laserbeam",
-      "path": "World/Technology/Massive Laserbeam.md"
-    },
-    {
-      "basename": "Paganism",
-      "path": "World/Religion/Paganism.md"
-    },
-    {
-      "basename": "A powerful org",
-      "path": "World/Organization/A powerful org.md"
-    },
-    {
       "basename": "Home",
       "path": "Home.md"
-    },
-    {
-      "basename": "yuge painting",
-      "path": "World/Culture-Art/yuge painting.md"
     },
     {
       "basename": "Art",
@@ -37,32 +25,12 @@
       "path": "Indexes/Ancestry.md"
     },
     {
-      "basename": "Elves",
-      "path": "World/Ancestry/Elves.md"
-    },
-    {
-      "basename": "Something spell",
-      "path": "World/Magic/Something spell.md"
-    },
-    {
       "basename": "Magic",
       "path": "Indexes/Magic.md"
     },
     {
-      "basename": "We casting spells and shi",
-      "path": "World/Magic/We casting spells and shi.md"
-    },
-    {
-      "basename": "Buttons",
-      "path": "Notes/Documentation/Buttons.md"
-    },
-    {
       "basename": "Documentation",
       "path": "Indexes/Documentation.md"
-    },
-    {
-      "basename": "Matilda",
-      "path": "World/Character/Matilda.md"
     },
     {
       "basename": "Organization",
@@ -73,24 +41,12 @@
       "path": "Assets/Cards/card-creature.jpeg"
     },
     {
-      "basename": "Dire Wolf",
-      "path": "World/Nature/Dire Wolf.md"
-    },
-    {
-      "basename": "Unknown element",
-      "path": "World/Misc/Unknown element.md"
-    },
-    {
       "basename": "Infobox_Basic",
       "path": "Templates/T_Infobox/Infobox_Basic.md"
     },
     {
       "basename": "Master Tags List",
       "path": "Notes/Documentation/Master Tags List.md"
-    },
-    {
-      "basename": "How to Use the Massive Laserbeam",
-      "path": "World/Lore/How to Use the Massive Laserbeam.md"
     },
     {
       "basename": "Concept",
@@ -101,32 +57,8 @@
       "path": "Indexes/POI.md"
     },
     {
-      "basename": "An interesting Large Rock",
-      "path": "World/POI/An interesting Large Rock.md"
-    },
-    {
-      "basename": "Volcanic Ash Fields",
-      "path": "World/Geography/Volcanic Ash Fields.md"
-    },
-    {
-      "basename": "Jeff",
-      "path": "World/Character/Jeff.md"
-    },
-    {
-      "basename": "Atlantis",
-      "path": "World/Country/Atlantis.md"
-    },
-    {
-      "basename": "Elvish",
-      "path": "World/Language/Elvish.md"
-    },
-    {
       "basename": "Language",
       "path": "Indexes/Language.md"
-    },
-    {
-      "basename": "Beffrey",
-      "path": "World/Character/Beffrey.md"
     },
     {
       "basename": "Dashboard-Worldbuilding",
@@ -155,10 +87,6 @@
     {
       "basename": "History",
       "path": "Indexes/History.md"
-    },
-    {
-      "basename": "Great War",
-      "path": "World/History/Great War.md"
     },
     {
       "basename": "Template_Settlement",
