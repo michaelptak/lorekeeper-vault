@@ -15,7 +15,7 @@ priority:
 > 
 > **Core Worldbuilding:** [[#Concept]] | [[#History]] | [[#Timeline]] | [[#Lore]]
 > 
-> **Physical World:** [[#Cosmos]] | [[#Creature]] | [[#Flora]] | [[#Geography]] | [[#POI]] | [[#Resource]] | [[#Settlement]]
+> **Physical World:** [[#Nature]] | [[#Geography]] | [[#POI]] | [[#Settlement]]
 > 
 > **People & Society:** [[#Ancestry]] | [[#Character]] | [[#Culture/Art]]
 > 
@@ -226,35 +226,6 @@ priority:
   - `timelines` - List timeline names (defaults to world-history)
 
 ### Physical World
-#### Cosmos
-(i.e things in the visible sky/space)
-- `cosmic_type`
-  - star (single or multiple star systems)
-  - planet (in your world's sky)
-  - moon (natural satellites)
-  - constellation (star patterns)
-  - phenomenon (aurora, comet, meteor shower, eclipse, cosmic storm)
-  - anomaly (unusual or unexplained celestial occurrence)
-  - ring (planetary rings, cosmic debris fields)
-- `visibility`
-  - constant (always visible when night/conditions allow)
-  - seasonal (only certain times of year)
-  - cyclical (appears on a predictable schedule)
-  - rare (infrequent, unpredictable appearances)
-  - hidden (requires magic, special conditions, or specific locations)
-  - fading (becoming less visible over time)
-- `significance`
-  - navigation (used for wayfinding, travel)
-  - religious (sacred, worshipped, part of creation myths)
-  - magical (source of power, affects spellcasting)
-  - decorative (aesthetic, cultural art/poetry subject)
-  - ominous (associated with bad luck, disasters, prophecy)
-  - scientific (studied by scholars, astronomers)
-  - timekeeping (marks seasons, festivals, calendar events)
-  - mythological (features in legends but practical use unclear)
-- `locations` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos** (where it's best visible from, if relevant)
-- `associated_with` → links to **Religion**, **Magic**, **Lore** (cultural connections)
-
 #### Nature
 (All living things — animals, plants, fungi, and fantastical organisms. Use sub-tags to distinguish: #Creature, #Plant, #Fungi, #Hybrid)
 - `rarity` - Common, Uncommon, Rare, Legendary, Extinct, Mythical
@@ -265,63 +236,15 @@ priority:
 - Everything else (appearance, behavior, diet, size, lifecycle, special properties) → prose in the note body
 
 #### Geography
-- `terrain`
-  - mountain (peaks, ranges, highlands)
-  - forest (woods, jungle, rainforest)
-  - desert (sand, rock, wasteland)
-  - plains (grassland, savanna, steppe)
-  - swamp (marsh, bog, wetland)
-  - coast (beach, cliffs, shoreline)
-  - tundra (frozen plains, permafrost)
-  - canyon (gorge, ravine, valley)
-  - volcanic (active/dormant volcanoes, lava fields)
-  - cave system (underground networks, caverns)
-  - island (archipelago, atoll)
-  - lake (freshwater body)
-  - river (waterway, delta)
-  - ocean (sea, deep water)
-- `climate`
-  - tropical (hot, humid)
-  - temperate (moderate seasons)
-  - cold (arctic, subarctic)
-  - arid (dry, low precipitation)
-  - Mediterranean (hot dry summers, mild wet winters)
-  - monsoon (seasonal heavy rains)
-  - magical (weather controlled by magic)
-  - unstable (unpredictable, chaotic)
-  - eternal (unchanging seasons)
-- `habitability`
-  - welcoming (easy to settle, abundant resources)
-  - habitable (livable with effort)
-  - harsh (difficult conditions, survival challenging)
-  - dangerous (hostile environment, deadly threats)
-  - uninhabitable (cannot support life)
-  - seasonal (habitable only certain times of year)
-  - magically dependent (requires magic to survive)
-- `region_type`
-  - natural formation (mountain range, river valley, peninsula)
-  - cultural region (historical territory, ethnic homeland)
-  - political region (province, state, territory)
-  - trade corridor (route, passage, crossroads)
-  - border region (frontier, march, buffer zone)
-  - sacred land (holy site, forbidden zone)
-  - resource region (mining area, fertile plains, fishing grounds)
-  - strategic location (chokepoint, defensive position)
-  - wilderness (unexplored, untamed)
-- `size`
-  - tiny (small landmark or feature)
-  - small (local area, neighborhood-sized)
-  - medium (town or city-sized region)
-  - large (province or state-sized)
-  - vast (country or continental-sized)
-- `notable_features` → links to **POI** (landmarks within this geography)
-- `locations` → links to **Geography** (sub-regions or neighboring areas)
-- `settlements` → links to **Settlement** (towns/cities in this region)
+(All geographical and cosmic features — landmasses, biomes, bodies of water, celestial objects. Use sub-tags to distinguish:` #Terrestrial, #Cosmos, etc.`)
 - `jurisdiction` → links to **Country**
 - `controlled_by` → links to **Organization**
-- `contested_by` → links to **Country**, **Organization** (disputed territory)
-- `native_inhabitants` → links to **Ancestry**, **Creature**, **Flora** (who/what naturally lives here)
-- `resources` → links to **Resource** (what's found here)
+- `settlements` → links to **Settlement** (towns/cities in this region)
+- `notable_features` → links to **POI** (landmarks within this geography)
+- `native_inhabitants` → links to **Ancestry**, **Nature** (who/what naturally lives here)
+- `resources` → links to **Object** (what's found here)
+- `associated_with` → links to **Religion**, **Magic**, **Lore**, **History** (cultural/narrative connections)
+- Everything else (terrain, climate, habitability, size, visibility, significance, cosmic type) → prose in the note body
 
 #### POI
 (Point of Interest)
@@ -363,52 +286,6 @@ priority:
 - `jurisdiction` → links to **Country**
 - `controlled_by` → links to **Organization**
 - `discovered_by` → links to **Character**, **Organization**
-#### Resource
-- `resource_type`
-  - mineral (ore, stone, gems, metals)
-  - organic (wood, food, fiber, animal products)
-  - magical (mana crystals, enchanted materials, spell components)
-  - crafted (refined goods, processed materials)
-  - liquid (water, oil, potions, alchemical fluids)
-  - energy (magical power, natural forces)
-- `rarity`
-  - abundant (everywhere, unlimited supply)
-  - common (readily available, widespread)
-  - uncommon (limited distribution, moderate supply)
-  - scarce (hard to find, low supply)
-  - rare (very limited, precious)
-  - legendary (extremely rare, nearly unique)
-- `renewability`
-  - renewable (replenishes naturally)
-  - sustainable (can be harvested responsibly)
-  - limited (slow regeneration, can be depleted)
-  - finite (non-renewable, exhaustible)
-  - seasonal (only available certain times)
-- `state`
-  - raw (unprocessed natural state)
-  - refined (processed, purified)
-  - both (available in multiple forms)
-- `value`
-  - worthless (no economic value)
-  - cheap (low value, common trade good)
-  - moderate (standard commodity)
-  - valuable (high trade value)
-  - priceless (beyond monetary value)
-- `primary_use`
-  - construction (building materials)
-  - crafting (manufacturing, artisan work)
-  - fuel (energy source)
-  - food (sustenance)
-  - medicine (healing, alchemy)
-  - magic (spell components, enchanting)
-  - trade (currency, valuable commodity)
-  - decorative (luxury, aesthetic)
-- `locations` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos** (where it's found)
-- `source` → links to **Geography**, **Creature**, **Flora**, **POI**, **Cosmos** (what produces it)
-- `harvested_by` → links to **Ancestry**, **Organization** (who collects it)
-- `required_for` → links to **Object**, **Magic**, **Technology** (what needs this resource)
-- `traded_via` → links to **Economy**
-
 #### Settlement
 - `settlement_size`
   - hamlet (tiny rural settlement, <100 people)
@@ -825,37 +702,15 @@ priority:
 - `countered_by` → links to other **Magic**, **Object**, **Condition**
 
 #### Object
-- `object_type` - Free text field (weapon, tool, jewelry, relic, mundane, clothing, furniture, art, document, container, instrument, etc.)
-- `rarity`
-  - common (mass-produced, widespread)
-  - uncommon (limited production, available)
-  - rare (few examples exist)
-  - unique (one-of-a-kind)
-  - legendary (thought to be myth)
-- `condition`
-  - pristine (perfect, mint condition)
-  - good (well-maintained, functional)
-  - worn (used, showing age)
-  - damaged (impaired, needs repair)
-  - broken (non-functional, destroyed)
-  - cursed (corrupted, tainted)
-- `significance`
-  - mundane (ordinary item, no special importance)
-  - personal (sentimental value)
-  - valuable (expensive, sought-after)
-  - historical (important past events)
-  - magical (enchanted, supernatural)
-  - legendary (famous, storied)
-  - religious (sacred, holy)
-  - cursed (dangerous, evil)
+(All physical items and resources — weapons, tools, artifacts, raw materials, trade goods. Use sub-tags to distinguish: `#Resource, #Artifact`)
+- `rarity` - Common, Uncommon, Rare, Unique, Legendary
 - `creator` → links to **Character**, **Organization**
 - `current_owner` → links to **Character**, **Organization**
-- `original_owner` → links to **Character**, **Organization** (first owner)
-- `made_from` → links to **Resource**
-- `enchanted_by` → links to **Character**, **Magic**
-- `created_at` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos** (where it was made)
-- `currently_located` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos** (where it is now)
-- `associated_with` → links to **History**, **Character** (important events/people)
+- `located_at` → links to **Settlement**, **POI**, **Geography** (where it is now / where it's found)
+- `made_from` → links to **Object** (materials/components — resources are objects too)
+- `required_for` → links to **Object**, **Magic** (what needs this material/component)
+- `associated_with` → links to **History**, **Character**, **Religion**, **Lore** (narrative connections)
+- Everything else (object type, condition, significance, value, renewability, primary use, enchantments) → prose in the note body
 
 #### Technology
 - `tech_stage`

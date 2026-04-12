@@ -1,6 +1,6 @@
 {
-  "readableLineLength": true,
-  "defaultViewMode": "source",
+  "readableLineLength": false,
+  "defaultViewMode": "preview",
   "attachmentFolderPath": "Assets",
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",

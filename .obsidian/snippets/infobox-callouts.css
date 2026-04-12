@@ -509,27 +509,27 @@ settings:
 
   --ic-image-round-corners: 0px;
 
-  --ic-section-background-color: rgba(128, 128, 255, 0.1);
+  --ic-section-background-color: hsla(var(--accent-h, 170), var(--accent-s, 20%), 50%, 0.1);
 }
 
 .theme-light {
-  --ic-infobox-color: #DFE8E7;
-  --ic-border-color: #6B948F;
-  --ic-image-border-color: #6B948F;
-  --ic-section-background-color: #B5C9C7;
-  --ic-section-border-color: #6B948F;
-  --ic-horizontal-rule-color: #6B948F;
-  --ic-infobox-title-color: #4B6864;
+  --ic-infobox-color: hsl(var(--accent-h), calc(var(--accent-s) * 0.4), 90%);
+  --ic-border-color: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+  --ic-image-border-color: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+  --ic-section-background-color: hsl(var(--accent-h), calc(var(--accent-s) * 0.4), 80%);
+  --ic-section-border-color: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+  --ic-horizontal-rule-color: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+  --ic-infobox-title-color: hsl(var(--accent-h), var(--accent-s), 30%);
 }
 
 .theme-dark {
-  --ic-infobox-color: #4B6864;
-  --ic-border-color: #6B948F;
-  --ic-image-border-color: #6B948F;
-  --ic-section-background-color: #405956;
-  --ic-section-border-color: #6B948F;
-  --ic-horizontal-rule-color: #6B948F;
-  --ic-infobox-title-color: #FFFFFF;
+  --ic-infobox-color: hsl(var(--accent-h), calc(var(--accent-s) * 0.4), 20%);
+  --ic-border-color: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+  --ic-image-border-color: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+  --ic-section-background-color: hsl(var(--accent-h), calc(var(--accent-s) * 0.4), 16%);
+  --ic-section-border-color: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+  --ic-horizontal-rule-color: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+  --ic-infobox-title-color: var(--text-normal);
 }
 
 .callout[data-callout="statbox"],

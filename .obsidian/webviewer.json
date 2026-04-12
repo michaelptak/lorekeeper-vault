@@ -1,5 +1,6 @@
 {
   "openExternalURLs": true,
   "enableAdblocking": true,
-  "markdownPath": "Meta/Research/"
+  "markdownPath": "Notes",
+  "homepage": ""
 }

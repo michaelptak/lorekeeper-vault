@@ -1,0 +1,6 @@
+---
+tags:
+  - Geography
+  - Terrestrial
+  - Cosmos
+---

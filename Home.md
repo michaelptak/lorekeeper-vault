@@ -1,6 +1,6 @@
 ---
 obsidianUIMode: preview
-banner: Assets/Banners/war-peace-banner.jpeg
+banner: Assets/Cards/war-peace-banner.jpeg
 banner-x: 50
 banner-y: 37
 ---
@@ -38,37 +38,25 @@ banner-y: 37
 >> LIMIT 5
 >> ```
 ## Core Elements
->[!cards|4]
+>[!cards|3]
 >**Concept**
 >[![[card-concept.jpg|sban hsmall p+tc]]](Concept.base)
 >
 >**History**
 >[![[card-history.jpg|sban hsmall p+cbb]]](History.base)
 >
->**Timeline**
->[![[card-timeline.jpg|sban hsmall p+tc]]](Timeline.base)
->
 >**Lore**
 >[![[card-lore.jpg|sban hsmall p+tc]]](Lore.base)
 ## Physical World
->[!cards|7]
->**Cosmos**
->[![[card-cosmos.jpeg|sban hsmall p+tc]]](Cosmos.base)
->
->**Creature**
->[![[card-creature.jpeg|sban hsmall p+cbb]]](Creature.base)
->
->**Flora**
->[![[card-flora.jpeg|sban hsmall p+tc]]](Flora.base)
+>[!cards|4]
+>**Nature**
+>[![[card-creature.jpeg|sban hsmall p+cbb]]](Nature)
 >
 >**Geography**
->[![[card-geography.jpg|sban hsmall p+tc]]](Geography.base)
+>[![[card-geography.jpg|sban hsmall p+tc]]](Geography)
 >
 >**POI**
 >[![[card-poi.jpg|sban hsmall p+tcc]]](POI.base)
->
->**Resource**
->[![[card-resource.jpg|sban hsmall p+tcc]]](Resource.base)
 >
 >**Settlement**
 >[![[card-settlement.jpeg|sban hsmall p+tc]]](Settlement.base)
@@ -110,7 +98,7 @@ banner-y: 37
 >[![[card-magic.jpeg|sban hsmall p+tc]]](Magic.base)
 >
 >**Object**
->[![[card-object.jpg|sban hsmall p+cbb]]](Object.base)
+>[![[card-object.jpg|sban hsmall p+cbb]]](Object)
 >
 >**Technology**
 >[![[card-technology.jpg|sban hsmall p+tc]]](Technology.base)
@@ -118,14 +106,3 @@ banner-y: 37
 ## Diagrams, Art, Assets
 - 🎨 [[Excalidraw.base|All Excalidraw Notes]]
 - 🗺️ [[World Images.base|World Images]]
-
-# Kanban Test
-> [!kanban]+
-> - [[Character|Characters]]
-> 	- ![[card-characters.jpg]]
-> 	- [[Character|Card]]
-> - [[Link|Lane 2 Title]]
-> 	![[Image without background card styling.png]]
-> 	- [[Link|Card]]
-> - Text
-> 	- [ ] Text

@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "ee670fb8e1c631f0",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "6521d9c8c5748ef6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Archive/Template_Flora.md",
-                "mode": "source",
+                "file": "Templates/T_World/Template_Organization.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Template_Flora"
+              "title": "Template_Organization"
             }
           },
           {
-            "id": "151b509618456343",
+            "id": "d99ea568d1f8405d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Archive/Template_Flora.md",
-                "mode": "source",
+                "file": "Notes/Documentation/Master Tags List.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Template_Flora"
+              "title": "Master Tags List"
             }
           }
         ],
@@ -120,10 +120,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Archive/Template_Flora.md"
+                "file": "Notes/Documentation/Master Tags List.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Template_Flora"
+              "title": "File properties for Master Tags List"
             }
           },
           {
@@ -218,7 +218,7 @@
               "type": "markdown",
               "state": {
                 "file": "Notes/Documentation/Buttons.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "pinned": true,
@@ -249,54 +249,53 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "e93925b3c096104e",
+  "active": "d99ea568d1f8405d",
   "lastOpenFiles": [
-    "Templates/T_World/Template_Language.md",
-    "Archive/Template_Creature.md",
-    "Archive/Template_Flora.md",
-    "Templates/T_World/Template_History.md",
-    "Templates/T_World/Template_Concept.md",
-    "lorekeeper_meta.md",
-    "Notes/Documentation/Buttons.md",
-    "Notes/Documentation/NewStoryNote.md",
-    "lorekeeper_meta.md.tmp.211135.1775945559604",
-    "Templates/T_Infobox/Infobox_Nature.md",
-    "Templates/T_Infobox/Infobox_Basic.md",
     "Home.md",
+    "lorekeeper_meta.md",
+    "Indexes/Object.md",
+    "Concept.base",
+    "World/Object/Epic Sword.md",
+    "Notes/Documentation/Buttons.md",
+    "Templates/T_World/Template_Object.md",
+    "Templates/T_Infobox/Infobox_Object.md",
+    "Templates/Metadata/Seed_Object_4.md",
+    "Templates/Metadata/Seed_Object_3.md",
+    "Templates/Metadata/Seed_Object_5.md",
+    "Templates/Metadata/Seed_Object_2.md",
+    "Templates/Metadata/Seed_Object.md",
+    "Notes/Documentation/Master Tags List.md",
+    "Home.md.tmp.211135.1775954696021",
+    "Home.md.tmp.211135.1775954693410",
+    "Indexes/Object.md.tmp.211135.1775954681439",
+    "Templates/T_Infobox/Infobox_Object.md.tmp.211135.1775954666002",
+    "Templates/T_World/Template_Object.md.tmp.211135.1775954658560",
+    "Notes/Documentation/Master Tags List.md.tmp.211135.1775954593007",
+    "Notes/Documentation/Master Tags List.md.tmp.211135.1775954588586",
+    "Notes/Documentation/Master Tags List.md.tmp.211135.1775954573872",
+    "Templates/T_World/Template_Organization.md",
+    "Indexes/Geography.md",
     "Indexes/Nature.md",
     "World/Nature/Dire Wolf.md",
-    "World/Nature/Tree.md",
-    "Notes/Documentation/Master Tags List.md.tmp.211135.1775944805689",
-    "Templates/Metadata/Seed_Nature_6.md.tmp.211135.1775944798461",
-    "Templates/Metadata/Seed_Nature_5.md.tmp.211135.1775944795717",
-    "Templates/Metadata/Seed_Nature_4.md.tmp.211135.1775944788225",
-    "Templates/Metadata/Seed_Nature_3.md.tmp.211135.1775944783563",
-    "Templates/Metadata/Seed_Nature_2.md.tmp.211135.1775944775388",
-    "Templates/Metadata/Seed_Nature.md.tmp.211135.1775944767756",
-    "Notes/Documentation/NewNote.md",
-    "Notes/Documentation/Dire Wolf.md",
-    "Notes/Documentation/Master Tags List.md",
-    "Indexes/Character.md",
-    "Indexes/Documentation.md",
-    "Indexes/Notes.md",
+    "World/Geography/The Cosmophere.md",
+    "World/Geography/Volcanic Wastes.md",
+    "Assets/volcanic wastes.jpg",
+    "Assets/dire-wolf-daniel-eskridge.jpg",
+    "Assets/direwolf.jpg",
+    "Assets/direwolf.webp",
+    "Character.base",
+    "README.md",
+    "World/Geography/Cosmic Body.md",
+    "World/Geography/Lava Plains of Angor.md",
+    "Templates/Metadata/Seed_Geography.md",
     "Templates/T_World/Template_Nature.md",
-    "Templates/T_World/Template_Nature.md.tmp.211135.1775944290152",
-    "Templates/T_World/Template_Nature.md.tmp.211135.1775943932844",
     "Templates/T_World/Template_Magic.md",
-    "Untitled.md",
-    "Templates/T_World/Template_Economy.md",
-    "Templates/T_World/Template_Culture-Art.md",
-    "Templates/T_World/Template_Country.md",
+    "Archive/card-timeline.jpg",
     "Assets/Cards/card-ancestry.jpg",
     "Assets/TemplateImg/Placeholder-Generic.jpg",
     "Assets/TemplateImg/Placeholder-Character.jpg",
     "Assets/Maps/example-map.jpg",
     "Assets/Cards/war-peace-banner.jpeg",
-    "z_exampleimages/war-peace-banner.jpeg",
-    "z_exampleimages/quill-and-ink.jpeg",
-    "z_exampleimages/medieval-forge.jpg",
-    "z_exampleimages/card-timeline.jpg",
-    "z_exampleimages/card-technology.jpg",
     "Meta/BrainstormBoard/BrainstormBoard.canvas",
     "Meta/30 Day Challenge/30 Day Challenge.canvas",
     "06. Unsorted/Seventsian1.0/02. Civilization/Races+Cultures/Mankind/Mankind.canvas",

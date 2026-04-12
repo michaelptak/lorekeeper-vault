@@ -15,6 +15,7 @@ filters:
   and:
     - file.tags.contains("Notes")
     - '!file.path.contains("Templates")'
+    - '!file.path.contains("Archive")'
     - '!file.path.contains("Notes/Documentation")'
 views:
   - type: table

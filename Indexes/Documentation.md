@@ -18,6 +18,7 @@ filters:
         - note_purpose.contains("Vault")
         - file.path.contains("Notes/Documentation")
     - '!file.path.contains("Templates")'
+    - '!file.path.contains("Archive")'
 views:
   - type: table
     name: Table

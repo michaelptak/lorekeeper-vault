@@ -5,14 +5,15 @@ obsidianUIMode: preview
 ---
 > [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
 > [[Home]]
-# Nature
-> [!tip|c-plain no-i text-center title-center wsmall callout-bordered center] New Nature
+# Objects
+
+> [!tip|c-plain no-i text-center title-center wsmall callout-bordered center] New Object
 > `BUTTON[WorldNoteSelector]`
 
 ```base
 filters:
   and:
-    - file.tags.contains("Nature")
+    - file.tags.contains("Object")
     - '!file.path.contains("Templates/")'
     - '!file.path.contains("Archive/")'
 views:
@@ -24,8 +25,6 @@ views:
       - status
       - rarity
     sort:
-      - property: rarity
-        direction: DESC
       - property: file.mtime
         direction: DESC
     image: note.art

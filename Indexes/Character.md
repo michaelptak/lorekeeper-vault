@@ -15,6 +15,7 @@ filters:
   and:
     - file.tags.contains("Character")
     - '!file.path.contains("Templates/")'
+    - '!file.path.contains("Archive/")'
 views:
   - type: table
     name: View
