@@ -5,15 +5,15 @@ obsidianUIMode: preview
 ---
 > [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
 > [[Home]]
-# Objects
+# Magic
 
-> [!tip|c-plain no-i text-center title-center wsmall callout-bordered center] New Object
+> [!tip|c-plain no-i text-center title-center wsmall callout-bordered center] New Magic Entry
 > `BUTTON[WorldNoteSelector]`
 
 ```base
 filters:
   and:
-    - file.tags.contains("Object")
+    - file.tags.contains("Magic")
     - file.path.startsWith("World/")
 views:
   - type: table
@@ -22,13 +22,12 @@ views:
       - file.name
       - tags
       - status
-      - rarity
+      - practiced_by
+      - file.mtime
     sort:
       - property: file.mtime
         direction: DESC
     image: note.art
-    columnSize:
-      note.tags: 160
   - type: cards
     name: Cards
     sort:

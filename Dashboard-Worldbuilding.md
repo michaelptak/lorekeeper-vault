@@ -44,16 +44,16 @@ cssclasses:
 
 > [!wb-cards|4]
 > ![[card-characters.jpg]]
-> **[[Character.base|Character]]**
+> **[[Character|Character]]**
 >
 > ![[card-ancestry.jpg]]
-> **[[Ancestry.base|Ancestry]]**
+> **[[Ancestry|Ancestry]]**
 >
 > ![[card-organization.jpg]]
-> **[[Organization.base|Organization]]**
+> **[[Organization|Organization]]**
 >
 > ![[card-culture.jpeg]]
-> **[[Culture-Art.base|Art]]**
+> **[[Art|Art]]**
 
 ## Places
 
@@ -74,7 +74,7 @@ cssclasses:
 > **[[History.base|History]]**
 >
 > ![[card-country.jpeg]]
-> **[[Country.base|Country]]**
+> **[[Country]]**
 >
 > ![[card-lore.jpg]]
 > **[[Lore.base|Lore]]**

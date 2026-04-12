@@ -1,36 +1,164 @@
 {
   "recentFiles": [
     {
-      "basename": "lorekeeper_meta",
-      "path": "lorekeeper_meta.md"
-    },
-    {
-      "basename": "Dashboard-Worldbuilding",
-      "path": "Dashboard-Worldbuilding.md"
-    },
-    {
-      "basename": "Atlantis",
-      "path": "World/Country/Atlantis.md"
-    },
-    {
-      "basename": "Country",
-      "path": "Indexes/Country.md"
-    },
-    {
       "basename": "Home",
       "path": "Home.md"
+    },
+    {
+      "basename": "Notes",
+      "path": "Indexes/Notes.md"
+    },
+    {
+      "basename": "Magic",
+      "path": "Indexes/Magic.md"
+    },
+    {
+      "basename": "Geography",
+      "path": "Indexes/Geography.md"
+    },
+    {
+      "basename": "History",
+      "path": "Indexes/History.md"
+    },
+    {
+      "basename": "Language",
+      "path": "Indexes/Language.md"
+    },
+    {
+      "basename": "Documentation",
+      "path": "Indexes/Documentation.md"
     },
     {
       "basename": "Character",
       "path": "Indexes/Character.md"
     },
     {
+      "basename": "lorekeeper_meta",
+      "path": "lorekeeper_meta.md"
+    },
+    {
+      "basename": "Master Tags List",
+      "path": "Notes/Documentation/Master Tags List.md"
+    },
+    {
+      "basename": "Country",
+      "path": "Indexes/Country.md"
+    },
+    {
+      "basename": "Atlantis",
+      "path": "World/Country/Atlantis.md"
+    },
+    {
+      "basename": "Something spell",
+      "path": "World/Magic/Something spell.md"
+    },
+    {
       "basename": "Buttons",
       "path": "Notes/Documentation/Buttons.md"
     },
     {
+      "basename": "Great War",
+      "path": "World/History/Great War.md"
+    },
+    {
       "basename": "Jeff",
       "path": "World/Character/Jeff.md"
+    },
+    {
+      "basename": "Elvish",
+      "path": "World/Language/Elvish.md"
+    },
+    {
+      "basename": "Template_Settlement",
+      "path": "Templates/T_World/Template_Settlement.md"
+    },
+    {
+      "basename": "Template_Religion",
+      "path": "Templates/T_World/Template_Religion.md"
+    },
+    {
+      "basename": "Template_Organization",
+      "path": "Templates/T_World/Template_Organization.md"
+    },
+    {
+      "basename": "Template_Object",
+      "path": "Templates/T_World/Template_Object.md"
+    },
+    {
+      "basename": "Template_Nature",
+      "path": "Templates/T_World/Template_Nature.md"
+    },
+    {
+      "basename": "Template_Magic",
+      "path": "Templates/T_World/Template_Magic.md"
+    },
+    {
+      "basename": "Template_Lore",
+      "path": "Templates/T_World/Template_Lore.md"
+    },
+    {
+      "basename": "Template_Art",
+      "path": "Templates/T_World/Template_Art.md"
+    },
+    {
+      "basename": "Template_Character",
+      "path": "Templates/T_World/Template_Character.md"
+    },
+    {
+      "basename": "Template_Concept",
+      "path": "Templates/T_World/Template_Concept.md"
+    },
+    {
+      "basename": "Template_Country",
+      "path": "Templates/T_World/Template_Country.md"
+    },
+    {
+      "basename": "Template_Geography",
+      "path": "Templates/T_World/Template_Geography.md"
+    },
+    {
+      "basename": "Dashboard-Worldbuilding",
+      "path": "Dashboard-Worldbuilding.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Story",
+      "path": "Story/Story.md"
+    },
+    {
+      "basename": "Template_Notes_Research",
+      "path": "Templates/T_Notes/Template_Notes_Research.md"
+    },
+    {
+      "basename": "Template_Notes_Reference",
+      "path": "Templates/T_Notes/Template_Notes_Reference.md"
+    },
+    {
+      "basename": "Template_Notes_Planning",
+      "path": "Templates/T_Notes/Template_Notes_Planning.md"
+    },
+    {
+      "basename": "Template_Notes_Documentation",
+      "path": "Templates/T_Notes/Template_Notes_Documentation.md"
+    },
+    {
+      "basename": "Template_Notes_Brainstorm",
+      "path": "Templates/T_Notes/Template_Notes_Brainstorm.md"
+    },
+    {
+      "basename": "Template_Notes_Blank",
+      "path": "Templates/T_Notes/Template_Notes_Blank.md"
+    },
+    {
+      "basename": "Test",
+      "path": "Notes/Test.md"
+    },
+    {
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
     },
     {
       "basename": "Beffrey",
@@ -53,28 +181,12 @@
       "path": "Templates/Metadata/Seed_Character.md"
     },
     {
-      "basename": "Master Tags List",
-      "path": "Notes/Documentation/Master Tags List.md"
-    },
-    {
-      "basename": "Documentation",
-      "path": "Indexes/Documentation.md"
-    },
-    {
       "basename": "Nature",
       "path": "Indexes/Nature.md"
     },
     {
-      "basename": "Notes",
-      "path": "Indexes/Notes.md"
-    },
-    {
       "basename": "Object",
       "path": "Indexes/Object.md"
-    },
-    {
-      "basename": "Geography",
-      "path": "Indexes/Geography.md"
     },
     {
       "basename": "Art",
@@ -87,118 +199,6 @@
     {
       "basename": "Infobox_Art",
       "path": "Templates/T_Infobox/Infobox_Art.md"
-    },
-    {
-      "basename": "Template_Art",
-      "path": "Templates/T_World/Template_Art.md"
-    },
-    {
-      "basename": "Template_Character",
-      "path": "Templates/T_World/Template_Character.md"
-    },
-    {
-      "basename": "Template_Country",
-      "path": "Templates/T_World/Template_Country.md"
-    },
-    {
-      "basename": "Template_Geography",
-      "path": "Templates/T_World/Template_Geography.md"
-    },
-    {
-      "basename": "Template_Culture-Art",
-      "path": "Archive/Template_Culture-Art.md"
-    },
-    {
-      "basename": "Template_Ancestry",
-      "path": "Templates/T_World/Template_Ancestry.md"
-    },
-    {
-      "basename": "Template_Concept",
-      "path": "Templates/T_World/Template_Concept.md"
-    },
-    {
-      "basename": "Seed_Character_4",
-      "path": "Templates/Metadata/Seed_Character_4.md"
-    },
-    {
-      "basename": "Seed_Character_5",
-      "path": "Templates/Metadata/Seed_Character_5.md"
-    },
-    {
-      "basename": "Seed_Character_3",
-      "path": "Templates/Metadata/Seed_Character_3.md"
-    },
-    {
-      "basename": "Seed_Character_2",
-      "path": "Templates/Metadata/Seed_Character_2.md"
-    },
-    {
-      "basename": "Template_Character",
-      "path": "Archive/Template_Character.md"
-    },
-    {
-      "basename": "Template_Ancestry",
-      "path": "Archive/Template_Ancestry.md"
-    },
-    {
-      "basename": "CLAUDE",
-      "path": "CLAUDE.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "Template_Condition",
-      "path": "Archive/Template_Condition.md"
-    },
-    {
-      "basename": "Concept",
-      "path": "Indexes/Concept.md"
-    },
-    {
-      "basename": "Template_Concept",
-      "path": "Archive/Template_Concept.md"
-    },
-    {
-      "basename": "card-economy",
-      "path": "Assets/Cards/card-economy.jpg"
-    },
-    {
-      "basename": "Template_Religion",
-      "path": "Templates/T_World/Template_Religion.md"
-    },
-    {
-      "basename": "Template_Politics",
-      "path": "Archive/Template_Politics.md"
-    },
-    {
-      "basename": "Template_Language",
-      "path": "Templates/T_World/Template_Language.md"
-    },
-    {
-      "basename": "Template_Magic",
-      "path": "Templates/T_World/Template_Magic.md"
-    },
-    {
-      "basename": "Story",
-      "path": "Story/Story.md"
-    },
-    {
-      "basename": "Template_Lore",
-      "path": "Templates/T_World/Template_Lore.md"
-    },
-    {
-      "basename": "Template_Resource",
-      "path": "Archive/Template_Resource.md"
-    },
-    {
-      "basename": "Template_Economy",
-      "path": "Archive/Template_Economy.md"
-    },
-    {
-      "basename": "Template_Compile_Manuscript",
-      "path": "Templates/T_Story/Template_Compile_Manuscript.md"
     }
   ],
   "omittedPaths": [],

@@ -3,10 +3,12 @@ tags:
   - History
 status:
 historical_scope:
-art:
+art: Assets/Cards/card-condition.jpg
 involved_characters:
+  - "[[Jeff]]"
 involved_organizations:
 involved_countries:
+  - "[[Atlantis]]"
 locations:
 preceded_by:
 led_to:
@@ -32,68 +34,42 @@ related:
 > [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
 > [[History|All History]] | [[Home]]
 
-<%*
-const hasNewWorldTitle = tp.file.title.startsWith("NewWorldNote");
-const hasUntitledTitle = tp.file.title.startsWith("Untitled");
-let title;
+# **Great War**
 
-if (hasNewWorldTitle || hasUntitledTitle) {
-    title = await tp.system.prompt("Enter History Entry Name");
-    await tp.file.rename(title);
-} else {
-    title = tp.file.title;
-}
-
-const targetFolder = "World/History";
-await tp.file.move(`${targetFolder}/${title}`);
-
-tR += `# **${title}**\n`;
-
-// Include infobox? (ALT+T -> Infobox_* to add later)
-const infobox = await tp.system.suggester(
-    ["Yes", "No"],
-    [true, false],
-    false,
-    "Include infobox?"
-);
-
-if (infobox) {
-    tR += `
 > [!statbox]+
-> # \`=this.file.name\`
-> \`VIEW[!\\[\\[{art}\\]\\]][text(renderMarkdown)]\`
+> # `=this.file.name`
+> `VIEW[!\[\[{art}\]\]][text(renderMarkdown)]`
 >
 > <div class="section">Involved</div>
 >
-> <span class="label">Characters</span> \`VIEW[{involved_characters}][link]\`
+> <span class="label">Characters</span> `VIEW[{involved_characters}][link]`
 >
-> <span class="label">Organizations</span> \`VIEW[{involved_organizations}][link]\`
+> <span class="label">Organizations</span> `VIEW[{involved_organizations}][link]`
 >
-> <span class="label">Countries</span> \`VIEW[{involved_countries}][link]\`
+> <span class="label">Countries</span> `VIEW[{involved_countries}][link]`
 >
-> <span class="label">Locations</span> \`VIEW[{locations}][link]\`
+> <span class="label">Locations</span> `VIEW[{locations}][link]`
 >
 > <div class="section">Timeline</div>
 >
-> <span class="label">Preceded By</span> \`VIEW[{preceded_by}][link]\`
+> <span class="label">Preceded By</span> `VIEW[{preceded_by}][link]`
 >
-> <span class="label">Led To</span> \`VIEW[{led_to}][link]\`
+> <span class="label">Led To</span> `VIEW[{led_to}][link]`
 >
-> <span class="label">Concurrent With</span> \`VIEW[{concurrent_with}][link]\`
+> <span class="label">Concurrent With</span> `VIEW[{concurrent_with}][link]`
 >
-> <span class="label">Sources</span> \`VIEW[{sources}][link]\`
-`;
-}
+> <span class="label">Sources</span> `VIEW[{sources}][link]`
 
-const outline = await tp.system.suggester(
-    ["Yes", "No"],
-    [true, false],
-    false,
-    "Include outline?"
-);
+## Overview
 
-if (outline) {
-    tR += "\n## Overview\n\n## Key Figures\n\n## Causes\n\n## Events\n\n## Consequences\n\n## Legacy\n\n## Story Notes\n";
-}
-_%>
+## Key Figures
 
+## Causes
+
+## Events
+
+## Consequences
+
+## Legacy
+
+## Story Notes

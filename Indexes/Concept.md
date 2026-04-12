@@ -14,8 +14,7 @@ obsidianUIMode: preview
 filters:
   and:
     - file.tags.contains("Concept")
-    - '!file.path.contains("Templates/")'
-    - '!file.path.contains("Archive/")'
+    - file.path.startsWith("World/")
 views:
   - type: table
     name: View

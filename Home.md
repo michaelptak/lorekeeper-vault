@@ -62,13 +62,13 @@ banner-y: 37
 ## World & History
 >[!cards|4]
 >**History**
->[![[card-history.jpg|sban hsmall p+cbb]]](History.base)
+>[![[card-history.jpg|sban hsmall p+cbb]]](History)
 >
 >**Country**
 >[![[card-country.jpeg|sban hsmall p+tc]]](Country)
 >
 >**Lore**
->[![[card-lore.jpg|sban hsmall p+tc]]](Lore.base)
+>[![[card-lore.jpg|sban hsmall p+tc]]](Lore)
 >
 >**Religion**
 >[![[card-religion.jpeg|sban hsmall p+cb]]](Religion.base)
@@ -78,7 +78,7 @@ banner-y: 37
 >[![[card-concept.jpg|sban hsmall p+tc]]](Concept)
 >
 >**Magic**
->[![[card-magic.jpeg|sban hsmall p+tc]]](Magic.base)
+>[![[card-magic.jpeg|sban hsmall p+tc]]](Magic)
 >
 >**Object**
 >[![[card-object.jpg|sban hsmall p+cbb]]](Object)
@@ -91,7 +91,7 @@ banner-y: 37
 ## Niche
 >[!cards|2]
 >**Language**
->[![[card-language.jpeg|sban hsmall p+tc]]](Language.base)
+>[![[card-language.jpeg|sban hsmall p+tc]]](Language)
 
 ## Diagrams, Art, Assets
 - 🎨 [[Excalidraw.base|All Excalidraw Notes]]

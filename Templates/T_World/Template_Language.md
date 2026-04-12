@@ -1,80 +1,23 @@
 ---
 tags:
   - Language
-art: Assets/TemplateImg/Placeholder-Generic.jpg
+status:
+art:
 ---
 
-> [!metadata]- Meta Data
-> #### Core Properties
+> [!metadata]- Links
 >  |
 > ---|---|
-> **Tags** | `INPUT[Tags][inlineListSuggester:tags]` |
-> **Status** | `INPUT[select(option(Stub), option(Planned), option(WIP), option(Complete)):status]` |
-> **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates"), useLinks(partial)):related]` |
-> **Art** | `INPUT[imageSuggester(optionQuery("Assets/WorldImg")):art]` |
->
-> #### Language Characteristics
->  |
-> ---|---|
-> **Usage** | `INPUT[Usage][:usage]` |
-> **Script** | `INPUT[Script][:script]` |
-> **Family** | `INPUT[text(placeholder(Elvish languages/Dwarven dialects)):family]` |
-> **Prevalence** | `INPUT[Prevalence][:prevalence]` |
->
-> #### Speakers & Distribution
->  |
-> ---|---|
-> **Spoken By** | `INPUT[inlineListSuggester(optionQuery(#ancestry or #organization or #country AND !"Templates"), useLinks(partial)):spoken_by]` |
-> **Locations** | `INPUT[inlineListSuggester(optionQuery(#settlement or #poi or #geography or #country or #cosmos AND !"Templates"), useLinks(partial)):locations]` |
->
-> #### Linguistic Relations
->  |
-> ---|---|
-> **Derived From** | `INPUT[inlineListSuggester(optionQuery(#language AND !"Templates"), useLinks(partial)):derived_from]` |
-> **Related Languages** | `INPUT[inlineListSuggester(optionQuery(#language AND !"Templates"), useLinks(partial)):related_languages]` |
-> **Written Works** | `INPUT[inlineListSuggester(optionQuery(#lore AND !"Templates"), useLinks(partial)):written_works]` |
+> **Art** | `INPUT[imageSuggester(optionQuery("Assets")):art]` |
+> **Spoken By** | `INPUT[inlineListSuggester(optionQuery(#Ancestry or #Organization or #Country AND !"Templates" AND !"Archive"), useLinks(partial)):spoken_by]` |
+> **Related Languages** | `INPUT[inlineListSuggester(optionQuery(#Language AND !"Templates" AND !"Archive"), useLinks(partial)):related_languages]` |
+> **Derived From** | `INPUT[inlineListSuggester(optionQuery(#Language AND !"Templates" AND !"Archive"), useLinks(partial)):derived_from]` |
+> **Written Works** | `INPUT[inlineListSuggester(optionQuery(#Lore AND !"Templates" AND !"Archive"), useLinks(partial)):written_works]` |
+> **Locations** | `INPUT[inlineListSuggester(optionQuery(#Settlement or #POI or #Geography or #Country AND !"Templates" AND !"Archive"), useLinks(partial)):locations]` |
+> **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates" AND !"Archive"), useLinks(partial)):related]` |
 
 > [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
-> [[Language.base|All Languages]] | [[Home]]
->
-> [[#Overview]] • [[#Linguistic Features]] • [[#Usage & Distribution|Distribution]] • [[#Story Notes]]
-
-# **`=this.file.name`**
-
-> [!statbox]+
-> # `=this.file.name`
-> `VIEW[!\[\[{art}\]\]][text(renderMarkdown)]`
->
-> <div class="section">Basic Information</div>
->
-> <span class="label">Usage</span> `VIEW[{usage}]`
->
-> <span class="label">Script</span> `VIEW[{script}]`
->
-> <span class="label">Family</span> `VIEW[{family}]`
->
-> <span class="label">Prevalence</span> `VIEW[{prevalence}]`
->
-> <div class="section">Speakers</div>
->
-> <span class="label">Spoken By</span> `VIEW[{spoken_by}][link]`
->
-> <span class="label">Locations</span> `VIEW[{locations}][link]`
-
-## Overview
-Brief description of this language and its role in the world.
-
-## Linguistic Features
-Key characteristics - sounds, grammar quirks, unique features, or flavor. Keep it simple unless you're doing deep conlang work.
-
-## Usage & Distribution
-Who speaks it, where it's spoken, how it's used (daily life, ceremonies, trade, etc.).
-
-## History & Evolution
-Origins, how it developed, relationship to other languages.
-
-## Story Notes
-How this language appears in your narratives - phrases, naming conventions, cultural significance.
+> [[Language|All Languages]] | [[Home]]
 
 <%*
 const hasNewWorldTitle = tp.file.title.startsWith("NewWorldNote");
@@ -88,7 +31,48 @@ if (hasNewWorldTitle || hasUntitledTitle) {
     title = tp.file.title;
 }
 
-// Move file to Language folder
 const targetFolder = "World/Language";
 await tp.file.move(`${targetFolder}/${title}`);
+
+tR += `# **${title}**\n`;
+
+// Include infobox? (ALT+T -> Infobox_* to add later)
+const infobox = await tp.system.suggester(
+    ["Yes", "No"],
+    [true, false],
+    false,
+    "Include infobox?"
+);
+
+if (infobox) {
+    tR += `
+> [!statbox]+
+> # \`=this.file.name\`
+> \`VIEW[!\\[\\[{art}\\]\\]][text(renderMarkdown)]\`
+>
+> <div class="section">Details</div>
+>
+> <span class="label">Spoken By</span> \`VIEW[{spoken_by}][link]\`
+>
+> <span class="label">Related Languages</span> \`VIEW[{related_languages}][link]\`
+>
+> <span class="label">Derived From</span> \`VIEW[{derived_from}][link]\`
+>
+> <span class="label">Written Works</span> \`VIEW[{written_works}][link]\`
+>
+> <span class="label">Locations</span> \`VIEW[{locations}][link]\`
+`;
+}
+
+const outline = await tp.system.suggester(
+    ["Yes", "No"],
+    [true, false],
+    false,
+    "Include outline?"
+);
+
+if (outline) {
+    tR += "\n## Overview\n\n## Script & Writing System\n\n## Common Words & Naming Conventions\n\n## History & Evolution\n\n## Cultural Significance\n\n## Story Notes\n";
+}
 _%>
+

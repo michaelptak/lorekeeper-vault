@@ -34,12 +34,9 @@ priority:
 > - Changing the folder structure around (Hard-coded in many templater scripts. Adding new folders however is fine)
 > - Renaming the property name itself (Might break some existing dataview/Bases queries. It's very doable but honestly pointless as these are not really something you are ever viewing)
 
-
-## Naming Convention
-- Metadata takes the form of {property}:{Value} where property is always lowercase, and the value is always uppercased. Except for tags which are also uppercased.
-
 ## Default Properties
-- **Note: Generally come with every template**
+- **Generally come with every template**
+- `tags` - Every category comes with one, but this is a good opportunity for simple, free form metadata organization. Feel free to go crazy with it.
 - `status`
   - `Stub` - basic notes, no immediate development plans
   - `Planned` - ready to develop when time allows, higher priority than stubs
@@ -103,89 +100,33 @@ priority:
 - Everything else (concept type, scope, severity, duration, origin, awareness, truth status, transmission) → prose in the note body
 
 #### History
+(Major events, periods, eras, and recurring occasions that shape your world's timeline. Use `historical_scope` to distinguish scale.)
 - `historical_scope` - Event, Period, Era, Recurring
   - Event = specific occurrences
   - Period = longer than an event but shorter than an era
-  - Era = broader time periods (ages, epochs- whatever you want to call them)
+  - Era = broader time periods (ages, epochs)
   - Recurring = events that happen repeatedly (like holidays)
-- `event_type` - War, Founding, Disaster, Discovery, Cultural -Shift (free-form list)
-- `scope` - Local, Regional, National, Continental, Global, Cosmic
-- `era` - "The Great Convergence" (actual named era/period)
 - `involved_characters` → links to **Character**
-- `involved_organizations` → links to **Organization**  
+- `involved_organizations` → links to **Organization**
 - `involved_countries` → links to **Country**
-- `locations` → links to **Settlement**, **POI**, **Geography**, **Country** (where it's found)
-- `fc-calendar` - calendar name for Calendarium integration
-- `fc-date` - start date in YYYY-MM-DD format
-- `fc-end` - end date in YYYY-MM-DD format (optional)
-- `fc-category` - event category for calendar display (optional)
-- `fc-display-name` - optional override for event title (optional)
-- `aat-event-picture` - unfortunately only way I could get this to work is providing a 
-- `aat-render-enabled` - true/false - Toggle for event to show up in timelines or not.
-- `aat-event-body` - custom description for timeline display (optional)
-- `timelines` - List timeline names (defaults to world-history)
-  - This is the ID used by April's Automatic Timelines. By default all history will go to the global world-history timeline, if you want smaller more specific timelines you do it through here. 
+- `locations` → links to **Settlement**, **POI**, **Geography**, **Country**
 - `preceded_by` → links to **History** (predecessor events)
 - `led_to` → links to **History** (successor events)
-- `concurrent_with` → links to **History** (simultaneous events)
-  - Use this for "sub"/"parent" events
-- `primary_sources` → links to **Lore**
-- `secondary_sources` → links to **Lore**
-- `evidence` → links to **Object**, **POI** (Archaeological evidence)
+- `concurrent_with` → links to **History** (simultaneous events, or sub/parent events)
+- `sources` → links to **Lore** (written accounts, records)
+- Everything else (event type, scope, era name, significance) → prose in the note body
 
 #### Lore
-(Actual writings and primary sources from within the world itself)
-- `document_type`
-  - historical
-  - religious
-  - personal (letters, diaries, memoirs)
-  - legal (laws, treaties, contracts)
-  - scholarly (research, theories, textbooks)
-  - literary (poetry, fiction, plays)
-  - technical (manuals, recipes, instructions)
-  - propaganda
-  - prophetic
-- `form`
-  - text (book, scroll, codex)
-  - oral (song, spoken tradition)
-  - inscription (carved, engraved)
-  - magical (enchanted, living text)
-- `authenticity`
-  - original
-  - copy
-  - translation
-  - fragment
-  - forgery
-  - corrupted (damaged/altered over time)
-- `preservation`
-  - excellent
-  - good
-  - poor
-  - fragmentary
-  - lost (known to exist but unavailable)
-- `languages` → links to **Language**
-- `access`
-  - public
-  - restricted
-  - secret
-  - lost
-  - forbidden
+(Actual writings and primary sources from within the world itself — books, scrolls, inscriptions, oral traditions, prophecies. Use `document_type` to distinguish.)
+- `document_type` - Historical, Religious, Personal, Legal, Scholarly, Literary, Technical, Propaganda, Prophetic
 - `author` → links to **Character**
 - `commissioned_by` → links to **Character**, **Organization**
+- `languages` → links to **Language**
 - `current_location` → links to **Settlement**, **POI**, **Organization**
-- `original_location` → links to **Settlement**, **POI** (where it was created)
 - `mentions` → links to **Character**, **History**, **Geography**, etc. (what/who appears in the document)
 - `contradicts` → links to other **Lore** (conflicting accounts)
 - `supports` → links to other **Lore** (corroborating sources)
-- `fc-date` - When it was written (YYYY-MM-DD format)
-- **Calendar / Timeline Related (all by default empty)**
-  - `fc-calendar` - calendar name for Calendarium integration
-  - `fc-category` - event category for calendar display 
-  - `fc-display-name` - optional override for event title
-  - `aat-event-picture` - image for timeline display
-  - `aat-render-enabled` - true/false - Toggle for timeline visibility
-  - `aat-event-body` - custom description for timeline display
-  - `timelines` - List timeline names (defaults to world-history)
+- Everything else (form, authenticity, preservation, access, original location) → prose in the note body
 
 ### Physical World
 #### Nature
@@ -348,33 +289,13 @@ priority:
 - `languages` → links to **Language** (official/common languages)
 - Everything else (government type, size, wealth, stability, military power, economy) → prose in the note body
 #### Language
-- `usage`
-  - common (everyday speech)
-  - ceremonial (rituals, formal events)
-  - scholarly (academic, research)
-  - ancient (historical, classical)
-  - dead (no native speakers)
-  - liturgical (religious use only)
-  - trade (commerce, pidgin)
-- `script`
-  - none (oral only)
-  - simple (basic alphabet/syllabary)
-  - complex (logographic, intricate)
-  - magical (enchanted writing)
-  - pictographic (symbol-based)
-  - runic (carved symbols)
-- `family` - Free text field (Elvish languages, Dwarven dialects, etc.)
-- `prevalence`
-  - widespread (millions of speakers)
-  - common (thousands of speakers)
-  - limited (hundreds of speakers)
-  - rare (dozens of speakers)
-  - extinct (no speakers, only records)
+(Spoken and written languages of your world — from common tongues to ancient scripts and magical languages)
 - `spoken_by` → links to **Ancestry**, **Organization**, **Country**
 - `related_languages` → links to other **Language**
 - `derived_from` → links to **Language** (parent language)
 - `written_works` → links to **Lore**
-- `locations` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos**
+- `locations` → links to **Settlement**, **POI**, **Geography**, **Country** (where it's spoken)
+- Everything else (usage, script type, language family, prevalence) → prose in the note body
 
 #### Organization
 - `org_type`
@@ -460,49 +381,14 @@ priority:
 
 ### Supernatural & Material
 #### Magic
-- `magic_scope`
-  - system (entire school/tradition of magic)
-  - discipline (branch within a system)
-  - technique (specific method or style)
-  - spell (individual magical effect)
-  - item (potion, scroll, enchantment)
-- `magic_type`
-  - arcane (scholarly study, formulaic)
-  - divine (granted by deity, faith-based)
-  - innate (inborn ability, natural)
-  - environmental (drawn from nature, location-based)
-  - blood (hereditary, ancestral power)
-  - pact (bargained for, contracted)
-  - chaos (wild, unpredictable)
-  - necromantic (death-based, soul manipulation)
-- `learning_method`
-  - study (academic, requires training)
-  - bloodline (inherited, genetic)
-  - divine calling (chosen by deity)
-  - natural talent (intuitive, self-taught)
-  - ritual (ceremony, initiation required)
-  - artifact (granted by object)
-  - unlearnable (cannot be taught)
-- `societal_view`
-  - revered (respected, honored)
-  - accepted (normal, commonplace)
-  - tolerated (allowed but watched)
-  - feared (mistrusted, dangerous)
-  - forbidden (illegal, persecuted)
-  - unknown (secret, hidden)
-- `rarity`
-  - common (widespread practitioners)
-  - uncommon (limited practitioners)
-  - rare (very few practitioners)
-  - legendary (thought to be myth)
-  - forbidden (illegal to practice)
-  - lost (knowledge forgotten)
-- `power_source` → links to **Concept**, **Cosmos**, **Geography** (where power comes from)
+(Magic systems, disciplines, techniques, spells, and enchanted items — anything supernatural or arcane in your world.)
+- `power_source` → links to **Concept**, **Geography** (where the magic draws power from)
 - `practiced_by` → links to **Ancestry**, **Organization**, **Character**, **Religion**
-- `requires` → links to **Object**, **Resource**, **Condition**
+- `requires` → links to **Object**, **Concept**, **Technology** (materials, conditions, or knowledge needed)
 - `taught_at` → links to **Organization**, **Settlement**, **POI**
-- `enables` → links to **Object**, **Magic**, **Concept** (what this magic makes possible)
-- `countered_by` → links to other **Magic**, **Object**, **Condition**
+- `enables` → links to **Object**, **Magic**, **Concept**, **Technology** (what this magic makes possible)
+- `countered_by` → links to **Magic**, **Object**, **Concept**, **Technology** (what opposes or nullifies it)
+- Everything else (magic scope, type, learning method, societal view, rarity) → prose in the note body
 
 #### Object
 (All physical items and resources — weapons, tools, artifacts, raw materials, trade goods. Use sub-tags to distinguish: `#Resource, #Artifact`)

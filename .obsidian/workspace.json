@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dashboard-Worldbuilding.md",
-                "mode": "preview",
+                "file": "Indexes/Country.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dashboard-Worldbuilding"
+              "title": "Country"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lorekeeper_meta.md",
+                "file": "Home.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lorekeeper_meta"
+              "title": "Home"
             }
           }
         ],
@@ -120,10 +120,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "lorekeeper_meta.md"
+                "file": "Home.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for lorekeeper_meta"
+              "title": "File properties for Home"
             }
           },
           {
@@ -230,8 +230,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 418.5,
-    "collapsed": true
+    "width": 418.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -251,42 +250,42 @@
   },
   "active": "17b49f8a9eff71e0",
   "lastOpenFiles": [
-    "Dashboard-Worldbuilding.md",
-    "World/Country/Atlantis.md",
-    "Indexes/Country.md",
-    "Home.md",
-    "Indexes/Character.md",
-    "Notes/Documentation/Buttons.md",
-    "Notes/Documentation/NewWorldNote.md",
-    "World/Character/Jeff.md",
-    "World/Character/Beffrey.md",
-    "Notes/Documentation/NewNote.md",
-    "Home.md.tmp.5966.1776002516451",
-    "Indexes/Country.md.tmp.5966.1776002507213",
-    "Templates/T_Infobox/Infobox_Country.md",
-    "Templates/T_Infobox/Infobox_Country.md.tmp.5966.1776002498467",
-    "Templates/T_World/Template_Country.md.tmp.5966.1776002488367",
-    "Templates/Metadata/Seed_Country.md",
-    "Templates/Metadata/Seed_Default.md",
-    "lorekeeper_meta.md",
-    "Notes/Documentation/Master Tags List.md.tmp.5966.1776002443730",
-    "Templates/Metadata/Seed_Art.md",
-    "Templates/Metadata/Seed_Character.md",
-    "Notes/Documentation/Master Tags List.md",
-    "Indexes/Documentation.md",
-    "Indexes/Nature.md",
     "Indexes/Notes.md",
-    "Indexes/Object.md",
+    "Indexes/Magic.md",
     "Indexes/Geography.md",
-    "Indexes/Art.md",
-    "Indexes/Ancestry.md",
-    "World/Culture-Art/The Golden Cow.md",
-    "Templates/T_Infobox/Infobox_Art.md",
-    "Home.md.tmp.5966.1776002201475",
-    "Indexes/Art.md.tmp.5966.1776002191075",
-    "Templates/T_Infobox/Infobox_Art.md.tmp.5966.1776002176110",
-    "Templates/T_World/Template_Art.md.tmp.5966.1776002158040",
-    "Notes/Documentation/Master Tags List.md.tmp.5966.1776002127235",
+    "Indexes/History.md",
+    "Indexes/Language.md",
+    "Indexes/Documentation.md",
+    "Indexes/Character.md",
+    "Home.md",
+    "lorekeeper_meta.md",
+    "Indexes/Magic.md.tmp.26968.1776006881614",
+    "Indexes/Lore.md.tmp.26968.1776006880512",
+    "Indexes/History.md.tmp.26968.1776006879141",
+    "Indexes/Language.md.tmp.26968.1776006877682",
+    "Indexes/Character.md.tmp.26968.1776006876742",
+    "Indexes/Country.md.tmp.26968.1776006875451",
+    "Indexes/Art.md.tmp.26968.1776006874053",
+    "Indexes/Ancestry.md.tmp.26968.1776006872506",
+    "Indexes/Concept.md.tmp.26968.1776006871094",
+    "Indexes/Object.md.tmp.26968.1776006869697",
+    "Notes/Documentation/Master Tags List.md",
+    "Indexes/Country.md",
+    "World/Country/Atlantis.md",
+    "World/Magic/Something spell.md",
+    "Notes/Documentation/Buttons.md",
+    "World/History/A great event.md",
+    "Notes/Documentation/NewNote.md",
+    "Templates/T_Infobox/Infobox_Magic.md",
+    "Templates/Metadata/Seed_Magic.md",
+    "Indexes/Lore.md",
+    "Templates/T_Infobox/Infobox_Lore.md",
+    "Templates/Metadata/Seed_Lore_5.md",
+    "Templates/Metadata/Seed_Lore_4.md",
+    "Templates/Metadata/Seed_Lore_3.md",
+    "Templates/Metadata/Seed_Lore_2.md",
+    "Templates/Metadata/Seed_Lore.md",
+    "World/History/Great War.md",
     "Assets/Cards/card-economy.jpg",
     "Assets/volcanic wastes.jpg",
     "Assets/dire-wolf-daniel-eskridge.jpg",
