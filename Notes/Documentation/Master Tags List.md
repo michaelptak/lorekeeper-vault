@@ -19,7 +19,7 @@ priority:
 > 
 > **People & Society:** [[#Ancestry]] | [[#Character]] | [[#Culture/Art]]
 > 
-> **Systems & Institutions:** [[#Country]] | [[#Economy]] | [[#Language]] | [[#Organization]] | [[#Politics]] | [[#Religion]]
+> **Systems & Institutions:** [[#Country]] | [[#Language]] | [[#Organization]] | [[#Religion]]
 > 
 > **Supernatural & Material:** [[#Condition]] | [[#Magic]] | [[#Object]] | [[#Technology]]
 
@@ -163,13 +163,6 @@ priority:
 - `primary_sources` → links to **Lore**
 - `secondary_sources` → links to **Lore**
 - `evidence` → links to **Object**, **POI** (Archaeological evidence)
-
-#### Timeline
-(used as a better and more visual index for history and alternative elements)
-- `historical_scope` - Event, Period, Era, Recurring
-- `scope` - Local, Regional, National, Continental, Global, Cosmic
-- `era` - "The Great Convergence" (actual named era/period)
-- `timelines` - List timeline names (defaults to world-history)
 
 #### Lore
 (Actual writings and primary sources from within the world itself)
@@ -332,7 +325,6 @@ priority:
 - `economy` → links to **Economy** (local markets, trade routes they're part of,etc.)
 
 ### People & Society
-
 #### Ancestry
 (Often called "race" in most fantasy worlds like elf,dwarf,human etc.)
 - `lifespan` (brief, normal, long, immortal)
@@ -441,37 +433,6 @@ priority:
 - `inhabitants` → links to **Ancestry**
 - `official_religion` → links to **Religion**
 - `languages` → links to **Language** (official/common languages)
-- `economy` → links to **Economy** (national economic systems)
-
-#### Economy
-- `economic_type`
-  - currency (monetary system, coinage)
-  - trade_route (commercial pathway, shipping lane)
-  - market (marketplace, trading hub)
-  - industry (manufacturing, production sector)
-  - system (economic framework, financial institution)
-  - cartel (controlling organization, monopoly)
-- `stability`
-  - collapsing (economic crisis, failing)
-  - volatile (unpredictable, unstable)
-  - declining (weakening, contracting)
-  - stable (steady, reliable)
-  - growing (expanding, strengthening)
-  - booming (rapid growth, prosperity)
-- `scope` (Local, Regional, National, Continental, Global, Cosmic)
-- `economic_model`
-  - barter (direct exchange)
-  - mercantile (trade-focused)
-  - agricultural (farming-based)
-  - industrial (manufacturing-based)
-  - magical (magic-dependent)
-  - mixed (combination of systems)
-- `controlled_by` → links to **Organization**, **Country**
-- `trades_in` → links to **Resource**, **Object**
-- `commodity` → links to **Resource** (if economic_type is commodity-focused)
-- `connects` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos**
-- `competitors` → links to other **Economy** (rival systems/routes)
-
 #### Language
 - `usage`
   - common (everyday speech)
@@ -541,35 +502,6 @@ priority:
 - `operates_in` → links to **Country**, **Settlement**, **Geography**, **Cosmos**
 - `controls` → links to **Settlement**, **POI**, **Geography**, **Resource**
 - `associated_religion` → links to **Religion**
-
-#### Politics
-- `political_type`
-  - law (legislation, legal code)
-  - treaty (agreement, pact, accord)
-  - conflict (war, dispute, rivalry)
-  - alliance (coalition, partnership)
-  - policy (government decision, decree)
-  - embargo (trade restriction, sanction)
-  - succession (inheritance, transition of power)
-  - reform (systemic change, revolution)
-- `political_status`
-  - active (currently in effect)
-  - proposed (under consideration)
-  - historical (past, no longer active)
-  - repealed (officially cancelled)
-  - violated (broken, not honored)
-  - disputed (contested validity)
-- `scope` (Local, Regional, National, Continental, Global, Cosmic)
-- `outcome`
-  - successful (achieved goals)
-  - failed (did not achieve goals)
-  - ongoing (still in progress)
-  - stalemate (unresolved)
-  - mixed (partial success)
-- `parties_involved` → links to **Country**, **Organization**, **Character**
-- `supersedes` → links to other **Politics**
-- `led_to` → links to **Politics**, **History** (what resulted from this)
-- `locations` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos** (where it occurred/applies)
 
 #### Religion
 - `belief_type`

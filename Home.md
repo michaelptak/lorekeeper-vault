@@ -74,18 +74,12 @@ banner-y: 37
 >**Organization**
 >[![[card-organization.jpg|sban hsmall p+tc]]](Organization.base)
 ## Systems & Institutions
->[!cards|5]
+>[!cards|3]
 >**Country**
 >[![[card-country.jpeg|sban hsmall p+tc]]](Country.base)
 >
->**Economy**
->[![[card-economy.jpg|sban hsmall p+cb]]](Economy.base)
->
 >**Language**
 >[![[card-language.jpeg|sban hsmall p+tc]]](Language.base)
->
->**Politics**
->[![[card-politics.jpg|sban hsmall p+cb]]](Politics.base)
 >
 >**Religion**
 >[![[card-religion.jpeg|sban hsmall p+cb]]](Religion.base)

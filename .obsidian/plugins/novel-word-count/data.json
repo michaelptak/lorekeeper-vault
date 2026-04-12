@@ -72,20 +72,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 1897,
+      "wordCount": 1937,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 6.323333333333333,
-      "characterCount": 14550,
-      "nonWhitespaceCharacterCount": 12102,
-      "newlineCount": 235,
-      "readingTimeInMinutes": 7.158490566037736,
+      "pageCount": 6.456666666666667,
+      "characterCount": 14760,
+      "nonWhitespaceCharacterCount": 12283,
+      "newlineCount": 237,
+      "readingTimeInMinutes": 7.309433962264151,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1775945559604,
-      "modifiedDate": 1775954049787,
-      "sizeInBytes": 14624,
+      "modifiedDate": 1775956804746,
+      "sizeInBytes": 14838,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 5.58,
@@ -242,39 +242,6 @@
         "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
       }
     },
-    "Templates/T_World/Template_Resource.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 242,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.8066666666666666,
-      "characterCount": 3424,
-      "nonWhitespaceCharacterCount": 3024,
-      "newlineCount": 94,
-      "readingTimeInMinutes": 0.9132075471698113,
-      "linkCount": 6,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1759634579401,
-      "modifiedDate": 1759785595189,
-      "sizeInBytes": 3504,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.8066666666666666,
-        "wordCount": 242,
-        "characterCount": 3424,
-        "nonWhitespaceCharacterCount": 3024,
-        "newlineCount": 94
-      },
-      "frontmatter": {
-        "tags": [
-          "Resource"
-        ],
-        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
-      }
-    },
     "Templates/T_World/Template_Religion.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -304,39 +271,6 @@
       "frontmatter": {
         "tags": [
           "Religion"
-        ],
-        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
-      }
-    },
-    "Templates/T_World/Template_Politics.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 194,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.6466666666666666,
-      "characterCount": 2865,
-      "nonWhitespaceCharacterCount": 2539,
-      "newlineCount": 80,
-      "readingTimeInMinutes": 0.7320754716981132,
-      "linkCount": 6,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1759676500795,
-      "modifiedDate": 1759777737597,
-      "sizeInBytes": 2945,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.6466666666666666,
-        "wordCount": 194,
-        "characterCount": 2865,
-        "nonWhitespaceCharacterCount": 2539,
-        "newlineCount": 80
-      },
-      "frontmatter": {
-        "tags": [
-          "Politics"
         ],
         "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
       }
@@ -609,39 +543,6 @@
         "art": "Assets/TemplateImg/Placeholder-Generic.jpg",
         "fc-calendar": "Gregorian Calendar",
         "aat-render-enabled": true
-      }
-    },
-    "Templates/T_World/Template_Economy.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 200,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.6666666666666666,
-      "characterCount": 3044,
-      "nonWhitespaceCharacterCount": 2706,
-      "newlineCount": 83,
-      "readingTimeInMinutes": 0.7547169811320755,
-      "linkCount": 6,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1759669893659,
-      "modifiedDate": 1759777858819,
-      "sizeInBytes": 3123,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.6666666666666666,
-        "wordCount": 200,
-        "characterCount": 3044,
-        "nonWhitespaceCharacterCount": 2706,
-        "newlineCount": 83
-      },
-      "frontmatter": {
-        "tags": [
-          "Economy"
-        ],
-        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
       }
     },
     "Templates/T_World/Template_Culture-Art.md": {
@@ -2006,20 +1907,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 3414,
+      "wordCount": 3147,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 11.38,
-      "characterCount": 32499,
-      "nonWhitespaceCharacterCount": 27289,
-      "newlineCount": 738,
-      "readingTimeInMinutes": 12.883018867924529,
-      "linkCount": 28,
+      "pageCount": 10.49,
+      "characterCount": 29753,
+      "nonWhitespaceCharacterCount": 24967,
+      "newlineCount": 670,
+      "readingTimeInMinutes": 11.875471698113207,
+      "linkCount": 26,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1775954593006,
-      "modifiedDate": 1775954593006,
-      "sizeInBytes": 32894,
+      "createdDate": 1775957551754,
+      "modifiedDate": 1775957551754,
+      "sizeInBytes": 30128,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 13.323333333333334,
@@ -2204,20 +2105,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 165,
+      "wordCount": 161,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.55,
-      "characterCount": 2465,
-      "nonWhitespaceCharacterCount": 2234,
-      "newlineCount": 103,
-      "readingTimeInMinutes": 0.6226415094339622,
-      "linkCount": 34,
-      "embedCount": 23,
+      "pageCount": 0.5366666666666666,
+      "characterCount": 2394,
+      "nonWhitespaceCharacterCount": 2168,
+      "newlineCount": 100,
+      "readingTimeInMinutes": 0.6075471698113207,
+      "linkCount": 33,
+      "embedCount": 22,
       "aliases": null,
       "createdDate": 1775954696020,
-      "modifiedDate": 1775954696020,
-      "sizeInBytes": 2571,
+      "modifiedDate": 1775955954616,
+      "sizeInBytes": 2500,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.66,
@@ -3210,33 +3111,6 @@
         "newlineCount": 0
       }
     },
-    "Archive/card-timeline.jpg": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1758744780138,
-      "modifiedDate": 1758744780138,
-      "sizeInBytes": 64428,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "Templates/Metadata/Seed_Geography.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -3628,6 +3502,114 @@
           "hcl"
         ],
         "obsidianUIMode": "preview"
+      }
+    },
+    "Archive/Template_Economy.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 204,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.68,
+      "characterCount": 3117,
+      "nonWhitespaceCharacterCount": 2771,
+      "newlineCount": 87,
+      "readingTimeInMinutes": 0.769811320754717,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759669893659,
+      "modifiedDate": 1759777858819,
+      "sizeInBytes": 3123,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Archive/Template_Resource.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 246,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.82,
+      "characterCount": 3498,
+      "nonWhitespaceCharacterCount": 3090,
+      "newlineCount": 98,
+      "readingTimeInMinutes": 0.9283018867924528,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759634579401,
+      "modifiedDate": 1759785595189,
+      "sizeInBytes": 3504,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Archive/Template_Politics.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 198,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.66,
+      "characterCount": 2939,
+      "nonWhitespaceCharacterCount": 2605,
+      "newlineCount": 84,
+      "readingTimeInMinutes": 0.7471698113207547,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1759676500795,
+      "modifiedDate": 1759777737597,
+      "sizeInBytes": 2945,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Assets/Cards/card-timeline.jpg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758744780138,
+      "modifiedDate": 1758744780138,
+      "sizeInBytes": 64428,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
       }
     }
   }
