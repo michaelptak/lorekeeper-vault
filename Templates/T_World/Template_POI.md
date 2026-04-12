@@ -1,72 +1,27 @@
 ---
 tags:
   - POI
-art: Assets/TemplateImg/Placeholder-Generic.jpg
+status:
+art:
+locations:
+jurisdiction:
+controlled_by:
+discovered_by:
+related:
 ---
 
-> [!metadata]- Meta Data
-> #### Core Properties
+> [!metadata]- Links
 >  |
 > ---|---|
-> **Tags** | `INPUT[Tags][inlineListSuggester:tags]` |
-> **Status** | `INPUT[select(option(Stub), option(Planned), option(WIP), option(Complete)):status]` |
-> **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates"), useLinks(partial)):related]` |
-> **Art** | `INPUT[imageSuggester(optionQuery("Assets/WorldImg")):art]` |
->
-> #### POI Characteristics
->  |
-> ---|---|
-> **POI Type** | `INPUT[POIType][:poi_type]` |
-> **Condition** | `INPUT[Condition][:condition]` |
-> **Access** | `INPUT[POIAccess][:access]` |
-> **Significance** | `INPUT[POISignificance][:significance]` |
->
-> #### Location & Control
->  |
-> ---|---|
-> **Location** | `INPUT[inlineListSuggester(optionQuery(#geography or #cosmos AND !"Templates"), useLinks(partial)):locations]` |
-> **Jurisdiction** | `INPUT[inlineListSuggester(optionQuery(#country AND !"Templates"), useLinks(partial)):jurisdiction]` |
-> **Controlled By** | `INPUT[inlineListSuggester(optionQuery(#organization AND !"Templates"), useLinks(partial)):controlled_by]` |
-> **Discovered By** | `INPUT[inlineListSuggester(optionQuery(#character or #organization AND !"Templates"), useLinks(partial)):discovered_by]` |
+> **Art** | `INPUT[imageSuggester(optionQuery("Assets")):art]` |
+> **Locations** | `INPUT[inlineListSuggester(optionQuery(#Geography AND !"Templates" AND !"Archive"), useLinks(partial)):locations]` |
+> **Jurisdiction** | `INPUT[inlineListSuggester(optionQuery(#Country AND !"Templates" AND !"Archive"), useLinks(partial)):jurisdiction]` |
+> **Controlled By** | `INPUT[inlineListSuggester(optionQuery(#Organization AND !"Templates" AND !"Archive"), useLinks(partial)):controlled_by]` |
+> **Discovered By** | `INPUT[inlineListSuggester(optionQuery(#Character or #Organization AND !"Templates" AND !"Archive"), useLinks(partial)):discovered_by]` |
+> **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates" AND !"Archive"), useLinks(partial)):related]` |
 
 > [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
-> [[POI.base|All POIs]] | [[Home]]
->
-> [[#Overview]] • [[#Description]] • [[#History & Significance|History]] • [[#Story Notes]]
-
-# **`=this.file.name`**
-
-> [!statbox]+
-> # `=this.file.name`
-> `VIEW[!\[\[{art}\]\]][text(renderMarkdown)]`
->
-> <div class="section">Basic Information</div>
->
-> <span class="label">Type</span> `VIEW[{poi_type}]`
->
-> <span class="label">Condition</span> `VIEW[{condition}]`
->
-> <span class="label">Access</span> `VIEW[{access}]`
->
-> <span class="label">Significance</span> `VIEW[{significance}]`
->
-> <div class="section">Location</div>
->
-> <span class="label">Location</span> `VIEW[{locations}][link]`
->
-> <span class="label">Controlled By</span> `VIEW[{controlled_by}][link]`
-
-## Overview
-Brief description of this point of interest and what makes it notable.
-
-## Description
-Physical appearance, layout, distinctive features, and current state.
-
-## History & Significance
-How this place came to be, major events that occurred here, and why it matters.
-
-## Story Notes
-How this location appears in your narratives or its role in plot events.
+> [[POI|All POIs]] | [[Home]]
 
 <%*
 const hasNewWorldTitle = tp.file.title.startsWith("NewWorldNote");
@@ -80,7 +35,46 @@ if (hasNewWorldTitle || hasUntitledTitle) {
     title = tp.file.title;
 }
 
-// Move file to POI folder
 const targetFolder = "World/POI";
 await tp.file.move(`${targetFolder}/${title}`);
+
+tR += `# **${title}**\n`;
+
+// Include infobox? (ALT+T -> Infobox_* to add later)
+const infobox = await tp.system.suggester(
+    ["Yes", "No"],
+    [true, false],
+    false,
+    "Include infobox?"
+);
+
+if (infobox) {
+    tR += `
+> [!statbox]+
+> # \`=this.file.name\`
+> \`VIEW[!\\[\\[{art}\\]\\]][text(renderMarkdown)]\`
+>
+> <div class="section">Details</div>
+>
+> <span class="label">Location</span> \`VIEW[{locations}][link]\`
+>
+> <span class="label">Jurisdiction</span> \`VIEW[{jurisdiction}][link]\`
+>
+> <span class="label">Controlled By</span> \`VIEW[{controlled_by}][link]\`
+>
+> <span class="label">Discovered By</span> \`VIEW[{discovered_by}][link]\`
+`;
+}
+
+const outline = await tp.system.suggester(
+    ["Yes", "No"],
+    [true, false],
+    false,
+    "Include outline?"
+);
+
+if (outline) {
+    tR += "\n## Overview\n\n## Description\n\n## History & Significance\n\n## Story Notes\n";
+}
 _%>
+

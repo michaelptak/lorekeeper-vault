@@ -8,7 +8,7 @@ obsidianUIMode: preview
 # Languages
 
 > [!tip|c-plain no-i text-center title-center wsmall callout-bordered center] New Language
-> `BUTTON[WorldNoteSelector]`
+> `BUTTON[NewLanguage]`
 
 ```base
 filters:

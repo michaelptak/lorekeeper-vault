@@ -14,4 +14,6 @@
 >
 > <span class="label">Practitioners</span> `VIEW[{practitioners}][link]`
 >
+> <span class="label">Associated Religion</span> `VIEW[{associated_religion}][link]`
+>
 > <span class="label">Core Concepts</span> `VIEW[{core_concepts}][link]`

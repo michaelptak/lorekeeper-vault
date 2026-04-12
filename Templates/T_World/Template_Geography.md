@@ -14,7 +14,7 @@ art:
 > **Settlements** | `INPUT[inlineListSuggester(optionQuery(#Settlement AND !"Templates" AND !"Archive"), useLinks(partial)):settlements]` |
 > **Notable Features** | `INPUT[inlineListSuggester(optionQuery(#POI AND !"Templates" AND !"Archive"), useLinks(partial)):notable_features]` |
 > **Native Inhabitants** | `INPUT[inlineListSuggester(optionQuery(#Ancestry or #Nature AND !"Templates" AND !"Archive"), useLinks(partial)):native_inhabitants]` |
-> **Resources** | `INPUT[inlineListSuggester(optionQuery(#Object or #Resource AND !"Templates" AND !"Archive"), useLinks(partial)):resources]` |
+> **Resources** | `INPUT[inlineListSuggester(optionQuery(#Object AND !"Templates" AND !"Archive"), useLinks(partial)):resources]` |
 > **Associated With** | `INPUT[inlineListSuggester(optionQuery(#Religion or #Magic or #Lore or #History AND !"Templates" AND !"Archive"), useLinks(partial)):associated_with]` |
 > **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates" AND !"Archive"), useLinks(partial)):related]` |
 

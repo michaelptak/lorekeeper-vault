@@ -8,7 +8,7 @@ obsidianUIMode: preview
 # Lore
 
 > [!tip|c-plain no-i text-center title-center wsmall callout-bordered center] New Lore Entry
-> `BUTTON[WorldNoteSelector]`
+> `BUTTON[NewLore]`
 
 ```base
 filters:

@@ -8,7 +8,7 @@ obsidianUIMode: preview
 # History
 
 > [!tip|c-plain no-i text-center title-center wsmall callout-bordered center] New History Entry
-> `BUTTON[WorldNoteSelector]`
+> `BUTTON[NewHistory]`
 
 ```base
 filters:

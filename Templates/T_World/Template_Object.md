@@ -14,8 +14,8 @@ art:
 > **Current Owner** | `INPUT[inlineListSuggester(optionQuery(#Character or #Organization AND !"Templates" AND !"Archive"), useLinks(partial)):current_owner]` |
 > **Located At** | `INPUT[inlineListSuggester(optionQuery(#Settlement or #POI or #Geography AND !"Templates" AND !"Archive"), useLinks(partial)):located_at]` |
 > **Made From** | `INPUT[inlineListSuggester(optionQuery(#Object AND !"Templates" AND !"Archive"), useLinks(partial)):made_from]` |
-> **Required For** | `INPUT[inlineListSuggester(optionQuery(#Object or #Magic AND !"Templates" AND !"Archive"), useLinks(partial)):required_for]` |
-> **Associated With** | `INPUT[inlineListSuggester(optionQuery(#History or #Character or #Religion or #Lore AND !"Templates" AND !"Archive"), useLinks(partial)):associated_with]` |
+> **Required For** | `INPUT[inlineListSuggester(optionQuery(#Object or #Magic or #Technology AND !"Templates" AND !"Archive"), useLinks(partial)):required_for]` |
+> **Associated With** | `INPUT[inlineListSuggester(optionQuery(#History or #Character or #Religion or #Lore or #Magic AND !"Templates" AND !"Archive"), useLinks(partial)):associated_with]` |
 > **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates" AND !"Archive"), useLinks(partial)):related]` |
 
 > [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation

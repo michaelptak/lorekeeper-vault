@@ -7,7 +7,7 @@ obsidianUIMode: preview
 > [[Home]]
 # Nature
 > [!tip|c-plain no-i text-center title-center wsmall callout-bordered center] New Nature
-> `BUTTON[WorldNoteSelector]`
+> `BUTTON[NewNature]`
 
 ```base
 filters:
@@ -22,6 +22,7 @@ views:
       - tags
       - status
       - rarity
+      - file.mtime
     sort:
       - property: rarity
         direction: DESC

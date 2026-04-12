@@ -406,20 +406,6 @@
       "cssStyle": "background-color:gray"
     },
     {
-      "label": "New Character",
-      "hidden": false,
-      "id": "NewCharacter",
-      "style": "primary",
-      "actions": [
-        {
-          "type": "templaterCreateNote",
-          "templateFile": "Templates/T_World/Template_Character.md",
-          "fileName": "NewCharacter",
-          "openNote": true
-        }
-      ]
-    },
-    {
       "label": "New Note",
       "hidden": false,
       "id": "NotesNoteSelector",
@@ -463,6 +449,276 @@
         }
       ],
       "tooltip": "Create a new content note for the world."
+    },
+    {
+      "label": "New Ancestry",
+      "hidden": false,
+      "id": "NewAncestry",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/T_World/Template_Ancestry.md",
+          "fileName": "NewWorldNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Create a new Ancestry note."
+    },
+    {
+      "label": "New Art",
+      "hidden": false,
+      "id": "NewArt",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/T_World/Template_Art.md",
+          "fileName": "NewWorldNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Create a new Art note."
+    },
+    {
+      "label": "New Character",
+      "hidden": false,
+      "id": "NewCharacter",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/T_World/Template_Character.md",
+          "fileName": "NewWorldNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Create a new Character note."
+    },
+    {
+      "label": "New Concept",
+      "hidden": false,
+      "id": "NewConcept",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/T_World/Template_Concept.md",
+          "fileName": "NewWorldNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Create a new Concept note."
+    },
+    {
+      "label": "New Country",
+      "hidden": false,
+      "id": "NewCountry",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/T_World/Template_Country.md",
+          "fileName": "NewWorldNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Create a new Country note."
+    },
+    {
+      "label": "New Geography",
+      "hidden": false,
+      "id": "NewGeography",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/T_World/Template_Geography.md",
+          "fileName": "NewWorldNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Create a new Geography note."
+    },
+    {
+      "label": "New History",
+      "hidden": false,
+      "id": "NewHistory",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/T_World/Template_History.md",
+          "fileName": "NewWorldNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Create a new History note."
+    },
+    {
+      "label": "New Language",
+      "hidden": false,
+      "id": "NewLanguage",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/T_World/Template_Language.md",
+          "fileName": "NewWorldNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Create a new Language note."
+    },
+    {
+      "label": "New Lore",
+      "hidden": false,
+      "id": "NewLore",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/T_World/Template_Lore.md",
+          "fileName": "NewWorldNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Create a new Lore note."
+    },
+    {
+      "label": "New Magic",
+      "hidden": false,
+      "id": "NewMagic",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/T_World/Template_Magic.md",
+          "fileName": "NewWorldNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Create a new Magic note."
+    },
+    {
+      "label": "New Misc",
+      "hidden": false,
+      "id": "NewMisc",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/T_World/Template_Misc.md",
+          "fileName": "NewWorldNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Create a new Misc note."
+    },
+    {
+      "label": "New Nature",
+      "hidden": false,
+      "id": "NewNature",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/T_World/Template_Nature.md",
+          "fileName": "NewWorldNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Create a new Nature note."
+    },
+    {
+      "label": "New Object",
+      "hidden": false,
+      "id": "NewObject",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/T_World/Template_Object.md",
+          "fileName": "NewWorldNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Create a new Object note."
+    },
+    {
+      "label": "New Organization",
+      "hidden": false,
+      "id": "NewOrganization",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/T_World/Template_Organization.md",
+          "fileName": "NewWorldNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Create a new Organization note."
+    },
+    {
+      "label": "New POI",
+      "hidden": false,
+      "id": "NewPOI",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/T_World/Template_POI.md",
+          "fileName": "NewWorldNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Create a new POI note."
+    },
+    {
+      "label": "New Religion",
+      "hidden": false,
+      "id": "NewReligion",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/T_World/Template_Religion.md",
+          "fileName": "NewWorldNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Create a new Religion note."
+    },
+    {
+      "label": "New Settlement",
+      "hidden": false,
+      "id": "NewSettlement",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/T_World/Template_Settlement.md",
+          "fileName": "NewWorldNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Create a new Settlement note."
+    },
+    {
+      "label": "New Technology",
+      "hidden": false,
+      "id": "NewTechnology",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/T_World/Template_Technology.md",
+          "fileName": "NewWorldNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Create a new Technology note."
     },
     {
       "label": "Convert to Excalidraw",

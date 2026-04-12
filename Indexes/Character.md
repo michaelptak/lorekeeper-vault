@@ -8,7 +8,7 @@ obsidianUIMode: preview
 # Characters
 
 > [!tip|c-plain no-i text-center title-center wsmall callout-bordered center] New Character
-> `BUTTON[WorldNoteSelector]`
+> `BUTTON[NewCharacter]`
 
 ```base
 filters:
@@ -25,6 +25,7 @@ views:
       - role
       - life_status
       - aliases
+      - age
       - file.mtime
     sort:
       - property: file.mtime

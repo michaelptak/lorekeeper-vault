@@ -8,7 +8,7 @@ obsidianUIMode: preview
 # Ancestry
 
 > [!tip|c-plain no-i text-center title-center wsmall callout-bordered center] New Ancestry
-> `BUTTON[WorldNoteSelector]`
+> `BUTTON[NewAncestry]`
 
 ```base
 filters:
@@ -22,6 +22,7 @@ views:
       - file.name
       - tags
       - status
+      - file.mtime
     sort:
       - property: file.mtime
         direction: DESC

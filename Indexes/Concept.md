@@ -8,7 +8,7 @@ obsidianUIMode: preview
 # Concepts
 
 > [!tip|c-plain no-i text-center title-center wsmall callout-bordered center] New Concept
-> `BUTTON[WorldNoteSelector]`
+> `BUTTON[NewConcept]`
 
 ```base
 filters:
@@ -22,6 +22,7 @@ views:
       - file.name
       - tags
       - status
+      - file.mtime
     sort:
       - property: file.mtime
         direction: DESC

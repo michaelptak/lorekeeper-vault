@@ -14,6 +14,7 @@ art:
 > **Influenced By** | `INPUT[inlineListSuggester(optionQuery(#Art AND !"Templates" AND !"Archive"), useLinks(partial)):influenced_by]` |
 > **Patron** | `INPUT[inlineListSuggester(optionQuery(#Character or #Organization AND !"Templates" AND !"Archive"), useLinks(partial)):patron]` |
 > **Practitioners** | `INPUT[inlineListSuggester(optionQuery(#Character or #Organization AND !"Templates" AND !"Archive"), useLinks(partial)):practitioners]` |
+> **Associated Religion** | `INPUT[inlineListSuggester(optionQuery(#Religion AND !"Templates" AND !"Archive"), useLinks(partial)):associated_religion]` |
 > **Core Concepts** | `INPUT[inlineListSuggester(optionQuery(#Concept AND !"Templates" AND !"Archive"), useLinks(partial)):core_concepts]` |
 > **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates" AND !"Archive"), useLinks(partial)):related]` |
 
@@ -62,6 +63,8 @@ if (infobox) {
 > <span class="label">Patron</span> \`VIEW[{patron}][link]\`
 >
 > <span class="label">Practitioners</span> \`VIEW[{practitioners}][link]\`
+>
+> <span class="label">Associated Religion</span> \`VIEW[{associated_religion}][link]\`
 >
 > <span class="label">Core Concepts</span> \`VIEW[{core_concepts}][link]\`
 `;

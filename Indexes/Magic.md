@@ -8,7 +8,7 @@ obsidianUIMode: preview
 # Magic
 
 > [!tip|c-plain no-i text-center title-center wsmall callout-bordered center] New Magic Entry
-> `BUTTON[WorldNoteSelector]`
+> `BUTTON[NewMagic]`
 
 ```base
 filters:

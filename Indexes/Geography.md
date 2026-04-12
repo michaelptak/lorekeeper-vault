@@ -8,7 +8,7 @@ obsidianUIMode: preview
 # Geography
 
 > [!tip|c-plain no-i text-center title-center wsmall callout-bordered center] New Geography
-> `BUTTON[WorldNoteSelector]`
+> `BUTTON[NewGeography]`
 
 ```base
 filters:
@@ -22,6 +22,7 @@ views:
       - file.name
       - tags
       - status
+      - file.mtime
     sort:
       - property: file.mtime
         direction: DESC

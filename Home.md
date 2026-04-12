@@ -45,20 +45,20 @@ banner-y: 37
 >[![[card-ancestry.jpg|sban hsmall p+tc]]](Ancestry)
 >
 >**Organization**
->[![[card-organization.jpg|sban hsmall p+tc]]](Organization.base)
+>[![[card-organization.jpg|sban hsmall p+tc]]](Organization)
 >
 >**Art**
->[![[card-culture.jpeg|sban hsmall p+tc]]](Art)
+>[![[card-art.jpeg|sban hsmall p+tc]]](Art)
 ## Places
 >[!cards|3]
 >**Settlement**
->[![[card-settlement.jpeg|sban hsmall p+tc]]](Settlement.base)
+>[![[card-settlement.jpeg|sban hsmall p+tc]]](Settlement)
 >
 >**Geography**
 >[![[card-geography.jpg|sban hsmall p+tc]]](Geography)
 >
 >**POI**
->[![[card-poi.jpg|sban hsmall p+tcc]]](POI.base)
+>[![[card-poi.jpg|sban hsmall p+tcc]]](POI)
 ## World & History
 >[!cards|4]
 >**History**
@@ -71,7 +71,7 @@ banner-y: 37
 >[![[card-lore.jpg|sban hsmall p+tc]]](Lore)
 >
 >**Religion**
->[![[card-religion.jpeg|sban hsmall p+cb]]](Religion.base)
+>[![[card-religion.jpeg|sban hsmall p+cb]]](Religion)
 ## Concepts, Magic & Things
 >[!cards|5]
 >**Concept**
@@ -87,11 +87,14 @@ banner-y: 37
 >[![[card-creature.jpeg|sban hsmall p+cbb]]](Nature)
 >
 >**Technology**
->[![[card-technology.jpg|sban hsmall p+tc]]](Technology.base)
+>[![[card-technology.jpg|sban hsmall p+tc]]](Technology)
 ## Niche
 >[!cards|2]
 >**Language**
 >[![[card-language.jpeg|sban hsmall p+tc]]](Language)
+>
+>**Miscellaneous**
+>[![[card-cosmos.jpeg|sban hsmall p+tc]]](Misc)
 
 ## Diagrams, Art, Assets
 - 🎨 [[Excalidraw.base|All Excalidraw Notes]]

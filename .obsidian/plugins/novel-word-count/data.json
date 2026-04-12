@@ -72,27 +72,325 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 2148,
+      "wordCount": 2466,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 7.16,
-      "characterCount": 15957,
-      "nonWhitespaceCharacterCount": 13275,
-      "newlineCount": 252,
-      "readingTimeInMinutes": 8.105660377358491,
+      "pageCount": 8.22,
+      "characterCount": 17917,
+      "nonWhitespaceCharacterCount": 14898,
+      "newlineCount": 265,
+      "readingTimeInMinutes": 9.30566037735849,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1775945559604,
-      "modifiedDate": 1776006798934,
-      "sizeInBytes": 16033,
+      "createdDate": 1776025464124,
+      "modifiedDate": 1776026884809,
+      "sizeInBytes": 18011,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 7.16,
-        "wordCount": 2148,
-        "characterCount": 15957,
-        "nonWhitespaceCharacterCount": 13275,
+        "pageCount": 7.196666666666666,
+        "wordCount": 2159,
+        "characterCount": 16013,
+        "nonWhitespaceCharacterCount": 13337,
         "newlineCount": 252
+      }
+    },
+    "World/Technology/Massive Laserbeam.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 138,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.46,
+      "characterCount": 2165,
+      "nonWhitespaceCharacterCount": 1954,
+      "newlineCount": 50,
+      "readingTimeInMinutes": 0.5207547169811321,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776014278538,
+      "modifiedDate": 1776014360356,
+      "sizeInBytes": 2520,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.46,
+        "wordCount": 138,
+        "characterCount": 2165,
+        "nonWhitespaceCharacterCount": 1954,
+        "newlineCount": 50
+      },
+      "frontmatter": {
+        "tags": [
+          "Technology"
+        ],
+        "status": null,
+        "art": "Assets/Cards/card-magic.jpeg",
+        "created_by": [
+          "[[A powerful org]]"
+        ],
+        "requires": [
+          "[[Something spell]]"
+        ],
+        "replaces": [
+          "[[Massive Laserbeam]]"
+        ],
+        "enables": [
+          "[[Something spell]]"
+        ],
+        "discovered_at": [
+          "[[Volcanic Ash Fields]]"
+        ],
+        "used_by": [
+          "[[Beffrey]]"
+        ],
+        "documentation": [
+          "[[How to Use the Massive Laserbeam]]"
+        ],
+        "related": null
+      }
+    },
+    "World/Religion/Paganism.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 156,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.52,
+      "characterCount": 2675,
+      "nonWhitespaceCharacterCount": 2430,
+      "newlineCount": 60,
+      "readingTimeInMinutes": 0.5886792452830188,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776013745823,
+      "modifiedDate": 1776026189020,
+      "sizeInBytes": 3056,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.52,
+        "wordCount": 156,
+        "characterCount": 2675,
+        "nonWhitespaceCharacterCount": 2430,
+        "newlineCount": 60
+      },
+      "frontmatter": {
+        "tags": [
+          "Religion"
+        ],
+        "status": null,
+        "art": "Assets/Cards/card-cosmos.jpeg",
+        "deities": [
+          "[[Jeff]]"
+        ],
+        "practiced_by": [
+          "[[Atlantis]]"
+        ],
+        "holy_sites": [
+          "[[Atlantis]]"
+        ],
+        "sacred_objects": null,
+        "sacred_texts": [
+          "[[How to Use the Massive Laserbeam]]"
+        ],
+        "religious_leaders": [
+          "[[Beffrey]]"
+        ],
+        "core_concepts": null,
+        "associated_magic": [
+          "[[We casting spells and shi]]"
+        ],
+        "rival_religions": [
+          "[[Paganism]]"
+        ],
+        "related": null
+      }
+    },
+    "World/POI/An interesting Large Rock.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 82,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.2733333333333333,
+      "characterCount": 1430,
+      "nonWhitespaceCharacterCount": 1292,
+      "newlineCount": 39,
+      "readingTimeInMinutes": 0.30943396226415093,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776014048058,
+      "modifiedDate": 1776014163957,
+      "sizeInBytes": 1646,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.2733333333333333,
+        "wordCount": 82,
+        "characterCount": 1430,
+        "nonWhitespaceCharacterCount": 1292,
+        "newlineCount": 39
+      },
+      "frontmatter": {
+        "tags": [
+          "POI"
+        ],
+        "status": null,
+        "art": "Assets/Cards/card-object.jpg",
+        "locations": [
+          "[[Volcanic Ash Fields]]"
+        ],
+        "jurisdiction": [
+          "[[Atlantis]]"
+        ],
+        "controlled_by": [
+          "[[A powerful org]]"
+        ],
+        "discovered_by": [
+          "[[Jeff]]"
+        ],
+        "related": null
+      }
+    },
+    "World/Organization/A powerful org.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 156,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.52,
+      "characterCount": 2590,
+      "nonWhitespaceCharacterCount": 2347,
+      "newlineCount": 58,
+      "readingTimeInMinutes": 0.5886792452830188,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776013868700,
+      "modifiedDate": 1776026206219,
+      "sizeInBytes": 2968,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.52,
+        "wordCount": 156,
+        "characterCount": 2590,
+        "nonWhitespaceCharacterCount": 2347,
+        "newlineCount": 58
+      },
+      "frontmatter": {
+        "tags": [
+          "Organization"
+        ],
+        "status": null,
+        "art": "Assets/Cards/card-economy.jpg",
+        "headquarters": [
+          "[[Atlantis]]"
+        ],
+        "leader": [
+          "[[Jeff]]"
+        ],
+        "members": [
+          "[[Beffrey]]"
+        ],
+        "founded_by": [
+          "[[Matilda]]"
+        ],
+        "allies": [
+          "[[Atlantis]]"
+        ],
+        "rivals": [
+          "[[Atlantis]]"
+        ],
+        "operates_in": [
+          "[[Volcanic Ash Fields]]"
+        ],
+        "controls": [
+          "[[An interesting Large Rock]]"
+        ],
+        "associated_religion": [
+          "[[Paganism]]"
+        ],
+        "related": null
+      }
+    },
+    "World/Nature/Dire Wolf.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 96,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.32,
+      "characterCount": 1526,
+      "nonWhitespaceCharacterCount": 1367,
+      "newlineCount": 45,
+      "readingTimeInMinutes": 0.3622641509433962,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776015036485,
+      "modifiedDate": 1776015046756,
+      "sizeInBytes": 1646,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.32,
+        "wordCount": 96,
+        "characterCount": 1526,
+        "nonWhitespaceCharacterCount": 1367,
+        "newlineCount": 45
+      },
+      "frontmatter": {
+        "tags": [
+          "Nature"
+        ],
+        "status": null,
+        "rarity": null,
+        "art": null,
+        "habitat": [
+          "[[Volcanic Ash Fields]]"
+        ],
+        "raised_by": [
+          "[[A powerful org]]"
+        ]
+      }
+    },
+    "World/Misc/Unknown element.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 30,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.1,
+      "characterCount": 482,
+      "nonWhitespaceCharacterCount": 421,
+      "newlineCount": 23,
+      "readingTimeInMinutes": 0.11320754716981132,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776024709987,
+      "modifiedDate": 1776024722756,
+      "sizeInBytes": 550,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.1,
+        "wordCount": 30,
+        "characterCount": 482,
+        "nonWhitespaceCharacterCount": 421,
+        "newlineCount": 23
+      },
+      "frontmatter": {
+        "tags": [
+          "Misc"
+        ],
+        "status": null,
+        "art": "Assets/Cards/card-characters.jpg"
       }
     },
     "World/Magic/Something spell.md": {
@@ -135,6 +433,57 @@
         "taught_at": null,
         "enables": null,
         "countered_by": null,
+        "related": null
+      }
+    },
+    "World/Lore/How to Use the Massive Laserbeam.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 121,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.4033333333333333,
+      "characterCount": 2099,
+      "nonWhitespaceCharacterCount": 1903,
+      "newlineCount": 52,
+      "readingTimeInMinutes": 0.45660377358490567,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776014324029,
+      "modifiedDate": 1776014346157,
+      "sizeInBytes": 2330,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.4033333333333333,
+        "wordCount": 121,
+        "characterCount": 2099,
+        "nonWhitespaceCharacterCount": 1903,
+        "newlineCount": 52
+      },
+      "frontmatter": {
+        "tags": [
+          "Lore"
+        ],
+        "status": null,
+        "document_type": null,
+        "art": null,
+        "author": [
+          "[[Jeff]]"
+        ],
+        "commissioned_by": [
+          "[[A powerful org]]"
+        ],
+        "languages": [
+          "[[Elvish]]"
+        ],
+        "current_location": null,
+        "mentions": [
+          "[[Massive Laserbeam]]"
+        ],
+        "contradicts": null,
+        "supports": null,
         "related": null
       }
     },
@@ -226,6 +575,53 @@
         "related": null
       }
     },
+    "World/Geography/Volcanic Ash Fields.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 128,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.4266666666666667,
+      "characterCount": 2211,
+      "nonWhitespaceCharacterCount": 2006,
+      "newlineCount": 52,
+      "readingTimeInMinutes": 0.4830188679245283,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776014118959,
+      "modifiedDate": 1776014145756,
+      "sizeInBytes": 2466,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.4266666666666667,
+        "wordCount": 128,
+        "characterCount": 2211,
+        "nonWhitespaceCharacterCount": 2006,
+        "newlineCount": 52
+      },
+      "frontmatter": {
+        "tags": [
+          "Geography"
+        ],
+        "status": null,
+        "art": "Assets/Cards/medieval-forge.jpg",
+        "jurisdiction": [
+          "[[Atlantis]]"
+        ],
+        "controlled_by": [
+          "[[A powerful org]]"
+        ],
+        "notable_features": [
+          "[[An interesting Large Rock]]"
+        ],
+        "associated_with": [
+          "[[Paganism]]",
+          "[[Great War]]"
+        ]
+      }
+    },
     "World/Country/Atlantis.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -263,45 +659,42 @@
         ]
       }
     },
-    "World/Character/Beffrey.md": {
+    "World/Character/Matilda.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 153,
+      "wordCount": 110,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.51,
-      "characterCount": 2705,
-      "nonWhitespaceCharacterCount": 2470,
-      "newlineCount": 52,
-      "readingTimeInMinutes": 0.5773584905660377,
-      "linkCount": 3,
+      "pageCount": 0.36666666666666664,
+      "characterCount": 1884,
+      "nonWhitespaceCharacterCount": 1721,
+      "newlineCount": 24,
+      "readingTimeInMinutes": 0.41509433962264153,
+      "linkCount": 2,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1776002524652,
-      "modifiedDate": 1776002602049,
-      "sizeInBytes": 2858,
+      "createdDate": 1776025631822,
+      "modifiedDate": 1776025638492,
+      "sizeInBytes": 1957,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0.51,
-        "wordCount": 153,
-        "characterCount": 2705,
-        "nonWhitespaceCharacterCount": 2470,
-        "newlineCount": 52
+        "pageCount": 0.36666666666666664,
+        "wordCount": 110,
+        "characterCount": 1884,
+        "nonWhitespaceCharacterCount": 1721,
+        "newlineCount": 24
       },
       "frontmatter": {
         "tags": [
           "Character"
         ],
-        "status": "Planned",
-        "role": "Antagonist",
-        "life_status": "Alive",
+        "status": null,
+        "role": null,
+        "life_status": null,
         "aliases": null,
         "age": null,
-        "art": "Assets/Cards/card-creature.jpeg",
-        "family": [
-          "[[Jeff]]"
-        ]
+        "art": null
       }
     },
     "World/Character/Jeff.md": {
@@ -344,6 +737,47 @@
         ],
         "age": null,
         "art": null
+      }
+    },
+    "World/Character/Beffrey.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 153,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.51,
+      "characterCount": 2705,
+      "nonWhitespaceCharacterCount": 2470,
+      "newlineCount": 52,
+      "readingTimeInMinutes": 0.5773584905660377,
+      "linkCount": 3,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776002524652,
+      "modifiedDate": 1776002602049,
+      "sizeInBytes": 2858,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.51,
+        "wordCount": 153,
+        "characterCount": 2705,
+        "nonWhitespaceCharacterCount": 2470,
+        "newlineCount": 52
+      },
+      "frontmatter": {
+        "tags": [
+          "Character"
+        ],
+        "status": "Planned",
+        "role": "Antagonist",
+        "life_status": "Alive",
+        "aliases": null,
+        "age": null,
+        "art": "Assets/Cards/card-creature.jpeg",
+        "family": [
+          "[[Jeff]]"
+        ]
       }
     },
     "Templates/z_Scripts/Infobox_Selector.md": {
@@ -454,311 +888,243 @@
         "newlineCount": 32
       }
     },
-    "Templates/T_World/Template_History.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 197,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.6566666666666666,
-      "characterCount": 3192,
-      "nonWhitespaceCharacterCount": 2840,
-      "newlineCount": 85,
-      "readingTimeInMinutes": 0.7433962264150943,
-      "linkCount": 2,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1776003926914,
-      "modifiedDate": 1776003926914,
-      "sizeInBytes": 3380,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.6566666666666666,
-        "wordCount": 197,
-        "characterCount": 3192,
-        "nonWhitespaceCharacterCount": 2840,
-        "newlineCount": 85
-      },
-      "frontmatter": {
-        "tags": [
-          "History"
-        ],
-        "status": null,
-        "historical_scope": null,
-        "art": null,
-        "involved_characters": null,
-        "involved_organizations": null,
-        "involved_countries": null,
-        "locations": null,
-        "preceded_by": null,
-        "led_to": null,
-        "concurrent_with": null,
-        "sources": null,
-        "related": null
-      }
-    },
-    "Templates/T_World/Template_Art.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 176,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.5866666666666667,
-      "characterCount": 2735,
-      "nonWhitespaceCharacterCount": 2414,
-      "newlineCount": 77,
-      "readingTimeInMinutes": 0.6641509433962264,
-      "linkCount": 2,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1776002158038,
-      "modifiedDate": 1776002158039,
-      "sizeInBytes": 2769,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.5866666666666667,
-        "wordCount": 176,
-        "characterCount": 2735,
-        "nonWhitespaceCharacterCount": 2414,
-        "newlineCount": 77
-      },
-      "frontmatter": {
-        "tags": [
-          "Art"
-        ],
-        "status": null,
-        "art": null
-      }
-    },
-    "Templates/T_World/Template_Character.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 218,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.7266666666666667,
-      "characterCount": 3579,
-      "nonWhitespaceCharacterCount": 3192,
-      "newlineCount": 92,
-      "readingTimeInMinutes": 0.8226415094339623,
-      "linkCount": 2,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1776001667311,
-      "modifiedDate": 1776001667311,
-      "sizeInBytes": 3652,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.7266666666666667,
-        "wordCount": 218,
-        "characterCount": 3579,
-        "nonWhitespaceCharacterCount": 3192,
-        "newlineCount": 92
-      },
-      "frontmatter": {
-        "tags": [
-          "Character"
-        ],
-        "status": null,
-        "role": null,
-        "life_status": null,
-        "aliases": null,
-        "age": null,
-        "art": null
-      }
-    },
     "Templates/T_World/Template_Technology.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 235,
+      "wordCount": 202,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.7833333333333333,
-      "characterCount": 3400,
-      "nonWhitespaceCharacterCount": 3015,
-      "newlineCount": 89,
-      "readingTimeInMinutes": 0.8867924528301887,
-      "linkCount": 6,
+      "pageCount": 0.6733333333333333,
+      "characterCount": 2986,
+      "nonWhitespaceCharacterCount": 2633,
+      "newlineCount": 82,
+      "readingTimeInMinutes": 0.7622641509433963,
+      "linkCount": 2,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1759670920178,
-      "modifiedDate": 1775951867929,
-      "sizeInBytes": 3482,
+      "createdDate": 1776014943344,
+      "modifiedDate": 1776014943344,
+      "sizeInBytes": 3116,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0.7833333333333333,
-        "wordCount": 235,
-        "characterCount": 3400,
-        "nonWhitespaceCharacterCount": 3015,
-        "newlineCount": 89
+        "pageCount": 0.6733333333333333,
+        "wordCount": 202,
+        "characterCount": 2986,
+        "nonWhitespaceCharacterCount": 2633,
+        "newlineCount": 82
       },
       "frontmatter": {
         "tags": [
           "Technology"
         ],
-        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+        "status": null,
+        "art": null,
+        "created_by": null,
+        "requires": null,
+        "replaces": null,
+        "enables": null,
+        "discovered_at": null,
+        "used_by": null,
+        "documentation": null,
+        "related": null
       }
     },
     "Templates/T_World/Template_Settlement.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 278,
+      "wordCount": 200,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.9266666666666666,
-      "characterCount": 4349,
-      "nonWhitespaceCharacterCount": 3880,
-      "newlineCount": 111,
-      "readingTimeInMinutes": 1.049056603773585,
-      "linkCount": 9,
+      "pageCount": 0.6666666666666666,
+      "characterCount": 3248,
+      "nonWhitespaceCharacterCount": 2888,
+      "newlineCount": 84,
+      "readingTimeInMinutes": 0.7547169811320755,
+      "linkCount": 2,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1759667725927,
-      "modifiedDate": 1759785278452,
-      "sizeInBytes": 4435,
+      "createdDate": 1776014114674,
+      "modifiedDate": 1776014114674,
+      "sizeInBytes": 3413,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0.9266666666666666,
-        "wordCount": 278,
-        "characterCount": 4349,
-        "nonWhitespaceCharacterCount": 3880,
-        "newlineCount": 111
+        "pageCount": 0.6666666666666666,
+        "wordCount": 200,
+        "characterCount": 3248,
+        "nonWhitespaceCharacterCount": 2888,
+        "newlineCount": 84
       },
       "frontmatter": {
         "tags": [
           "Settlement"
         ],
-        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+        "status": null,
+        "art": null,
+        "inhabitants": null,
+        "notable_sites": null,
+        "locations": null,
+        "jurisdiction": null,
+        "controlled_by": null,
+        "rulers": null,
+        "founded_by": null,
+        "trade_partners": null,
+        "resources": null,
+        "related": null
       }
     },
     "Templates/T_World/Template_Religion.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 245,
+      "wordCount": 219,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.8166666666666667,
-      "characterCount": 3853,
-      "nonWhitespaceCharacterCount": 3433,
-      "newlineCount": 99,
-      "readingTimeInMinutes": 0.9245283018867925,
-      "linkCount": 7,
+      "pageCount": 0.73,
+      "characterCount": 3492,
+      "nonWhitespaceCharacterCount": 3108,
+      "newlineCount": 90,
+      "readingTimeInMinutes": 0.8264150943396227,
+      "linkCount": 2,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1759676079806,
-      "modifiedDate": 1759785676021,
-      "sizeInBytes": 3935,
+      "createdDate": 1776013651501,
+      "modifiedDate": 1776013651501,
+      "sizeInBytes": 3674,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0.8166666666666667,
-        "wordCount": 245,
-        "characterCount": 3853,
-        "nonWhitespaceCharacterCount": 3433,
-        "newlineCount": 99
+        "pageCount": 0.73,
+        "wordCount": 219,
+        "characterCount": 3492,
+        "nonWhitespaceCharacterCount": 3108,
+        "newlineCount": 90
       },
       "frontmatter": {
         "tags": [
           "Religion"
         ],
-        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+        "status": null,
+        "art": null,
+        "deities": null,
+        "practiced_by": null,
+        "holy_sites": null,
+        "sacred_objects": null,
+        "sacred_texts": null,
+        "religious_leaders": null,
+        "core_concepts": null,
+        "associated_magic": null,
+        "rival_religions": null,
+        "related": null
       }
     },
     "Templates/T_World/Template_POI.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 187,
+      "wordCount": 142,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.6233333333333333,
-      "characterCount": 2807,
-      "nonWhitespaceCharacterCount": 2488,
-      "newlineCount": 82,
-      "readingTimeInMinutes": 0.7056603773584905,
-      "linkCount": 6,
+      "pageCount": 0.47333333333333333,
+      "characterCount": 2208,
+      "nonWhitespaceCharacterCount": 1932,
+      "newlineCount": 71,
+      "readingTimeInMinutes": 0.5358490566037736,
+      "linkCount": 2,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1759634125069,
-      "modifiedDate": 1759778200390,
-      "sizeInBytes": 2882,
+      "createdDate": 1776014003025,
+      "modifiedDate": 1776014003025,
+      "sizeInBytes": 2306,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0.6233333333333333,
-        "wordCount": 187,
-        "characterCount": 2807,
-        "nonWhitespaceCharacterCount": 2488,
-        "newlineCount": 82
+        "pageCount": 0.47333333333333333,
+        "wordCount": 142,
+        "characterCount": 2208,
+        "nonWhitespaceCharacterCount": 1932,
+        "newlineCount": 71
       },
       "frontmatter": {
         "tags": [
           "POI"
         ],
-        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+        "status": null,
+        "art": null,
+        "locations": null,
+        "jurisdiction": null,
+        "controlled_by": null,
+        "discovered_by": null,
+        "related": null
       }
     },
     "Templates/T_World/Template_Organization.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 254,
+      "wordCount": 217,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.8466666666666667,
-      "characterCount": 3855,
-      "nonWhitespaceCharacterCount": 3427,
-      "newlineCount": 101,
-      "readingTimeInMinutes": 0.9584905660377359,
-      "linkCount": 6,
+      "pageCount": 0.7233333333333334,
+      "characterCount": 3407,
+      "nonWhitespaceCharacterCount": 3027,
+      "newlineCount": 88,
+      "readingTimeInMinutes": 0.8188679245283019,
+      "linkCount": 2,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1759713163414,
-      "modifiedDate": 1759713234399,
-      "sizeInBytes": 3939,
+      "createdDate": 1776013776402,
+      "modifiedDate": 1776013776402,
+      "sizeInBytes": 3562,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0.8466666666666667,
-        "wordCount": 254,
-        "characterCount": 3855,
-        "nonWhitespaceCharacterCount": 3427,
-        "newlineCount": 101
+        "pageCount": 0.7233333333333334,
+        "wordCount": 217,
+        "characterCount": 3407,
+        "nonWhitespaceCharacterCount": 3027,
+        "newlineCount": 88
       },
       "frontmatter": {
         "tags": [
           "Organization"
         ],
-        "art": "Assets/TemplateImg/Placeholder-Generic.jpg"
+        "status": null,
+        "art": null,
+        "headquarters": null,
+        "leader": null,
+        "members": null,
+        "founded_by": null,
+        "allies": null,
+        "rivals": null,
+        "operates_in": null,
+        "controls": null,
+        "associated_religion": null,
+        "related": null
       }
     },
     "Templates/T_World/Template_Object.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 190,
+      "wordCount": 194,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.6333333333333333,
-      "characterCount": 2822,
-      "nonWhitespaceCharacterCount": 2485,
+      "pageCount": 0.6466666666666666,
+      "characterCount": 2847,
+      "nonWhitespaceCharacterCount": 2506,
       "newlineCount": 79,
-      "readingTimeInMinutes": 0.7169811320754716,
+      "readingTimeInMinutes": 0.7320754716981132,
       "linkCount": 2,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1775954658560,
-      "modifiedDate": 1775954658560,
-      "sizeInBytes": 2867,
+      "createdDate": 1776014941909,
+      "modifiedDate": 1776014941909,
+      "sizeInBytes": 2892,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0.6333333333333333,
-        "wordCount": 190,
-        "characterCount": 2822,
-        "nonWhitespaceCharacterCount": 2485,
+        "pageCount": 0.6466666666666666,
+        "wordCount": 194,
+        "characterCount": 2847,
+        "nonWhitespaceCharacterCount": 2506,
         "newlineCount": 79
       },
       "frontmatter": {
@@ -774,26 +1140,26 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 160,
+      "wordCount": 158,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.5333333333333333,
-      "characterCount": 2345,
-      "nonWhitespaceCharacterCount": 2048,
+      "pageCount": 0.5266666666666666,
+      "characterCount": 2332,
+      "nonWhitespaceCharacterCount": 2037,
       "newlineCount": 73,
-      "readingTimeInMinutes": 0.6037735849056604,
+      "readingTimeInMinutes": 0.5962264150943396,
       "linkCount": 2,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1775953403958,
-      "modifiedDate": 1775953403958,
-      "sizeInBytes": 2390,
+      "createdDate": 1776014939102,
+      "modifiedDate": 1776014939102,
+      "sizeInBytes": 2377,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0.5333333333333333,
-        "wordCount": 160,
-        "characterCount": 2345,
-        "nonWhitespaceCharacterCount": 2048,
+        "pageCount": 0.5266666666666666,
+        "wordCount": 158,
+        "characterCount": 2332,
+        "nonWhitespaceCharacterCount": 2037,
         "newlineCount": 73
       },
       "frontmatter": {
@@ -802,6 +1168,40 @@
         ],
         "status": null,
         "rarity": null,
+        "art": null
+      }
+    },
+    "Templates/T_World/Template_Misc.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 92,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.30666666666666664,
+      "characterCount": 1266,
+      "nonWhitespaceCharacterCount": 1063,
+      "newlineCount": 57,
+      "readingTimeInMinutes": 0.3471698113207547,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776024632036,
+      "modifiedDate": 1776024632036,
+      "sizeInBytes": 1301,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.30666666666666664,
+        "wordCount": 92,
+        "characterCount": 1266,
+        "nonWhitespaceCharacterCount": 1063,
+        "newlineCount": 57
+      },
+      "frontmatter": {
+        "tags": [
+          "Misc"
+        ],
+        "status": null,
         "art": null
       }
     },
@@ -923,30 +1323,74 @@
         "art": null
       }
     },
+    "Templates/T_World/Template_History.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 197,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.6566666666666666,
+      "characterCount": 3192,
+      "nonWhitespaceCharacterCount": 2840,
+      "newlineCount": 85,
+      "readingTimeInMinutes": 0.7433962264150943,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776003926914,
+      "modifiedDate": 1776003926914,
+      "sizeInBytes": 3380,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.6566666666666666,
+        "wordCount": 197,
+        "characterCount": 3192,
+        "nonWhitespaceCharacterCount": 2840,
+        "newlineCount": 85
+      },
+      "frontmatter": {
+        "tags": [
+          "History"
+        ],
+        "status": null,
+        "historical_scope": null,
+        "art": null,
+        "involved_characters": null,
+        "involved_organizations": null,
+        "involved_countries": null,
+        "locations": null,
+        "preceded_by": null,
+        "led_to": null,
+        "concurrent_with": null,
+        "sources": null,
+        "related": null
+      }
+    },
     "Templates/T_World/Template_Geography.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 189,
+      "wordCount": 187,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.63,
-      "characterCount": 3017,
-      "nonWhitespaceCharacterCount": 2677,
+      "pageCount": 0.6233333333333333,
+      "characterCount": 3004,
+      "nonWhitespaceCharacterCount": 2666,
       "newlineCount": 80,
-      "readingTimeInMinutes": 0.7132075471698113,
+      "readingTimeInMinutes": 0.7056603773584905,
       "linkCount": 2,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1775953404934,
-      "modifiedDate": 1775953404934,
-      "sizeInBytes": 3057,
+      "createdDate": 1776014991093,
+      "modifiedDate": 1776014991093,
+      "sizeInBytes": 3044,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0.63,
-        "wordCount": 189,
-        "characterCount": 3017,
-        "nonWhitespaceCharacterCount": 2677,
+        "pageCount": 0.6233333333333333,
+        "wordCount": 187,
+        "characterCount": 3004,
+        "nonWhitespaceCharacterCount": 2666,
         "newlineCount": 80
       },
       "frontmatter": {
@@ -1020,6 +1464,78 @@
       "frontmatter": {
         "tags": [
           "Concept"
+        ],
+        "status": null,
+        "art": null
+      }
+    },
+    "Templates/T_World/Template_Character.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 218,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.7266666666666667,
+      "characterCount": 3579,
+      "nonWhitespaceCharacterCount": 3192,
+      "newlineCount": 92,
+      "readingTimeInMinutes": 0.8226415094339623,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776001667311,
+      "modifiedDate": 1776001667311,
+      "sizeInBytes": 3652,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.7266666666666667,
+        "wordCount": 218,
+        "characterCount": 3579,
+        "nonWhitespaceCharacterCount": 3192,
+        "newlineCount": 92
+      },
+      "frontmatter": {
+        "tags": [
+          "Character"
+        ],
+        "status": null,
+        "role": null,
+        "life_status": null,
+        "aliases": null,
+        "age": null,
+        "art": null
+      }
+    },
+    "Templates/T_World/Template_Art.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 188,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.6266666666666667,
+      "characterCount": 2978,
+      "nonWhitespaceCharacterCount": 2640,
+      "newlineCount": 80,
+      "readingTimeInMinutes": 0.7094339622641509,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776014955522,
+      "modifiedDate": 1776014955522,
+      "sizeInBytes": 3012,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.6266666666666667,
+        "wordCount": 188,
+        "characterCount": 2978,
+        "nonWhitespaceCharacterCount": 2640,
+        "newlineCount": 80
+      },
+      "frontmatter": {
+        "tags": [
+          "Art"
         ],
         "status": null,
         "art": null
@@ -1438,115 +1954,7 @@
         "priority": null
       }
     },
-    "Templates/T_Infobox/Infobox_Magic.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 30,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.1,
-      "characterCount": 586,
-      "nonWhitespaceCharacterCount": 534,
-      "newlineCount": 21,
-      "readingTimeInMinutes": 0.11320754716981132,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1776005345262,
-      "modifiedDate": 1776005345262,
-      "sizeInBytes": 586,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.1,
-        "wordCount": 30,
-        "characterCount": 586,
-        "nonWhitespaceCharacterCount": 534,
-        "newlineCount": 21
-      }
-    },
-    "Templates/T_Infobox/Infobox_Lore.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 30,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.1,
-      "characterCount": 654,
-      "nonWhitespaceCharacterCount": 601,
-      "newlineCount": 23,
-      "readingTimeInMinutes": 0.11320754716981132,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1776004861879,
-      "modifiedDate": 1776004861879,
-      "sizeInBytes": 654,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.1,
-        "wordCount": 30,
-        "characterCount": 654,
-        "nonWhitespaceCharacterCount": 601,
-        "newlineCount": 23
-      }
-    },
-    "Templates/T_Infobox/Infobox_History.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 34,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.11333333333333333,
-      "characterCount": 743,
-      "nonWhitespaceCharacterCount": 684,
-      "newlineCount": 25,
-      "readingTimeInMinutes": 0.12830188679245283,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1776003929705,
-      "modifiedDate": 1776003929705,
-      "sizeInBytes": 743,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.11333333333333333,
-        "wordCount": 34,
-        "characterCount": 743,
-        "nonWhitespaceCharacterCount": 684,
-        "newlineCount": 25
-      }
-    },
-    "Templates/T_Infobox/Infobox_Language.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 24,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.08,
-      "characterCount": 488,
-      "nonWhitespaceCharacterCount": 447,
-      "newlineCount": 17,
-      "readingTimeInMinutes": 0.09056603773584905,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1776003455289,
-      "modifiedDate": 1776003455289,
-      "sizeInBytes": 488,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.08,
-        "wordCount": 24,
-        "characterCount": 488,
-        "nonWhitespaceCharacterCount": 447,
-        "newlineCount": 17
-      }
-    },
-    "Templates/T_Infobox/Infobox_Country.md": {
+    "Templates/T_Infobox/Infobox_Technology.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
@@ -1554,77 +1962,131 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.10333333333333333,
-      "characterCount": 674,
-      "nonWhitespaceCharacterCount": 618,
-      "newlineCount": 24,
+      "characterCount": 634,
+      "nonWhitespaceCharacterCount": 580,
+      "newlineCount": 23,
       "readingTimeInMinutes": 0.1169811320754717,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1776002498467,
-      "modifiedDate": 1776002498467,
-      "sizeInBytes": 674,
+      "createdDate": 1776014238751,
+      "modifiedDate": 1776014238751,
+      "sizeInBytes": 634,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.10333333333333333,
         "wordCount": 31,
-        "characterCount": 674,
-        "nonWhitespaceCharacterCount": 618,
-        "newlineCount": 24
+        "characterCount": 634,
+        "nonWhitespaceCharacterCount": 580,
+        "newlineCount": 23
       }
     },
-    "Templates/T_Infobox/Infobox_Art.md": {
+    "Templates/T_Infobox/Infobox_Settlement.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 26,
+      "wordCount": 32,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.08666666666666667,
-      "characterCount": 562,
-      "nonWhitespaceCharacterCount": 518,
-      "newlineCount": 18,
-      "readingTimeInMinutes": 0.09811320754716982,
+      "pageCount": 0.10666666666666667,
+      "characterCount": 667,
+      "nonWhitespaceCharacterCount": 610,
+      "newlineCount": 23,
+      "readingTimeInMinutes": 0.12075471698113208,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1776002176110,
-      "modifiedDate": 1776002176110,
-      "sizeInBytes": 562,
+      "createdDate": 1776014114694,
+      "modifiedDate": 1776014114694,
+      "sizeInBytes": 667,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0.08666666666666667,
-        "wordCount": 26,
-        "characterCount": 562,
-        "nonWhitespaceCharacterCount": 518,
-        "newlineCount": 18
+        "pageCount": 0.10666666666666667,
+        "wordCount": 32,
+        "characterCount": 667,
+        "nonWhitespaceCharacterCount": 610,
+        "newlineCount": 23
       }
     },
-    "Templates/T_Infobox/Infobox_Character.md": {
+    "Templates/T_Infobox/Infobox_Religion.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 37,
+      "wordCount": 44,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.12333333333333334,
-      "characterCount": 772,
-      "nonWhitespaceCharacterCount": 707,
-      "newlineCount": 28,
-      "readingTimeInMinutes": 0.13962264150943396,
+      "pageCount": 0.14666666666666667,
+      "characterCount": 876,
+      "nonWhitespaceCharacterCount": 803,
+      "newlineCount": 29,
+      "readingTimeInMinutes": 0.1660377358490566,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1776001678314,
-      "modifiedDate": 1776001678314,
-      "sizeInBytes": 772,
+      "createdDate": 1776013655080,
+      "modifiedDate": 1776013655081,
+      "sizeInBytes": 876,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0.12333333333333334,
-        "wordCount": 37,
-        "characterCount": 772,
-        "nonWhitespaceCharacterCount": 707,
-        "newlineCount": 28
+        "pageCount": 0.14666666666666667,
+        "wordCount": 44,
+        "characterCount": 876,
+        "nonWhitespaceCharacterCount": 803,
+        "newlineCount": 29
+      }
+    },
+    "Templates/T_Infobox/Infobox_POI.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 19,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.06333333333333334,
+      "characterCount": 412,
+      "nonWhitespaceCharacterCount": 378,
+      "newlineCount": 15,
+      "readingTimeInMinutes": 0.07169811320754717,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776014004674,
+      "modifiedDate": 1776014004674,
+      "sizeInBytes": 412,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.06333333333333334,
+        "wordCount": 19,
+        "characterCount": 412,
+        "nonWhitespaceCharacterCount": 378,
+        "newlineCount": 15
+      }
+    },
+    "Templates/T_Infobox/Infobox_Organization.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 35,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.11666666666666667,
+      "characterCount": 746,
+      "nonWhitespaceCharacterCount": 684,
+      "newlineCount": 27,
+      "readingTimeInMinutes": 0.1320754716981132,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776013779545,
+      "modifiedDate": 1776013779545,
+      "sizeInBytes": 746,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.11666666666666667,
+        "wordCount": 35,
+        "characterCount": 746,
+        "nonWhitespaceCharacterCount": 684,
+        "newlineCount": 27
       }
     },
     "Templates/T_Infobox/Infobox_Object.md": {
@@ -1681,6 +2143,114 @@
         "newlineCount": 16
       }
     },
+    "Templates/T_Infobox/Infobox_Magic.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 30,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.1,
+      "characterCount": 586,
+      "nonWhitespaceCharacterCount": 534,
+      "newlineCount": 21,
+      "readingTimeInMinutes": 0.11320754716981132,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776005345262,
+      "modifiedDate": 1776005345262,
+      "sizeInBytes": 586,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.1,
+        "wordCount": 30,
+        "characterCount": 586,
+        "nonWhitespaceCharacterCount": 534,
+        "newlineCount": 21
+      }
+    },
+    "Templates/T_Infobox/Infobox_Lore.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 30,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.1,
+      "characterCount": 654,
+      "nonWhitespaceCharacterCount": 601,
+      "newlineCount": 23,
+      "readingTimeInMinutes": 0.11320754716981132,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776004861879,
+      "modifiedDate": 1776004861879,
+      "sizeInBytes": 654,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.1,
+        "wordCount": 30,
+        "characterCount": 654,
+        "nonWhitespaceCharacterCount": 601,
+        "newlineCount": 23
+      }
+    },
+    "Templates/T_Infobox/Infobox_Language.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 24,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.08,
+      "characterCount": 488,
+      "nonWhitespaceCharacterCount": 447,
+      "newlineCount": 17,
+      "readingTimeInMinutes": 0.09056603773584905,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776003455289,
+      "modifiedDate": 1776003455289,
+      "sizeInBytes": 488,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.08,
+        "wordCount": 24,
+        "characterCount": 488,
+        "nonWhitespaceCharacterCount": 447,
+        "newlineCount": 17
+      }
+    },
+    "Templates/T_Infobox/Infobox_History.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 34,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.11333333333333333,
+      "characterCount": 743,
+      "nonWhitespaceCharacterCount": 684,
+      "newlineCount": 25,
+      "readingTimeInMinutes": 0.12830188679245283,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776003929705,
+      "modifiedDate": 1776003929705,
+      "sizeInBytes": 743,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.11333333333333333,
+        "wordCount": 34,
+        "characterCount": 743,
+        "nonWhitespaceCharacterCount": 684,
+        "newlineCount": 25
+      }
+    },
     "Templates/T_Infobox/Infobox_Geography.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -1706,6 +2276,33 @@
         "characterCount": 653,
         "nonWhitespaceCharacterCount": 603,
         "newlineCount": 20
+      }
+    },
+    "Templates/T_Infobox/Infobox_Country.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 31,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.10333333333333333,
+      "characterCount": 674,
+      "nonWhitespaceCharacterCount": 618,
+      "newlineCount": 24,
+      "readingTimeInMinutes": 0.1169811320754717,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776002498467,
+      "modifiedDate": 1776002498467,
+      "sizeInBytes": 674,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.10333333333333333,
+        "wordCount": 31,
+        "characterCount": 674,
+        "nonWhitespaceCharacterCount": 618,
+        "newlineCount": 24
       }
     },
     "Templates/T_Infobox/Infobox_Concept.md": {
@@ -1735,6 +2332,33 @@
         "newlineCount": 14
       }
     },
+    "Templates/T_Infobox/Infobox_Character.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 37,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.12333333333333334,
+      "characterCount": 772,
+      "nonWhitespaceCharacterCount": 707,
+      "newlineCount": 28,
+      "readingTimeInMinutes": 0.13962264150943396,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776001678314,
+      "modifiedDate": 1776001678314,
+      "sizeInBytes": 772,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.12333333333333334,
+        "wordCount": 37,
+        "characterCount": 772,
+        "nonWhitespaceCharacterCount": 707,
+        "newlineCount": 28
+      }
+    },
     "Templates/T_Infobox/Infobox_Basic.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -1760,6 +2384,33 @@
         "characterCount": 83,
         "nonWhitespaceCharacterCount": 76,
         "newlineCount": 4
+      }
+    },
+    "Templates/T_Infobox/Infobox_Art.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 30,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.1,
+      "characterCount": 649,
+      "nonWhitespaceCharacterCount": 599,
+      "newlineCount": 20,
+      "readingTimeInMinutes": 0.11320754716981132,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776014967574,
+      "modifiedDate": 1776014967574,
+      "sizeInBytes": 649,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.1,
+        "wordCount": 30,
+        "characterCount": 649,
+        "nonWhitespaceCharacterCount": 599,
+        "newlineCount": 20
       }
     },
     "Templates/T_Infobox/Infobox_Ancestry.md": {
@@ -1819,7 +2470,7 @@
         "status": "Archived"
       }
     },
-    "Templates/Metadata/Seed_Magic.md": {
+    "Templates/Metadata/Seed_Technology.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
@@ -1834,9 +2485,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1776005326269,
-      "modifiedDate": 1776005326269,
-      "sizeInBytes": 24,
+      "createdDate": 1776014222525,
+      "modifiedDate": 1776014222525,
+      "sizeInBytes": 29,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0,
@@ -1847,11 +2498,11 @@
       },
       "frontmatter": {
         "tags": [
-          "Magic"
+          "Technology"
         ]
       }
     },
-    "Templates/Metadata/Seed_Lore_5.md": {
+    "Templates/Metadata/Seed_Settlement.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
@@ -1866,9 +2517,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1776004792902,
-      "modifiedDate": 1776004792903,
-      "sizeInBytes": 48,
+      "createdDate": 1776014114646,
+      "modifiedDate": 1776014114646,
+      "sizeInBytes": 29,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0,
@@ -1879,12 +2530,11 @@
       },
       "frontmatter": {
         "tags": [
-          "Lore"
-        ],
-        "document_type": "Prophetic"
+          "Settlement"
+        ]
       }
     },
-    "Templates/Metadata/Seed_Lore_4.md": {
+    "Templates/Metadata/Seed_Religion.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
@@ -1899,272 +2549,8 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1776004792887,
-      "modifiedDate": 1776004792887,
-      "sizeInBytes": 47,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 1,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 2
-      },
-      "frontmatter": {
-        "tags": [
-          "Lore"
-        ],
-        "document_type": "Literary"
-      }
-    },
-    "Templates/Metadata/Seed_Lore_3.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 1,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 2,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1776004792872,
-      "modifiedDate": 1776004792872,
-      "sizeInBytes": 47,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 1,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 2
-      },
-      "frontmatter": {
-        "tags": [
-          "Lore"
-        ],
-        "document_type": "Personal"
-      }
-    },
-    "Templates/Metadata/Seed_Lore_2.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 1,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 2,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1776004792855,
-      "modifiedDate": 1776004792855,
-      "sizeInBytes": 48,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 1,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 2
-      },
-      "frontmatter": {
-        "tags": [
-          "Lore"
-        ],
-        "document_type": "Religious"
-      }
-    },
-    "Templates/Metadata/Seed_Lore.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 1,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 2,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1776004792841,
-      "modifiedDate": 1776004792841,
-      "sizeInBytes": 49,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 1,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 2
-      },
-      "frontmatter": {
-        "tags": [
-          "Lore"
-        ],
-        "document_type": "Historical"
-      }
-    },
-    "Templates/Metadata/Seed_History_4.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 1,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 2,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1776003903775,
-      "modifiedDate": 1776003903775,
-      "sizeInBytes": 54,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 1,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 2
-      },
-      "frontmatter": {
-        "tags": [
-          "History"
-        ],
-        "historical_scope": "Recurring"
-      }
-    },
-    "Templates/Metadata/Seed_History_3.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 1,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 2,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1776003903086,
-      "modifiedDate": 1776003903087,
-      "sizeInBytes": 48,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 1,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 2
-      },
-      "frontmatter": {
-        "tags": [
-          "History"
-        ],
-        "historical_scope": "Era"
-      }
-    },
-    "Templates/Metadata/Seed_History_2.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 1,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 2,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1776003902602,
-      "modifiedDate": 1776003902602,
-      "sizeInBytes": 51,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 1,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 2
-      },
-      "frontmatter": {
-        "tags": [
-          "History"
-        ],
-        "historical_scope": "Period"
-      }
-    },
-    "Templates/Metadata/Seed_History.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 1,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 2,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1776003901617,
-      "modifiedDate": 1776003901617,
-      "sizeInBytes": 50,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 1,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 2
-      },
-      "frontmatter": {
-        "tags": [
-          "History"
-        ],
-        "historical_scope": "Event"
-      }
-    },
-    "Templates/Metadata/Seed_Language.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 1,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 2,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1776003238350,
-      "modifiedDate": 1776003238350,
+      "createdDate": 1776013627564,
+      "modifiedDate": 1776013627564,
       "sizeInBytes": 27,
       "sessionStart": {
         "noteCount": 1,
@@ -2176,11 +2562,11 @@
       },
       "frontmatter": {
         "tags": [
-          "Language"
+          "Religion"
         ]
       }
     },
-    "Templates/Metadata/Seed_Country.md": {
+    "Templates/Metadata/Seed_POI.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
@@ -2195,40 +2581,8 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1776002453839,
-      "modifiedDate": 1776002453839,
-      "sizeInBytes": 26,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 1,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 2
-      },
-      "frontmatter": {
-        "tags": [
-          "Country"
-        ]
-      }
-    },
-    "Templates/Metadata/Seed_Art.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 1,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 2,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1776002134980,
-      "modifiedDate": 1776002134980,
+      "createdDate": 1776013991982,
+      "modifiedDate": 1776013991982,
       "sizeInBytes": 22,
       "sessionStart": {
         "noteCount": 1,
@@ -2240,11 +2594,11 @@
       },
       "frontmatter": {
         "tags": [
-          "Art"
+          "POI"
         ]
       }
     },
-    "Templates/Metadata/Seed_Character_5.md": {
+    "Templates/Metadata/Seed_Organization.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
@@ -2259,132 +2613,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1776001633364,
-      "modifiedDate": 1776001633364,
-      "sizeInBytes": 22,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 1,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 2
-      },
-      "frontmatter": {
-        "role": "Neutral"
-      }
-    },
-    "Templates/Metadata/Seed_Character_4.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 1,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 2,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1776001632922,
-      "modifiedDate": 1776001632922,
-      "sizeInBytes": 39,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 1,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 2
-      },
-      "frontmatter": {
-        "role": "Ally",
-        "life_status": "Undead"
-      }
-    },
-    "Templates/Metadata/Seed_Character_3.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 1,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 2,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1776001632521,
-      "modifiedDate": 1776001632521,
-      "sizeInBytes": 42,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 1,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 2
-      },
-      "frontmatter": {
-        "role": "Mentor",
-        "life_status": "Unknown"
-      }
-    },
-    "Templates/Metadata/Seed_Character_2.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 1,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 2,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1776001632093,
-      "modifiedDate": 1776001632093,
-      "sizeInBytes": 43,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 1,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 2
-      },
-      "frontmatter": {
-        "role": "Antagonist",
-        "life_status": "Dead"
-      }
-    },
-    "Templates/Metadata/Seed_Character.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 1,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 2,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1776001631662,
-      "modifiedDate": 1776001631662,
-      "sizeInBytes": 65,
+      "createdDate": 1776013762348,
+      "modifiedDate": 1776013762348,
+      "sizeInBytes": 31,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0,
@@ -2395,10 +2626,8 @@
       },
       "frontmatter": {
         "tags": [
-          "Character"
-        ],
-        "role": "Protagonist",
-        "life_status": "Alive"
+          "Organization"
+        ]
       }
     },
     "Templates/Metadata/Seed_Object_5.md": {
@@ -2896,6 +3125,399 @@
         "rarity": "Common"
       }
     },
+    "Templates/Metadata/Seed_Misc.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 1,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 2,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776024632051,
+      "modifiedDate": 1776024632051,
+      "sizeInBytes": 23,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 1,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 2
+      },
+      "frontmatter": {
+        "tags": [
+          "Misc"
+        ]
+      }
+    },
+    "Templates/Metadata/Seed_Magic.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 1,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 2,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776005326269,
+      "modifiedDate": 1776005326269,
+      "sizeInBytes": 24,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 1,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 2
+      },
+      "frontmatter": {
+        "tags": [
+          "Magic"
+        ]
+      }
+    },
+    "Templates/Metadata/Seed_Lore_5.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 1,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 2,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776004792902,
+      "modifiedDate": 1776004792903,
+      "sizeInBytes": 48,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 1,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 2
+      },
+      "frontmatter": {
+        "tags": [
+          "Lore"
+        ],
+        "document_type": "Prophetic"
+      }
+    },
+    "Templates/Metadata/Seed_Lore_4.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 1,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 2,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776004792887,
+      "modifiedDate": 1776004792887,
+      "sizeInBytes": 47,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 1,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 2
+      },
+      "frontmatter": {
+        "tags": [
+          "Lore"
+        ],
+        "document_type": "Literary"
+      }
+    },
+    "Templates/Metadata/Seed_Lore_3.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 1,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 2,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776004792872,
+      "modifiedDate": 1776004792872,
+      "sizeInBytes": 47,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 1,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 2
+      },
+      "frontmatter": {
+        "tags": [
+          "Lore"
+        ],
+        "document_type": "Personal"
+      }
+    },
+    "Templates/Metadata/Seed_Lore_2.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 1,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 2,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776004792855,
+      "modifiedDate": 1776004792855,
+      "sizeInBytes": 48,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 1,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 2
+      },
+      "frontmatter": {
+        "tags": [
+          "Lore"
+        ],
+        "document_type": "Religious"
+      }
+    },
+    "Templates/Metadata/Seed_Lore.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 1,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 2,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776004792841,
+      "modifiedDate": 1776004792841,
+      "sizeInBytes": 49,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 1,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 2
+      },
+      "frontmatter": {
+        "tags": [
+          "Lore"
+        ],
+        "document_type": "Historical"
+      }
+    },
+    "Templates/Metadata/Seed_Language.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 1,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 2,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776003238350,
+      "modifiedDate": 1776003238350,
+      "sizeInBytes": 27,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 1,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 2
+      },
+      "frontmatter": {
+        "tags": [
+          "Language"
+        ]
+      }
+    },
+    "Templates/Metadata/Seed_History_4.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 1,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 2,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776003903775,
+      "modifiedDate": 1776003903775,
+      "sizeInBytes": 54,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 1,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 2
+      },
+      "frontmatter": {
+        "tags": [
+          "History"
+        ],
+        "historical_scope": "Recurring"
+      }
+    },
+    "Templates/Metadata/Seed_History_3.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 1,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 2,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776003903086,
+      "modifiedDate": 1776003903087,
+      "sizeInBytes": 48,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 1,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 2
+      },
+      "frontmatter": {
+        "tags": [
+          "History"
+        ],
+        "historical_scope": "Era"
+      }
+    },
+    "Templates/Metadata/Seed_History_2.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 1,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 2,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776003902602,
+      "modifiedDate": 1776003902602,
+      "sizeInBytes": 51,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 1,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 2
+      },
+      "frontmatter": {
+        "tags": [
+          "History"
+        ],
+        "historical_scope": "Period"
+      }
+    },
+    "Templates/Metadata/Seed_History.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 1,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 2,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776003901617,
+      "modifiedDate": 1776003901617,
+      "sizeInBytes": 50,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 1,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 2
+      },
+      "frontmatter": {
+        "tags": [
+          "History"
+        ],
+        "historical_scope": "Event"
+      }
+    },
     "Templates/Metadata/Seed_Geography.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -3089,6 +3711,38 @@
         "related": null
       }
     },
+    "Templates/Metadata/Seed_Country.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 1,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 2,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776002453839,
+      "modifiedDate": 1776002453839,
+      "sizeInBytes": 26,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 1,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 2
+      },
+      "frontmatter": {
+        "tags": [
+          "Country"
+        ]
+      }
+    },
     "Templates/Metadata/Seed_Concept.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -3123,6 +3777,195 @@
           "Natural-Law",
           "Philosophy",
           "Prophecy"
+        ]
+      }
+    },
+    "Templates/Metadata/Seed_Character_5.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 1,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 2,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776001633364,
+      "modifiedDate": 1776001633364,
+      "sizeInBytes": 22,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 1,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 2
+      },
+      "frontmatter": {
+        "role": "Neutral"
+      }
+    },
+    "Templates/Metadata/Seed_Character_4.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 1,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 2,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776001632922,
+      "modifiedDate": 1776001632922,
+      "sizeInBytes": 39,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 1,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 2
+      },
+      "frontmatter": {
+        "role": "Ally",
+        "life_status": "Undead"
+      }
+    },
+    "Templates/Metadata/Seed_Character_3.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 1,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 2,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776001632521,
+      "modifiedDate": 1776001632521,
+      "sizeInBytes": 42,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 1,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 2
+      },
+      "frontmatter": {
+        "role": "Mentor",
+        "life_status": "Unknown"
+      }
+    },
+    "Templates/Metadata/Seed_Character_2.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 1,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 2,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776001632093,
+      "modifiedDate": 1776001632093,
+      "sizeInBytes": 43,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 1,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 2
+      },
+      "frontmatter": {
+        "role": "Antagonist",
+        "life_status": "Dead"
+      }
+    },
+    "Templates/Metadata/Seed_Character.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 1,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 2,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776001631662,
+      "modifiedDate": 1776001631662,
+      "sizeInBytes": 65,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 1,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 2
+      },
+      "frontmatter": {
+        "tags": [
+          "Character"
+        ],
+        "role": "Protagonist",
+        "life_status": "Alive"
+      }
+    },
+    "Templates/Metadata/Seed_Art.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 1,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 2,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776002134980,
+      "modifiedDate": 1776002134980,
+      "sizeInBytes": 22,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 1,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 2
+      },
+      "frontmatter": {
+        "tags": [
+          "Art"
         ]
       }
     },
@@ -3397,27 +4240,27 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 2444,
+      "wordCount": 2030,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 8.146666666666667,
-      "characterCount": 22346,
-      "nonWhitespaceCharacterCount": 18922,
-      "newlineCount": 427,
-      "readingTimeInMinutes": 9.222641509433963,
-      "linkCount": 24,
+      "pageCount": 6.766666666666667,
+      "characterCount": 17781,
+      "nonWhitespaceCharacterCount": 15159,
+      "newlineCount": 292,
+      "readingTimeInMinutes": 7.660377358490566,
+      "linkCount": 26,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1776005325727,
-      "modifiedDate": 1776005325727,
-      "sizeInBytes": 22743,
+      "createdDate": 1776024631908,
+      "modifiedDate": 1776024631908,
+      "sizeInBytes": 18190,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 8.146666666666667,
-        "wordCount": 2444,
-        "characterCount": 22346,
-        "nonWhitespaceCharacterCount": 18922,
-        "newlineCount": 427
+        "pageCount": 6.766666666666667,
+        "wordCount": 2030,
+        "characterCount": 17781,
+        "nonWhitespaceCharacterCount": 15159,
+        "newlineCount": 292
       },
       "frontmatter": {
         "tags": "Notes",
@@ -3459,106 +4302,7 @@
         "status": "Complete"
       }
     },
-    "Indexes/Magic.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 54,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.18,
-      "characterCount": 654,
-      "nonWhitespaceCharacterCount": 479,
-      "newlineCount": 35,
-      "readingTimeInMinutes": 0.2037735849056604,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1776006881614,
-      "modifiedDate": 1776006881614,
-      "sizeInBytes": 705,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.18,
-        "wordCount": 54,
-        "characterCount": 654,
-        "nonWhitespaceCharacterCount": 479,
-        "newlineCount": 35
-      },
-      "frontmatter": {
-        "cssclasses": [
-          "hcl"
-        ],
-        "obsidianUIMode": "preview"
-      }
-    },
-    "Indexes/Lore.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 55,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.18333333333333332,
-      "characterCount": 667,
-      "nonWhitespaceCharacterCount": 484,
-      "newlineCount": 36,
-      "readingTimeInMinutes": 0.20754716981132076,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1776006880512,
-      "modifiedDate": 1776006880512,
-      "sizeInBytes": 718,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.18333333333333332,
-        "wordCount": 55,
-        "characterCount": 667,
-        "nonWhitespaceCharacterCount": 484,
-        "newlineCount": 36
-      },
-      "frontmatter": {
-        "cssclasses": [
-          "hcl"
-        ],
-        "obsidianUIMode": "preview"
-      }
-    },
-    "Indexes/History.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 55,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.18333333333333332,
-      "characterCount": 691,
-      "nonWhitespaceCharacterCount": 508,
-      "newlineCount": 36,
-      "readingTimeInMinutes": 0.20754716981132076,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1776006879141,
-      "modifiedDate": 1776006879141,
-      "sizeInBytes": 742,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.18333333333333332,
-        "wordCount": 55,
-        "characterCount": 691,
-        "nonWhitespaceCharacterCount": 508,
-        "newlineCount": 36
-      },
-      "frontmatter": {
-        "cssclasses": [
-          "hcl"
-        ],
-        "obsidianUIMode": "preview"
-      }
-    },
-    "Indexes/Language.md": {
+    "Indexes/Technology.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
@@ -3566,22 +4310,22 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.17666666666666667,
-      "characterCount": 655,
-      "nonWhitespaceCharacterCount": 481,
+      "characterCount": 657,
+      "nonWhitespaceCharacterCount": 483,
       "newlineCount": 35,
       "readingTimeInMinutes": 0.2,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1776006877682,
-      "modifiedDate": 1776006877682,
-      "sizeInBytes": 706,
+      "createdDate": 1776025434664,
+      "modifiedDate": 1776025434664,
+      "sizeInBytes": 708,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.17666666666666667,
         "wordCount": 53,
-        "characterCount": 655,
-        "nonWhitespaceCharacterCount": 481,
+        "characterCount": 657,
+        "nonWhitespaceCharacterCount": 483,
         "newlineCount": 35
       },
       "frontmatter": {
@@ -3591,30 +4335,30 @@
         "obsidianUIMode": "preview"
       }
     },
-    "Indexes/Country.md": {
+    "Indexes/Settlement.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 54,
+      "wordCount": 53,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.18,
-      "characterCount": 653,
-      "nonWhitespaceCharacterCount": 482,
+      "pageCount": 0.17666666666666667,
+      "characterCount": 660,
+      "nonWhitespaceCharacterCount": 486,
       "newlineCount": 35,
-      "readingTimeInMinutes": 0.2037735849056604,
+      "readingTimeInMinutes": 0.2,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1776006875450,
-      "modifiedDate": 1776006875450,
-      "sizeInBytes": 704,
+      "createdDate": 1776025433194,
+      "modifiedDate": 1776025433194,
+      "sizeInBytes": 711,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0.18,
-        "wordCount": 54,
-        "characterCount": 653,
-        "nonWhitespaceCharacterCount": 482,
+        "pageCount": 0.17666666666666667,
+        "wordCount": 53,
+        "characterCount": 660,
+        "nonWhitespaceCharacterCount": 486,
         "newlineCount": 35
       },
       "frontmatter": {
@@ -3624,7 +4368,73 @@
         "obsidianUIMode": "preview"
       }
     },
-    "Indexes/Art.md": {
+    "Indexes/Religion.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 53,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.17666666666666667,
+      "characterCount": 647,
+      "nonWhitespaceCharacterCount": 473,
+      "newlineCount": 35,
+      "readingTimeInMinutes": 0.2,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776025431819,
+      "modifiedDate": 1776025431819,
+      "sizeInBytes": 698,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.17666666666666667,
+        "wordCount": 53,
+        "characterCount": 647,
+        "nonWhitespaceCharacterCount": 473,
+        "newlineCount": 35
+      },
+      "frontmatter": {
+        "cssclasses": [
+          "hcl"
+        ],
+        "obsidianUIMode": "preview"
+      }
+    },
+    "Indexes/POI.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 55,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.18333333333333332,
+      "characterCount": 643,
+      "nonWhitespaceCharacterCount": 467,
+      "newlineCount": 35,
+      "readingTimeInMinutes": 0.20754716981132076,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776025430563,
+      "modifiedDate": 1776025430563,
+      "sizeInBytes": 694,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.18333333333333332,
+        "wordCount": 55,
+        "characterCount": 643,
+        "nonWhitespaceCharacterCount": 467,
+        "newlineCount": 35
+      },
+      "frontmatter": {
+        "cssclasses": [
+          "hcl"
+        ],
+        "obsidianUIMode": "preview"
+      }
+    },
+    "Indexes/Organization.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
@@ -3632,23 +4442,23 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.18,
-      "characterCount": 639,
-      "nonWhitespaceCharacterCount": 468,
-      "newlineCount": 35,
+      "characterCount": 683,
+      "nonWhitespaceCharacterCount": 501,
+      "newlineCount": 36,
       "readingTimeInMinutes": 0.2037735849056604,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1776006874052,
-      "modifiedDate": 1776006874052,
-      "sizeInBytes": 690,
+      "createdDate": 1776025429310,
+      "modifiedDate": 1776025429311,
+      "sizeInBytes": 734,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.18,
         "wordCount": 54,
-        "characterCount": 639,
-        "nonWhitespaceCharacterCount": 468,
-        "newlineCount": 35
+        "characterCount": 683,
+        "nonWhitespaceCharacterCount": 501,
+        "newlineCount": 36
       },
       "frontmatter": {
         "cssclasses": [
@@ -3661,27 +4471,27 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 55,
+      "wordCount": 56,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.18333333333333332,
-      "characterCount": 664,
-      "nonWhitespaceCharacterCount": 485,
-      "newlineCount": 36,
-      "readingTimeInMinutes": 0.20754716981132076,
+      "pageCount": 0.18666666666666668,
+      "characterCount": 675,
+      "nonWhitespaceCharacterCount": 488,
+      "newlineCount": 37,
+      "readingTimeInMinutes": 0.21132075471698114,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1776006869696,
-      "modifiedDate": 1776006869696,
-      "sizeInBytes": 715,
+      "createdDate": 1776025427703,
+      "modifiedDate": 1776025427703,
+      "sizeInBytes": 726,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0.18333333333333332,
-        "wordCount": 55,
-        "characterCount": 664,
-        "nonWhitespaceCharacterCount": 485,
-        "newlineCount": 36
+        "pageCount": 0.18666666666666668,
+        "wordCount": 56,
+        "characterCount": 675,
+        "nonWhitespaceCharacterCount": 488,
+        "newlineCount": 37
       },
       "frontmatter": {
         "cssclasses": [
@@ -3727,27 +4537,192 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 59,
+      "wordCount": 60,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.19666666666666666,
-      "characterCount": 711,
-      "nonWhitespaceCharacterCount": 514,
-      "newlineCount": 37,
-      "readingTimeInMinutes": 0.22264150943396227,
+      "pageCount": 0.2,
+      "characterCount": 722,
+      "nonWhitespaceCharacterCount": 517,
+      "newlineCount": 38,
+      "readingTimeInMinutes": 0.22641509433962265,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1776006867610,
-      "modifiedDate": 1776006867610,
-      "sizeInBytes": 762,
+      "createdDate": 1776025426111,
+      "modifiedDate": 1776025426111,
+      "sizeInBytes": 773,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0.19666666666666666,
-        "wordCount": 59,
-        "characterCount": 711,
-        "nonWhitespaceCharacterCount": 514,
-        "newlineCount": 37
+        "pageCount": 0.2,
+        "wordCount": 60,
+        "characterCount": 722,
+        "nonWhitespaceCharacterCount": 517,
+        "newlineCount": 38
+      },
+      "frontmatter": {
+        "cssclasses": [
+          "hcl"
+        ],
+        "obsidianUIMode": "preview"
+      }
+    },
+    "Indexes/Misc.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 53,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.17666666666666667,
+      "characterCount": 619,
+      "nonWhitespaceCharacterCount": 452,
+      "newlineCount": 34,
+      "readingTimeInMinutes": 0.2,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776025424732,
+      "modifiedDate": 1776025424732,
+      "sizeInBytes": 670,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.17666666666666667,
+        "wordCount": 53,
+        "characterCount": 619,
+        "nonWhitespaceCharacterCount": 452,
+        "newlineCount": 34
+      },
+      "frontmatter": {
+        "cssclasses": [
+          "hcl"
+        ],
+        "obsidianUIMode": "preview"
+      }
+    },
+    "Indexes/Magic.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 54,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.18,
+      "characterCount": 645,
+      "nonWhitespaceCharacterCount": 470,
+      "newlineCount": 35,
+      "readingTimeInMinutes": 0.2037735849056604,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776025423312,
+      "modifiedDate": 1776025423312,
+      "sizeInBytes": 696,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.18,
+        "wordCount": 54,
+        "characterCount": 645,
+        "nonWhitespaceCharacterCount": 470,
+        "newlineCount": 35
+      },
+      "frontmatter": {
+        "cssclasses": [
+          "hcl"
+        ],
+        "obsidianUIMode": "preview"
+      }
+    },
+    "Indexes/Lore.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 55,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.18333333333333332,
+      "characterCount": 657,
+      "nonWhitespaceCharacterCount": 474,
+      "newlineCount": 36,
+      "readingTimeInMinutes": 0.20754716981132076,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776025421446,
+      "modifiedDate": 1776025421446,
+      "sizeInBytes": 708,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.18333333333333332,
+        "wordCount": 55,
+        "characterCount": 657,
+        "nonWhitespaceCharacterCount": 474,
+        "newlineCount": 36
+      },
+      "frontmatter": {
+        "cssclasses": [
+          "hcl"
+        ],
+        "obsidianUIMode": "preview"
+      }
+    },
+    "Indexes/Language.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 53,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.17666666666666667,
+      "characterCount": 649,
+      "nonWhitespaceCharacterCount": 475,
+      "newlineCount": 35,
+      "readingTimeInMinutes": 0.2,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776025420129,
+      "modifiedDate": 1776025420129,
+      "sizeInBytes": 700,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.17666666666666667,
+        "wordCount": 53,
+        "characterCount": 649,
+        "nonWhitespaceCharacterCount": 475,
+        "newlineCount": 35
+      },
+      "frontmatter": {
+        "cssclasses": [
+          "hcl"
+        ],
+        "obsidianUIMode": "preview"
+      }
+    },
+    "Indexes/History.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 55,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.18333333333333332,
+      "characterCount": 684,
+      "nonWhitespaceCharacterCount": 501,
+      "newlineCount": 36,
+      "readingTimeInMinutes": 0.20754716981132076,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776025418592,
+      "modifiedDate": 1776025418592,
+      "sizeInBytes": 735,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.18333333333333332,
+        "wordCount": 55,
+        "characterCount": 684,
+        "nonWhitespaceCharacterCount": 501,
+        "newlineCount": 36
       },
       "frontmatter": {
         "cssclasses": [
@@ -3760,27 +4735,27 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 54,
+      "wordCount": 55,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.18,
-      "characterCount": 657,
-      "nonWhitespaceCharacterCount": 486,
-      "newlineCount": 35,
-      "readingTimeInMinutes": 0.2037735849056604,
+      "pageCount": 0.18333333333333332,
+      "characterCount": 671,
+      "nonWhitespaceCharacterCount": 492,
+      "newlineCount": 36,
+      "readingTimeInMinutes": 0.20754716981132076,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1776006868835,
-      "modifiedDate": 1776006868835,
-      "sizeInBytes": 708,
+      "createdDate": 1776025417154,
+      "modifiedDate": 1776025417154,
+      "sizeInBytes": 722,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0.18,
-        "wordCount": 54,
-        "characterCount": 657,
-        "nonWhitespaceCharacterCount": 486,
-        "newlineCount": 35
+        "pageCount": 0.18333333333333332,
+        "wordCount": 55,
+        "characterCount": 671,
+        "nonWhitespaceCharacterCount": 492,
+        "newlineCount": 36
       },
       "frontmatter": {
         "cssclasses": [
@@ -3822,31 +4797,64 @@
         "obsidianUIMode": "preview"
       }
     },
+    "Indexes/Country.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 55,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.18333333333333332,
+      "characterCount": 665,
+      "nonWhitespaceCharacterCount": 486,
+      "newlineCount": 36,
+      "readingTimeInMinutes": 0.20754716981132076,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776025415752,
+      "modifiedDate": 1776025415752,
+      "sizeInBytes": 716,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.18333333333333332,
+        "wordCount": 55,
+        "characterCount": 665,
+        "nonWhitespaceCharacterCount": 486,
+        "newlineCount": 36
+      },
+      "frontmatter": {
+        "cssclasses": [
+          "hcl"
+        ],
+        "obsidianUIMode": "preview"
+      }
+    },
     "Indexes/Concept.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 54,
+      "wordCount": 55,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.18,
-      "characterCount": 652,
-      "nonWhitespaceCharacterCount": 481,
-      "newlineCount": 35,
-      "readingTimeInMinutes": 0.2037735849056604,
+      "pageCount": 0.18333333333333332,
+      "characterCount": 664,
+      "nonWhitespaceCharacterCount": 485,
+      "newlineCount": 36,
+      "readingTimeInMinutes": 0.20754716981132076,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1776006871093,
-      "modifiedDate": 1776006871093,
-      "sizeInBytes": 703,
+      "createdDate": 1776025414327,
+      "modifiedDate": 1776025414327,
+      "sizeInBytes": 715,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0.18,
-        "wordCount": 54,
-        "characterCount": 652,
-        "nonWhitespaceCharacterCount": 481,
-        "newlineCount": 35
+        "pageCount": 0.18333333333333332,
+        "wordCount": 55,
+        "characterCount": 664,
+        "nonWhitespaceCharacterCount": 485,
+        "newlineCount": 36
       },
       "frontmatter": {
         "cssclasses": [
@@ -3859,27 +4867,60 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 58,
+      "wordCount": 59,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.19333333333333333,
-      "characterCount": 729,
-      "nonWhitespaceCharacterCount": 526,
-      "newlineCount": 39,
-      "readingTimeInMinutes": 0.2188679245283019,
+      "pageCount": 0.19666666666666666,
+      "characterCount": 736,
+      "nonWhitespaceCharacterCount": 525,
+      "newlineCount": 40,
+      "readingTimeInMinutes": 0.22264150943396227,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1776006876742,
-      "modifiedDate": 1776006876742,
-      "sizeInBytes": 780,
+      "createdDate": 1776025412913,
+      "modifiedDate": 1776025412913,
+      "sizeInBytes": 787,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0.19333333333333333,
-        "wordCount": 58,
-        "characterCount": 729,
-        "nonWhitespaceCharacterCount": 526,
-        "newlineCount": 39
+        "pageCount": 0.19666666666666666,
+        "wordCount": 59,
+        "characterCount": 736,
+        "nonWhitespaceCharacterCount": 525,
+        "newlineCount": 40
+      },
+      "frontmatter": {
+        "cssclasses": [
+          "hcl"
+        ],
+        "obsidianUIMode": "preview"
+      }
+    },
+    "Indexes/Art.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 55,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.18333333333333332,
+      "characterCount": 647,
+      "nonWhitespaceCharacterCount": 468,
+      "newlineCount": 36,
+      "readingTimeInMinutes": 0.20754716981132076,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776025411075,
+      "modifiedDate": 1776025411075,
+      "sizeInBytes": 698,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.18333333333333332,
+        "wordCount": 55,
+        "characterCount": 647,
+        "nonWhitespaceCharacterCount": 468,
+        "newlineCount": 36
       },
       "frontmatter": {
         "cssclasses": [
@@ -3892,27 +4933,27 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 54,
+      "wordCount": 55,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.18,
-      "characterCount": 654,
-      "nonWhitespaceCharacterCount": 483,
-      "newlineCount": 35,
-      "readingTimeInMinutes": 0.2037735849056604,
+      "pageCount": 0.18333333333333332,
+      "characterCount": 667,
+      "nonWhitespaceCharacterCount": 488,
+      "newlineCount": 36,
+      "readingTimeInMinutes": 0.20754716981132076,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1776006872505,
-      "modifiedDate": 1776006872505,
-      "sizeInBytes": 705,
+      "createdDate": 1776025409601,
+      "modifiedDate": 1776025409601,
+      "sizeInBytes": 718,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0.18,
-        "wordCount": 54,
-        "characterCount": 654,
-        "nonWhitespaceCharacterCount": 483,
-        "newlineCount": 35
+        "pageCount": 0.18333333333333332,
+        "wordCount": 55,
+        "characterCount": 667,
+        "nonWhitespaceCharacterCount": 488,
+        "newlineCount": 36
       },
       "frontmatter": {
         "cssclasses": [
@@ -3925,27 +4966,27 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 150,
+      "wordCount": 154,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.5,
-      "characterCount": 2129,
-      "nonWhitespaceCharacterCount": 1918,
-      "newlineCount": 93,
-      "readingTimeInMinutes": 0.5660377358490566,
-      "linkCount": 30,
-      "embedCount": 20,
+      "pageCount": 0.5133333333333333,
+      "characterCount": 2169,
+      "nonWhitespaceCharacterCount": 1953,
+      "newlineCount": 96,
+      "readingTimeInMinutes": 0.5811320754716981,
+      "linkCount": 31,
+      "embedCount": 21,
       "aliases": null,
-      "createdDate": 1776005353830,
-      "modifiedDate": 1776005353830,
-      "sizeInBytes": 2235,
+      "createdDate": 1776024638167,
+      "modifiedDate": 1776025754280,
+      "sizeInBytes": 2275,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0.5,
-        "wordCount": 150,
-        "characterCount": 2129,
-        "nonWhitespaceCharacterCount": 1918,
-        "newlineCount": 93
+        "pageCount": 0.5133333333333333,
+        "wordCount": 154,
+        "characterCount": 2173,
+        "nonWhitespaceCharacterCount": 1957,
+        "newlineCount": 96
       },
       "frontmatter": {
         "obsidianUIMode": "preview",
@@ -4634,33 +5675,6 @@
         "newlineCount": 0
       }
     },
-    "Assets/Cards/card-culture.jpeg": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1758502175174,
-      "modifiedDate": 1760191133173,
-      "sizeInBytes": 240440,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "Assets/Cards/card-creature.jpeg": {
       "isCountable": false,
       "targetNodeType": "file",
@@ -4841,6 +5855,142 @@
       "createdDate": 1758501430603,
       "modifiedDate": 1758501430617,
       "sizeInBytes": 105387,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "World/Magic/We casting spells and shi.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 140,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.4666666666666667,
+      "characterCount": 2047,
+      "nonWhitespaceCharacterCount": 1835,
+      "newlineCount": 49,
+      "readingTimeInMinutes": 0.5283018867924528,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776025678102,
+      "modifiedDate": 1776025686254,
+      "sizeInBytes": 2164,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "tags": [
+          "Magic"
+        ],
+        "status": null,
+        "art": null,
+        "power_source": null,
+        "practiced_by": null,
+        "requires": null,
+        "taught_at": null,
+        "enables": null,
+        "countered_by": null,
+        "related": null
+      }
+    },
+    "World/Ancestry/Elves.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 108,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.36,
+      "characterCount": 1880,
+      "nonWhitespaceCharacterCount": 1703,
+      "newlineCount": 47,
+      "readingTimeInMinutes": 0.4075471698113208,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776025710219,
+      "modifiedDate": 1776025718021,
+      "sizeInBytes": 1949,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "tags": [
+          "Ancestry"
+        ],
+        "status": null,
+        "art": "Assets/Cards/card-concept.jpg"
+      }
+    },
+    "World/Culture-Art/yuge painting.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 126,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.42,
+      "characterCount": 2172,
+      "nonWhitespaceCharacterCount": 1972,
+      "newlineCount": 50,
+      "readingTimeInMinutes": 0.47547169811320755,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1776025728792,
+      "modifiedDate": 1776025739819,
+      "sizeInBytes": 2237,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "tags": [
+          "Art"
+        ],
+        "status": null,
+        "art": "Assets/Cards/card-culture.jpeg"
+      }
+    },
+    "Assets/Cards/card-art.jpeg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1758502175174,
+      "modifiedDate": 1760191133173,
+      "sizeInBytes": 240440,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,

@@ -20,6 +20,8 @@ priority:
 > **Systems & Institutions:** [[#Country]] | [[#Language]] | [[#Organization]] | [[#Religion]]
 >
 > **Supernatural & Material:** [[#Magic]] | [[#Object]] | [[#Technology]]
+>
+> **Niche:** [[#Language]] | [[#Misc]]
 
 # **`=this.file.name`**
 > [!example]- Making Edits
@@ -133,7 +135,7 @@ priority:
 (All living things — animals, plants, fungi, and fantastical organisms. Use sub-tags to distinguish: `#Creature, #Plant, #Fungi, #Hybrid)`
 - `rarity` - Common, Uncommon, Rare, Legendary, Extinct, Mythical
 - `habitat` → links to **Geography**, **Settlement**, **POI**
-- `produces` → links to **Resource**, **Object**
+- `produces` → links to **Object**
 - `raised_by` → links to **Ancestry**, **Organization** (domesticated, cultivated, or farmed)
 - `created_by` → links to **Character**, **Organization**, **Magic**
 - Everything else (appearance, behavior, diet, size, lifecycle, special properties) → prose in the note body
@@ -150,89 +152,24 @@ priority:
 - Everything else (terrain, climate, habitability, size, visibility, significance, cosmic type) → prose in the note body
 
 #### POI
-(Point of Interest)
-- `poi_type`
-  - ruin (ancient structure, abandoned site)
-  - natural wonder (unique geological formation, spectacular view)
-  - magical site (nexus, ley line, enchanted location)
-  - landmark (monument, statue, notable feature)
-  - structure (building, fortress, bridge)
-  - shrine (temple, altar, sacred site)
-  - dungeon (underground complex, labyrinth)
-  - battlefield (historic combat site)
-- `condition`
-  - pristine (well-maintained, untouched)
-  - weathered (aged but intact)
-  - ruined (partially collapsed, damaged)
-  - hidden (concealed, hard to find)
-  - dangerous (unstable, hazardous)
-  - active (still in use)
-  - abandoned (deserted, forgotten)
-- `access`
-  - open (publicly accessible)
-  - restricted (permission required)
-  - hidden (secret location)
-  - dangerous (hazardous to approach)
-  - forbidden (illegal or taboo to enter)
-  - seasonal (only accessible certain times)
-- `significance`
-  - historical (important past events)
-  - religious (sacred, holy)
-  - strategic (military, defensive)
-  - cultural (artistic, symbolic)
-  - economic (resource-related, trade)
-  - mysterious (unknown purpose)
-  - personal (character residence, private location)
-  - mundane (everyday location, no special significance)
-  - narrative (story-important but not world-important)
-- `locations` → links to **Geography**, **Cosmos**
+(Points of Interest — ruins, landmarks, dungeons, shrines, natural wonders, and other notable locations.)
+- `locations` → links to **Geography** (where this POI is found)
 - `jurisdiction` → links to **Country**
 - `controlled_by` → links to **Organization**
 - `discovered_by` → links to **Character**, **Organization**
+- Everything else (poi type, condition, access, significance) → prose in the note body
 #### Settlement
-- `settlement_size`
-  - hamlet (tiny rural settlement, <100 people)
-  - village (small community, 100-1,000 people)
-  - town (established settlement, 1,000-10,000 people)
-  - city (major urban center, 10,000-100,000 people)
-  - metropolis (massive urban sprawl, 100,000+ people)
-  - outpost (frontier settlement, military camp)
-  - ruins (abandoned settlement)
-- `settlement_type`
-  - agricultural (farming community)
-  - trade hub (commercial center, market town)
-  - port (coastal/river settlement, shipping)
-  - mining (resource extraction)
-  - religious (temple city, pilgrimage site)
-  - military (fortress, garrison town)
-  - academic (university town, scholar's city)
-  - industrial (manufacturing center)
-  - capital (seat of government)
-- `prosperity`
-  - destitute (extreme poverty, failing)
-  - struggling (barely surviving, hardship)
-  - stable (self-sufficient, maintaining)
-  - prosperous (growing wealth, opportunity)
-  - thriving (booming economy, affluent)
-  - declining (deteriorating, losing population/wealth)
-- `defense`
-  - none (undefended, vulnerable)
-  - militia (citizen defenders, basic watch)
-  - guarded (professional guards, walls)
-  - fortified (strong defenses, garrison)
-  - fortress (military stronghold, impregnable)
+(Towns, cities, villages, outposts, and other inhabited places.)
 - `inhabitants` → links to **Ancestry**
-- `notable_sites` → links to **POI** (important sites within settlement)
-- `locations` → links to **Geography**, **Cosmos** (where it's located)
+- `notable_sites` → links to **POI** (important locations within)
+- `locations` → links to **Geography** (where it's located)
 - `jurisdiction` → links to **Country**
 - `controlled_by` → links to **Organization**
 - `rulers` → links to **Character**
 - `founded_by` → links to **Character**, **Organization**, **Country**
-- `fc-date` - When settlement was founded (YYYY-MM-DD format)
-- `trade_partners` → links to other **Settlement**, **Country**
-- `produces` → links to **Resource** (what this settlement exports)
-- `imports` → links to **Resource** (what this settlement needs)
-- `economy` → links to **Economy** (local markets, trade routes they're part of,etc.)
+- `trade_partners` → links to **Settlement**, **Country**
+- `resources` → links to **Object** (what it produces, imports, or trades)
+- Everything else (settlement size, type, prosperity, defense) → prose in the note body
 
 ### People & Society
 #### Ancestry
@@ -270,6 +207,7 @@ priority:
 - `influenced_by` → links to other **Art**
 - `patron` → links to **Character**, **Organization**
 - `practitioners` → links to **Character**, **Organization** (who practices this art/culture)
+- `associated_religion` → links to **Religion** (religious traditions tied to this art form)
 - `core_concepts` → links to **Concept** (thematic ideas behind it)
 - Everything else (art type, medium, cultural focus, era, vitality) → prose in the note body
 
@@ -298,86 +236,30 @@ priority:
 - Everything else (usage, script type, language family, prevalence) → prose in the note body
 
 #### Organization
-- `org_type`
-  - guild (craft/trade association)
-  - religious (faith-based institution)
-  - military (army, mercenary company)
-  - academic (university, research institute)
-  - criminal (thieves' guild, syndicate)
-  - political (party, council, movement)
-  - commercial (trading company, merchant house)
-  - secret society (hidden agenda, select membership)
-  - charitable (aid organization, charity)
-  - knightly order (warrior brotherhood)
-- `scope` (Local, Regional, National, Continental, Global, Cosmic)
-- `secrecy`
-  - public (openly known, transparent)
-  - discreet (known but private)
-  - secret (hidden membership)
-  - unknown (existence unconfirmed)
-  - rumored (suspected but unproven)
-- `size`
-  - tiny (<10 members)
-  - small (10-50 members)
-  - medium (50-500 members)
-  - large (500-5000 members)
-  - massive (5000+ members)
-- `influence`
-  - negligible (no real power)
-  - minor (limited influence)
-  - moderate (respected, some sway)
-  - major (significant power)
-  - dominant (controls region/sector)
-- `headquarters` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos**
+(Guilds, orders, factions, companies, and any structured group with shared purpose.)
+- `headquarters` → links to **Settlement**, **POI**, **Geography**, **Country**
 - `leader` → links to **Character**
 - `members` → links to **Character**
 - `founded_by` → links to **Character**, **Organization**
-- `allies` → links to other **Organization**, **Country**
-- `rivals` → links to other **Organization**, **Country**
-- `operates_in` → links to **Country**, **Settlement**, **Geography**, **Cosmos**
-- `controls` → links to **Settlement**, **POI**, **Geography**, **Resource**
+- `allies` → links to **Organization**, **Country**
+- `rivals` → links to **Organization**, **Country**
+- `operates_in` → links to **Country**, **Settlement**, **Geography**
+- `controls` → links to **Settlement**, **POI**, **Geography**, **Object**
 - `associated_religion` → links to **Religion**
+- Everything else (org type, scope, secrecy, size, influence) → prose in the note body
 
 #### Religion
-- `belief_type`
-  - monotheistic (single god)
-  - polytheistic (multiple gods)
-  - dualistic (two opposing forces)
-  - animistic (spirits in nature)
-  - philosophical (ethical system, no deity)
-  - ancestor worship (veneration of the dead)
-  - pantheistic (god is everything)
-  - atheistic (denies divine existence)
-- `influence_level`
-  - state (official religion, government-backed)
-  - widespread (majority religion)
-  - minority (smaller following)
-  - underground (secret, persecuted)
-  - extinct (no longer practiced)
-  - emerging (new, growing)
-- `organizational_structure`
-  - hierarchical (organized clergy, centralized)
-  - decentralized (independent practitioners)
-  - tribal (community-based)
-  - monastic (isolated communities)
-  - none (no formal organization)
-- `primary_focus`
-  - afterlife (salvation, reincarnation)
-  - morality (ethics, conduct)
-  - power (divine magic, miracles)
-  - nature (harmony, balance)
-  - knowledge (enlightenment, truth)
-  - war (conquest, glory)
-  - prosperity (wealth, success)
-- `deities` → links to **Character** (gods/religious figures)
+(Belief systems, faiths, cults, and spiritual traditions that shape cultures and characters.)
+- `deities` → links to **Character** (gods/divine figures)
 - `practiced_by` → links to **Ancestry**, **Country**, **Organization**
-- `holy_sites` → links to **POI**, **Settlement**, **Geography**, **Country**, **Cosmos**
+- `holy_sites` → links to **POI**, **Settlement**, **Geography**, **Country**
 - `sacred_objects` → links to **Object**
 - `sacred_texts` → links to **Lore**
-- `religious_leaders` → links to **Character**
+- `religious_leaders` → links to **Character** (mortal clergy/leaders)
 - `core_concepts` → links to **Concept**
 - `associated_magic` → links to **Magic**
-- `rival_religions` → links to other **Religion**
+- `rival_religions` → links to **Religion**
+- Everything else (belief type, influence level, organizational structure, primary focus) → prose in the note body
 
 ### Supernatural & Material
 #### Magic
@@ -397,38 +279,21 @@ priority:
 - `current_owner` → links to **Character**, **Organization**
 - `located_at` → links to **Settlement**, **POI**, **Geography** (where it is now / where it's found)
 - `made_from` → links to **Object** (materials/components — resources are objects too)
-- `required_for` → links to **Object**, **Magic** (what needs this material/component)
-- `associated_with` → links to **History**, **Character**, **Religion**, **Lore** (narrative connections)
+- `required_for` → links to **Object**, **Magic**, **Technology** (what needs this material/component)
+- `associated_with` → links to **History**, **Character**, **Religion**, **Lore**, **Magic** (narrative connections)
 - Everything else (object type, condition, significance, value, renewability, primary use, enchantments) → prose in the note body
 
 #### Technology
-- `tech_stage`
-  - emerging (newly developed, experimental)
-  - established (widely adopted, proven)
-  - declining (being replaced, outdated)
-  - lost (knowledge forgotten, no longer exists)
-  - rediscovered (ancient tech being recovered)
-- `availability`
-  - widespread (common, accessible to most)
-  - limited (restricted distribution, some access)
-  - exclusive (rare, tightly controlled)
-  - secret (hidden, known to few)
-  - forbidden (illegal, banned)
-- `tech_type`
-  - mechanical (gears, engines, clockwork)
-  - alchemical (chemical processes, transmutation)
-  - magical (enchanted devices, spell-powered)
-  - biological (living technology, organic)
-  - hybrid (combination of types)
-- `complexity`
-  - simple (basic tools, easy to understand)
-  - moderate (requires training)
-  - complex (specialized knowledge needed)
-  - advanced (cutting-edge, difficult to replicate)
+(Inventions, techniques, engineering systems, and crafting methods — distinct from individual objects.)
 - `created_by` → links to **Ancestry**, **Organization**, **Character**, **Country**
-- `requires` → links to **Resource**, **Magic**, **Object** (materials needed)
-- `replaces` → links to other **Technology**
-- `enables` → links to **Object**, **Magic**, **Concept** (what this tech makes possible)
-- `discovered_at` → links to **Settlement**, **POI**, **Country**, **Geography**, **Cosmos** (where tech was developed/discovered)
-- `used_by` → links to **Ancestry**, **Organization**, **Character**, **Country** 
+- `requires` → links to **Object**, **Magic** (materials or magic needed)
+- `replaces` → links to **Technology**
+- `enables` → links to **Object**, **Magic**, **Concept**, **Technology** (what this tech makes possible)
+- `discovered_at` → links to **Settlement**, **POI**, **Country**, **Geography**
+- `used_by` → links to **Ancestry**, **Organization**, **Character**, **Country**
 - `documentation` → links to **Lore**
+- Everything else (tech stage, availability, tech type, complexity) → prose in the note body
+
+#### Misc
+(Catch-all for worldbuilding notes that don't fit any other category. Use when nothing else applies.)
+- `related` - existing universal

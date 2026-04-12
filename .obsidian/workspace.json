@@ -8,17 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b3944d44fccd9d30",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "lorekeeper_meta.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lorekeeper_meta"
+            }
+          },
+          {
+            "id": "22e42aa674bfc9aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "World/Religion/Paganism.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Paganism"
             }
           }
         ]
@@ -97,18 +111,21 @@
       {
         "id": "ec3debd38cbac78d",
         "type": "tabs",
-        "dimension": 56.681034482758626,
         "children": [
           {
-            "id": "e668dbd57f5955f6",
+            "id": "93add5d84d282675",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "file-properties",
+              "type": "markdown",
               "state": {
-                "file": "Home.md"
+                "file": "Notes/Documentation/Buttons.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-info",
-              "title": "File properties for Home"
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Buttons"
             }
           },
           {
@@ -191,31 +208,26 @@
         ]
       },
       {
-        "id": "b649fa7a5734e9c2",
+        "id": "2a1faa648c7a4138",
         "type": "tabs",
-        "dimension": 43.318965517241374,
         "children": [
           {
-            "id": "c0f1c19f45b6c4d0",
+            "id": "e668dbd57f5955f6",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "markdown",
+              "type": "file-properties",
               "state": {
-                "file": "Notes/Documentation/Buttons.md",
-                "mode": "preview",
-                "source": false
+                "file": "lorekeeper_meta.md"
               },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Buttons"
+              "icon": "lucide-info",
+              "title": "File properties for lorekeeper_meta"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 418.5
+    "width": 365.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,44 +245,46 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "b3944d44fccd9d30",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Indexes/Country.md",
-    "Home.md",
-    "Indexes/Ancestry.md",
-    "World/Ancestry/Elf.md",
-    "Indexes/Notes.md",
-    "Indexes/Magic.md",
-    "Indexes/Geography.md",
-    "Indexes/History.md",
-    "Indexes/Language.md",
-    "Indexes/Documentation.md",
-    "Indexes/Character.md",
+    "World/Technology/Massive Laserbeam.md",
+    "World/Religion/Paganism.md",
+    "World/Organization/A powerful org.md",
     "lorekeeper_meta.md",
-    "Indexes/Magic.md.tmp.26968.1776006881614",
-    "Indexes/Lore.md.tmp.26968.1776006880512",
-    "Indexes/History.md.tmp.26968.1776006879141",
-    "Indexes/Language.md.tmp.26968.1776006877682",
-    "Indexes/Character.md.tmp.26968.1776006876742",
-    "Indexes/Country.md.tmp.26968.1776006875451",
-    "Indexes/Art.md.tmp.26968.1776006874053",
-    "Indexes/Ancestry.md.tmp.26968.1776006872506",
-    "Indexes/Concept.md.tmp.26968.1776006871094",
-    "Indexes/Object.md.tmp.26968.1776006869697",
-    "Notes/Documentation/Master Tags List.md",
-    "World/Country/Atlantis.md",
+    "Home.md",
+    "Assets/Cards/card-art.jpeg",
+    "World/Culture-Art/yuge painting.md",
+    "Indexes/Art.md",
+    "Indexes/Character.md",
+    "Indexes/Ancestry.md",
+    "World/Ancestry/Elves.md",
     "World/Magic/Something spell.md",
+    "Indexes/Magic.md",
+    "World/Magic/We casting spells and shi.md",
     "Notes/Documentation/Buttons.md",
-    "World/History/A great event.md",
-    "Notes/Documentation/NewNote.md",
-    "Templates/T_Infobox/Infobox_Magic.md",
-    "Templates/Metadata/Seed_Magic.md",
-    "Indexes/Lore.md",
-    "Templates/T_Infobox/Infobox_Lore.md",
-    "Templates/Metadata/Seed_Lore_5.md",
-    "Templates/Metadata/Seed_Lore_4.md",
-    "Templates/Metadata/Seed_Lore_3.md",
-    "Templates/Metadata/Seed_Lore_2.md",
+    "Indexes/Documentation.md",
+    "World/Character/Matilda.md",
+    "lorekeeper_meta.md.tmp.161312.1776025464124",
+    "Indexes/Technology.md.tmp.161312.1776025434664",
+    "Indexes/Settlement.md.tmp.161312.1776025433195",
+    "Indexes/Religion.md.tmp.161312.1776025431819",
+    "Indexes/POI.md.tmp.161312.1776025430563",
+    "Indexes/Organization.md.tmp.161312.1776025429311",
+    "Indexes/Object.md.tmp.161312.1776025427703",
+    "Indexes/Nature.md.tmp.161312.1776025426111",
+    "Indexes/Misc.md.tmp.161312.1776025424732",
+    "Indexes/Magic.md.tmp.161312.1776025423312",
+    "Indexes/Organization.md",
+    "Notes/new note.md",
+    "Notes/Documentation/.md",
+    "Assets/Cards/card-creature.jpeg",
+    "World/Nature/Dire Wolf.md",
+    "World/Misc/Unknown element.md",
+    "Templates/T_Infobox/Infobox_Basic.md",
+    "Indexes/Misc.md",
+    "Templates/Metadata/Seed_Misc.md",
+    "Templates/T_World/Template_Misc.md",
+    "Notes/Documentation/Master Tags List.md",
     "Assets/Cards/card-economy.jpg",
     "Assets/volcanic wastes.jpg",
     "Assets/dire-wolf-daniel-eskridge.jpg",
@@ -279,8 +293,6 @@
     "Assets/Cards/card-timeline.jpg",
     "Assets/Cards/card-ancestry.jpg",
     "Assets/TemplateImg/Placeholder-Generic.jpg",
-    "Assets/TemplateImg/Placeholder-Character.jpg",
-    "Assets/Maps/example-map.jpg",
     "Meta/BrainstormBoard/BrainstormBoard.canvas",
     "Meta/30 Day Challenge/30 Day Challenge.canvas",
     "06. Unsorted/Seventsian1.0/02. Civilization/Races+Cultures/Mankind/Mankind.canvas",

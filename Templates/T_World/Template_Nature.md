@@ -11,7 +11,7 @@ art:
 > ---|---|
 > **Art** | `INPUT[imageSuggester(optionQuery("Assets")):art]` |
 > **Habitat** | `INPUT[inlineListSuggester(optionQuery(#Geography or #Settlement or #POI AND !"Templates" AND !"Archive"), useLinks(partial)):habitat]` |
-> **Produces** | `INPUT[inlineListSuggester(optionQuery(#Resource or #Object AND !"Templates" AND !"Archive"), useLinks(partial)):produces]` |
+> **Produces** | `INPUT[inlineListSuggester(optionQuery(#Object AND !"Templates" AND !"Archive"), useLinks(partial)):produces]` |
 > **Raised By** | `INPUT[inlineListSuggester(optionQuery(#Ancestry or #Organization AND !"Templates" AND !"Archive"), useLinks(partial)):raised_by]` |
 > **Created By** | `INPUT[inlineListSuggester(optionQuery(#Character or #Organization or #Magic AND !"Templates" AND !"Archive"), useLinks(partial)):created_by]` |
 > **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates" AND !"Archive"), useLinks(partial)):related]` |

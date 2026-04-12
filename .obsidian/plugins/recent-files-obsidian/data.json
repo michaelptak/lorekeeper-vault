@@ -1,24 +1,152 @@
 {
   "recentFiles": [
     {
+      "basename": "lorekeeper_meta",
+      "path": "lorekeeper_meta.md"
+    },
+    {
+      "basename": "Massive Laserbeam",
+      "path": "World/Technology/Massive Laserbeam.md"
+    },
+    {
+      "basename": "Paganism",
+      "path": "World/Religion/Paganism.md"
+    },
+    {
+      "basename": "A powerful org",
+      "path": "World/Organization/A powerful org.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
     },
     {
-      "basename": "Country",
-      "path": "Indexes/Country.md"
+      "basename": "yuge painting",
+      "path": "World/Culture-Art/yuge painting.md"
+    },
+    {
+      "basename": "Art",
+      "path": "Indexes/Art.md"
+    },
+    {
+      "basename": "Character",
+      "path": "Indexes/Character.md"
     },
     {
       "basename": "Ancestry",
       "path": "Indexes/Ancestry.md"
     },
     {
-      "basename": "Notes",
-      "path": "Indexes/Notes.md"
+      "basename": "Elves",
+      "path": "World/Ancestry/Elves.md"
+    },
+    {
+      "basename": "Something spell",
+      "path": "World/Magic/Something spell.md"
     },
     {
       "basename": "Magic",
       "path": "Indexes/Magic.md"
+    },
+    {
+      "basename": "We casting spells and shi",
+      "path": "World/Magic/We casting spells and shi.md"
+    },
+    {
+      "basename": "Buttons",
+      "path": "Notes/Documentation/Buttons.md"
+    },
+    {
+      "basename": "Documentation",
+      "path": "Indexes/Documentation.md"
+    },
+    {
+      "basename": "Matilda",
+      "path": "World/Character/Matilda.md"
+    },
+    {
+      "basename": "Organization",
+      "path": "Indexes/Organization.md"
+    },
+    {
+      "basename": "card-creature",
+      "path": "Assets/Cards/card-creature.jpeg"
+    },
+    {
+      "basename": "Dire Wolf",
+      "path": "World/Nature/Dire Wolf.md"
+    },
+    {
+      "basename": "Unknown element",
+      "path": "World/Misc/Unknown element.md"
+    },
+    {
+      "basename": "Infobox_Basic",
+      "path": "Templates/T_Infobox/Infobox_Basic.md"
+    },
+    {
+      "basename": "Master Tags List",
+      "path": "Notes/Documentation/Master Tags List.md"
+    },
+    {
+      "basename": "How to Use the Massive Laserbeam",
+      "path": "World/Lore/How to Use the Massive Laserbeam.md"
+    },
+    {
+      "basename": "Concept",
+      "path": "Indexes/Concept.md"
+    },
+    {
+      "basename": "POI",
+      "path": "Indexes/POI.md"
+    },
+    {
+      "basename": "An interesting Large Rock",
+      "path": "World/POI/An interesting Large Rock.md"
+    },
+    {
+      "basename": "Volcanic Ash Fields",
+      "path": "World/Geography/Volcanic Ash Fields.md"
+    },
+    {
+      "basename": "Jeff",
+      "path": "World/Character/Jeff.md"
+    },
+    {
+      "basename": "Atlantis",
+      "path": "World/Country/Atlantis.md"
+    },
+    {
+      "basename": "Elvish",
+      "path": "World/Language/Elvish.md"
+    },
+    {
+      "basename": "Language",
+      "path": "Indexes/Language.md"
+    },
+    {
+      "basename": "Beffrey",
+      "path": "World/Character/Beffrey.md"
+    },
+    {
+      "basename": "Dashboard-Worldbuilding",
+      "path": "Dashboard-Worldbuilding.md"
+    },
+    {
+      "basename": "Religion",
+      "path": "Indexes/Religion.md"
+    },
+    {
+      "basename": "Template_Religion",
+      "path": "Templates/T_World/Template_Religion.md"
+    },
+    {
+      "basename": "Country",
+      "path": "Indexes/Country.md"
+    },
+    {
+      "basename": "Notes",
+      "path": "Indexes/Notes.md"
     },
     {
       "basename": "Geography",
@@ -29,56 +157,12 @@
       "path": "Indexes/History.md"
     },
     {
-      "basename": "Language",
-      "path": "Indexes/Language.md"
-    },
-    {
-      "basename": "Documentation",
-      "path": "Indexes/Documentation.md"
-    },
-    {
-      "basename": "Character",
-      "path": "Indexes/Character.md"
-    },
-    {
-      "basename": "lorekeeper_meta",
-      "path": "lorekeeper_meta.md"
-    },
-    {
-      "basename": "Master Tags List",
-      "path": "Notes/Documentation/Master Tags List.md"
-    },
-    {
-      "basename": "Atlantis",
-      "path": "World/Country/Atlantis.md"
-    },
-    {
-      "basename": "Something spell",
-      "path": "World/Magic/Something spell.md"
-    },
-    {
-      "basename": "Buttons",
-      "path": "Notes/Documentation/Buttons.md"
-    },
-    {
       "basename": "Great War",
       "path": "World/History/Great War.md"
     },
     {
-      "basename": "Jeff",
-      "path": "World/Character/Jeff.md"
-    },
-    {
-      "basename": "Elvish",
-      "path": "World/Language/Elvish.md"
-    },
-    {
       "basename": "Template_Settlement",
       "path": "Templates/T_World/Template_Settlement.md"
-    },
-    {
-      "basename": "Template_Religion",
-      "path": "Templates/T_World/Template_Religion.md"
     },
     {
       "basename": "Template_Organization",
@@ -115,86 +199,6 @@
     {
       "basename": "Template_Country",
       "path": "Templates/T_World/Template_Country.md"
-    },
-    {
-      "basename": "Template_Geography",
-      "path": "Templates/T_World/Template_Geography.md"
-    },
-    {
-      "basename": "Dashboard-Worldbuilding",
-      "path": "Dashboard-Worldbuilding.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "Story",
-      "path": "Story/Story.md"
-    },
-    {
-      "basename": "Template_Notes_Research",
-      "path": "Templates/T_Notes/Template_Notes_Research.md"
-    },
-    {
-      "basename": "Template_Notes_Reference",
-      "path": "Templates/T_Notes/Template_Notes_Reference.md"
-    },
-    {
-      "basename": "Template_Notes_Planning",
-      "path": "Templates/T_Notes/Template_Notes_Planning.md"
-    },
-    {
-      "basename": "Template_Notes_Documentation",
-      "path": "Templates/T_Notes/Template_Notes_Documentation.md"
-    },
-    {
-      "basename": "Template_Notes_Brainstorm",
-      "path": "Templates/T_Notes/Template_Notes_Brainstorm.md"
-    },
-    {
-      "basename": "Template_Notes_Blank",
-      "path": "Templates/T_Notes/Template_Notes_Blank.md"
-    },
-    {
-      "basename": "Test",
-      "path": "Notes/Test.md"
-    },
-    {
-      "basename": "CLAUDE",
-      "path": "CLAUDE.md"
-    },
-    {
-      "basename": "Beffrey",
-      "path": "World/Character/Beffrey.md"
-    },
-    {
-      "basename": "Seed_Country",
-      "path": "Templates/Metadata/Seed_Country.md"
-    },
-    {
-      "basename": "Seed_Default",
-      "path": "Templates/Metadata/Seed_Default.md"
-    },
-    {
-      "basename": "Seed_Art",
-      "path": "Templates/Metadata/Seed_Art.md"
-    },
-    {
-      "basename": "Seed_Character",
-      "path": "Templates/Metadata/Seed_Character.md"
-    },
-    {
-      "basename": "Nature",
-      "path": "Indexes/Nature.md"
-    },
-    {
-      "basename": "Object",
-      "path": "Indexes/Object.md"
-    },
-    {
-      "basename": "Art",
-      "path": "Indexes/Art.md"
     }
   ],
   "omittedPaths": [],

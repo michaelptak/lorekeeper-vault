@@ -8,7 +8,7 @@ obsidianUIMode: preview
 # Objects
 
 > [!tip|c-plain no-i text-center title-center wsmall callout-bordered center] New Object
-> `BUTTON[WorldNoteSelector]`
+> `BUTTON[NewObject]`
 
 ```base
 filters:
@@ -23,6 +23,7 @@ views:
       - tags
       - status
       - rarity
+      - file.mtime
     sort:
       - property: file.mtime
         direction: DESC

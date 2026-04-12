@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBookTemplate",
       "LiArchive",
       "LiNotebook",
       "LiNotepadText",
-      "LiScrollText",
-      "LiExcalidrawIcon"
+      "LiScrollText"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -42,5 +42,6 @@
   "Home.md": "LiHomepage",
   "Notes": "LiNotebook",
   "Archive": "LiArchive",
-  "Indexes": "LiDatabase"
+  "Indexes": "LiDatabase",
+  "Templates/Metadata": "LiBookTemplate"
 }
