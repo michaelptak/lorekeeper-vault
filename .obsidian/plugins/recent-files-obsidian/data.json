@@ -5,6 +5,14 @@
       "path": "Home.md"
     },
     {
+      "basename": "Country",
+      "path": "Indexes/Country.md"
+    },
+    {
+      "basename": "Ancestry",
+      "path": "Indexes/Ancestry.md"
+    },
+    {
       "basename": "Notes",
       "path": "Indexes/Notes.md"
     },
@@ -39,10 +47,6 @@
     {
       "basename": "Master Tags List",
       "path": "Notes/Documentation/Master Tags List.md"
-    },
-    {
-      "basename": "Country",
-      "path": "Indexes/Country.md"
     },
     {
       "basename": "Atlantis",
@@ -191,14 +195,6 @@
     {
       "basename": "Art",
       "path": "Indexes/Art.md"
-    },
-    {
-      "basename": "Ancestry",
-      "path": "Indexes/Ancestry.md"
-    },
-    {
-      "basename": "Infobox_Art",
-      "path": "Templates/T_Infobox/Infobox_Art.md"
     }
   ],
   "omittedPaths": [],
