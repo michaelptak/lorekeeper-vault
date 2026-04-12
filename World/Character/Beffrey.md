@@ -1,12 +1,14 @@
 ---
 tags:
   - Character
-status:
-role:
-life_status:
+status: Planned
+role: Antagonist
+life_status: Alive
 aliases:
 age:
-art:
+art: Assets/Cards/card-creature.jpeg
+family:
+  - "[[Jeff]]"
 ---
 
 > [!metadata]- Links
@@ -29,72 +31,33 @@ art:
 > [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
 > [[Character|All Characters]] | [[Home]]
 
-<%*
-const hasNewWorldTitle = tp.file.title.startsWith("NewWorldNote");
-const hasUntitledTitle = tp.file.title.startsWith("Untitled");
-let title;
-
-if (hasNewWorldTitle || hasUntitledTitle) {
-    title = await tp.system.prompt("Enter Character Name");
-    await tp.file.rename(title);
-} else {
-    title = tp.file.title;
-}
-
-const targetFolder = "World/Character";
-await tp.file.move(`${targetFolder}/${title}`);
-
-tR += `# **${title}**\n`;
-
-// Include infobox? (ALT+T -> Infobox_* to add later)
-const infobox = await tp.system.suggester(
-    ["Yes", "No"],
-    [true, false],
-    false,
-    "Include infobox?"
-);
-
-if (infobox) {
-    tR += `
+# **Beffrey**
 > [!statbox]+
-> # \`=this.file.name\`
-> \`VIEW[!\\[\\[{art}\\]\\]][text(renderMarkdown)]\`
+> # `=this.file.name`
+> `VIEW[!\[\[{art}\]\]][text(renderMarkdown)]`
 >
 > <div class="section">Details</div>
 >
-> <span class="label">Aliases</span> \`VIEW[{aliases}]\`
+> <span class="label">Aliases</span> `VIEW[{aliases}]`
 >
-> <span class="label">Age</span> \`VIEW[{age}]\`
+> <span class="label">Age</span> `VIEW[{age}]`
 >
-> <span class="label">Role</span> \`VIEW[{role}]\`
+> <span class="label">Role</span> `VIEW[{role}]`
 >
-> <span class="label">Status</span> \`VIEW[{life_status}]\`
+> <span class="label">Status</span> `VIEW[{life_status}]`
 >
-> <span class="label">Ancestry</span> \`VIEW[{ancestry}][link]\`
+> <span class="label">Ancestry</span> `VIEW[{ancestry}][link]`
 >
-> <span class="label">Organization</span> \`VIEW[{organization}][link]\`
+> <span class="label">Organization</span> `VIEW[{organization}][link]`
 >
-> <span class="label">Location</span> \`VIEW[{location}][link]\`
+> <span class="label">Location</span> `VIEW[{location}][link]`
 >
 > <div class="section">Relationships</div>
 >
-> <span class="label">Family</span> \`VIEW[{family}][link]\`
+> <span class="label">Family</span> `VIEW[{family}][link]`
 >
-> <span class="label">Allies</span> \`VIEW[{allies}][link]\`
+> <span class="label">Allies</span> `VIEW[{allies}][link]`
 >
-> <span class="label">Enemies</span> \`VIEW[{enemies}][link]\`
-`;
-}
-
-const outline = await tp.system.suggester(
-    ["Yes", "No"],
-    [true, false],
-    false,
-    "Include outline?"
-);
-
-if (outline) {
-    tR += "\n## Overview\n\n## Appearance\n\n## Personality\n\n## Background\n\n## Abilities & Skills\n\n## Story Notes\n";
-}
-_%>
-
+> <span class="label">Enemies</span> `VIEW[{enemies}][link]`
+## Overview
+- Spouse to [[Jeff|The Accursed One]]

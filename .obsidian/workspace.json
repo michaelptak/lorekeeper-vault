@@ -4,25 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "ee670fb8e1c631f0",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "6521d9c8c5748ef6",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Dashboard-Worldbuilding.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Dashboard-Worldbuilding"
             }
           },
           {
-            "id": "d99ea568d1f8405d",
+            "id": "17b49f8a9eff71e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,7 +35,8 @@
               "title": "lorekeeper_meta"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,10 +120,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home.md"
+                "file": "lorekeeper_meta.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Home"
+              "title": "File properties for lorekeeper_meta"
             }
           },
           {
@@ -229,7 +230,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 419.5
+    "width": 418.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,49 +245,49 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "templater-obsidian:Templater": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
-      "pexels-banner:🚩 Pixel Banner Menu": false,
       "homepage:Open homepage": false,
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "6521d9c8c5748ef6",
+  "active": "17b49f8a9eff71e0",
   "lastOpenFiles": [
-    "Assets/Cards/card-economy.jpg",
-    "Templates/T_World/Template_Religion.md",
-    "Notes/Documentation/Master Tags List.md.tmp.211135.1775957551753",
-    "Notes/Documentation/Master Tags List.md.tmp.211135.1775957542010",
-    "Archive/Template_Politics.md",
-    "Templates/T_World/Template_Language.md",
-    "Templates/T_World/Template_Magic.md",
-    "Notes/Documentation/Master Tags List.md",
-    "lorekeeper_meta.md",
+    "Dashboard-Worldbuilding.md",
+    "World/Country/Atlantis.md",
+    "Indexes/Country.md",
     "Home.md",
-    "Excalidraw.base",
-    "Story/Story.md",
+    "Indexes/Character.md",
     "Notes/Documentation/Buttons.md",
+    "Notes/Documentation/NewWorldNote.md",
+    "World/Character/Jeff.md",
+    "World/Character/Beffrey.md",
     "Notes/Documentation/NewNote.md",
-    "README.md",
+    "Home.md.tmp.5966.1776002516451",
+    "Indexes/Country.md.tmp.5966.1776002507213",
+    "Templates/T_Infobox/Infobox_Country.md",
+    "Templates/T_Infobox/Infobox_Country.md.tmp.5966.1776002498467",
+    "Templates/T_World/Template_Country.md.tmp.5966.1776002488367",
+    "Templates/Metadata/Seed_Country.md",
+    "Templates/Metadata/Seed_Default.md",
+    "lorekeeper_meta.md",
+    "Notes/Documentation/Master Tags List.md.tmp.5966.1776002443730",
+    "Templates/Metadata/Seed_Art.md",
+    "Templates/Metadata/Seed_Character.md",
+    "Notes/Documentation/Master Tags List.md",
+    "Indexes/Documentation.md",
+    "Indexes/Nature.md",
+    "Indexes/Notes.md",
     "Indexes/Object.md",
-    "Templates/T_World/Template_Condition.md",
-    "Templates/T_World/Template_Character.md",
-    "Templates/T_World/Template_Ancestry.md",
-    "Templates/T_World/Template_Lore.md",
-    "Archive/Template_Resource.md",
-    "Archive/Template_Economy.md",
-    "Notes/Documentation/Master Tags List.md.tmp.211135.1775955887490",
-    "Notes/Documentation/Master Tags List.md.tmp.211135.1775955878640",
-    "Templates/T_Story/Template_Compile_Manuscript.md",
-    "Templates/T_Infobox/Infobox_Nature.md",
-    "Templates/T_Infobox/Infobox_Basic.md",
-    "World/Object/Test.md",
-    "Templates/T_World/Template_Organization.md",
-    "Concept.base",
-    "World/Object/Epic Sword.md",
-    "Templates/T_World/Template_Object.md",
-    "Home.md.tmp.211135.1775954696021",
-    "Home.md.tmp.211135.1775954693410",
-    "Indexes/Object.md.tmp.211135.1775954681439",
-    "Templates/T_Infobox/Infobox_Object.md.tmp.211135.1775954666002",
+    "Indexes/Geography.md",
+    "Indexes/Art.md",
+    "Indexes/Ancestry.md",
+    "World/Culture-Art/The Golden Cow.md",
+    "Templates/T_Infobox/Infobox_Art.md",
+    "Home.md.tmp.5966.1776002201475",
+    "Indexes/Art.md.tmp.5966.1776002191075",
+    "Templates/T_Infobox/Infobox_Art.md.tmp.5966.1776002176110",
+    "Templates/T_World/Template_Art.md.tmp.5966.1776002158040",
+    "Notes/Documentation/Master Tags List.md.tmp.5966.1776002127235",
+    "Assets/Cards/card-economy.jpg",
     "Assets/volcanic wastes.jpg",
     "Assets/dire-wolf-daniel-eskridge.jpg",
     "Assets/direwolf.jpg",
@@ -295,7 +297,6 @@
     "Assets/TemplateImg/Placeholder-Generic.jpg",
     "Assets/TemplateImg/Placeholder-Character.jpg",
     "Assets/Maps/example-map.jpg",
-    "Assets/Cards/war-peace-banner.jpeg",
     "Meta/BrainstormBoard/BrainstormBoard.canvas",
     "Meta/30 Day Challenge/30 Day Challenge.canvas",
     "06. Unsorted/Seventsian1.0/02. Civilization/Races+Cultures/Mankind/Mankind.canvas",

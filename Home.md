@@ -23,7 +23,6 @@ banner-y: 37
 >> - [[Master Tags List]]
 >> - [[Obsidian Vault Navigation Guide]]
 >> - [[Quality Control Dashboard]]
->> - [[Master-Base|Master Index]]
 >> - [[Buttons]]
 >
 >> [!note|clean] # Notes
@@ -37,56 +36,46 @@ banner-y: 37
 >> SORT file.mtime DESC
 >> LIMIT 5
 >> ```
-## Core Elements
->[!cards|3]
->**Concept**
->[![[card-concept.jpg|sban hsmall p+tc]]](Concept.base)
->
->**History**
->[![[card-history.jpg|sban hsmall p+cbb]]](History.base)
->
->**Lore**
->[![[card-lore.jpg|sban hsmall p+tc]]](Lore.base)
-## Physical World
+## People & Characters
 >[!cards|4]
->**Nature**
->[![[card-creature.jpeg|sban hsmall p+cbb]]](Nature)
+>**Character**
+>[![[card-characters.jpg|sban hsmall p+tc]]](Character)
+>
+>**Ancestry**
+>[![[card-ancestry.jpg|sban hsmall p+tc]]](Ancestry)
+>
+>**Organization**
+>[![[card-organization.jpg|sban hsmall p+tc]]](Organization.base)
+>
+>**Art**
+>[![[card-culture.jpeg|sban hsmall p+tc]]](Art)
+## Places
+>[!cards|3]
+>**Settlement**
+>[![[card-settlement.jpeg|sban hsmall p+tc]]](Settlement.base)
 >
 >**Geography**
 >[![[card-geography.jpg|sban hsmall p+tc]]](Geography)
 >
 >**POI**
 >[![[card-poi.jpg|sban hsmall p+tcc]]](POI.base)
->
->**Settlement**
->[![[card-settlement.jpeg|sban hsmall p+tc]]](Settlement.base)
-## People & Society
+## World & History
 >[!cards|4]
->**Ancestry**
->[![[card-ancestry.jpg|sban hsmall p+tc]]](Ancestry.base)
+>**History**
+>[![[card-history.jpg|sban hsmall p+cbb]]](History.base)
 >
->**Character**
->[![[card-characters.jpg|sban hsmall p+tc]]](Character.base)
->
->**Culture/Art**
->[![[card-culture.jpeg|sban hsmall p+tc]]](Culture-Art.base)
->
->**Organization**
->[![[card-organization.jpg|sban hsmall p+tc]]](Organization.base)
-## Systems & Institutions
->[!cards|3]
 >**Country**
->[![[card-country.jpeg|sban hsmall p+tc]]](Country.base)
+>[![[card-country.jpeg|sban hsmall p+tc]]](Country)
 >
->**Language**
->[![[card-language.jpeg|sban hsmall p+tc]]](Language.base)
+>**Lore**
+>[![[card-lore.jpg|sban hsmall p+tc]]](Lore.base)
 >
 >**Religion**
 >[![[card-religion.jpeg|sban hsmall p+cb]]](Religion.base)
-## Supernatural & Material
->[!cards|4]
->**Condition**
->[![[card-condition.jpg|sban hsmall p+cb]]](Condition.base)
+## Concepts, Magic & Things
+>[!cards|5]
+>**Concept**
+>[![[card-concept.jpg|sban hsmall p+tc]]](Concept)
 >
 >**Magic**
 >[![[card-magic.jpeg|sban hsmall p+tc]]](Magic.base)
@@ -94,8 +83,15 @@ banner-y: 37
 >**Object**
 >[![[card-object.jpg|sban hsmall p+cbb]]](Object)
 >
+>**Nature**
+>[![[card-creature.jpeg|sban hsmall p+cbb]]](Nature)
+>
 >**Technology**
 >[![[card-technology.jpg|sban hsmall p+tc]]](Technology.base)
+## Niche
+>[!cards|2]
+>**Language**
+>[![[card-language.jpeg|sban hsmall p+tc]]](Language.base)
 
 ## Diagrams, Art, Assets
 - 🎨 [[Excalidraw.base|All Excalidraw Notes]]

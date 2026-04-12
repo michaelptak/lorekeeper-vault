@@ -4,7 +4,8 @@
   "enabledCssSnippets": [
     "LimitMarkdownEmbed",
     "infobox-callouts",
-    "NoHoverPreview"
+    "NoHoverPreview",
+    "lorekeeper"
   ],
   "theme": "obsidian"
 }

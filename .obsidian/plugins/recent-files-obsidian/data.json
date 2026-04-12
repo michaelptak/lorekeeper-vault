@@ -1,8 +1,164 @@
 {
   "recentFiles": [
     {
+      "basename": "lorekeeper_meta",
+      "path": "lorekeeper_meta.md"
+    },
+    {
+      "basename": "Dashboard-Worldbuilding",
+      "path": "Dashboard-Worldbuilding.md"
+    },
+    {
+      "basename": "Atlantis",
+      "path": "World/Country/Atlantis.md"
+    },
+    {
+      "basename": "Country",
+      "path": "Indexes/Country.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
+    },
+    {
+      "basename": "Character",
+      "path": "Indexes/Character.md"
+    },
+    {
+      "basename": "Buttons",
+      "path": "Notes/Documentation/Buttons.md"
+    },
+    {
+      "basename": "Jeff",
+      "path": "World/Character/Jeff.md"
+    },
+    {
+      "basename": "Beffrey",
+      "path": "World/Character/Beffrey.md"
+    },
+    {
+      "basename": "Seed_Country",
+      "path": "Templates/Metadata/Seed_Country.md"
+    },
+    {
+      "basename": "Seed_Default",
+      "path": "Templates/Metadata/Seed_Default.md"
+    },
+    {
+      "basename": "Seed_Art",
+      "path": "Templates/Metadata/Seed_Art.md"
+    },
+    {
+      "basename": "Seed_Character",
+      "path": "Templates/Metadata/Seed_Character.md"
+    },
+    {
+      "basename": "Master Tags List",
+      "path": "Notes/Documentation/Master Tags List.md"
+    },
+    {
+      "basename": "Documentation",
+      "path": "Indexes/Documentation.md"
+    },
+    {
+      "basename": "Nature",
+      "path": "Indexes/Nature.md"
+    },
+    {
+      "basename": "Notes",
+      "path": "Indexes/Notes.md"
+    },
+    {
+      "basename": "Object",
+      "path": "Indexes/Object.md"
+    },
+    {
+      "basename": "Geography",
+      "path": "Indexes/Geography.md"
+    },
+    {
+      "basename": "Art",
+      "path": "Indexes/Art.md"
+    },
+    {
+      "basename": "Ancestry",
+      "path": "Indexes/Ancestry.md"
+    },
+    {
+      "basename": "Infobox_Art",
+      "path": "Templates/T_Infobox/Infobox_Art.md"
+    },
+    {
+      "basename": "Template_Art",
+      "path": "Templates/T_World/Template_Art.md"
+    },
+    {
+      "basename": "Template_Character",
+      "path": "Templates/T_World/Template_Character.md"
+    },
+    {
+      "basename": "Template_Country",
+      "path": "Templates/T_World/Template_Country.md"
+    },
+    {
+      "basename": "Template_Geography",
+      "path": "Templates/T_World/Template_Geography.md"
+    },
+    {
+      "basename": "Template_Culture-Art",
+      "path": "Archive/Template_Culture-Art.md"
+    },
+    {
+      "basename": "Template_Ancestry",
+      "path": "Templates/T_World/Template_Ancestry.md"
+    },
+    {
+      "basename": "Template_Concept",
+      "path": "Templates/T_World/Template_Concept.md"
+    },
+    {
+      "basename": "Seed_Character_4",
+      "path": "Templates/Metadata/Seed_Character_4.md"
+    },
+    {
+      "basename": "Seed_Character_5",
+      "path": "Templates/Metadata/Seed_Character_5.md"
+    },
+    {
+      "basename": "Seed_Character_3",
+      "path": "Templates/Metadata/Seed_Character_3.md"
+    },
+    {
+      "basename": "Seed_Character_2",
+      "path": "Templates/Metadata/Seed_Character_2.md"
+    },
+    {
+      "basename": "Template_Character",
+      "path": "Archive/Template_Character.md"
+    },
+    {
+      "basename": "Template_Ancestry",
+      "path": "Archive/Template_Ancestry.md"
+    },
+    {
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Template_Condition",
+      "path": "Archive/Template_Condition.md"
+    },
+    {
+      "basename": "Concept",
+      "path": "Indexes/Concept.md"
+    },
+    {
+      "basename": "Template_Concept",
+      "path": "Archive/Template_Concept.md"
     },
     {
       "basename": "card-economy",
@@ -25,40 +181,8 @@
       "path": "Templates/T_World/Template_Magic.md"
     },
     {
-      "basename": "Master Tags List",
-      "path": "Notes/Documentation/Master Tags List.md"
-    },
-    {
-      "basename": "lorekeeper_meta",
-      "path": "lorekeeper_meta.md"
-    },
-    {
       "basename": "Story",
       "path": "Story/Story.md"
-    },
-    {
-      "basename": "Buttons",
-      "path": "Notes/Documentation/Buttons.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "Object",
-      "path": "Indexes/Object.md"
-    },
-    {
-      "basename": "Template_Condition",
-      "path": "Templates/T_World/Template_Condition.md"
-    },
-    {
-      "basename": "Template_Character",
-      "path": "Templates/T_World/Template_Character.md"
-    },
-    {
-      "basename": "Template_Ancestry",
-      "path": "Templates/T_World/Template_Ancestry.md"
     },
     {
       "basename": "Template_Lore",
@@ -75,130 +199,6 @@
     {
       "basename": "Template_Compile_Manuscript",
       "path": "Templates/T_Story/Template_Compile_Manuscript.md"
-    },
-    {
-      "basename": "Infobox_Nature",
-      "path": "Templates/T_Infobox/Infobox_Nature.md"
-    },
-    {
-      "basename": "Infobox_Basic",
-      "path": "Templates/T_Infobox/Infobox_Basic.md"
-    },
-    {
-      "basename": "Template_Organization",
-      "path": "Templates/T_World/Template_Organization.md"
-    },
-    {
-      "basename": "Template_Object",
-      "path": "Templates/T_World/Template_Object.md"
-    },
-    {
-      "basename": "Infobox_Object",
-      "path": "Templates/T_Infobox/Infobox_Object.md"
-    },
-    {
-      "basename": "Seed_Object_4",
-      "path": "Templates/Metadata/Seed_Object_4.md"
-    },
-    {
-      "basename": "Seed_Object_3",
-      "path": "Templates/Metadata/Seed_Object_3.md"
-    },
-    {
-      "basename": "Seed_Object_5",
-      "path": "Templates/Metadata/Seed_Object_5.md"
-    },
-    {
-      "basename": "Seed_Object_2",
-      "path": "Templates/Metadata/Seed_Object_2.md"
-    },
-    {
-      "basename": "Seed_Object",
-      "path": "Templates/Metadata/Seed_Object.md"
-    },
-    {
-      "basename": "Geography",
-      "path": "Indexes/Geography.md"
-    },
-    {
-      "basename": "Nature",
-      "path": "Indexes/Nature.md"
-    },
-    {
-      "basename": "Seed_Geography",
-      "path": "Templates/Metadata/Seed_Geography.md"
-    },
-    {
-      "basename": "Template_Nature",
-      "path": "Templates/T_World/Template_Nature.md"
-    },
-    {
-      "basename": "Template_Concept",
-      "path": "Templates/T_World/Template_Concept.md"
-    },
-    {
-      "basename": "Template_Story",
-      "path": "Templates/T_Story/Template_Story.md"
-    },
-    {
-      "basename": "Template_Scene",
-      "path": "Templates/T_Story/Template_Scene.md"
-    },
-    {
-      "basename": "Infobox_Geography",
-      "path": "Templates/T_Infobox/Infobox_Geography.md"
-    },
-    {
-      "basename": "Template_Geography_old",
-      "path": "Archive/Template_Geography_old.md"
-    },
-    {
-      "basename": "Template_Cosmos",
-      "path": "Archive/Template_Cosmos.md"
-    },
-    {
-      "basename": "Template_Geography",
-      "path": "Templates/T_World/Template_Geography.md"
-    },
-    {
-      "basename": "Template_History",
-      "path": "Templates/T_World/Template_History.md"
-    },
-    {
-      "basename": "Template_Culture-Art",
-      "path": "Templates/T_World/Template_Culture-Art.md"
-    },
-    {
-      "basename": "Template_Technology",
-      "path": "Templates/T_World/Template_Technology.md"
-    },
-    {
-      "basename": "Template_Creature",
-      "path": "Archive/Template_Creature.md"
-    },
-    {
-      "basename": "Template_Flora",
-      "path": "Archive/Template_Flora.md"
-    },
-    {
-      "basename": "Template_History_Timeline",
-      "path": "Archive/Template_History_Timeline.md"
-    },
-    {
-      "basename": "card-timeline",
-      "path": "Assets/Cards/card-timeline.jpg"
-    },
-    {
-      "basename": "CLAUDE",
-      "path": "CLAUDE.md"
-    },
-    {
-      "basename": "Seed_Notes",
-      "path": "Templates/Metadata/Seed_Notes.md"
-    },
-    {
-      "basename": "Seed_Nature",
-      "path": "Templates/Metadata/Seed_Nature.md"
     }
   ],
   "omittedPaths": [],

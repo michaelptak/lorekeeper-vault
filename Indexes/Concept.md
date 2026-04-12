@@ -5,15 +5,15 @@ obsidianUIMode: preview
 ---
 > [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
 > [[Home]]
-# Characters
+# Concepts
 
-> [!tip|c-plain no-i text-center title-center wsmall callout-bordered center] New Character
+> [!tip|c-plain no-i text-center title-center wsmall callout-bordered center] New Concept
 > `BUTTON[WorldNoteSelector]`
 
 ```base
 filters:
   and:
-    - file.tags.contains("Character")
+    - file.tags.contains("Concept")
     - '!file.path.contains("Templates/")'
     - '!file.path.contains("Archive/")'
 views:
@@ -23,16 +23,12 @@ views:
       - file.name
       - tags
       - status
-      - role
-      - life_status
-      - aliases
-      - file.mtime
     sort:
       - property: file.mtime
         direction: DESC
     image: note.art
     columnSize:
-      note.aliases: 145
+      note.tags: 160
   - type: cards
     name: Cards
     sort:

@@ -7,9 +7,7 @@ story_title:
 priority:
 ---
 > [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]- Navigation
-> **Quick Links:** [[Documentation.base|Documentation]] | [[Notes.base|All Notes]] | [[Home]]
-> 
-> [[#Notes]]
+> **Quick Links:** [[Documentation]] | [[Notes|All Notes]] | [[Home]]
 > 
 > [[#Story]] ([[#Plot]] · [[#Scene]])
 > 
@@ -17,11 +15,11 @@ priority:
 > 
 > **Physical World:** [[#Nature]] | [[#Geography]] | [[#POI]] | [[#Settlement]]
 > 
-> **People & Society:** [[#Ancestry]] | [[#Character]] | [[#Culture/Art]]
-> 
+> **People & Society:** [[#Ancestry]] | [[#Character]] | [[#Art]]
+>
 > **Systems & Institutions:** [[#Country]] | [[#Language]] | [[#Organization]] | [[#Religion]]
-> 
-> **Supernatural & Material:** [[#Condition]] | [[#Magic]] | [[#Object]] | [[#Technology]]
+>
+> **Supernatural & Material:** [[#Magic]] | [[#Object]] | [[#Technology]]
 
 # **`=this.file.name`**
 > [!example]- Making Edits
@@ -97,41 +95,12 @@ priority:
 ### Core Worldbuilding Elements
 
 #### Concept
-- `concept_type`
-  - philosophical
-  - magical
-  - societal
-  - natural_law
-  - metaphysical
-  - scientific
-  - artistic
-  - moral/ethical
-- `concept_scope`
-  - universal
-  - regional
-  - cultural
-  - personal
-- `thematic_importance`
-  - central theme
-  - supporting element
-  - background detail
-- `origin`
-  - inherent (exists naturally in your world)
-  - discovered (people figured it out)
-  - revealed (divine/magical revelation)
-  - invented (created by people)
-  - imported (came from elsewhere)
-- `awareness`
-  - universal (everyone knows)
-  - scholarly (only educated know)
-  - esoteric (secret/rare knowledge)
-  - intuitive (people feel it but don't articulate it)
-  - forgotten (was known, now lost)
-- `truth_status`
-  - true (actually exists/works as believed)
-  - false (misconception)
-  - partial (somewhat true)
-  - subjective (varies by perspective)
+(Immaterial ideas, rules, and effects that shape your world — themes, natural laws, philosophical frameworks, prophecies, and conditions like curses or diseases. Use sub-tags to distinguish: `#Condition, #Theme, #Natural-Law, #Philosophy, #Prophecy`)
+- `associated_with` → links to **Religion**, **Magic**, **Country**, **Art** (what institutions/systems embody this concept)
+- `affects` → links to **Ancestry**, **Nature**, **Character** (what/who is subject to this concept or condition)
+- `caused_by` → links to **Magic**, **Object**, **Character**, **Nature** (source of a condition, or origin of an idea)
+- `cured_by` → links to **Object**, **Magic**, **Character**, **Technology** (for conditions specifically)
+- Everything else (concept type, scope, severity, duration, origin, awareness, truth status, transmission) → prose in the note body
 
 #### History
 - `historical_scope` - Event, Period, Era, Recurring
@@ -145,7 +114,7 @@ priority:
 - `involved_characters` → links to **Character**
 - `involved_organizations` → links to **Organization**  
 - `involved_countries` → links to **Country**
-- `locations` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos**
+- `locations` → links to **Settlement**, **POI**, **Geography**, **Country** (where it's found)
 - `fc-calendar` - calendar name for Calendarium integration
 - `fc-date` - start date in YYYY-MM-DD format
 - `fc-end` - end date in YYYY-MM-DD format (optional)
@@ -220,7 +189,7 @@ priority:
 
 ### Physical World
 #### Nature
-(All living things — animals, plants, fungi, and fantastical organisms. Use sub-tags to distinguish: #Creature, #Plant, #Fungi, #Hybrid)
+(All living things — animals, plants, fungi, and fantastical organisms. Use sub-tags to distinguish: `#Creature, #Plant, #Fungi, #Hybrid)`
 - `rarity` - Common, Uncommon, Rare, Legendary, Extinct, Mythical
 - `habitat` → links to **Geography**, **Settlement**, **POI**
 - `produces` → links to **Resource**, **Object**
@@ -326,102 +295,46 @@ priority:
 
 ### People & Society
 #### Ancestry
-(Often called "race" in most fantasy worlds like elf,dwarf,human etc.)
-- `lifespan` (brief, normal, long, immortal)
-- `build` (tiny, small, medium, large, huge)
-- `origin` (natural, created, transformed)
-- `homeland` → links to **Geography**, **Country**, **Cosmos**
+(Often called "race" in most fantasy worlds like elf, dwarf, human, etc.)
+- `homeland` → links to **Geography**, **Country** (where they originate)
 - `languages` → links to **Language**
-- `parent_ancestry` → links to **Ancestry**
+- `parent_ancestry` → links to **Ancestry** (evolutionary/magical origin)
 - `notable_members` → links to **Character**
-- `associated_deities` -> Links to **Character**, **Religion**
+- `associated_deities` → links to **Character**, **Religion**
+- `art_forms` → links to **Art** (cultural art forms practiced by this ancestry)
+- Everything else (lifespan, build, origin, physical traits, culture, customs) → prose in the note body
 
 #### Character
-- `gender`
-- `age`
-- `fc-date` - represents DATE OF BIRTH
-- `fc-end` - represents DATE OF DEATH
-- `aliases`
-- `role` - The Character's role in the story. Ex: Protagonist, antagonist, mentor, ally, neutral.
-- `social_class` commoner, merchant, noble, outcast, ruler
-- `ancestry` (link to ancestry)
-- `profession` (text field)
-- `life_status` (alive, dead, unknown, undead)
-- `organization` (link to organization)
-- `location` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos**
-- `family` → links to other **Character** (relatives)
+- `role` - Protagonist, Antagonist, Mentor, Ally, Neutral
+- `life_status` - Alive, Dead, Unknown, Undead
+- `aliases` - text field (alternate names, titles)
+- `age` - text field
+- `ancestry` → links to **Ancestry**
+- `organization` → links to **Organization**
+- `location` → links to **Settlement**, **POI**, **Geography**, **Country** (current location)
+- `family` → links to other **Character** (relatives, lovers, companions)
 - `allies` → links to other **Character**
 - `enemies` → links to other **Character**
-- `lover` → links to **Character** (romantic relationships)
-- `other_relations` → links to **Character** (any other)
-- `hometown` → links to **Settlement**, **Geography**
 - `owns` → links to **Object** (important possessions)
-- `conditions` → links to **Condition**
 - `knows_magic` → links to **Magic**
 - `follows_religion` → links to **Religion**
-- `speaks` → links to **Language**
 - `involved_in` → links to **History** (significant events they participated in)
-- `created` → links to **Object**, **Lore**, **Organization** (things they made/founded)
-- **Calendar / Timeline Related** - Use case more niche, these are more if you want to track things like birthdates, succession on a kingdom, etc. 
-  - `fc-calendar` - calendar name for Calendarium integration
-  - `fc-category` - event category for calendar display 
-  - `fc-display-name` - optional override for event title
-  - `aat-event-picture` - unfortunately only way I could get this to work is providing a 
-  - `aat-render-enabled` - true/false - Toggle for event to show up in timelines or not.
-  - `aat-event-body` - custom description for timeline display (optional)
-  - `timelines` - List timeline names (defaults to world-history)
+- `conditions` → links to **Concept** (curses, blessings, diseases, etc.)
+- Everything else (gender, profession, social class, hometown, appearance, personality, backstory) → prose in the note body
 
-#### Culture/Art
-- `art_type` - Free text field (visual, performance, literary, musical, craft, culinary, architectural, textile, ceremonial, martial)
-- `cultural_focus` - Free text field (honor, knowledge, nature, war, trade, magic, family, ancestors, innovation, tradition, spirituality, beauty)
-- `medium` - Free text field (oil painting, epic poetry, bronze casting, silk weaving, ritual dance, stone carving, oral storytelling)
-- `era` - Free text field ("The Great Convergence" (actual named era/period))
-- `vitality` (thriving, established, declining, lost, revival)
-- `associated_ancestry` → links to **Ancestry**
-- `locations` → links to **Settlement**, **POI**, **Geography**, **Country**, **Cosmos**
-- `influenced_by` → links to other **Culture/Art**
+#### Art
+(Cultural expressions, traditions, and art forms — visual arts, music, literature, crafts, ceremonies, martial traditions, etc.)
+- `associated_ancestry` → links to **Ancestry** (which people practice this)
+- `locations` → links to **Settlement**, **POI**, **Geography**, **Country** (Where its found)
+- `influenced_by` → links to other **Art**
 - `patron` → links to **Character**, **Organization**
 - `practitioners` → links to **Character**, **Organization** (who practices this art/culture)
-- `core_concepts` → links to **Concept**
+- `core_concepts` → links to **Concept** (thematic ideas behind it)
+- Everything else (art type, medium, cultural focus, era, vitality) → prose in the note body
 
 ### Systems & Institutions
 #### Country
-- `government`
-  - monarchy (hereditary rule by king/queen)
-  - republic (elected representatives)
-  - theocracy (religious rule)
-  - tribal (clan/tribal council)
-  - council (ruling council, oligarchy)
-  - dictatorship (single authoritarian ruler)
-  - magocracy (rule by mages/wizards)
-  - confederation (loose alliance of states)
-  - feudal (decentralized lord system)
-  - anarchy (no formal government)
-- `size`
-  - city-state (single city and surroundings)
-  - small (minor kingdom, principality)
-  - medium (regional kingdom)
-  - large (major kingdom, nation)
-  - empire (multi-national superpower)
-- `wealth_level`
-  - impoverished (widespread poverty, economic collapse)
-  - poor (struggling economy, limited resources)
-  - modest (stable but not prosperous)
-  - prosperous (growing economy, comfortable)
-  - wealthy (strong economy, abundant resources)
-  - opulent (extreme wealth, economic powerhouse)
-- `stability`
-  - chaotic (civil war, collapse)
-  - unstable (frequent unrest, weak government)
-  - tenuous (fragile peace, tensions)
-  - stable (functioning government, order)
-  - entrenched (strong, long-lasting stability)
-- `military_power`
-  - defenseless (no military)
-  - weak (small, poorly equipped)
-  - moderate (adequate defense)
-  - strong (powerful military)
-  - dominant (regional/global military power)
+(Nations, kingdoms, empires, city-states — any sovereign political entity)
 - `capital` → links to **Settlement**
 - `rulers` → links to **Character**
 - `major_cities` → links to **Settlement**
@@ -433,6 +346,7 @@ priority:
 - `inhabitants` → links to **Ancestry**
 - `official_religion` → links to **Religion**
 - `languages` → links to **Language** (official/common languages)
+- Everything else (government type, size, wealth, stability, military power, economy) → prose in the note body
 #### Language
 - `usage`
   - common (everyday speech)
@@ -545,49 +459,6 @@ priority:
 - `rival_religions` → links to other **Religion**
 
 ### Supernatural & Material
-#### Condition
-- `condition_type`
-  - curse (magical affliction, hex)
-  - disease (illness, infection, plague)
-  - blessing (beneficial condition, boon)
-  - transformation (physical/mental change)
-  - mutation (permanent alteration)
-  - possession (entity inhabiting host)
-  - madness (mental affliction)
-  - poisoning (toxic exposure)
-- `origin_type`
-  - magical (spell, enchantment)
-  - divine (god-given, religious)
-  - natural (disease, environmental)
-  - hereditary (genetic, bloodline)
-  - alchemical (potion, chemical)
-  - parasitic (creature-caused)
-  - psychic (mind-based)
-- `severity`
-  - minor (inconvenient, easily managed)
-  - moderate (significant impact)
-  - severe (debilitating, dangerous)
-  - terminal (fatal, incurable)
-  - beneficial (positive effect)
-- `duration`
-  - temporary (short-term, passes naturally)
-  - chronic (long-lasting, manageable)
-  - permanent (irreversible)
-  - progressive (worsens over time)
-  - episodic (comes and goes)
-- `transmission`
-  - non-contagious (cannot spread)
-  - contact (touch, physical)
-  - airborne (breathed, spreads easily)
-  - bloodborne (through fluids)
-  - magical (curse transfer)
-  - hereditary (passed to offspring)
-- `caused_by` → links to **Magic**, **Creature**, **Object**, **Character**, **Geography**, **Cosmos**
-- `affects` → links to **Ancestry**, **Creature**, **Flora** (what can get it)
-- `cured_by` → links to **Object**, **Magic**, **Character**, **Technology**, **Resource**
-- `symptoms` - Free text field (describe effects)
-- `known_cases` → links to **Character** (notable afflicted individuals)
-
 #### Magic
 - `magic_scope`
   - system (entire school/tradition of magic)

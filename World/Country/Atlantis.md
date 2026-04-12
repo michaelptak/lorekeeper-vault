@@ -2,7 +2,9 @@
 tags:
   - Country
 status:
-art:
+art: Assets/Cards/card-country.jpeg
+rulers:
+  - "[[Jeff]]"
 ---
 
 > [!metadata]- Links
@@ -25,68 +27,44 @@ art:
 > [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
 > [[Country|All Countries]] | [[Home]]
 
-<%*
-const hasNewWorldTitle = tp.file.title.startsWith("NewWorldNote");
-const hasUntitledTitle = tp.file.title.startsWith("Untitled");
-let title;
+# **Atlantis**
 
-if (hasNewWorldTitle || hasUntitledTitle) {
-    title = await tp.system.prompt("Enter Country Name");
-    await tp.file.rename(title);
-} else {
-    title = tp.file.title;
-}
-
-const targetFolder = "World/Country";
-await tp.file.move(`${targetFolder}/${title}`);
-
-tR += `# **${title}**\n`;
-
-// Include infobox? (ALT+T -> Infobox_* to add later)
-const infobox = await tp.system.suggester(
-    ["Yes", "No"],
-    [true, false],
-    false,
-    "Include infobox?"
-);
-
-if (infobox) {
-    tR += `
 > [!statbox]+
-> # \`=this.file.name\`
-> \`VIEW[!\\[\\[{art}\\]\\]][text(renderMarkdown)]\`
+> # `=this.file.name`
+> `VIEW[!\[\[{art}\]\]][text(renderMarkdown)]`
 >
 > <div class="section">Leadership</div>
 >
-> <span class="label">Capital</span> \`VIEW[{capital}][link]\`
+> <span class="label">Capital</span> `VIEW[{capital}][link]`
 >
-> <span class="label">Rulers</span> \`VIEW[{rulers}][link]\`
+> <span class="label">Rulers</span> `VIEW[{rulers}][link]`
 >
 > <div class="section">People & Culture</div>
 >
-> <span class="label">Inhabitants</span> \`VIEW[{inhabitants}][link]\`
+> <span class="label">Inhabitants</span> `VIEW[{inhabitants}][link]`
 >
-> <span class="label">Religion</span> \`VIEW[{official_religion}][link]\`
+> <span class="label">Religion</span> `VIEW[{official_religion}][link]`
 >
-> <span class="label">Languages</span> \`VIEW[{languages}][link]\`
+> <span class="label">Languages</span> `VIEW[{languages}][link]`
 >
 > <div class="section">Relations</div>
 >
-> <span class="label">Allies</span> \`VIEW[{allies}][link]\`
+> <span class="label">Allies</span> `VIEW[{allies}][link]`
 >
-> <span class="label">Enemies</span> \`VIEW[{enemies}][link]\`
-`;
-}
+> <span class="label">Enemies</span> `VIEW[{enemies}][link]`
 
-const outline = await tp.system.suggester(
-    ["Yes", "No"],
-    [true, false],
-    false,
-    "Include outline?"
-);
+## Overview
 
-if (outline) {
-    tR += "\n## Overview\n\n## Geography & Territory\n\n## Government & Politics\n\n## Society & Culture\n\n## Economy & Military\n\n## International Relations\n\n## History\n\n## Story Notes\n";
-}
-_%>
+## Geography & Territory
 
+## Government & Politics
+
+## Society & Culture
+
+## Economy & Military
+
+## International Relations
+
+## History
+
+## Story Notes
