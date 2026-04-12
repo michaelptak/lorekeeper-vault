@@ -96,6 +96,5 @@ banner-y: 37
 >**Miscellaneous**
 >[![[card-cosmos.jpeg|sban hsmall p+tc]]](Misc)
 
-## Diagrams, Art, Assets
-- 🎨 [[Excalidraw.base|All Excalidraw Notes]]
-- 🗺️ [[World Images.base|World Images]]
+## Other Links
+- 🎨 [[Excalidraw]]

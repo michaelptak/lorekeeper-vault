@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lorekeeper_meta.md",
+                "file": "Indexes/Excalidraw.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "lorekeeper_meta"
+              "title": "Excalidraw"
             }
           },
           {
@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lorekeeper_meta.md",
+                "file": "Home.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lorekeeper_meta"
+              "title": "Home"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -217,10 +218,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "World/POI/test.md"
+                "file": "Home.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for test"
+              "title": "File properties for Home"
             }
           }
         ]
@@ -245,45 +246,46 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "e93925b3c096104e",
+  "active": "22e42aa674bfc9aa",
   "lastOpenFiles": [
-    "Notes/Documentation/Buttons.md",
-    "World/POI",
-    "World/POI/test.md",
-    "lorekeeper_meta.md",
-    "World",
-    "World/Technology/Massive Laserbeam.md",
-    "World/Religion/Paganism.md",
-    "World/Organization/A powerful org.md",
+    "Indexes/Documentation.md",
+    "Indexes/Notes.md",
     "Home.md",
-    "Assets/Cards/card-art.jpeg",
-    "World/Culture-Art/yuge painting.md",
-    "Indexes/Art.md",
+    "Notes/Scratch Note.md",
+    "lorekeeper_meta.md",
+    "Story/Story.md",
+    "Indexes/InProgress.md",
+    "Indexes/Excalidraw.md",
+    "Notes/Documentation/Buttons.md",
+    "Drawings/Drawing 2026-04-12 17.30.09.excalidraw.md",
+    "Story/fellowsghi/fellowsghi.md",
+    "Story/fellowsghi",
     "Indexes/Character.md",
     "Indexes/Ancestry.md",
-    "World/Ancestry/Elves.md",
-    "World/Magic/Something spell.md",
-    "Indexes/Magic.md",
-    "World/Magic/We casting spells and shi.md",
-    "Indexes/Documentation.md",
-    "World/Character/Matilda.md",
+    "Indexes/Art.md",
+    "Indexes/Organization.md",
+    "README.md",
+    "Dashboard-Worldbuilding.md",
+    "Story/fellowship of da ring/fellowship of da ring.md",
+    "Story/fellowship of da ring/Scenes/Chapter 1 Scene 1.md",
+    "Story/fellowship of da ring/Scenes",
+    "Story/fellowship of da ring",
+    "InProgress.md",
+    "Indexes/Language.md",
+    "World/Language/tets.md",
+    "World/Language/delete.md",
+    "World/Language",
+    "Indexes/Concept.md",
+    "Indexes/Technology.md",
+    "Indexes/Settlement.md",
+    "lorekeeper_meta.md.tmp.161312.1776028211431",
+    "World/POI",
+    "World",
+    "Assets/Cards/card-art.jpeg",
     "lorekeeper_meta.md.tmp.161312.1776025464124",
     "Indexes/Technology.md.tmp.161312.1776025434664",
     "Indexes/Settlement.md.tmp.161312.1776025433195",
-    "Indexes/Religion.md.tmp.161312.1776025431819",
-    "Indexes/POI.md.tmp.161312.1776025430563",
-    "Indexes/Organization.md.tmp.161312.1776025429311",
-    "Indexes/Object.md.tmp.161312.1776025427703",
-    "Indexes/Nature.md.tmp.161312.1776025426111",
-    "Indexes/Organization.md",
-    "Notes/new note.md",
-    "Notes/Documentation/.md",
     "Assets/Cards/card-creature.jpeg",
-    "World/Nature/Dire Wolf.md",
-    "World/Misc/Unknown element.md",
-    "Templates/T_Infobox/Infobox_Basic.md",
-    "Indexes/Misc.md",
-    "Templates/Metadata/Seed_Misc.md",
     "Assets/Cards/card-economy.jpg",
     "Assets/volcanic wastes.jpg",
     "Assets/dire-wolf-daniel-eskridge.jpg",

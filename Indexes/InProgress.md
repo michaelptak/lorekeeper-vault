@@ -5,25 +5,22 @@ obsidianUIMode: preview
 ---
 > [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
 > [[Home]]
-# Story Dashboard
-
-> [!tip|c-plain no-i text-center title-center wsmall callout-bordered center] Add A Story
-> `BUTTON[NewStory]`
-
+# In Progress
 ```base
 filters:
   and:
+    - or:
+        - status.contains("WIP")
     - '!file.path.contains("Templates")'
     - '!file.path.contains("Archive")'
-    - file.tags.contains("#Story")
 views:
   - type: table
     name: Table
     order:
       - file.name
-      - status
-      - file.mtime
       - file.tags
+      - file.mtime
+      - status
     sort:
       - property: note_purpose
         direction: ASC

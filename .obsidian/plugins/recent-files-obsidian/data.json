@@ -1,20 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Buttons",
-      "path": "Notes/Documentation/Buttons.md"
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "Documentation",
+      "path": "Indexes/Documentation.md"
+    },
+    {
+      "basename": "Notes",
+      "path": "Indexes/Notes.md"
+    },
+    {
+      "basename": "Scratch Note",
+      "path": "Notes/Scratch Note.md"
     },
     {
       "basename": "lorekeeper_meta",
       "path": "lorekeeper_meta.md"
     },
     {
-      "basename": "Home",
-      "path": "Home.md"
+      "basename": "Story",
+      "path": "Story/Story.md"
     },
     {
-      "basename": "Art",
-      "path": "Indexes/Art.md"
+      "basename": "InProgress",
+      "path": "Indexes/InProgress.md"
+    },
+    {
+      "basename": "Excalidraw",
+      "path": "Indexes/Excalidraw.md"
+    },
+    {
+      "basename": "Buttons",
+      "path": "Notes/Documentation/Buttons.md"
     },
     {
       "basename": "Character",
@@ -25,16 +45,76 @@
       "path": "Indexes/Ancestry.md"
     },
     {
-      "basename": "Magic",
-      "path": "Indexes/Magic.md"
-    },
-    {
-      "basename": "Documentation",
-      "path": "Indexes/Documentation.md"
+      "basename": "Art",
+      "path": "Indexes/Art.md"
     },
     {
       "basename": "Organization",
       "path": "Indexes/Organization.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Dashboard-Worldbuilding",
+      "path": "Dashboard-Worldbuilding.md"
+    },
+    {
+      "basename": "Language",
+      "path": "Indexes/Language.md"
+    },
+    {
+      "basename": "Concept",
+      "path": "Indexes/Concept.md"
+    },
+    {
+      "basename": "Technology",
+      "path": "Indexes/Technology.md"
+    },
+    {
+      "basename": "Settlement",
+      "path": "Indexes/Settlement.md"
+    },
+    {
+      "basename": "POI",
+      "path": "Indexes/POI.md"
+    },
+    {
+      "basename": "Object",
+      "path": "Indexes/Object.md"
+    },
+    {
+      "basename": "Country",
+      "path": "Indexes/Country.md"
+    },
+    {
+      "basename": "Lore",
+      "path": "Indexes/Lore.md"
+    },
+    {
+      "basename": "Magic",
+      "path": "Indexes/Magic.md"
+    },
+    {
+      "basename": "Religion",
+      "path": "Indexes/Religion.md"
+    },
+    {
+      "basename": "Misc",
+      "path": "Indexes/Misc.md"
+    },
+    {
+      "basename": "Geography",
+      "path": "Indexes/Geography.md"
+    },
+    {
+      "basename": "ExampleMap",
+      "path": "Assets/Maps/ExampleMap.md"
+    },
+    {
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
     },
     {
       "basename": "card-creature",
@@ -49,40 +129,8 @@
       "path": "Notes/Documentation/Master Tags List.md"
     },
     {
-      "basename": "Concept",
-      "path": "Indexes/Concept.md"
-    },
-    {
-      "basename": "POI",
-      "path": "Indexes/POI.md"
-    },
-    {
-      "basename": "Language",
-      "path": "Indexes/Language.md"
-    },
-    {
-      "basename": "Dashboard-Worldbuilding",
-      "path": "Dashboard-Worldbuilding.md"
-    },
-    {
-      "basename": "Religion",
-      "path": "Indexes/Religion.md"
-    },
-    {
       "basename": "Template_Religion",
       "path": "Templates/T_World/Template_Religion.md"
-    },
-    {
-      "basename": "Country",
-      "path": "Indexes/Country.md"
-    },
-    {
-      "basename": "Notes",
-      "path": "Indexes/Notes.md"
-    },
-    {
-      "basename": "Geography",
-      "path": "Indexes/Geography.md"
     },
     {
       "basename": "History",

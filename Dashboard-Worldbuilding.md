@@ -52,7 +52,7 @@ cssclasses:
 > ![[card-organization.jpg]]
 > **[[Organization|Organization]]**
 >
-> ![[card-culture.jpeg]]
+> ![[card-art.jpeg]]
 > **[[Art|Art]]**
 
 ## Places
