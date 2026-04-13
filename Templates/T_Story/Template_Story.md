@@ -1,5 +1,5 @@
 <%*
-const hasNewStoryTitle = tp.file.title.startsWith("NewStoryNote"); 
+const hasNewStoryTitle = tp.file.title.startsWith("NewStoryNote");
 const hasUntitledTitle = tp.file.title.startsWith("Untitled");
 let title;
 
@@ -20,11 +20,13 @@ art: Assets/TemplateImg/Placeholder-Generic.jpg
 status:
 related:
 story_title: <% title %>
-cssclasses: dvl-c
+story_notes:
+cssclasses:
+  - lk-dashboard
 obsidianUIMode: preview
 ---
 
-> [!metadata]- Story Data
+> [!lk-metadata]- Story Data
 > #### Core Properties
 >  |
 > ---|---|
@@ -32,26 +34,29 @@ obsidianUIMode: preview
 > **Status** | `INPUT[select(option(Stub), option(Planned), option(WIP), option(Complete)):status]` |
 > **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates"), useLinks(partial)):related]` |
 > **Art** | `INPUT[imageSuggester(optionQuery("Assets/WorldImg")):art]` |
-> 
+>
 > #### Story Details
 >  |
 > ---|---|
 > **Story Title** | `INPUT[text(placeholder(The Fellowship of the Ring)):story_title]` |
 
-> [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
-> [[Story|All Stories]] | [[Home]]
-# **<% title %>**
+> [!lk-hero]
+> # <% title %>
+> *A story takes shape*
 
-> [!column|flex 3 no-i no-t]
->> [!tip|no-i] Quick Add Buttons
->> - 📝 `BUTTON[NewPlot]`
->> - 🎬 `BUTTON[NewScene]`
+> [!lk-highlight]
+> [[Story|All Stories]] | [[Home]]
+
+> [!lk-info]
+>> [!lk-col] Actions
+>> - `BUTTON[NewPlot]`
+>> - `BUTTON[NewScene]`
 >> - `BUTTON[CompileManuscript]`
 >
->> [!warning|no-i] Notes
->>  `INPUT[textArea(placeholder(Add any quick notes here. Works in view mode!)):story_notes]`
+>> [!lk-col] Quick Notes
+>> `INPUT[textArea(placeholder(Jot down ideas, reminders, things to fix...)):story_notes]`
 >
->> [!success|no-i] Progress
+>> [!lk-col] Progress
 >> ```dataview
 >> TABLE WITHOUT ID
 >> status + ": " + length(rows) as "Count"
@@ -122,7 +127,7 @@ filters:
     - project_id == "<% title %>"
 views:
   - type: table
-    name: Scenes
+    name: Related
     order:
       - file.name
       - status

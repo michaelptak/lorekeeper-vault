@@ -5,7 +5,7 @@ status:
 art:
 ---
 
-> [!metadata]- Links
+> [!lk-metadata]- Links
 >  |
 > ---|---|
 > **Art** | `INPUT[imageSuggester(optionQuery("Assets")):art]` |
@@ -22,7 +22,7 @@ art:
 > **Languages** | `INPUT[inlineListSuggester(optionQuery(#Language AND !"Templates" AND !"Archive"), useLinks(partial)):languages]` |
 > **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates" AND !"Archive"), useLinks(partial)):related]` |
 
-> [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
+> [!lk-navbar]+ Navigation
 > [[Country|All Countries]] | [[Home]]
 
 <%*

@@ -1,0 +1,80 @@
+/* ============================================================
+   Lorekeeper Infobox
+   ============================================================
+   Styling for the [!lk-infobox] callout used on world notes
+   (Character, Settlement, etc). Evolves from the existing
+   infobox-callouts.css [!statbox] implementation.
+
+   Key goals:
+     - Use --lk-* tokens for theme consistency
+     - Responsive: stacks on narrow viewports instead of
+       fixed-width float
+     - Style Settings integration for user configurability
+     - lk- prefix on all custom classes
+
+   The infobox is inserted via ALT+T -> Infobox_Selector,
+   not baked into templates.
+
+   Internal classes:
+     .lk-section / .lk-s  — section header within infobox
+     .lk-label   / .lk-l  — field label in a key-value pair
+
+   Variables: references --lk-* from lorekeeper-tokens.css
+   with inline fallbacks for standalone use.
+   ============================================================ */
+
+
+/* ------------------------------------------------------------
+   Infobox-Specific Tokens
+   Extend the shared tokens for infobox configurability.
+   ------------------------------------------------------------ */
+/*
+:root {
+  --lk-infobox-width: 300px;
+  --lk-infobox-padding: 20px;
+  --lk-infobox-radius: var(--lk-radius-sm, 4px);
+  --lk-infobox-border: 0px;
+  --lk-infobox-title-size: 1.2rem;
+  --lk-infobox-title-align: center;
+  --lk-infobox-section-size: 1rem;
+  --lk-infobox-section-weight: 700;
+  --lk-infobox-label-width: 80px;
+  --lk-infobox-image-radius: 0px;
+}
+*/
+
+
+/* ------------------------------------------------------------
+   [!lk-infobox] — Base Infobox
+   Float right by default. Contains image + field pairs.
+   Replaces [!statbox] / [!statboxright].
+   ------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------
+   .lk-section / .lk-s — Section Headers
+   Bold dividers within the infobox (e.g. "Identity", "Stats").
+   ------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------
+   .lk-label / .lk-l — Field Labels
+   Fixed-width label in a label: value pair.
+   ------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------
+   Images
+   Centered within infobox, optional border/radius.
+   ------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------
+   Responsive — Stacked Layout
+   Below threshold, infobox stops floating and goes full-width.
+   ------------------------------------------------------------ */
+/*
+@media (max-width: 768px) {
+
+}
+*/

@@ -15,7 +15,7 @@ rival_religions:
 related:
 ---
 
-> [!metadata]- Links
+> [!lk-metadata]- Links
 >  |
 > ---|---|
 > **Art** | `INPUT[imageSuggester(optionQuery("Assets")):art]` |
@@ -30,7 +30,7 @@ related:
 > **Rival Religions** | `INPUT[inlineListSuggester(optionQuery(#Religion AND !"Templates" AND !"Archive"), useLinks(partial)):rival_religions]` |
 > **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates" AND !"Archive"), useLinks(partial)):related]` |
 
-> [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
+> [!lk-navbar]+ Navigation
 > [[Religion|All Religions]] | [[Home]]
 
 <%*

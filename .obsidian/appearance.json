@@ -2,10 +2,13 @@
   "cssTheme": "ITS Theme",
   "accentColor": "#557873",
   "enabledCssSnippets": [
-    "LimitMarkdownEmbed",
     "infobox-callouts",
-    "NoHoverPreview",
-    "lorekeeper"
+    "lorekeeper",
+    "lorekeeper-callouts",
+    "lorekeeper-dashboard",
+    "lorekeeper-infobox",
+    "lorekeeper-tokens",
+    "lorekeeper-utilities"
   ],
   "theme": "obsidian"
 }

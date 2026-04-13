@@ -3,11 +3,12 @@ cssclasses:
   - hcl
 obsidianUIMode: preview
 ---
-> [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
+> [!lk-navbar]+ Navigation
 > [[Home]]
+
 # Story Dashboard
 
-> [!tip|c-plain no-i text-center title-center wsmall callout-bordered center] Add A Story
+> [!lk-actions] Add A Story
 > `BUTTON[NewStory]`
 
 ```base

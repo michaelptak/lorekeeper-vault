@@ -7,7 +7,7 @@ story_title:
 priority: High
 ---
 
-> [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
+> [!lk-navbar]+ Navigation
 > **Quick Links:** [[Documentation|Documentation]] | [[Notes|All Notes]] | [[Home]]
 # **Quality Control Dashboard**
 

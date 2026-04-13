@@ -7,7 +7,7 @@ story_title:
 priority:
 ---
 
-> [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
+> [!lk-navbar]+ Navigation
 > [[Notes|All Notes]] | [[Home]]
 # **`=this.file.name`**
 

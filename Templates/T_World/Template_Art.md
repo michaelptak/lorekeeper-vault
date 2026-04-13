@@ -5,7 +5,7 @@ status:
 art:
 ---
 
-> [!metadata]- Links
+> [!lk-metadata]- Links
 >  |
 > ---|---|
 > **Art** | `INPUT[imageSuggester(optionQuery("Assets")):art]` |
@@ -18,7 +18,7 @@ art:
 > **Core Concepts** | `INPUT[inlineListSuggester(optionQuery(#Concept AND !"Templates" AND !"Archive"), useLinks(partial)):core_concepts]` |
 > **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates" AND !"Archive"), useLinks(partial)):related]` |
 
-> [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
+> [!lk-navbar]+ Navigation
 > [[Art|All Art]] | [[Home]]
 
 <%*

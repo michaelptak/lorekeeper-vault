@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "aaf3b558783c883e",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Indexes/Excalidraw.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Excalidraw"
-            }
-          },
-          {
-            "id": "22e42aa674bfc9aa",
+            "id": "dc0a05db17b34184",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,8 +21,7 @@
               "title": "Home"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "!tip",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5
+    "width": 200
   },
   "right": {
     "id": "1ecafacdc1e79d14",
@@ -135,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/T_World/Template_Nature.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +130,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Template_Nature"
+              "title": "Backlinks for Home"
             }
           },
           {
@@ -154,12 +139,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Story/The Fellowship of the Ring/The Fellowship of the Ring.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from The Fellowship of the Ring"
+              "title": "Outgoing links from Home"
             }
           },
           {
@@ -228,7 +213,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 275.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -246,45 +231,44 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "22e42aa674bfc9aa",
+  "active": "dc0a05db17b34184",
   "lastOpenFiles": [
-    "Indexes/Documentation.md",
-    "Indexes/Notes.md",
-    "Home.md",
-    "Notes/Scratch Note.md",
-    "lorekeeper_meta.md",
+    "Story/The Fellowship/The Fellowship.md",
+    "Story/The Fellowship/Scenes/Chapter 1.md",
+    "Story/The Fellowship/Scenes",
     "Story/Story.md",
+    "Story/The Fellowship",
+    "Templates/T_Story/Template_Story.md.tmp.204402.1776039644034",
+    "Story/Story.md.tmp.204402.1776039599835",
+    "Templates/T_Story/Template_Story.md",
+    "Story/Story.md.tmp.204402.1776039482274",
+    "Home.md",
     "Indexes/InProgress.md",
-    "Indexes/Excalidraw.md",
-    "Notes/Documentation/Buttons.md",
-    "Drawings/Drawing 2026-04-12 17.30.09.excalidraw.md",
-    "Story/fellowsghi/fellowsghi.md",
-    "Story/fellowsghi",
-    "Indexes/Character.md",
-    "Indexes/Ancestry.md",
-    "Indexes/Art.md",
-    "Indexes/Organization.md",
-    "README.md",
-    "Dashboard-Worldbuilding.md",
-    "Story/fellowship of da ring/fellowship of da ring.md",
-    "Story/fellowship of da ring/Scenes/Chapter 1 Scene 1.md",
-    "Story/fellowship of da ring/Scenes",
-    "Story/fellowship of da ring",
-    "InProgress.md",
+    "Indexes/POI.md",
+    "Indexes/Country.md",
+    "Indexes/Misc.md",
     "Indexes/Language.md",
-    "World/Language/tets.md",
-    "World/Language/delete.md",
-    "World/Language",
-    "Indexes/Concept.md",
+    "README.md",
+    "Indexes/History.md",
     "Indexes/Technology.md",
-    "Indexes/Settlement.md",
-    "lorekeeper_meta.md.tmp.161312.1776028211431",
-    "World/POI",
-    "World",
+    "Indexes/Art.md",
+    "Indexes/Lore.md",
+    "Indexes/Magic.md",
+    "Home.md~",
+    "Indexes/Nature.md",
+    "Indexes/Organization.md",
+    "Indexes/Character.md",
+    "Religion.base",
+    "Indexes/Notes.md",
+    "Assets/Maps/ExampleMap.md",
+    "Dashboard-Worldbuilding.md",
+    "Excalidraw.base",
+    "Home.md.tmp.204402.1776038599619",
+    "Notes/Documentation/Buttons.md",
+    "World/Organization/Org.md",
+    "CLAUDE.md",
+    "World/Organization/Org.md.tmp.204402.1776036991243",
     "Assets/Cards/card-art.jpeg",
-    "lorekeeper_meta.md.tmp.161312.1776025464124",
-    "Indexes/Technology.md.tmp.161312.1776025434664",
-    "Indexes/Settlement.md.tmp.161312.1776025433195",
     "Assets/Cards/card-creature.jpeg",
     "Assets/Cards/card-economy.jpg",
     "Assets/volcanic wastes.jpg",

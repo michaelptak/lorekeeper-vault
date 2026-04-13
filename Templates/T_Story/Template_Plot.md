@@ -58,7 +58,7 @@ pov_character:
 involves_world:
 ---
 
-> [!metadata]- Plot Data
+> [!lk-metadata]- Plot Data
 > #### Core Properties
 >  |
 > ---|---|
@@ -87,7 +87,7 @@ involves_world:
 > ---|---|
 > **Involves World Elements** | `INPUT[inlineListSuggester(optionQuery("World"), useLinks(partial)):involves_world]` |
 
-> [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
+> [!lk-navbar]+ Navigation
 > [[<% selectedStory %>]] | [[Story|All Stories]] | [[Home]]
 
 # **`=this.file.name`**

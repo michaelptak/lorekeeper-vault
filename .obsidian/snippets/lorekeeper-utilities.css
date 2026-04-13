@@ -1,0 +1,60 @@
+/* ============================================================
+   Lorekeeper Utilities
+   ============================================================
+   Small, self-contained styling rules that don't belong in
+   the other lorekeeper-*.css modules.
+
+   Variables: references --lk-* from lorekeeper-tokens.css
+   with inline fallbacks for standalone use.
+   ============================================================ */
+
+
+/* ------------------------------------------------------------
+   Embedded Note Height Limit
+   Prevents embeds from blowing out page layout.
+   (Replaces LimitMarkdownEmbed.css)
+   ------------------------------------------------------------ */
+.markdown-embed * {
+  max-height: 500px;
+}
+
+
+/* ------------------------------------------------------------
+   Custom Scrollbar
+   Subtle accent-colored scrollbar for webkit browsers.
+   ------------------------------------------------------------ */
+/*
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--lk-color-accent, #c4a265);
+  border-radius: var(--lk-radius-sm, 4px);
+}
+*/
+
+
+/* ------------------------------------------------------------
+   Centered Headings (hcl)
+   cssclasses: hcl — centers all headings on the page.
+   Replaces ITS theme's hcl utility class.
+   Used on: all Index pages.
+   ------------------------------------------------------------ */
+.hcl h1, .hcl h2, .hcl h3, .hcl h4, .hcl h5, .hcl h6 {
+  text-align: center;
+}
+
+
+/* ------------------------------------------------------------
+   Focus / Writing Mode Helpers
+   Utility classes for reducing chrome on prose-heavy notes.
+   ------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------
+   Print Styles
+   Cleanup for Pandoc / PDF export if needed.
+   ------------------------------------------------------------ */

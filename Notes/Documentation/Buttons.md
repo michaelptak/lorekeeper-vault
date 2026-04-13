@@ -6,22 +6,16 @@ status: Complete
 > [!danger]- PIN ME!
 > Does not save on reloads
 
-> [!column|s-mg no-t]
+> [!lk-column|s-mg no-t]
 >
->> [!Create Notes|clean]
->> ####
+>> [!lk-actions]
 >> `BUTTON[NotesNoteSelector]`
->> #####
 >> `BUTTON[WorldNoteSelector]`
->> #####
 >> `BUTTON[StoryNoteSelector]`
 >
->> [!Extras|clean]
->> ####
+>> [!lk-actions]
 >> `BUTTON[New-Excalidraw]`
->> #####
 >> `BUTTON[Reload-Obsidian]`
->> #####
 >> `BUTTON[OpenWebViewer]`
 
 ## Useful Hotkeys/ Commands

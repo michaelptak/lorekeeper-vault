@@ -3,11 +3,11 @@ cssclasses:
   - hcl
 obsidianUIMode: preview
 ---
-> [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
+> [!lk-navbar]+ Navigation
 > [[Home]]
 # Settlements
 
-> [!tip|c-plain no-i text-center title-center wsmall callout-bordered center] New Settlement
+> [!lk-actions] New Settlement
 > `BUTTON[NewSettlement]`
 
 ```base

@@ -10,7 +10,7 @@ discovered_by:
 related:
 ---
 
-> [!metadata]- Links
+> [!lk-metadata]- Links
 >  |
 > ---|---|
 > **Art** | `INPUT[imageSuggester(optionQuery("Assets")):art]` |
@@ -20,7 +20,7 @@ related:
 > **Discovered By** | `INPUT[inlineListSuggester(optionQuery(#Character or #Organization AND !"Templates" AND !"Archive"), useLinks(partial)):discovered_by]` |
 > **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates" AND !"Archive"), useLinks(partial)):related]` |
 
-> [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
+> [!lk-navbar]+ Navigation
 > [[POI|All POIs]] | [[Home]]
 
 <%*

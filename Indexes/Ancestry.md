@@ -1,13 +1,13 @@
 ---
+obsidianUIMode: preview
 cssclasses:
   - hcl
-obsidianUIMode: preview
 ---
-> [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
+> [!lk-navbar]+ Navigation
 > [[Home]]
 # Ancestry
 
-> [!tip|c-plain no-i text-center title-center wsmall callout-bordered center] New Ancestry
+> [!lk-actions] New Ancestry
 > `BUTTON[NewAncestry]`
 
 ```base

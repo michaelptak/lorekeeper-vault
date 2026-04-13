@@ -5,7 +5,7 @@ status:
 art:
 ---
 
-> [!metadata]- Links
+> [!lk-metadata]- Links
 >  |
 > ---|---|
 > **Art** | `INPUT[imageSuggester(optionQuery("Assets")):art]` |
@@ -15,7 +15,7 @@ art:
 > **Cured By** | `INPUT[inlineListSuggester(optionQuery(#Object or #Magic or #Character or #Technology AND !"Templates" AND !"Archive"), useLinks(partial)):cured_by]` |
 > **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates" AND !"Archive"), useLinks(partial)):related]` |
 
-> [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
+> [!lk-navbar]+ Navigation
 > [[Concept|All Concepts]] | [[Home]]
 
 <%*

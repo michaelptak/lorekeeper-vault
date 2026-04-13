@@ -1,0 +1,70 @@
+/* ============================================================
+   Lorekeeper Design Tokens
+   ============================================================
+   Shared variables for all lorekeeper-*.css snippets.
+   This file MUST load before the others (alphabetical order
+   in Obsidian ensures "lorekeeper-tokens" comes last among
+   "lorekeeper-*" files — so we use the name intentionally).
+
+   NOTE: Every snippet that references --lk-* vars should
+   include a fallback value so it still works standalone.
+
+   Naming convention:
+     --lk-<category>-<property>[-variant]
+     e.g. --lk-color-accent, --lk-font-display, --lk-space-md
+   ============================================================ */
+
+:root {
+  /* --- Accent Color ---
+     Default: slate — neutral enough to work across themes.
+     Override with Style Settings or per-note cssclasses.
+     To inherit the active theme's accent instead, set:
+       --lk-color-accent: var(--interactive-accent);
+  */
+  --lk-color-accent: #7c8a97;
+  --lk-color-accent-rgb: 124, 138, 151;
+
+  /* --- Text Colors ---
+     Inherit from the active theme where possible.
+  */
+  --lk-color-text: var(--text-normal);
+  --lk-color-text-muted: var(--text-muted);
+  --lk-color-text-faint: var(--text-faint);
+
+  /* --- Surface Colors ---
+     Used for cards, callout backgrounds, glass effects.
+     Tied to theme so light/dark mode works automatically.
+  */
+  --lk-color-surface: var(--background-secondary);
+  --lk-color-surface-alt: var(--background-secondary-alt);
+  --lk-color-border: var(--background-modifier-border);
+
+  /* --- Typography --- */
+  --lk-font-body: var(--font-text, sans-serif);
+  --lk-font-display: "Crimson Pro", "Georgia", serif;
+  --lk-font-mono: var(--font-monospace, monospace);
+
+  /* --- Spacing Scale (base 4px) --- */
+  --lk-space-xs: 4px;
+  --lk-space-sm: 8px;
+  --lk-space-md: 16px;
+  --lk-space-lg: 24px;
+  --lk-space-xl: 32px;
+  --lk-space-2xl: 48px;
+
+  /* --- Border Radius --- */
+  --lk-radius-sm: 4px;
+  --lk-radius-md: 8px;
+  --lk-radius-lg: 12px;
+
+  /* --- Shadows --- */
+  --lk-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+  --lk-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.15);
+  --lk-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.2);
+
+  /* --- Transitions --- */
+  --lk-transition: 0.2s ease;
+
+  /* --- Layout --- */
+  --lk-content-max-width: 1200px;
+}

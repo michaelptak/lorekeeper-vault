@@ -5,7 +5,7 @@ status:
 art:
 ---
 
-> [!metadata]- Links
+> [!lk-metadata]- Links
 >  |
 > ---|---|
 > **Art** | `INPUT[imageSuggester(optionQuery("Assets")):art]` |
@@ -18,7 +18,7 @@ art:
 > **Associated With** | `INPUT[inlineListSuggester(optionQuery(#Religion or #Magic or #Lore or #History AND !"Templates" AND !"Archive"), useLinks(partial)):associated_with]` |
 > **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates" AND !"Archive"), useLinks(partial)):related]` |
 
-> [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
+> [!lk-navbar]+ Navigation
 > [[Geography|All Geography]] | [[Home]]
 
 <%*

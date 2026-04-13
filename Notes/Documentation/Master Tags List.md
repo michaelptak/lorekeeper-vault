@@ -6,7 +6,7 @@ note_purpose: Documentation
 story_title:
 priority:
 ---
-> [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]- Navigation
+> [!lk-navbar]+ Navigation
 > **Quick Links:** [[Documentation]] | [[Notes|All Notes]] | [[Home]]
 > 
 > [[#Story]] ([[#Plot]] · [[#Scene]])
@@ -22,6 +22,7 @@ priority:
 > **Supernatural & Material:** [[#Magic]] | [[#Object]] | [[#Technology]]
 >
 > **Niche:** [[#Language]] | [[#Misc]]
+
 
 # **`=this.file.name`**
 > [!example]- Making Edits

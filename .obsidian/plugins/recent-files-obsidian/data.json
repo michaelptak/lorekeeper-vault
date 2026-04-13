@@ -5,88 +5,48 @@
       "path": "Home.md"
     },
     {
-      "basename": "Documentation",
-      "path": "Indexes/Documentation.md"
-    },
-    {
-      "basename": "Notes",
-      "path": "Indexes/Notes.md"
-    },
-    {
-      "basename": "Scratch Note",
-      "path": "Notes/Scratch Note.md"
-    },
-    {
-      "basename": "lorekeeper_meta",
-      "path": "lorekeeper_meta.md"
-    },
-    {
       "basename": "Story",
       "path": "Story/Story.md"
+    },
+    {
+      "basename": "Template_Story",
+      "path": "Templates/T_Story/Template_Story.md"
     },
     {
       "basename": "InProgress",
       "path": "Indexes/InProgress.md"
     },
     {
-      "basename": "Excalidraw",
-      "path": "Indexes/Excalidraw.md"
+      "basename": "POI",
+      "path": "Indexes/POI.md"
     },
     {
-      "basename": "Buttons",
-      "path": "Notes/Documentation/Buttons.md"
+      "basename": "Country",
+      "path": "Indexes/Country.md"
     },
     {
-      "basename": "Character",
-      "path": "Indexes/Character.md"
-    },
-    {
-      "basename": "Ancestry",
-      "path": "Indexes/Ancestry.md"
-    },
-    {
-      "basename": "Art",
-      "path": "Indexes/Art.md"
-    },
-    {
-      "basename": "Organization",
-      "path": "Indexes/Organization.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "Dashboard-Worldbuilding",
-      "path": "Dashboard-Worldbuilding.md"
+      "basename": "Misc",
+      "path": "Indexes/Misc.md"
     },
     {
       "basename": "Language",
       "path": "Indexes/Language.md"
     },
     {
-      "basename": "Concept",
-      "path": "Indexes/Concept.md"
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "History",
+      "path": "Indexes/History.md"
     },
     {
       "basename": "Technology",
       "path": "Indexes/Technology.md"
     },
     {
-      "basename": "Settlement",
-      "path": "Indexes/Settlement.md"
-    },
-    {
-      "basename": "POI",
-      "path": "Indexes/POI.md"
-    },
-    {
-      "basename": "Object",
-      "path": "Indexes/Object.md"
-    },
-    {
-      "basename": "Country",
-      "path": "Indexes/Country.md"
+      "basename": "Art",
+      "path": "Indexes/Art.md"
     },
     {
       "basename": "Lore",
@@ -97,24 +57,88 @@
       "path": "Indexes/Magic.md"
     },
     {
-      "basename": "Religion",
-      "path": "Indexes/Religion.md"
+      "basename": "Nature",
+      "path": "Indexes/Nature.md"
     },
     {
-      "basename": "Misc",
-      "path": "Indexes/Misc.md"
+      "basename": "Organization",
+      "path": "Indexes/Organization.md"
     },
     {
-      "basename": "Geography",
-      "path": "Indexes/Geography.md"
+      "basename": "Character",
+      "path": "Indexes/Character.md"
+    },
+    {
+      "basename": "Notes",
+      "path": "Indexes/Notes.md"
     },
     {
       "basename": "ExampleMap",
       "path": "Assets/Maps/ExampleMap.md"
     },
     {
+      "basename": "Buttons",
+      "path": "Notes/Documentation/Buttons.md"
+    },
+    {
       "basename": "CLAUDE",
       "path": "CLAUDE.md"
+    },
+    {
+      "basename": "Ancestry",
+      "path": "Indexes/Ancestry.md"
+    },
+    {
+      "basename": "lorekeeper_meta",
+      "path": "lorekeeper_meta.md"
+    },
+    {
+      "basename": "Quality Control Dashboard",
+      "path": "Notes/Documentation/Quality Control Dashboard.md"
+    },
+    {
+      "basename": "Geography",
+      "path": "Indexes/Geography.md"
+    },
+    {
+      "basename": "Template_Compile_Manuscript",
+      "path": "Templates/T_Story/Template_Compile_Manuscript.md"
+    },
+    {
+      "basename": "Master Tags List",
+      "path": "Notes/Documentation/Master Tags List.md"
+    },
+    {
+      "basename": "Documentation",
+      "path": "Indexes/Documentation.md"
+    },
+    {
+      "basename": "Infobox_Ancestry",
+      "path": "Templates/T_Infobox/Infobox_Ancestry.md"
+    },
+    {
+      "basename": "Scratch Note",
+      "path": "Notes/Scratch Note.md"
+    },
+    {
+      "basename": "Excalidraw",
+      "path": "Indexes/Excalidraw.md"
+    },
+    {
+      "basename": "Concept",
+      "path": "Indexes/Concept.md"
+    },
+    {
+      "basename": "Settlement",
+      "path": "Indexes/Settlement.md"
+    },
+    {
+      "basename": "Object",
+      "path": "Indexes/Object.md"
+    },
+    {
+      "basename": "Religion",
+      "path": "Indexes/Religion.md"
     },
     {
       "basename": "card-creature",
@@ -125,16 +149,8 @@
       "path": "Templates/T_Infobox/Infobox_Basic.md"
     },
     {
-      "basename": "Master Tags List",
-      "path": "Notes/Documentation/Master Tags List.md"
-    },
-    {
       "basename": "Template_Religion",
       "path": "Templates/T_World/Template_Religion.md"
-    },
-    {
-      "basename": "History",
-      "path": "Indexes/History.md"
     },
     {
       "basename": "Template_Settlement",
@@ -171,10 +187,6 @@
     {
       "basename": "Template_Concept",
       "path": "Templates/T_World/Template_Concept.md"
-    },
-    {
-      "basename": "Template_Country",
-      "path": "Templates/T_World/Template_Country.md"
     }
   ],
   "omittedPaths": [],

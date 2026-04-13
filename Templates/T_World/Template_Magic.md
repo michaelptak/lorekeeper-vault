@@ -12,7 +12,7 @@ countered_by:
 related:
 ---
 
-> [!metadata]- Links
+> [!lk-metadata]- Links
 >  |
 > ---|---|
 > **Art** | `INPUT[imageSuggester(optionQuery("Assets")):art]` |
@@ -24,7 +24,7 @@ related:
 > **Countered By** | `INPUT[inlineListSuggester(optionQuery(#Magic or #Object or #Concept or #Technology AND !"Templates" AND !"Archive"), useLinks(partial)):countered_by]` |
 > **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates" AND !"Archive"), useLinks(partial)):related]` |
 
-> [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
+> [!lk-navbar]+ Navigation
 > [[Magic|All Magic]] | [[Home]]
 
 <%*

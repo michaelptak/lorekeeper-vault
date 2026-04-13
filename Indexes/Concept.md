@@ -3,11 +3,11 @@ cssclasses:
   - hcl
 obsidianUIMode: preview
 ---
-> [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
+> [!lk-navbar]+ Navigation
 > [[Home]]
 # Concepts
 
-> [!tip|c-plain no-i text-center title-center wsmall callout-bordered center] New Concept
+> [!lk-actions] New Concept
 > `BUTTON[NewConcept]`
 
 ```base

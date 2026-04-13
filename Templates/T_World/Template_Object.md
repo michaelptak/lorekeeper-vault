@@ -6,7 +6,7 @@ rarity:
 art:
 ---
 
-> [!metadata]- Links
+> [!lk-metadata]- Links
 >  |
 > ---|---|
 > **Art** | `INPUT[imageSuggester(optionQuery("Assets")):art]` |
@@ -18,7 +18,7 @@ art:
 > **Associated With** | `INPUT[inlineListSuggester(optionQuery(#History or #Character or #Religion or #Lore or #Magic AND !"Templates" AND !"Archive"), useLinks(partial)):associated_with]` |
 > **Related** | `INPUT[inlineListSuggester(optionQuery("" AND !"Templates" AND !"Archive"), useLinks(partial)):related]` |
 
-> [!info|no-i collapse bg-c-gray callout-bordered ttl-c txt-c]+ Navigation
+> [!lk-navbar]+ Navigation
 > [[Object|All Objects]] | [[Home]]
 
 <%*
