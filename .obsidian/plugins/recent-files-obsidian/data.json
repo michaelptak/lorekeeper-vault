@@ -5,12 +5,48 @@
       "path": "Home.md"
     },
     {
+      "basename": "Buttons",
+      "path": "Notes/Documentation/Buttons.md"
+    },
+    {
+      "basename": "Documentation",
+      "path": "Indexes/Documentation.md"
+    },
+    {
       "basename": "Notes",
       "path": "Indexes/Notes.md"
     },
     {
+      "basename": "Story",
+      "path": "Indexes/Story.md"
+    },
+    {
+      "basename": "Template_Scene",
+      "path": "Templates/T_Story/Template_Scene.md"
+    },
+    {
+      "basename": "Template_Story",
+      "path": "Templates/T_Story/Template_Story.md"
+    },
+    {
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
+    },
+    {
+      "basename": "ExampleMap",
+      "path": "Assets/Maps/ExampleMap.md"
+    },
+    {
+      "basename": "example-map",
+      "path": "Assets/Maps/example-map.jpg"
+    },
+    {
       "basename": "Character",
       "path": "Indexes/Character.md"
+    },
+    {
+      "basename": "POI",
+      "path": "Indexes/POI.md"
     },
     {
       "basename": "Religion",
@@ -25,20 +61,8 @@
       "path": "Notes/Scratch Note.md"
     },
     {
-      "basename": "ExampleMap",
-      "path": "Assets/Maps/ExampleMap.md"
-    },
-    {
-      "basename": "Story",
-      "path": "Indexes/Story.md"
-    },
-    {
       "basename": "Master Tags List",
       "path": "Notes/Documentation/Master Tags List.md"
-    },
-    {
-      "basename": "Template_Plot_Outline",
-      "path": "Templates/T_Story/Template_Plot_Outline.md"
     },
     {
       "basename": "Template_Compile_Manuscript",
@@ -53,20 +77,12 @@
       "path": "Templates/T_Notes/Template_Notes_Research.md"
     },
     {
-      "basename": "Template_Story",
-      "path": "Templates/T_Story/Template_Story.md"
-    },
-    {
       "basename": "lorekeeper_meta",
       "path": "lorekeeper_meta.md"
     },
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "CLAUDE",
-      "path": "CLAUDE.md"
     },
     {
       "basename": "Ancestry",
@@ -81,20 +97,12 @@
       "path": "Indexes/Lore.md"
     },
     {
-      "basename": "Documentation",
-      "path": "Indexes/Documentation.md"
-    },
-    {
       "basename": "InProgress",
       "path": "Indexes/InProgress.md"
     },
     {
       "basename": "Quality Control Dashboard",
       "path": "Notes/Documentation/Quality Control Dashboard.md"
-    },
-    {
-      "basename": "Buttons",
-      "path": "Notes/Documentation/Buttons.md"
     },
     {
       "basename": "Images",
@@ -105,16 +113,8 @@
       "path": "Indexes/Excalidraw.md"
     },
     {
-      "basename": "example-map.excalidraw",
-      "path": "Assets/Maps/example-map.excalidraw.md"
-    },
-    {
       "basename": "Template_Magic",
       "path": "Templates/T_World/Template_Magic.md"
-    },
-    {
-      "basename": "POI",
-      "path": "Indexes/POI.md"
     },
     {
       "basename": "Country",
@@ -175,18 +175,6 @@
     {
       "basename": "Template_Religion",
       "path": "Templates/T_World/Template_Religion.md"
-    },
-    {
-      "basename": "Template_Settlement",
-      "path": "Templates/T_World/Template_Settlement.md"
-    },
-    {
-      "basename": "Template_Organization",
-      "path": "Templates/T_World/Template_Organization.md"
-    },
-    {
-      "basename": "Template_Object",
-      "path": "Templates/T_World/Template_Object.md"
     }
   ],
   "omittedPaths": [],

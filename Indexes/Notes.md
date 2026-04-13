@@ -9,6 +9,7 @@ obsidianUIMode: preview
 
 > [!lk-actions] New Note
 > `BUTTON[NotesNoteSelector]`
+> `BUTTON[StoryNotesSelector]`
 
 ```base
 filters:

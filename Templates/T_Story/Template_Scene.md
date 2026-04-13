@@ -39,6 +39,7 @@ if (hasNewStoryTitle || hasUntitledTitle) {
 // Move file to Scenes folder
 const targetFolder = `Story/${selectedStory}/Scenes`;
 await tp.file.move(`${targetFolder}/${title}`);
+app.commands.executeCommandById("obsidian-focus-mode:toggle-focus-mode");
 _%>
 ---
 tags:
@@ -50,5 +51,6 @@ revisions: 1
 pov: 
 scene_outline:
 related:
+obsidianUIMode: edit
 involves_world:
 ---

@@ -9,7 +9,7 @@ cssclasses:
 > *Chronicle your creation*
 
 > [!lk-actions]
-> `BUTTON[WorldNoteSelector]` `BUTTON[StoryNoteSelector]` `BUTTON[NotesNoteSelector]` 
+> `BUTTON[WorldNoteSelector]` `BUTTON[NotesNoteSelector]`  `BUTTON[StoryNoteSelector]`  `BUTTON[StoryNotesSelector]` 
 > `BUTTON[New-Excalidraw]`  `BUTTON[OpenWebViewer]`
 
 > [!lk-cards|2]
