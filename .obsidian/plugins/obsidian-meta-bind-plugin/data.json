@@ -811,6 +811,21 @@
       "tooltip": "Create a new content note for the world."
     },
     {
+      "label": "New Story Note",
+      "hidden": false,
+      "id": "StoryNotesSelector",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/z_Scripts/Button_Story_Notes_Selector.md",
+          "fileName": "NewStoryNote",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Create a note attached to a story."
+    },
+    {
       "label": "Compile Manuscript",
       "hidden": false,
       "id": "CompileManuscript",

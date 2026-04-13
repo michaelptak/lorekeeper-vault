@@ -8,17 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "eafc613d0c3f05b4",
+            "id": "95601771730845d7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "New tab"
             }
           }
         ]
@@ -120,10 +116,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home.md"
+                "file": "Notes/Ch1 outline.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Home"
+              "title": "File properties for Ch1 outline"
             }
           },
           {
@@ -208,7 +204,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 449.5,
+    "width": 307.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -227,14 +223,35 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "eafc613d0c3f05b4",
+  "active": "e93925b3c096104e",
   "lastOpenFiles": [
-    "Assets/Maps/ExampleMap.md",
+    "Story/The Fellowship/The Fellowship.md",
+    "Notes/Ch1 outline.md",
+    "Story/The Fellowship/Scenes/Chapter 1.md",
+    "Story/The Fellowship/Scenes",
     "Home.md",
-    "Indexes/Story.md",
-    "lorekeeper_meta.md~",
-    "Indexes/Religion.md",
+    "Story/The Fellowship",
+    "Indexes/Notes.md",
+    "Notes/Outline for Ch1.md",
+    "Templates/T_Notes/Template_Notes_Plot.md",
+    "Templates/T_Notes/Template_Notes_Plot.md.tmp.11004.1776100360268",
+    "Templates/T_Notes/Template_Notes_Research.md.tmp.11004.1776100346418",
+    "Templates/T_Notes/Template_Notes_Reference.md.tmp.11004.1776100345396",
+    "Templates/T_Notes/Template_Notes_Planning.md.tmp.11004.1776100341472",
+    "Templates/T_Notes/Template_Notes_Documentation.md.tmp.11004.1776100339106",
+    "Templates/T_Notes/Template_Notes_Brainstorm.md.tmp.11004.1776100337136",
+    "Templates/T_Notes/Template_Notes_Blank.md.tmp.11004.1776100334568",
+    "Templates/z_Scripts/Button_Story_Notes_Selector.md",
+    "Templates/z_Scripts/Button_Story_Notes_Selector.md.tmp.11004.1776100320258",
+    "World/Character/Beff.md",
+    "World/Character/Jeff.md",
+    "World/Geography/Volcanic Ash Fields.md",
     "Indexes/Character.md",
+    "Indexes/Religion.md",
+    "Indexes/Organization.md",
+    "Notes/Scratch Note.md",
+    "Assets/Maps/ExampleMap.md",
+    "Indexes/Story.md",
     "Notes/Documentation/Master Tags List.md",
     "Templates/T_Story/Template_Plot_Outline.md",
     "Templates/T_Story/Template_Compile_Manuscript.md",
@@ -242,28 +259,7 @@
     "Templates/T_Notes/Template_Notes_Research.md",
     "Story/Test/Test.md",
     "Story/Test/Scenes/Chapter 1.md",
-    "Story/Test/Scenes",
-    "Story/Test",
     "Templates/T_Story/Template_Story.md",
-    "Templates/T_Story/NewStoryNote.md",
-    "lorekeeper_meta.md",
-    "README.md",
-    "CLAUDE.md",
-    "Indexes/Ancestry.md",
-    "Home.md.tmp.11004.1776092588519",
-    "World/Character/Jeff.md",
-    "Recent.base",
-    "Indexes/Misc.md",
-    "World/Misc/test.md",
-    "Indexes/Lore.md",
-    "Indexes/Notes.md",
-    "Indexes/Documentation.md",
-    "Indexes/InProgress.md",
-    "Home.md.tmp.11004.1776092162545",
-    "Home.md.tmp.11004.1776092160523",
-    "Recent.base.tmp.11004.1776092158735",
-    "Home.md.tmp.11004.1776091399123",
-    "World/Misc",
     "Assets/Cards/card-art.jpeg",
     "Assets/Cards/card-creature.jpeg",
     "Assets/Cards/card-economy.jpg",

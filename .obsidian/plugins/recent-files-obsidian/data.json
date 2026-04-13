@@ -5,20 +5,32 @@
       "path": "Home.md"
     },
     {
-      "basename": "ExampleMap",
-      "path": "Assets/Maps/ExampleMap.md"
+      "basename": "Notes",
+      "path": "Indexes/Notes.md"
     },
     {
-      "basename": "Story",
-      "path": "Indexes/Story.md"
+      "basename": "Character",
+      "path": "Indexes/Character.md"
     },
     {
       "basename": "Religion",
       "path": "Indexes/Religion.md"
     },
     {
-      "basename": "Character",
-      "path": "Indexes/Character.md"
+      "basename": "Organization",
+      "path": "Indexes/Organization.md"
+    },
+    {
+      "basename": "Scratch Note",
+      "path": "Notes/Scratch Note.md"
+    },
+    {
+      "basename": "ExampleMap",
+      "path": "Assets/Maps/ExampleMap.md"
+    },
+    {
+      "basename": "Story",
+      "path": "Indexes/Story.md"
     },
     {
       "basename": "Master Tags List",
@@ -69,10 +81,6 @@
       "path": "Indexes/Lore.md"
     },
     {
-      "basename": "Notes",
-      "path": "Indexes/Notes.md"
-    },
-    {
       "basename": "Documentation",
       "path": "Indexes/Documentation.md"
     },
@@ -99,10 +107,6 @@
     {
       "basename": "example-map.excalidraw",
       "path": "Assets/Maps/example-map.excalidraw.md"
-    },
-    {
-      "basename": "Organization",
-      "path": "Indexes/Organization.md"
     },
     {
       "basename": "Template_Magic",
@@ -147,10 +151,6 @@
     {
       "basename": "Infobox_Ancestry",
       "path": "Templates/T_Infobox/Infobox_Ancestry.md"
-    },
-    {
-      "basename": "Scratch Note",
-      "path": "Notes/Scratch Note.md"
     },
     {
       "basename": "Concept",
