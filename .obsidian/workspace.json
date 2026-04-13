@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "f3f126bda8d192af",
         "type": "tabs",
         "children": [
           {
+<<<<<<< Updated upstream
             "id": "e7a7b303c61786dc",
+=======
+            "id": "426b131d649ced3d",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -88,7 +92,11 @@
       }
     ],
     "direction": "horizontal",
+<<<<<<< Updated upstream
     "width": 242.5
+=======
+    "width": 262.5
+>>>>>>> Stashed changes
   },
   "right": {
     "id": "1ecafacdc1e79d14",
@@ -99,7 +107,10 @@
         "type": "tabs",
         "children": [
           {
+<<<<<<< Updated upstream
             "id": "0f298a94d3e025e3",
+=======
+            "id": "b573324d520fd667",
             "type": "leaf",
             "state": {
               "type": "keep-the-rhythm",
@@ -134,6 +145,84 @@
               "icon": "lucide-list",
               "title": "Outline of Home"
             }
+          },
+          {
+            "id": "b83de09f9327167e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Home.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Home"
+            }
+          },
+          {
+            "id": "e86e975f24c170c9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Home.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Home"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b64e050fa98ec192",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4617a4c66b7d3aa3",
+>>>>>>> Stashed changes
+            "type": "leaf",
+            "state": {
+              "type": "keep-the-rhythm",
+              "state": {},
+              "icon": "calendar-days",
+              "title": "Keep the Rhythm"
+            }
+          },
+          {
+            "id": "a479cee5de04c9b3",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Home.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Home"
+            }
+          },
+          {
+            "id": "979529d8a1a46277",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Home.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Home"
+            }
+<<<<<<< Updated upstream
           },
           {
             "id": "b83de09f9327167e",
@@ -218,12 +307,19 @@
               "icon": "lucide-file",
               "title": "Buttons"
             }
+=======
+>>>>>>> Stashed changes
           }
         ]
       }
     ],
     "direction": "horizontal",
+<<<<<<< Updated upstream
     "width": 427.5
+=======
+    "width": 387.5,
+    "collapsed": true
+>>>>>>> Stashed changes
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,11 +332,16 @@
       "daily-notes:Open today's daily note": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "templater-obsidian:Templater": false,
+<<<<<<< Updated upstream
+=======
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+>>>>>>> Stashed changes
       "keep-the-rhythm:Word Count Stats": false,
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
       "homepage:Open homepage": false
     }
   },
+<<<<<<< Updated upstream
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "World/Character/Jeff.md",
@@ -280,6 +381,47 @@
     "Story/Fellow/Scenes/Chapter 1.md",
     "Story/asd/asd.md",
     "Assets/Maps/example-map.jpg",
+=======
+  "active": "e93925b3c096104e",
+  "lastOpenFiles": [
+    "Templates/T_Story/Template_Plot.md",
+    "Story/Story.md",
+    "Dashboard-Worldbuilding.md",
+    "Assets/Maps/example-map.excalidraw.md",
+    "lorekeeper_meta.md~",
+    "Notes/Documentation/Buttons.md",
+    "Home.md",
+    "Story/Fellow/Scenes/Chapter 1.md",
+    "Story/Fellow/Fellow.md",
+    "Story/Fellow/Scenes",
+    "Story/Fellow",
+    "Templates/T_Story/Template_Scene.md.tmp.11004.1776103684930",
+    "Indexes/Documentation.md",
+    "Indexes/Notes.md",
+    "Story/asd/asd.md",
+    "Indexes/Story.md",
+    "Story/asd/Scenes/asdgrt.md",
+    "Story/asd/Scenes/test.md",
+    "Story/asd/Scenes/asdasd.md",
+    "Story/asd/Scenes/Scene 2.md",
+    "Story/asd/Scenes/Chapter 1 .md",
+    "Story/asd/Scenes",
+    "Story/asd",
+    "Templates/T_Story/Template_Scene.md",
+    "Templates/T_Story/Template_Story.md",
+    "CLAUDE.md",
+    "Story/Fellow/Scenes/Chapter 1 Scene 1.md",
+    "Templates/T_Story/Template_Story.md.tmp.11004.1776102996415",
+    "Assets/Maps/ExampleMap.md",
+    "Assets/Maps/example-map.jpg",
+    "Story/Fellowsg/Fellowsg.md",
+    "Story/Fellowsg",
+    "Story/Fellowship/Fellowship.md",
+    "Story/Fellowship/Scenes/test.md",
+    "Story/Fellowship/Scenes",
+    "Story/Fellowship",
+    "NewNote.md",
+>>>>>>> Stashed changes
     "Assets/Cards/card-art.jpeg",
     "Assets/Cards/card-creature.jpeg",
     "Assets/Cards/card-economy.jpg",
