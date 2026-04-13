@@ -5,6 +5,14 @@
       "path": "Home.md"
     },
     {
+      "basename": "ExampleMap",
+      "path": "Assets/Maps/ExampleMap.md"
+    },
+    {
+      "basename": "Story",
+      "path": "Indexes/Story.md"
+    },
+    {
       "basename": "Religion",
       "path": "Indexes/Religion.md"
     },
@@ -31,18 +39,6 @@
     {
       "basename": "Template_Notes_Research",
       "path": "Templates/T_Notes/Template_Notes_Research.md"
-    },
-    {
-      "basename": "Test",
-      "path": "Story/Test/Test.md"
-    },
-    {
-      "basename": "Chapter 1",
-      "path": "Story/Test/Scenes/Chapter 1.md"
-    },
-    {
-      "basename": "Story",
-      "path": "Indexes/Story.md"
     },
     {
       "basename": "Template_Story",
@@ -79,10 +75,6 @@
     {
       "basename": "Documentation",
       "path": "Indexes/Documentation.md"
-    },
-    {
-      "basename": "ExampleMap",
-      "path": "Assets/Maps/ExampleMap.md"
     },
     {
       "basename": "InProgress",
