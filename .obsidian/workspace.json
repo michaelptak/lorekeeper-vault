@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "aaf3b558783c883e",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "dc0a05db17b34184",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -213,7 +213,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 356.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -231,18 +231,24 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "dc0a05db17b34184",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Indexes/Story.md",
+    "Home.md",
+    "World/Character/Jeff.md",
     "Story/The Fellowship/The Fellowship.md",
+    "Story/The Fellowship",
+    "Notes/Documentation/Buttons.md",
+    "Indexes/Character.md",
+    "World/Character",
+    "Templates/T_World/Template_Magic.md",
+    "lorekeeper_meta.md~",
     "Story/The Fellowship/Scenes/Chapter 1.md",
     "Story/The Fellowship/Scenes",
-    "Story/Story.md",
-    "Story/The Fellowship",
     "Templates/T_Story/Template_Story.md.tmp.204402.1776039644034",
     "Story/Story.md.tmp.204402.1776039599835",
     "Templates/T_Story/Template_Story.md",
     "Story/Story.md.tmp.204402.1776039482274",
-    "Home.md",
     "Indexes/InProgress.md",
     "Indexes/POI.md",
     "Indexes/Country.md",
@@ -257,17 +263,10 @@
     "Home.md~",
     "Indexes/Nature.md",
     "Indexes/Organization.md",
-    "Indexes/Character.md",
     "Religion.base",
     "Indexes/Notes.md",
     "Assets/Maps/ExampleMap.md",
-    "Dashboard-Worldbuilding.md",
     "Excalidraw.base",
-    "Home.md.tmp.204402.1776038599619",
-    "Notes/Documentation/Buttons.md",
-    "World/Organization/Org.md",
-    "CLAUDE.md",
-    "World/Organization/Org.md.tmp.204402.1776036991243",
     "Assets/Cards/card-art.jpeg",
     "Assets/Cards/card-creature.jpeg",
     "Assets/Cards/card-economy.jpg",

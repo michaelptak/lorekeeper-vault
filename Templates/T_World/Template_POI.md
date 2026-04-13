@@ -50,7 +50,7 @@ const infobox = await tp.system.suggester(
 
 if (infobox) {
     tR += `
-> [!statbox]+
+> [!lk-infobox]+
 > # \`=this.file.name\`
 > \`VIEW[!\\[\\[{art}\\]\\]][text(renderMarkdown)]\`
 >

@@ -6,7 +6,23 @@
     },
     {
       "basename": "Story",
-      "path": "Story/Story.md"
+      "path": "Indexes/Story.md"
+    },
+    {
+      "basename": "Jeff",
+      "path": "World/Character/Jeff.md"
+    },
+    {
+      "basename": "Buttons",
+      "path": "Notes/Documentation/Buttons.md"
+    },
+    {
+      "basename": "Character",
+      "path": "Indexes/Character.md"
+    },
+    {
+      "basename": "Template_Magic",
+      "path": "Templates/T_World/Template_Magic.md"
     },
     {
       "basename": "Template_Story",
@@ -65,20 +81,12 @@
       "path": "Indexes/Organization.md"
     },
     {
-      "basename": "Character",
-      "path": "Indexes/Character.md"
-    },
-    {
       "basename": "Notes",
       "path": "Indexes/Notes.md"
     },
     {
       "basename": "ExampleMap",
       "path": "Assets/Maps/ExampleMap.md"
-    },
-    {
-      "basename": "Buttons",
-      "path": "Notes/Documentation/Buttons.md"
     },
     {
       "basename": "CLAUDE",
@@ -167,10 +175,6 @@
     {
       "basename": "Template_Nature",
       "path": "Templates/T_World/Template_Nature.md"
-    },
-    {
-      "basename": "Template_Magic",
-      "path": "Templates/T_World/Template_Magic.md"
     },
     {
       "basename": "Template_Lore",

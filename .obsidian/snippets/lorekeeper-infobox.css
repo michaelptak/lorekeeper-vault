@@ -2,22 +2,14 @@
    Lorekeeper Infobox
    ============================================================
    Styling for the [!lk-infobox] callout used on world notes
-   (Character, Settlement, etc). Evolves from the existing
-   infobox-callouts.css [!statbox] implementation.
-
-   Key goals:
-     - Use --lk-* tokens for theme consistency
-     - Responsive: stacks on narrow viewports instead of
-       fixed-width float
-     - Style Settings integration for user configurability
-     - lk- prefix on all custom classes
+   (Character, Settlement, etc). Replaces infobox-callouts.css.
 
    The infobox is inserted via ALT+T -> Infobox_Selector,
    not baked into templates.
 
-   Internal classes:
-     .lk-section / .lk-s  — section header within infobox
-     .lk-label   / .lk-l  — field label in a key-value pair
+   Internal HTML classes (used inside the callout body):
+     .section / .s  — section header divider
+     .label  / .l   — field label in a key-value pair
 
    Variables: references --lk-* from lorekeeper-tokens.css
    with inline fallbacks for standalone use.
@@ -26,55 +18,175 @@
 
 /* ------------------------------------------------------------
    Infobox-Specific Tokens
-   Extend the shared tokens for infobox configurability.
    ------------------------------------------------------------ */
-/*
 :root {
   --lk-infobox-width: 300px;
   --lk-infobox-padding: 20px;
   --lk-infobox-radius: var(--lk-radius-sm, 4px);
-  --lk-infobox-border: 0px;
   --lk-infobox-title-size: 1.2rem;
   --lk-infobox-title-align: center;
-  --lk-infobox-section-size: 1rem;
+  --lk-infobox-section-size: 0.85rem;
   --lk-infobox-section-weight: 700;
-  --lk-infobox-label-width: 80px;
-  --lk-infobox-image-radius: 0px;
+  --lk-infobox-label-width: 85px;
+  --lk-infobox-image-radius: var(--lk-radius-sm, 4px);
 }
-*/
+
+.theme-light {
+  --lk-infobox-bg: hsl(var(--accent-h, 210), calc(var(--accent-s, 15%) * 0.4), 92%);
+  --lk-infobox-border-color: hsl(var(--accent-h, 210), var(--accent-s, 15%), var(--accent-l, 50%));
+  --lk-infobox-title-color: hsl(var(--accent-h, 210), var(--accent-s, 15%), 30%);
+  --lk-infobox-section-bg: hsl(var(--accent-h, 210), calc(var(--accent-s, 15%) * 0.4), 85%);
+  --lk-infobox-hr-color: hsl(var(--accent-h, 210), var(--accent-s, 15%), var(--accent-l, 50%));
+}
+
+.theme-dark {
+  --lk-infobox-bg: hsl(var(--accent-h, 210), calc(var(--accent-s, 15%) * 0.4), 18%);
+  --lk-infobox-border-color: hsl(var(--accent-h, 210), var(--accent-s, 15%), var(--accent-l, 50%));
+  --lk-infobox-title-color: var(--text-normal);
+  --lk-infobox-section-bg: hsl(var(--accent-h, 210), calc(var(--accent-s, 15%) * 0.4), 14%);
+  --lk-infobox-hr-color: hsl(var(--accent-h, 210), var(--accent-s, 15%), var(--accent-l, 50%));
+}
 
 
 /* ------------------------------------------------------------
-   [!lk-infobox] — Base Infobox
-   Float right by default. Contains image + field pairs.
-   Replaces [!statbox] / [!statboxright].
+   [!lk-infobox] — Base Container
+   Float right by default. Contains title, image, sections,
+   and label-value pairs.
    ------------------------------------------------------------ */
+.callout[data-callout="lk-infobox"] {
+  float: right;
+  width: var(--lk-infobox-width);
+  margin-left: var(--lk-infobox-padding);
+  background: var(--lk-infobox-bg, var(--lk-color-surface, var(--background-secondary)));
+  padding: var(--lk-infobox-padding);
+  border-radius: var(--lk-infobox-radius);
+  border: 1px solid var(--lk-infobox-border-color, var(--lk-color-border, var(--background-modifier-border)));
+  --callout-blend-mode: normal;
+  --callout-color: var(--lk-color-accent-rgb, 124, 138, 151);
+}
 
 
 /* ------------------------------------------------------------
-   .lk-section / .lk-s — Section Headers
-   Bold dividers within the infobox (e.g. "Identity", "Stats").
+   Title — note name as heading, centered
+   Uses the # `=this.file.name` pattern.
+   The callout title itself is repurposed as "Summary".
    ------------------------------------------------------------ */
+
+/* Hide the callout icon */
+.callout[data-callout="lk-infobox"] .callout-icon {
+  display: none;
+}
+
+/* Callout fold title — "Summary" label */
+.callout[data-callout="lk-infobox"] .callout-title-inner {
+  all: unset;
+  display: block;
+  text-align: var(--lk-infobox-title-align);
+  font-size: 0;
+  width: 100%;
+  color: var(--lk-infobox-title-color, var(--lk-color-text, var(--text-normal)));
+}
+
+.callout[data-callout="lk-infobox"] .callout-title-inner::before {
+  content: "Summary";
+  font-size: var(--lk-infobox-title-size);
+}
+
+/* Content heading (the actual note name via dataview inline) */
+.callout[data-callout="lk-infobox"] .callout-content h1 {
+  text-align: var(--lk-infobox-title-align);
+  font-size: var(--lk-infobox-title-size);
+  margin: 0 0 var(--lk-space-sm, 8px);
+  color: var(--lk-infobox-title-color, var(--lk-color-text, var(--text-normal)));
+}
 
 
 /* ------------------------------------------------------------
-   .lk-label / .lk-l — Field Labels
-   Fixed-width label in a label: value pair.
+   Images — centered, optional radius
    ------------------------------------------------------------ */
+.callout[data-callout="lk-infobox"] img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: var(--lk-infobox-image-radius);
+  max-width: 100%;
+}
 
 
 /* ------------------------------------------------------------
-   Images
-   Centered within infobox, optional border/radius.
+   Horizontal Rule
    ------------------------------------------------------------ */
+.callout[data-callout="lk-infobox"] hr {
+  border: none;
+  border-top: 1px solid var(--lk-infobox-hr-color, var(--lk-color-border));
+  margin: 0.8rem 0;
+}
+
+
+/* ------------------------------------------------------------
+   .section / .s — Section Headers
+   Used via: <div class="section">Section Name</div>
+   ------------------------------------------------------------ */
+.callout[data-callout="lk-infobox"] .section,
+.callout[data-callout="lk-infobox"] .s {
+  display: block;
+  text-align: center;
+  font-size: var(--lk-infobox-section-size);
+  font-weight: var(--lk-infobox-section-weight);
+  padding: 4px 8px;
+  margin: 0.6rem 0 0.4rem;
+  border-radius: var(--lk-radius-sm, 4px);
+  background: var(--lk-infobox-section-bg, rgba(var(--lk-color-accent-rgb, 124, 138, 151), 0.1));
+  color: var(--lk-infobox-title-color, var(--lk-color-text, var(--text-normal)));
+}
+
+
+/* ------------------------------------------------------------
+   .label / .l — Field Labels
+   Used via: <span class="label">Name</span> `VIEW[{value}]`
+   Creates a fixed-width label + flexible value layout.
+   ------------------------------------------------------------ */
+.callout[data-callout="lk-infobox"] .label,
+.callout[data-callout="lk-infobox"] .l {
+  font-weight: bold;
+  font-size: 0.85em;
+  width: var(--lk-infobox-label-width);
+  display: inline-block;
+  margin-right: 0.4rem;
+  text-align: left;
+  vertical-align: top;
+  flex-shrink: 0;
+  color: var(--lk-color-text-muted, var(--text-muted));
+}
+
+/* Flex layout for label + value pairs */
+.callout[data-callout="lk-infobox"] p:has(.label),
+.callout[data-callout="lk-infobox"] p:has(.l) {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+/* Value takes remaining space */
+.callout[data-callout="lk-infobox"] p:has(.label) > :not(.label):not(.l),
+.callout[data-callout="lk-infobox"] p:has(.l) > :not(.label):not(.l) {
+  flex: 1;
+  min-width: 0;
+}
 
 
 /* ------------------------------------------------------------
    Responsive — Stacked Layout
-   Below threshold, infobox stops floating and goes full-width.
+   On narrow viewports (or narrow split panes), the infobox
+   stops floating and sits full-width above the content.
    ------------------------------------------------------------ */
-/*
 @media (max-width: 768px) {
-
+  .callout[data-callout="lk-infobox"] {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: var(--lk-space-md, 16px);
+  }
 }
-*/
