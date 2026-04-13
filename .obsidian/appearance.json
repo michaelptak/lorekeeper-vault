@@ -2,7 +2,6 @@
   "cssTheme": "ITS Theme",
   "accentColor": "#557873",
   "enabledCssSnippets": [
-    "infobox-callouts",
     "lorekeeper",
     "lorekeeper-callouts",
     "lorekeeper-dashboard",

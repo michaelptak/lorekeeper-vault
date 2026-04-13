@@ -11,6 +11,7 @@
   "strictLineBreaks": false,
   "showLineNumber": false,
   "pdfExportSettings": {
+    "includeName": false,
     "pageSize": "Letter",
     "landscape": false,
     "margin": "0",

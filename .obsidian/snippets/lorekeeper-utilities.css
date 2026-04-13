@@ -31,7 +31,7 @@
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--lk-color-accent, #c4a265);
+  background: var(--lk-color-accent, #7c8a97);
   border-radius: var(--lk-radius-sm, 4px);
 }
 */
@@ -58,3 +58,10 @@
    Print Styles
    Cleanup for Pandoc / PDF export if needed.
    ------------------------------------------------------------ */
+@media print {
+  .callout[data-callout="lk-metadata"],
+  .callout[data-callout="lk-navbar"],
+  .callout[data-callout="lk-actions"] {
+    display: none !important;
+  }
+}

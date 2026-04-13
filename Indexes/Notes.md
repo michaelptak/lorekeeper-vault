@@ -4,7 +4,7 @@ cssclasses:
 obsidianUIMode: preview
 ---
 > [!lk-navbar]+ Navigation
-> [[Documentation|Documentation]] | [[Home]]
+> [[Documentation|Documentation]] | [[Home]] 
 # Notes
 
 > [!lk-actions] New Note

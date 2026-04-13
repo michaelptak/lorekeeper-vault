@@ -5,32 +5,116 @@
       "path": "Home.md"
     },
     {
-      "basename": "Story",
-      "path": "Indexes/Story.md"
-    },
-    {
-      "basename": "Jeff",
-      "path": "World/Character/Jeff.md"
-    },
-    {
-      "basename": "Buttons",
-      "path": "Notes/Documentation/Buttons.md"
+      "basename": "Religion",
+      "path": "Indexes/Religion.md"
     },
     {
       "basename": "Character",
       "path": "Indexes/Character.md"
     },
     {
-      "basename": "Template_Magic",
-      "path": "Templates/T_World/Template_Magic.md"
+      "basename": "Master Tags List",
+      "path": "Notes/Documentation/Master Tags List.md"
+    },
+    {
+      "basename": "Template_Plot_Outline",
+      "path": "Templates/T_Story/Template_Plot_Outline.md"
+    },
+    {
+      "basename": "Template_Compile_Manuscript",
+      "path": "Templates/T_Story/Template_Compile_Manuscript.md"
+    },
+    {
+      "basename": "Button_Notes_Selector",
+      "path": "Templates/z_Scripts/Button_Notes_Selector.md"
+    },
+    {
+      "basename": "Template_Notes_Research",
+      "path": "Templates/T_Notes/Template_Notes_Research.md"
+    },
+    {
+      "basename": "Test",
+      "path": "Story/Test/Test.md"
+    },
+    {
+      "basename": "Chapter 1",
+      "path": "Story/Test/Scenes/Chapter 1.md"
+    },
+    {
+      "basename": "Story",
+      "path": "Indexes/Story.md"
     },
     {
       "basename": "Template_Story",
       "path": "Templates/T_Story/Template_Story.md"
     },
     {
+      "basename": "lorekeeper_meta",
+      "path": "lorekeeper_meta.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
+    },
+    {
+      "basename": "Ancestry",
+      "path": "Indexes/Ancestry.md"
+    },
+    {
+      "basename": "Misc",
+      "path": "Indexes/Misc.md"
+    },
+    {
+      "basename": "Lore",
+      "path": "Indexes/Lore.md"
+    },
+    {
+      "basename": "Notes",
+      "path": "Indexes/Notes.md"
+    },
+    {
+      "basename": "Documentation",
+      "path": "Indexes/Documentation.md"
+    },
+    {
+      "basename": "ExampleMap",
+      "path": "Assets/Maps/ExampleMap.md"
+    },
+    {
       "basename": "InProgress",
       "path": "Indexes/InProgress.md"
+    },
+    {
+      "basename": "Quality Control Dashboard",
+      "path": "Notes/Documentation/Quality Control Dashboard.md"
+    },
+    {
+      "basename": "Buttons",
+      "path": "Notes/Documentation/Buttons.md"
+    },
+    {
+      "basename": "Images",
+      "path": "Indexes/Images.md"
+    },
+    {
+      "basename": "Excalidraw",
+      "path": "Indexes/Excalidraw.md"
+    },
+    {
+      "basename": "example-map.excalidraw",
+      "path": "Assets/Maps/example-map.excalidraw.md"
+    },
+    {
+      "basename": "Organization",
+      "path": "Indexes/Organization.md"
+    },
+    {
+      "basename": "Template_Magic",
+      "path": "Templates/T_World/Template_Magic.md"
     },
     {
       "basename": "POI",
@@ -41,16 +125,8 @@
       "path": "Indexes/Country.md"
     },
     {
-      "basename": "Misc",
-      "path": "Indexes/Misc.md"
-    },
-    {
       "basename": "Language",
       "path": "Indexes/Language.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "History",
@@ -65,10 +141,6 @@
       "path": "Indexes/Art.md"
     },
     {
-      "basename": "Lore",
-      "path": "Indexes/Lore.md"
-    },
-    {
       "basename": "Magic",
       "path": "Indexes/Magic.md"
     },
@@ -77,48 +149,8 @@
       "path": "Indexes/Nature.md"
     },
     {
-      "basename": "Organization",
-      "path": "Indexes/Organization.md"
-    },
-    {
-      "basename": "Notes",
-      "path": "Indexes/Notes.md"
-    },
-    {
-      "basename": "ExampleMap",
-      "path": "Assets/Maps/ExampleMap.md"
-    },
-    {
-      "basename": "CLAUDE",
-      "path": "CLAUDE.md"
-    },
-    {
-      "basename": "Ancestry",
-      "path": "Indexes/Ancestry.md"
-    },
-    {
-      "basename": "lorekeeper_meta",
-      "path": "lorekeeper_meta.md"
-    },
-    {
-      "basename": "Quality Control Dashboard",
-      "path": "Notes/Documentation/Quality Control Dashboard.md"
-    },
-    {
       "basename": "Geography",
       "path": "Indexes/Geography.md"
-    },
-    {
-      "basename": "Template_Compile_Manuscript",
-      "path": "Templates/T_Story/Template_Compile_Manuscript.md"
-    },
-    {
-      "basename": "Master Tags List",
-      "path": "Notes/Documentation/Master Tags List.md"
-    },
-    {
-      "basename": "Documentation",
-      "path": "Indexes/Documentation.md"
     },
     {
       "basename": "Infobox_Ancestry",
@@ -127,10 +159,6 @@
     {
       "basename": "Scratch Note",
       "path": "Notes/Scratch Note.md"
-    },
-    {
-      "basename": "Excalidraw",
-      "path": "Indexes/Excalidraw.md"
     },
     {
       "basename": "Concept",
@@ -143,10 +171,6 @@
     {
       "basename": "Object",
       "path": "Indexes/Object.md"
-    },
-    {
-      "basename": "Religion",
-      "path": "Indexes/Religion.md"
     },
     {
       "basename": "card-creature",
@@ -171,26 +195,6 @@
     {
       "basename": "Template_Object",
       "path": "Templates/T_World/Template_Object.md"
-    },
-    {
-      "basename": "Template_Nature",
-      "path": "Templates/T_World/Template_Nature.md"
-    },
-    {
-      "basename": "Template_Lore",
-      "path": "Templates/T_World/Template_Lore.md"
-    },
-    {
-      "basename": "Template_Art",
-      "path": "Templates/T_World/Template_Art.md"
-    },
-    {
-      "basename": "Template_Character",
-      "path": "Templates/T_World/Template_Character.md"
-    },
-    {
-      "basename": "Template_Concept",
-      "path": "Templates/T_World/Template_Concept.md"
     }
   ],
   "omittedPaths": [],

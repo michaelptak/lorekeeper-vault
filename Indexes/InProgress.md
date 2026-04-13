@@ -6,6 +6,8 @@ obsidianUIMode: preview
 > [!lk-navbar]+ Navigation
 > [[Home]]
 # In Progress
+> [!lk-note] Note
+> Notes where `status` = `WIP` 
 ```base
 filters:
   and:

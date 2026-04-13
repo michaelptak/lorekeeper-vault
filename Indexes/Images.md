@@ -5,18 +5,17 @@ obsidianUIMode: preview
 ---
 > [!lk-navbar]+ Navigation
 > [[Home]]
-# Excalidraw
-
-> [!lk-actions] New Excalidraw
-> `BUTTON[New-Excalidraw]`
-
+# Images
 ```base
 filters:
   and:
-    - file.tags.contains("Excalidraw")
+    - file.path.contains("Assets")
     - '!file.path.contains("Templates")'
     - '!file.path.contains("Archive")'
 views:
+  - type: cards
+    name: View
+    image: file.file
   - type: table
     name: Table
     order:

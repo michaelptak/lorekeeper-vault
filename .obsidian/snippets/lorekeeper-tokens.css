@@ -14,12 +14,189 @@
      e.g. --lk-color-accent, --lk-font-display, --lk-space-md
    ============================================================ */
 
+
+/* @settings
+
+name: Lorekeeper
+id: lorekeeper
+settings:
+
+    -
+        id: lk-global-heading
+        title: Global
+        type: heading
+        level: 1
+        collapsed: true
+
+    -
+        id: lk-color-accent
+        title: Accent Color
+        description: Used across all Lorekeeper callouts and UI elements
+        type: variable-color
+        format: hex
+        default: '#7c8a97'
+
+    -
+        id: lk-font-display
+        title: Display Font
+        description: Used for dashboard headings and hero titles
+        type: variable-text
+        default: '"Crimson Pro", "Georgia", serif'
+
+    -
+        id: lk-radius-sm
+        title: Border Radius — Small
+        description: Callouts, navbar, metadata, infobox
+        type: variable-number
+        default: 4
+        format: px
+
+    -
+        id: lk-radius-md
+        title: Border Radius — Medium
+        description: Cards, dashboard columns, links
+        type: variable-number
+        default: 8
+        format: px
+
+    -
+        id: lk-content-max-width
+        title: Dashboard Max Width
+        description: Maximum content width on dashboard pages
+        type: variable-number
+        default: 1200
+        format: px
+
+    -
+        id: lk-infobox-heading
+        title: Infobox
+        type: heading
+        level: 1
+        collapsed: true
+
+    -
+        id: lk-infobox-width
+        title: Width
+        type: variable-number
+        default: 300
+        format: px
+
+    -
+        id: lk-infobox-padding
+        title: Padding
+        type: variable-number
+        default: 20
+        format: px
+
+    -
+        id: lk-infobox-radius
+        title: Corner Radius
+        type: variable-number
+        default: 4
+        format: px
+
+    -
+        id: lk-infobox-title-size
+        title: Title Font Size
+        description: Size of the note name heading inside the infobox
+        type: variable-number
+        default: 1.2
+        format: rem
+
+    -
+        id: lk-infobox-title-align
+        title: Title Alignment
+        type: variable-select
+        default: center
+        options:
+            -
+                label: Left
+                value: left
+            -
+                label: Center
+                value: center
+            -
+                label: Right
+                value: right
+
+    -
+        id: lk-infobox-label-width
+        title: Label Column Width
+        description: Width of the field label column (e.g. "Organization")
+        type: variable-number
+        default: 100
+        format: px
+
+    -
+        id: lk-infobox-image-radius
+        title: Image Corner Radius
+        type: variable-number
+        default: 4
+        format: px
+
+    -
+        id: lk-infobox-section-size
+        title: Section Header Size
+        type: variable-number
+        default: 0.85
+        format: rem
+
+    -
+        id: lk-infobox-section-weight
+        title: Section Header Weight
+        type: variable-number
+        default: 700
+
+    -
+        id: lk-cards-heading
+        title: Cards
+        type: heading
+        level: 1
+        collapsed: true
+
+    -
+        id: lk-cards-image-height
+        title: Card Image Height
+        type: variable-number
+        default: 160
+        format: px
+
+    -
+        id: lk-cards-radius
+        title: Card Corner Radius
+        type: variable-number
+        default: 8
+        format: px
+
+    -
+        id: lk-dashboard-heading
+        title: Dashboard
+        type: heading
+        level: 1
+        collapsed: true
+
+    -
+        id: lk-dashboard-hero-size
+        title: Hero Title Font Size
+        type: variable-number
+        default: 3.6
+        format: em
+
+    -
+        id: lk-dashboard-h2-size
+        title: Section Heading (h2) Font Size
+        type: variable-number
+        default: 1.7
+        format: em
+
+*/
+
 :root {
   /* --- Accent Color ---
      Default: slate — neutral enough to work across themes.
-     Override with Style Settings or per-note cssclasses.
-     To inherit the active theme's accent instead, set:
-       --lk-color-accent: var(--interactive-accent);
+     --lk-color-accent (hex) is controlled by Style Settings.
+     --lk-color-accent-rgb (triplet) is for rgba() transparency.
+     To change accent: update both, or just the hex via Style Settings.
   */
   --lk-color-accent: #7c8a97;
   --lk-color-accent-rgb: 124, 138, 151;

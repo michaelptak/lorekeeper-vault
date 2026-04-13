@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "eafc613d0c3f05b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 262.5
   },
   "right": {
     "id": "1ecafacdc1e79d14",
@@ -112,6 +112,18 @@
               "pinned": true,
               "icon": "lucide-file",
               "title": "Buttons"
+            }
+          },
+          {
+            "id": "a479cee5de04c9b3",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Home.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Home"
             }
           },
           {
@@ -191,29 +203,13 @@
               "title": "Outline of README"
             }
           }
-        ]
-      },
-      {
-        "id": "2a1faa648c7a4138",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e668dbd57f5955f6",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "Home.md"
-              },
-              "icon": "lucide-info",
-              "title": "File properties for Home"
-            }
-          }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 356.5
+    "width": 449.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -231,42 +227,43 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "eafc613d0c3f05b4",
   "lastOpenFiles": [
-    "Indexes/Story.md",
-    "Home.md",
-    "World/Character/Jeff.md",
-    "Story/The Fellowship/The Fellowship.md",
-    "Story/The Fellowship",
-    "Notes/Documentation/Buttons.md",
-    "Indexes/Character.md",
-    "World/Character",
-    "Templates/T_World/Template_Magic.md",
     "lorekeeper_meta.md~",
-    "Story/The Fellowship/Scenes/Chapter 1.md",
-    "Story/The Fellowship/Scenes",
-    "Templates/T_Story/Template_Story.md.tmp.204402.1776039644034",
-    "Story/Story.md.tmp.204402.1776039599835",
+    "Indexes/Religion.md",
+    "Home.md",
+    "Indexes/Character.md",
+    "Notes/Documentation/Master Tags List.md",
+    "Templates/T_Story/Template_Plot_Outline.md",
+    "Templates/T_Story/Template_Compile_Manuscript.md",
+    "Templates/z_Scripts/Button_Notes_Selector.md",
+    "Templates/T_Notes/Template_Notes_Research.md",
+    "Story/Test/Test.md",
+    "Story/Test/Scenes/Chapter 1.md",
+    "Story/Test/Scenes",
+    "Indexes/Story.md",
+    "Story/Test",
     "Templates/T_Story/Template_Story.md",
-    "Story/Story.md.tmp.204402.1776039482274",
-    "Indexes/InProgress.md",
-    "Indexes/POI.md",
-    "Indexes/Country.md",
-    "Indexes/Misc.md",
-    "Indexes/Language.md",
+    "Templates/T_Story/NewStoryNote.md",
+    "lorekeeper_meta.md",
     "README.md",
-    "Indexes/History.md",
-    "Indexes/Technology.md",
-    "Indexes/Art.md",
+    "CLAUDE.md",
+    "Indexes/Ancestry.md",
+    "Home.md.tmp.11004.1776092588519",
+    "World/Character/Jeff.md",
+    "Recent.base",
+    "Indexes/Misc.md",
+    "World/Misc/test.md",
     "Indexes/Lore.md",
-    "Indexes/Magic.md",
-    "Home.md~",
-    "Indexes/Nature.md",
-    "Indexes/Organization.md",
-    "Religion.base",
     "Indexes/Notes.md",
+    "Indexes/Documentation.md",
     "Assets/Maps/ExampleMap.md",
-    "Excalidraw.base",
+    "Indexes/InProgress.md",
+    "Home.md.tmp.11004.1776092162545",
+    "Home.md.tmp.11004.1776092160523",
+    "Recent.base.tmp.11004.1776092158735",
+    "Home.md.tmp.11004.1776091399123",
+    "World/Misc",
     "Assets/Cards/card-art.jpeg",
     "Assets/Cards/card-creature.jpeg",
     "Assets/Cards/card-economy.jpg",

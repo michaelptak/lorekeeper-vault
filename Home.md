@@ -1,46 +1,32 @@
 ---
 cssclasses:
   - lk-dashboard
+  - hcl
 ---
 
 > [!lk-hero]
 > # Your World Name
 > *Chronicle your creation*
 
-> [!lk-cards|3]
-> ![[example-map.jpg]]
-> **[[ExampleMap|Map]]**
+> [!lk-actions]
+> `BUTTON[WorldNoteSelector]` `BUTTON[StoryNoteSelector]` `BUTTON[NotesNoteSelector]` 
+> `BUTTON[New-Excalidraw]`  `BUTTON[OpenWebViewer]`
+
+> [!lk-cards|2]
+> ![[quill-and-ink.jpeg]]
+> **[[Story]]**
 >
+> ![[card-flora.jpeg]]
+> **[[Notes]]**
+
+> [!lk-cards|2]
 > ![[medieval-forge.jpg]]
 > **[[InProgress|In Progress]]**
 >
-> ![[quill-and-ink.jpeg]]
-> **[[Story]]**
+> ![[example-map.jpg]]
+> **[[ExampleMap|Map]]**
 
-> [!lk-highlight]
-> **[[README]]**
-
-> [!lk-info]
->> [!lk-col] Vault Essentials
->> - [[Documentation]]
->> - [[Master Tags List]]
->> - [[Obsidian Vault Navigation Guide]]
->> - [[Quality Control Dashboard]]
->> - [[Buttons]]
->
->> [!lk-col] Notes
->> - [[Notes|All Notes]]
->> - [[Scratch Note]]
->
->> [!lk-col] Recent Files
->> ```dataview
->> TABLE dateformat(file.mtime, "dd.MM.yyyy - HH:mm") AS "Last modified"
->> FROM ""
->> SORT file.mtime DESC
->> LIMIT 5
->> ```
-
-## People & Characters
+## World
 
 > [!lk-cards|4]
 > ![[card-characters.jpg]]
@@ -54,10 +40,7 @@ cssclasses:
 >
 > ![[card-art.jpeg]]
 > **[[Art|Art]]**
-
-## Places
-
-> [!lk-cards|3]
+>
 > ![[card-settlement.jpeg]]
 > **[[Settlement|Settlement]]**
 >
@@ -66,10 +49,7 @@ cssclasses:
 >
 > ![[card-poi.jpg]]
 > **[[POI|POI]]**
-
-## World & History
-
-> [!lk-cards|4]
+>
 > ![[card-history.jpg]]
 > **[[History|History]]**
 >
@@ -81,10 +61,7 @@ cssclasses:
 >
 > ![[card-religion.jpeg]]
 > **[[Religion|Religion]]**
-
-## Concepts, Magic & Things
-
-> [!lk-cards|5]
+>
 > ![[card-concept.jpg]]
 > **[[Concept]]**
 >
@@ -99,17 +76,42 @@ cssclasses:
 >
 > ![[card-technology.jpg]]
 > **[[Technology|Technology]]**
-
-## Niche
-
-> [!lk-cards|2]
+>
 > ![[card-language.jpeg]]
 > **[[Language|Language]]**
-> 
+>
 > ![[card-condition.jpg]]
 > **[[Misc]]**
 
-## Diagrams, Art, Assets
+## Recent
+
+```base
+filters:
+  and:
+    - '!file.inFolder("Templates")'
+    - '!file.inFolder("Archive")'
+    - '!file.inFolder(".obsidian")'
+    - file.ext == "md"
+views:
+  - type: table
+    name: Recent Files
+    order:
+      - file.name
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+    limit: 10
+```
+
+## Resources
 
 > [!lk-links]
+> - [[Documentation]]
+> - [[Master Tags List]]
+> - [[Quality Control Dashboard]]
+> - [[Buttons]]
+> - [[Notes|All Notes]]
+> - [[Scratch Note]]
 > - [[Excalidraw|All Excalidraw Notes]]
+> - [[Images|All Images]]

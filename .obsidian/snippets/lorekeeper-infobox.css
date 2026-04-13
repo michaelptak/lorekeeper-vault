@@ -27,7 +27,7 @@
   --lk-infobox-title-align: center;
   --lk-infobox-section-size: 0.85rem;
   --lk-infobox-section-weight: 700;
-  --lk-infobox-label-width: 85px;
+  --lk-infobox-label-width: 100px;
   --lk-infobox-image-radius: var(--lk-radius-sm, 4px);
 }
 
@@ -56,7 +56,7 @@
 .callout[data-callout="lk-infobox"] {
   float: right;
   width: var(--lk-infobox-width);
-  margin-left: var(--lk-infobox-padding);
+  margin-left: 32px !important;
   background: var(--lk-infobox-bg, var(--lk-color-surface, var(--background-secondary)));
   padding: var(--lk-infobox-padding);
   border-radius: var(--lk-infobox-radius);
@@ -77,19 +77,20 @@
   display: none;
 }
 
-/* Callout fold title — "Summary" label */
+/* Callout fold title — hardcoded "Infobox" label */
 .callout[data-callout="lk-infobox"] .callout-title-inner {
   all: unset;
   display: block;
   text-align: var(--lk-infobox-title-align);
   font-size: 0;
   width: 100%;
-  color: var(--lk-infobox-title-color, var(--lk-color-text, var(--text-normal)));
+  color: var(--lk-color-text-muted, var(--text-muted));
 }
 
 .callout[data-callout="lk-infobox"] .callout-title-inner::before {
-  content: "Summary";
-  font-size: var(--lk-infobox-title-size);
+  content: "Infobox";
+  font-size: 0.85rem;
+  font-weight: 600;
 }
 
 /* Content heading (the actual note name via dataview inline) */
@@ -170,8 +171,8 @@
 }
 
 /* Value takes remaining space */
-.callout[data-callout="lk-infobox"] p:has(.label) > :not(.label):not(.l),
-.callout[data-callout="lk-infobox"] p:has(.l) > :not(.label):not(.l) {
+.callout[data-callout="lk-infobox"] p:has(.label)> :not(.label):not(.l),
+.callout[data-callout="lk-infobox"] p:has(.l)> :not(.label):not(.l) {
   flex: 1;
   min-width: 0;
 }
@@ -186,7 +187,7 @@
   .callout[data-callout="lk-infobox"] {
     float: none;
     width: 100%;
-    margin-left: 0;
+    margin-left: 0 !important;
     margin-bottom: var(--lk-space-md, 16px);
   }
 }

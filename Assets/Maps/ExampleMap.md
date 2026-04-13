@@ -1,3 +1,5 @@
+> [!lk-navbar]+ Navigation
+> [[Home]]
 
 # World Map
 # Note
