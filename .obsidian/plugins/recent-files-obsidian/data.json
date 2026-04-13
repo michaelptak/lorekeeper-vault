@@ -5,20 +5,40 @@
       "path": "Home.md"
     },
     {
-      "basename": "Buttons",
-      "path": "Notes/Documentation/Buttons.md"
+      "basename": "Character",
+      "path": "Indexes/Character.md"
     },
     {
-      "basename": "Documentation",
-      "path": "Indexes/Documentation.md"
+      "basename": "Story",
+      "path": "Indexes/Story.md"
+    },
+    {
+      "basename": "Scratch Note",
+      "path": "Notes/Scratch Note.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "lorekeeper_meta",
+      "path": "lorekeeper_meta.md"
+    },
+    {
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
     },
     {
       "basename": "Notes",
       "path": "Indexes/Notes.md"
     },
     {
-      "basename": "Story",
-      "path": "Indexes/Story.md"
+      "basename": "Documentation",
+      "path": "Indexes/Documentation.md"
+    },
+    {
+      "basename": "Buttons",
+      "path": "Notes/Documentation/Buttons.md"
     },
     {
       "basename": "Template_Scene",
@@ -29,20 +49,12 @@
       "path": "Templates/T_Story/Template_Story.md"
     },
     {
-      "basename": "CLAUDE",
-      "path": "CLAUDE.md"
-    },
-    {
       "basename": "ExampleMap",
       "path": "Assets/Maps/ExampleMap.md"
     },
     {
       "basename": "example-map",
       "path": "Assets/Maps/example-map.jpg"
-    },
-    {
-      "basename": "Character",
-      "path": "Indexes/Character.md"
     },
     {
       "basename": "POI",
@@ -55,10 +67,6 @@
     {
       "basename": "Organization",
       "path": "Indexes/Organization.md"
-    },
-    {
-      "basename": "Scratch Note",
-      "path": "Notes/Scratch Note.md"
     },
     {
       "basename": "Master Tags List",
@@ -75,14 +83,6 @@
     {
       "basename": "Template_Notes_Research",
       "path": "Templates/T_Notes/Template_Notes_Research.md"
-    },
-    {
-      "basename": "lorekeeper_meta",
-      "path": "lorekeeper_meta.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "Ancestry",

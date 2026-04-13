@@ -43,7 +43,12 @@
    Replaces ITS theme's hcl utility class.
    Used on: all Index pages.
    ------------------------------------------------------------ */
-.hcl h1, .hcl h2, .hcl h3, .hcl h4, .hcl h5, .hcl h6 {
+.hcl h1,
+.hcl h2,
+.hcl h3,
+.hcl h4,
+.hcl h5,
+.hcl h6 {
   text-align: center;
 }
 
@@ -53,12 +58,41 @@
    Utility classes for reducing chrome on prose-heavy notes.
    ------------------------------------------------------------ */
 
+/* lk-page — manuscript page appearance
+   cssclasses: lk-page
+   Adds a paper-like border, shadow, constrained width,
+   and generous padding for prose-heavy notes (scenes).        */
+
+.lk-page .markdown-preview-sizer,
+.lk-page .cm-sizer {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 60px 56px;
+  border: 1px solid var(--lk-color-border, var(--background-modifier-border));
+  border-radius: var(--lk-radius-sm, 4px);
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.08),
+    0 8px 24px rgba(0, 0, 0, 0.05);
+  background: var(--lk-color-surface, var(--background-primary));
+}
+
+/* Slightly narrower on small screens */
+@media (max-width: 800px) {
+
+  .lk-page .markdown-preview-sizer,
+  .lk-page .cm-sizer {
+    padding: 40px 28px;
+    margin: 20px auto;
+  }
+}
+
 
 /* ------------------------------------------------------------
    Print Styles
    Cleanup for Pandoc / PDF export if needed.
    ------------------------------------------------------------ */
 @media print {
+
   .callout[data-callout="lk-metadata"],
   .callout[data-callout="lk-navbar"],
   .callout[data-callout="lk-actions"] {

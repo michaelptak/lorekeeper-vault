@@ -1,5 +1,5 @@
 {
-  "readableLineLength": true,
+  "readableLineLength": false,
   "defaultViewMode": "preview",
   "attachmentFolderPath": "Assets",
   "alwaysUpdateLinks": true,

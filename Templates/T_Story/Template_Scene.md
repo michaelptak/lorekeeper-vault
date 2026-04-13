@@ -51,6 +51,8 @@ revisions: 1
 pov: 
 scene_outline:
 related:
-obsidianUIMode: edit
 involves_world:
+cssclasses:
+  - lk-page
+obsidianUIMode: edit
 ---

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f3f126bda8d192af",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "426b131d649ced3d",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 242.5
   },
   "right": {
     "id": "1ecafacdc1e79d14",
@@ -99,7 +99,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b573324d520fd667",
+            "id": "0f298a94d3e025e3",
             "type": "leaf",
             "state": {
               "type": "keep-the-rhythm",
@@ -167,6 +167,35 @@
               "icon": "links-going-out",
               "title": "Outgoing links from Home"
             }
+          },
+          {
+            "id": "8479caf1a57dce17",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "89de1e58043672e2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
           }
         ]
       },
@@ -194,8 +223,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5,
-    "collapsed": true
+    "width": 427.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,50 +236,50 @@
       "daily-notes:Open today's daily note": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "templater-obsidian:Templater": false,
-      "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "keep-the-rhythm:Word Count Stats": false,
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
       "homepage:Open homepage": false
     }
   },
-  "active": "426b131d649ced3d",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "lorekeeper_meta.md~",
-    "Notes/Documentation/Buttons.md",
+    "World/Character/Jeff.md",
     "Home.md",
-    "Story/Fellow/Scenes/Chapter 1.md",
+    "Indexes/Character.md",
+    "World/Character",
+    "Indexes/Story.md",
+    "Notes/Scratch Note.md",
+    "Notes/asd.md",
+    "README.md",
+    "lorekeeper_meta.md",
+    "CLAUDE.md",
+    "World/Untitled.md",
     "Story/Fellow/Fellow.md",
+    "World",
+    "Story/Fellow/Scenes/Epic.md",
+    "Story/Fellow/Scenes/Chapter 1 Scene 1.md",
+    "Story/Fellow/Scenes/Chapter 2 Scene 1.md",
     "Story/Fellow/Scenes",
     "Story/Fellow",
-    "Templates/T_Story/Template_Scene.md.tmp.11004.1776103684930",
-    "Indexes/Documentation.md",
     "Indexes/Notes.md",
-    "Story/asd/asd.md",
-    "Indexes/Story.md",
-    "Story/asd/Scenes/asdgrt.md",
-    "Story/asd/Scenes/test.md",
-    "Story/asd/Scenes/asdasd.md",
-    "Story/asd/Scenes/Scene 2.md",
-    "Story/asd/Scenes/Chapter 1 .md",
-    "Story/asd/Scenes",
-    "Story/asd",
-    "Templates/T_Story/Template_Scene.md",
-    "Templates/T_Story/Template_Story.md",
-    "CLAUDE.md",
-    "Story/Fellow/Scenes/Chapter 1 Scene 1.md",
-    "Templates/T_Story/Template_Story.md.tmp.11004.1776102996415",
-    "Assets/Maps/ExampleMap.md",
-    "Assets/Maps/example-map.jpg",
-    "Assets/Maps/example-map.excalidraw.md",
-    "Story/Fellowsg/Fellowsg.md",
-    "Story/Fellowsg",
-    "Story/Fellowship/Fellowship.md",
-    "Story/Fellowship/Scenes/test.md",
-    "Story/Fellowship/Scenes",
-    "Story/Fellowship",
-    "NewNote.md",
-    "NewWorldNote.md",
+    "Indexes/Documentation.md",
+    "Templates/T_Story/Template_Scene.md.tmp.11004.1776105190998",
+    "Notes/Documentation/Obsidian Vault Navigation Guide.md",
+    "Story/Fellowsghip/Fellowsghip-Manuscript.md",
+    "Story/Fellowsghip/Fellowsghip-Manuscript.docx",
+    "Story/Fellowsghip/Scenes/Chatper 2 Scene 2.md",
+    "Story/Fellowsghip/Fellowsghip.md",
+    "Story/Fellowsghip/Scenes/Chapter 3.md",
+    "Story/Fellowsghip/Scenes/Chapter 2.md",
+    "Story/Fellowsghip/Scenes/Chapter 1.md",
+    "Story/Fellowsghip/Scenes",
     "Story/Fellowsghip",
+    "Story",
+    "lorekeeper_meta.md~",
+    "Notes/Documentation/Buttons.md",
+    "Story/Fellow/Scenes/Chapter 1.md",
+    "Story/asd/asd.md",
+    "Assets/Maps/example-map.jpg",
     "Assets/Cards/card-art.jpeg",
     "Assets/Cards/card-creature.jpeg",
     "Assets/Cards/card-economy.jpg",
