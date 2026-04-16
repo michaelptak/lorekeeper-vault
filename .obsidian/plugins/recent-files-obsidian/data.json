@@ -5,43 +5,92 @@
       "path": "Home.md"
     },
     {
-<<<<<<< Updated upstream
-      "basename": "Character",
-      "path": "Indexes/Character.md"
-=======
-      "basename": "Buttons",
-      "path": "Notes/Documentation/Buttons.md"
-    },
-    {
-      "basename": "Documentation",
-      "path": "Indexes/Documentation.md"
->>>>>>> Stashed changes
-    },
-    {
       "basename": "Story",
       "path": "Indexes/Story.md"
     },
     {
-      "basename": "Template_Scene",
-      "path": "Templates/T_Story/Template_Scene.md"
+      "basename": "Button_Story_Selector",
+      "path": "Templates/z_Scripts/Button_Story_Selector.md"
     },
     {
-<<<<<<< Updated upstream
+      "basename": "Button_Story_Notes_Selector",
+      "path": "Templates/z_Scripts/Button_Story_Notes_Selector.md"
+    },
+    {
+      "basename": "Button_World_Selector",
+      "path": "Templates/z_Scripts/Button_World_Selector.md"
+    },
+    {
+      "basename": "Researching bilbom",
+      "path": "Notes/Researching bilbom.md"
+    },
+    {
+      "basename": "Template_Notes_Blank",
+      "path": "Templates/T_Notes/Template_Notes_Blank.md"
+    },
+    {
+      "basename": "Template_Notes_Brainstorm",
+      "path": "Templates/T_Notes/Template_Notes_Brainstorm.md"
+    },
+    {
+      "basename": "Template_Notes_Documentation",
+      "path": "Templates/T_Notes/Template_Notes_Documentation.md"
+    },
+    {
+      "basename": "Template_Notes_Planning",
+      "path": "Templates/T_Notes/Template_Notes_Planning.md"
+    },
+    {
+      "basename": "Template_Notes_Plot",
+      "path": "Templates/T_Notes/Template_Notes_Plot.md"
+    },
+    {
+      "basename": "Template_Notes_Reference",
+      "path": "Templates/T_Notes/Template_Notes_Reference.md"
+    },
+    {
+      "basename": "Plot outline for first part",
+      "path": "Notes/Plot outline for first part.md"
+    },
+    {
+      "basename": "Template_Story",
+      "path": "Templates/T_Story/Template_Story.md"
+    },
+    {
+      "basename": "Button_Notes_Selector",
+      "path": "Templates/z_Scripts/Button_Notes_Selector.md"
+    },
+    {
+      "basename": "Infobox_Selector",
+      "path": "Templates/z_Scripts/Infobox_Selector.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
     {
-      "basename": "lorekeeper_meta",
-      "path": "lorekeeper_meta.md"
-=======
-      "basename": "Template_Story",
-      "path": "Templates/T_Story/Template_Story.md"
->>>>>>> Stashed changes
+      "basename": "Template_Compile_Manuscript",
+      "path": "Templates/T_Story/Template_Compile_Manuscript.md"
     },
     {
       "basename": "CLAUDE",
       "path": "CLAUDE.md"
-<<<<<<< Updated upstream
+    },
+    {
+      "basename": "Lore",
+      "path": "Indexes/Lore.md"
+    },
+    {
+      "basename": "POI",
+      "path": "Indexes/POI.md"
+    },
+    {
+      "basename": "InProgress",
+      "path": "Indexes/InProgress.md"
+    },
+    {
+      "basename": "ExampleMap",
+      "path": "Assets/Maps/ExampleMap.md"
     },
     {
       "basename": "Notes",
@@ -52,174 +101,28 @@
       "path": "Indexes/Documentation.md"
     },
     {
-      "basename": "Buttons",
-      "path": "Notes/Documentation/Buttons.md"
-    },
-    {
-      "basename": "Template_Scene",
-      "path": "Templates/T_Story/Template_Scene.md"
-    },
-    {
-      "basename": "Template_Story",
-      "path": "Templates/T_Story/Template_Story.md"
-=======
->>>>>>> Stashed changes
-    },
-    {
-      "basename": "ExampleMap",
-      "path": "Assets/Maps/ExampleMap.md"
-    },
-    {
-      "basename": "example-map",
-      "path": "Assets/Maps/example-map.jpg"
-    },
-    {
-<<<<<<< Updated upstream
-=======
       "basename": "Character",
       "path": "Indexes/Character.md"
     },
     {
->>>>>>> Stashed changes
-      "basename": "POI",
-      "path": "Indexes/POI.md"
-    },
-    {
-      "basename": "Religion",
-      "path": "Indexes/Religion.md"
-    },
-    {
-      "basename": "Organization",
-      "path": "Indexes/Organization.md"
-    },
-    {
-<<<<<<< Updated upstream
-=======
-      "basename": "Scratch Note",
-      "path": "Notes/Scratch Note.md"
-    },
-    {
->>>>>>> Stashed changes
-      "basename": "Master Tags List",
-      "path": "Notes/Documentation/Master Tags List.md"
-    },
-    {
-      "basename": "Template_Compile_Manuscript",
-      "path": "Templates/T_Story/Template_Compile_Manuscript.md"
-    },
-    {
-      "basename": "Button_Notes_Selector",
-      "path": "Templates/z_Scripts/Button_Notes_Selector.md"
-    },
-    {
-      "basename": "Template_Notes_Research",
-      "path": "Templates/T_Notes/Template_Notes_Research.md"
-    },
-    {
-<<<<<<< Updated upstream
-=======
-      "basename": "lorekeeper_meta",
-      "path": "lorekeeper_meta.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
->>>>>>> Stashed changes
       "basename": "Ancestry",
       "path": "Indexes/Ancestry.md"
-    },
-    {
-      "basename": "Misc",
-      "path": "Indexes/Misc.md"
-    },
-    {
-      "basename": "Lore",
-      "path": "Indexes/Lore.md"
-    },
-    {
-      "basename": "InProgress",
-      "path": "Indexes/InProgress.md"
-    },
-    {
-      "basename": "Quality Control Dashboard",
-      "path": "Notes/Documentation/Quality Control Dashboard.md"
-    },
-    {
-<<<<<<< Updated upstream
-      "basename": "Images",
-      "path": "Indexes/Images.md"
-    },
-    {
-=======
->>>>>>> Stashed changes
-      "basename": "Excalidraw",
-      "path": "Indexes/Excalidraw.md"
-    },
-    {
-      "basename": "Template_Magic",
-      "path": "Templates/T_World/Template_Magic.md"
-    },
-    {
-      "basename": "Country",
-      "path": "Indexes/Country.md"
-    },
-    {
-      "basename": "Language",
-      "path": "Indexes/Language.md"
-    },
-    {
-      "basename": "History",
-      "path": "Indexes/History.md"
-    },
-    {
-      "basename": "Technology",
-      "path": "Indexes/Technology.md"
-    },
-    {
-      "basename": "Art",
-      "path": "Indexes/Art.md"
-    },
-    {
-      "basename": "Magic",
-      "path": "Indexes/Magic.md"
-    },
-    {
-      "basename": "Nature",
-      "path": "Indexes/Nature.md"
     },
     {
       "basename": "Geography",
       "path": "Indexes/Geography.md"
     },
     {
-      "basename": "Infobox_Ancestry",
-      "path": "Templates/T_Infobox/Infobox_Ancestry.md"
-    },
-    {
-      "basename": "Concept",
-      "path": "Indexes/Concept.md"
-    },
-    {
-      "basename": "Settlement",
-      "path": "Indexes/Settlement.md"
+      "basename": "Organization",
+      "path": "Indexes/Organization.md"
     },
     {
       "basename": "Object",
       "path": "Indexes/Object.md"
     },
     {
-      "basename": "card-creature",
-      "path": "Assets/Cards/card-creature.jpeg"
-    },
-    {
-      "basename": "Infobox_Basic",
-      "path": "Templates/T_Infobox/Infobox_Basic.md"
-    },
-    {
-      "basename": "Template_Religion",
-      "path": "Templates/T_World/Template_Religion.md"
+      "basename": "Buttons",
+      "path": "Notes/Documentation/Buttons.md"
     }
   ],
   "omittedPaths": [],

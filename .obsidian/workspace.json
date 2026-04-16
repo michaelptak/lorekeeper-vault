@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f3f126bda8d192af",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-<<<<<<< Updated upstream
             "id": "e7a7b303c61786dc",
-=======
-            "id": "426b131d649ced3d",
->>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5c911a2f2a03b807",
+    "id": "ed4bc0a87c84ba39",
     "type": "split",
     "children": [
       {
-        "id": "d9095193c9d160aa",
+        "id": "80f397b43eb6e79a",
         "type": "tabs",
         "children": [
           {
-            "id": "e93925b3c096104e",
+            "id": "e25c0d95fadbc7c5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -52,12 +48,12 @@
             }
           },
           {
-            "id": "9a0e07adb00fd64f",
+            "id": "31f40f106a848848",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "!tip",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +65,7 @@
             }
           },
           {
-            "id": "07df62480066f3de",
+            "id": "c33b49430035d2b5",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,77 +73,23 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "eef35a6aa397e843",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-<<<<<<< Updated upstream
-    "width": 242.5
-=======
-    "width": 262.5
->>>>>>> Stashed changes
+    "width": 300
   },
   "right": {
-    "id": "1ecafacdc1e79d14",
+    "id": "4c61040093768352",
     "type": "split",
     "children": [
       {
-        "id": "ec3debd38cbac78d",
+        "id": "9427125b2dbbdf57",
         "type": "tabs",
         "children": [
           {
-<<<<<<< Updated upstream
-            "id": "0f298a94d3e025e3",
-=======
-            "id": "b573324d520fd667",
-            "type": "leaf",
-            "state": {
-              "type": "keep-the-rhythm",
-              "state": {},
-              "icon": "calendar-days",
-              "title": "Keep the Rhythm"
-            }
-          },
-          {
-            "id": "a479cee5de04c9b3",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "Home.md"
-              },
-              "icon": "lucide-info",
-              "title": "File properties for Home"
-            }
-          },
-          {
-            "id": "979529d8a1a46277",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Home.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Home"
-            }
-          },
-          {
-            "id": "b83de09f9327167e",
+            "id": "08e443172728c110",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -166,85 +108,7 @@
             }
           },
           {
-            "id": "e86e975f24c170c9",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Home.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Home"
-            }
-          }
-        ]
-      },
-      {
-        "id": "b64e050fa98ec192",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4617a4c66b7d3aa3",
->>>>>>> Stashed changes
-            "type": "leaf",
-            "state": {
-              "type": "keep-the-rhythm",
-              "state": {},
-              "icon": "calendar-days",
-              "title": "Keep the Rhythm"
-            }
-          },
-          {
-            "id": "a479cee5de04c9b3",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "Home.md"
-              },
-              "icon": "lucide-info",
-              "title": "File properties for Home"
-            }
-          },
-          {
-            "id": "979529d8a1a46277",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Home.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Home"
-            }
-<<<<<<< Updated upstream
-          },
-          {
-            "id": "b83de09f9327167e",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Home.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Home"
-            }
-          },
-          {
-            "id": "e86e975f24c170c9",
+            "id": "a9d389d6d5b0fe34",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -258,7 +122,7 @@
             }
           },
           {
-            "id": "8479caf1a57dce17",
+            "id": "b11479bee84c5206",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -273,7 +137,7 @@
             }
           },
           {
-            "id": "89de1e58043672e2",
+            "id": "f8a974c267a4a8b2",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -285,161 +149,93 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
-          }
-        ]
-      },
-      {
-        "id": "b64e050fa98ec192",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "4617a4c66b7d3aa3",
+            "id": "ce4ebd11e637dad9",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "markdown",
+              "type": "outline",
               "state": {
-                "file": "Notes/Documentation/Buttons.md",
-                "mode": "preview",
-                "source": false
+                "file": "Home.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Buttons"
+              "icon": "lucide-list",
+              "title": "Outline of Home"
             }
-=======
->>>>>>> Stashed changes
+          },
+          {
+            "id": "20881f90c001894c",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Home.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Home"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-<<<<<<< Updated upstream
-    "width": 427.5
-=======
-    "width": 387.5,
-    "collapsed": true
->>>>>>> Stashed changes
+    "width": 278.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "daily-notes:Open today's daily note": false,
+      "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "templater-obsidian:Templater": false,
-<<<<<<< Updated upstream
-=======
-      "obsidian-leaflet-plugin:Open Leaflet Map": false,
->>>>>>> Stashed changes
-      "keep-the-rhythm:Word Count Stats": false,
-      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-<<<<<<< Updated upstream
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "World/Character/Jeff.md",
-    "Home.md",
-    "Indexes/Character.md",
-    "World/Character",
+    "Story/Fellowhgsi/Fellowhgsi.md",
+    "Story/Fellowhgsi/NewStoryNote.md",
+    "Story/Fellowhgsi/Fellowhgsi - Draft 2.md",
+    "Story/Fellowhgsi/Draft 2/Chapter 1.md",
+    "Story/Fellowhgsi/Draft 2/Chapter 2.md",
+    "Story/Fellowhgsi/Draft 2/Chapter 3.md",
+    "Story/Fellowhgsi/Draft 2",
     "Indexes/Story.md",
-    "Notes/Scratch Note.md",
-    "Notes/asd.md",
-    "README.md",
-    "lorekeeper_meta.md",
-    "CLAUDE.md",
-    "World/Untitled.md",
-    "Story/Fellow/Fellow.md",
-    "World",
-    "Story/Fellow/Scenes/Epic.md",
-    "Story/Fellow/Scenes/Chapter 1 Scene 1.md",
-    "Story/Fellow/Scenes/Chapter 2 Scene 1.md",
-    "Story/Fellow/Scenes",
-    "Story/Fellow",
-    "Indexes/Notes.md",
-    "Indexes/Documentation.md",
-    "Templates/T_Story/Template_Scene.md.tmp.11004.1776105190998",
-    "Notes/Documentation/Obsidian Vault Navigation Guide.md",
-    "Story/Fellowsghip/Fellowsghip-Manuscript.md",
-    "Story/Fellowsghip/Fellowsghip-Manuscript.docx",
-    "Story/Fellowsghip/Scenes/Chatper 2 Scene 2.md",
-    "Story/Fellowsghip/Fellowsghip.md",
-    "Story/Fellowsghip/Scenes/Chapter 3.md",
-    "Story/Fellowsghip/Scenes/Chapter 2.md",
-    "Story/Fellowsghip/Scenes/Chapter 1.md",
-    "Story/Fellowsghip/Scenes",
-    "Story/Fellowsghip",
-    "Story",
-    "lorekeeper_meta.md~",
-    "Notes/Documentation/Buttons.md",
-    "Story/Fellow/Scenes/Chapter 1.md",
-    "Story/asd/asd.md",
-    "Assets/Maps/example-map.jpg",
-=======
-  "active": "e93925b3c096104e",
-  "lastOpenFiles": [
-    "Templates/T_Story/Template_Plot.md",
-    "Story/Story.md",
-    "Dashboard-Worldbuilding.md",
-    "Assets/Maps/example-map.excalidraw.md",
-    "lorekeeper_meta.md~",
-    "Notes/Documentation/Buttons.md",
+    "Story/Fellowhgsi/Draft 1/Chapter 3.md",
+    "Story/Fellowhgsi/Draft 1/Chapter 2.md",
+    "Story/Fellowhgsi/Draft 1/Chapter 1.md",
     "Home.md",
-    "Story/Fellow/Scenes/Chapter 1.md",
-    "Story/Fellow/Fellow.md",
-    "Story/Fellow/Scenes",
-    "Story/Fellow",
-    "Templates/T_Story/Template_Scene.md.tmp.11004.1776103684930",
-    "Indexes/Documentation.md",
-    "Indexes/Notes.md",
-    "Story/asd/asd.md",
-    "Indexes/Story.md",
-    "Story/asd/Scenes/asdgrt.md",
-    "Story/asd/Scenes/test.md",
-    "Story/asd/Scenes/asdasd.md",
-    "Story/asd/Scenes/Scene 2.md",
-    "Story/asd/Scenes/Chapter 1 .md",
-    "Story/asd/Scenes",
-    "Story/asd",
-    "Templates/T_Story/Template_Scene.md",
-    "Templates/T_Story/Template_Story.md",
-    "CLAUDE.md",
-    "Story/Fellow/Scenes/Chapter 1 Scene 1.md",
-    "Templates/T_Story/Template_Story.md.tmp.11004.1776102996415",
-    "Assets/Maps/ExampleMap.md",
-    "Assets/Maps/example-map.jpg",
-    "Story/Fellowsg/Fellowsg.md",
-    "Story/Fellowsg",
+    "Story/Fellowhgsi/Draft 1",
+    "Story/Fellowhgsi",
+    "Templates/T_Story/Template_Compile_Manuscript.md.tmp.322508.1776375797124",
+    "Templates/T_Story/Template_Story.md.tmp.322508.1776375774895",
+    "Templates/T_Story/Template_Chapter.md.tmp.322508.1776375559820",
+    "Story/The Fellowship/The Fellowship.md",
+    "Story/The Fellowship/The Fellowship - Draft 2.md",
+    "Story/The Fellowship/Draft 2/Chapter 1.md",
+    "Story/The Fellowship/Draft 2/Test chap.md",
+    "Templates/z_Scripts/Button_Story_Selector.md",
+    "Templates/T_Story/Template_Chapter.md.tmp.322508.1776375297621",
+    "Templates/z_Scripts/Button_Story_Notes_Selector.md.tmp.322508.1776375266887",
+    "Templates/z_Scripts/Button_Story_Notes_Selector.md",
+    "Templates/z_Scripts/Button_World_Selector.md",
+    "Story/The Fellowship/NewStoryNote.md",
+    "Story/The Fellowship/Draft 2",
+    "Story/The Fellowship/Draft 1/Chapter 1.md",
+    "Story/The Fellowship/Draft 1",
+    "Notes/Researching bilbom.md",
+    "Story/Fellowship/Draft 1/Chapt 1.md",
     "Story/Fellowship/Fellowship.md",
-    "Story/Fellowship/Scenes/test.md",
-    "Story/Fellowship/Scenes",
-    "Story/Fellowship",
-    "NewNote.md",
->>>>>>> Stashed changes
-    "Assets/Cards/card-art.jpeg",
-    "Assets/Cards/card-creature.jpeg",
-    "Assets/Cards/card-economy.jpg",
-    "Assets/volcanic wastes.jpg",
-    "Assets/dire-wolf-daniel-eskridge.jpg",
-    "Assets/direwolf.jpg",
-    "Assets/direwolf.webp",
-    "Assets/Cards/card-timeline.jpg",
-    "Assets/Cards/card-ancestry.jpg",
-    "Meta/BrainstormBoard/BrainstormBoard.canvas",
-    "Meta/30 Day Challenge/30 Day Challenge.canvas",
-    "06. Unsorted/Seventsian1.0/02. Civilization/Races+Cultures/Mankind/Mankind.canvas",
-    "06. Unsorted/Seventsian1.0/02. Civilization/Races+Cultures/Elves/Elves.canvas",
-    "06. Unsorted/Seventsian1.0/02. Civilization/Races+Cultures/Giants/Giants.canvas",
-    "01. Wiki/02. Civilization/Characters/Current Age Characters/Current Age Characters.canvas",
-    "01. Wiki/02. Civilization/Characters/Historical Figures/Historical Figures.canvas",
-    "Old_Thoughts/Characters/Mythological Figures/Mythological Figures.canvas",
-    "Old_Thoughts/Concepts/Magic/Magic System/Magic System.canvas",
-    "01. Wiki/02. Civilization/History/Timeline/Timeline.canvas"
+    "Story/Fellowship/Fellowship - Draft 2.md",
+    "Templates/T_Notes/Template_Notes_Blank.md",
+    "Templates/T_Notes/Template_Notes_Brainstorm.md"
   ]
 }

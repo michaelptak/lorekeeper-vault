@@ -15,7 +15,7 @@
   "inputFieldTemplates": [
     {
       "name": "Tags",
-      "declaration": "INPUT[inlineSelect(option(Notes), option(Story), option(Plot), option(Scene), option(Concept), option(History), option(Lore), option(Cosmos), option(Creature), option(Flora), option(Geography), option(POI), option(Resource), option(Settlement), option(Ancestry), option(Character), option(Culture/Art), option(Country), option(Economy), option(Language), option(Organization), option(Politics), option(Religion), option(Condition), option(Magic), option(Object), option(Technology))]"
+      "declaration": "INPUT[inlineSelect(option(Notes), option(Story), option(Plot), option(Chapter), option(Concept), option(History), option(Lore), option(Cosmos), option(Creature), option(Flora), option(Geography), option(POI), option(Resource), option(Settlement), option(Ancestry), option(Character), option(Culture/Art), option(Country), option(Economy), option(Language), option(Organization), option(Politics), option(Religion), option(Condition), option(Magic), option(Object), option(Technology))]"
     },
     {
       "name": "Age",
@@ -751,37 +751,37 @@
       "tooltip": "Create a new story"
     },
     {
-      "label": "New Scene",
+      "label": "New Chapter",
       "hidden": false,
-      "id": "NewScene",
+      "id": "NewChapter",
       "style": "primary",
       "actions": [
         {
           "type": "templaterCreateNote",
-          "templateFile": "Templates/T_Story/Template_Scene.md",
+          "templateFile": "Templates/T_Story/Template_Chapter.md",
           "fileName": "NewStoryNote",
           "openNote": true
         }
       ],
-      "tooltip": ""
+      "tooltip": "Create a new chapter in the active draft."
     },
     {
-      "label": "New Scene Timeline",
+      "label": "New Draft",
       "hidden": false,
-      "id": "NewSceneTimeline",
+      "id": "NewDraft",
       "style": "primary",
       "actions": [
         {
           "type": "templaterCreateNote",
-          "templateFile": "Templates/T_Story/Template_Scene_Timeline.md",
+          "templateFile": "Templates/T_Story/Template_New_Draft.md",
           "fileName": "NewStoryNote",
           "openNote": true
         }
       ],
-      "tooltip": ""
+      "tooltip": "Copy chapters from an existing draft into a new draft."
     },
     {
-      "label": "New Scene/Story",
+      "label": "New Chapter/Story",
       "hidden": false,
       "id": "StoryNoteSelector",
       "style": "primary",
@@ -823,7 +823,7 @@
           "openNote": true
         }
       ],
-      "tooltip": "Concatenate all scenes into one document.",
+      "tooltip": "Compile chapters from a draft into a manuscript.",
       "class": "",
       "cssStyle": "background-color:DarkSlateGray;"
     }

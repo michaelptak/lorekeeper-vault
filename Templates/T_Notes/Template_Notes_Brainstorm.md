@@ -24,6 +24,6 @@ story_title: <% selectedStory %>
 priority:
 ---
 > [!lk-navbar]+ Navigation
-> <% selectedStory ? '[[' + selectedStory + ']] | ' : '' %>[[Notes|All Notes]] | [[Home]]
+> <% selectedStory ? '[[Story|All Stories]] | ' : '' %>[[Notes|All Notes]] | [[Home]]
 # **`=this.file.name`**
 

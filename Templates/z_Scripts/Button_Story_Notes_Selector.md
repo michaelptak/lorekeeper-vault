@@ -12,10 +12,10 @@ if (storyFiles.length === 0) {
 }
 
 // Create arrays for suggester
-const storyTitles = storyFiles.map(file => {
+const storyTitles = [...new Set(storyFiles.map(file => {
     const cache = app.metadataCache.getFileCache(file);
     return cache.frontmatter.story_title;
-});
+}))];
 
 // Let user select from existing stories
 const selectedStory = await tp.system.suggester(storyTitles, storyTitles);

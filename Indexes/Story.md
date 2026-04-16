@@ -17,6 +17,7 @@ filters:
     - '!file.path.contains("Templates")'
     - '!file.path.contains("Archive")'
     - file.tags.contains("#Story")
+    - active_draft == true
 views:
   - type: table
     name: Table
