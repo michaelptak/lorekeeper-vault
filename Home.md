@@ -13,17 +13,17 @@ cssclasses:
 > `BUTTON[New-Excalidraw]`  `BUTTON[OpenWebViewer]`
 
 > [!lk-cards|2]
-> ![[quill-and-ink.jpeg]]
+> ![[card-story.jpeg]]
 > **[[Story]]**
 >
-> ![[card-flora.jpeg]]
+> ![[card-notes.jpg]]
 > **[[Notes]]**
 
 > [!lk-cards|2]
-> ![[medieval-forge.jpg]]
+> ![[card-inprogress.jpeg]]
 > **[[InProgress|In Progress]]**
 >
-> ![[example-map.jpg]]
+> ![[card-map.jpg]]
 > **[[ExampleMap|Map]]**
 
 ## World

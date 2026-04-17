@@ -108,19 +108,6 @@ const author = await tp.system.prompt("Author name:", "Your Name");
 const subtitle = await tp.system.prompt("Subtitle (optional):", "");
 const date = await tp.system.prompt("Date:", tp.date.now("YYYY-MM-DD"));
 
-// Select export format
-const exportFormats = [
-    { label: "Word Document (docx)", id: "docx" },
-    { label: "OpenDocument (odt)", id: "odt" },
-    { label: "ePub", id: "epub" },
-    { label: "HTML", id: "html" },
-    { label: "Skip export", id: null },
-];
-const formatLabels = exportFormats.map(f => f.label);
-const formatIds = exportFormats.map(f => f.id);
-const selectedFormat = await tp.system.suggester(formatLabels, formatIds, false, "Export format?");
-// null from "Skip export" or undefined from cancellation — both just skip
-
 // Get all chapter files for this story + draft
 const draftPath = `Story/${selectedStory}/Draft ${selectedDraft}`;
 const chapterFiles = app.vault.getFiles()
@@ -178,12 +165,6 @@ const embeds = embedSections.join('\n\n');
 
 new Notice(`Manuscript compiled: ${chapterFiles.length} chapters from Draft ${selectedDraft}`);
 
-// Auto-execute Pandoc export after Templater finishes rendering
-if (selectedFormat) {
-    setTimeout(() => {
-        app.commands.executeCommandById(`obsidian-pandoc:pandoc-export-${selectedFormat}`);
-    }, 1000);
-}
 _%>---
 title: <% manuscriptTitle %>
 author: <% author %><% subtitle ? `\nsubtitle: ${subtitle}` : '' %>
