@@ -2,6 +2,8 @@
 let selectedStory;
 let storyFile;
 
+new Notice("New Draft: Creates a new dashboard and copies all chapters from the selected draft.", 8000);
+
 // Try to infer story from a visible Story-tagged note in the workspace
 const leaves = app.workspace.getLeavesOfType("markdown");
 for (const leaf of leaves) {
@@ -53,7 +55,7 @@ const draftNumbers = allFolders
         return match ? parseInt(match[1]) : null;
     })
     .filter(n => n !== null)
-    .sort((a, b) => a - b);
+    .sort((a, b) => b - a);
 
 if (draftNumbers.length === 0) {
     new Notice("No drafts found. Create a chapter first.");
@@ -152,8 +154,12 @@ if (switchDraft) {
     new Notice(`Active draft switched to Draft ${newDraftNum}.`);
 }
 
-// Self-delete this temporary note
+// Navigate to the new dashboard, then self-delete
 const currentFile = tp.config.target_file;
+if (newDashFile) {
+    const leaf = app.workspace.getLeaf(false);
+    await leaf.openFile(newDashFile);
+}
 setTimeout(async () => {
     await app.vault.delete(currentFile);
 }, 500);

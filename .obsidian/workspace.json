@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "Home.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "Home"
             }
           }
         ]
@@ -104,10 +104,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "CLAUDE.md"
+                "file": "Home.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for CLAUDE"
+              "title": "File properties for Home"
             }
           },
           {
@@ -192,7 +192,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 443.5
+    "width": 443.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,43 +211,43 @@
       "version-control:Open version control": false
     }
   },
-  "active": "e25c0d95fadbc7c5",
+  "active": "db0513b4f941065d",
   "lastOpenFiles": [
-    "Notes/Plot outline for first part.md",
-    "Notes/Plot Outline for The Fellowship of the Ring.md",
-    "Home.md",
-    "Story/The Fellowship of the Ring/The Fellowship of the Ring - Draft 2.md",
-    "Templates/T_Story/Template_Compile_Manuscript.md.tmp.501747.1776386697257",
-    "Templates/T_Story/Template_Chapter.md.tmp.501747.1776386692135",
-    "Templates/T_Story/Template_Chapter.md.tmp.501747.1776386686856",
-    "Templates/T_Story/Template_Chapter.md.tmp.501747.1776386681836",
-    "Templates/T_Story/Template_Compile_Manuscript.md.tmp.501747.1776386679016",
-    "Story/The Fellowship of the Ring/The Fellowship of the Ring.md",
+    "NewWorldNote.md",
+    "NewNote.md",
+    "NewStoryNote.md",
     "Indexes/Story.md",
-    "Story/The Fellowship of the Ring/The Fellowship of the Ring-Draft 2-Manuscript.md",
-    "Story/The Fellowship of the Ring/Untitled.md",
-    "Story/The Fellowship of the Ring/Draft 2/Chapter 5 - The New Gear.md",
-    "Templates/T_Story/Template_Story.md",
-    "Templates/T_Story/Template_Compile_Manuscript.md",
-    "Templates/T_Story/Template_Chapter.md",
-    "Story/The Fellowship of the Ring/The Fellowship of the Ring-Draft 2-Manuscript.docx",
-    "Story/The Fellowship of the Ring/Draft 2/Chapter 4 - The Broken Spring.md",
-    "Story/The Fellowship of the Ring/Draft 2/Chapter 3 - The Tower's Hum.md",
-    "Story/The Fellowship of the Ring/Draft 1/Chapter 3 - The Tower's Hum.md",
-    "Story/The Fellowship of the Ring/Draft 1/Chapter 1.md",
-    "Story/The Fellowship of the Ring/Draft 1/Chapter 4 - The Broken Spring.md",
-    "Story/The Fellowship of the Ring/NewStoryNote.md",
-    "Story/The Fellowship of the Ring/Draft 2/Chapter 1.md",
-    "Story/The Fellowship of the Ring/Draft 2/Chapter 2 - The First Bloom.md",
-    "Story/The Fellowship of the Ring/Draft 2",
-    "Story/The Fellowship of the Ring/Draft 1/Chapter 5 - The New Gear.md",
-    "Story/The Fellowship of the Ring/Draft 1/Chapter 2 - The First Bloom.md",
-    "Story/The Fellowship of the Ring/Draft 1",
-    "Story/The Fellowship of the Ring",
-    "Templates/T_Story/Template_New_Draft.md",
-    "Story/Fellowhgsi/Fellowhgsi.md",
-    "Story/Fellowhgsi/NewStoryNote.md",
-    "Story/Fellowhgsi/Fellowhgsi - Draft 2.md",
-    "Story/Fellowhgsi/Draft 2"
+    "Home.md",
+    "Story/fasd/fasd - Draft 2.md",
+    "Story/fasd/NewStoryNote.md",
+    "Story/fasd/fasd.md",
+    "Story/fasd/Draft 2",
+    "Story/fasd/Draft 1",
+    "Story/fasd",
+    "Story/Fellowship/Fellowship.md",
+    "Story/Fellowship/Fellowship - Draft 4.md",
+    "Story/Fellowship/Draft 4/Chapter 10.md",
+    "Story/Fellowship/Draft 4/Chapter 9.md",
+    "Story/Fellowship/Draft 4/Chapter 8.md",
+    "Story/Fellowship/Draft 4/Chapter 7.md",
+    "Templates/T_Story/Template_Chapter.md.tmp.501747.1776389646353",
+    "Templates/T_Story/Template_Chapter.md.tmp.501747.1776389634404",
+    "Story/Fellowship/Draft 4/Chapter 6.md",
+    "Story/Fellowship/Fellowship - Draft 3.md",
+    "Story/Fellowship/Draft 4/Chapter 5.md",
+    "Templates/T_Story/Template_New_Draft.md.tmp.501747.1776389470778",
+    "Story/Fellowship/Draft 4/Chapter 4.1.md",
+    "Story/Fellowship/Draft 4/Chapter 1.md",
+    "Story/Fellowship/Draft 4/Chapter 2.md",
+    "Story/Fellowship/Draft 4/Chapter 3.md",
+    "Story/Fellowship/Draft 4/Chapter 4.md",
+    "Story/Fellowship/Draft 4",
+    "Story/Fellowship/Fellowship - Draft 2.md",
+    "Templates/T_Story/Template_New_Draft.md.tmp.501747.1776389412274",
+    "Templates/T_Story/Template_New_Draft.md.tmp.501747.1776389400484",
+    "Story/Fellowship/Draft 3/Chapter 4.md",
+    "Story/Fellowship/Draft 3/Chapter 3.md",
+    "Story/Fellowship/Draft 3/Chapter 2.md",
+    "Story/Fellowship/Draft 3"
   ]
 }

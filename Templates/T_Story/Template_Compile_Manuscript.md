@@ -13,6 +13,8 @@ const abort = async (msg) => {
 };
 
 if (hasNewStoryTitle || hasUntitledTitle) {
+    new Notice("Compile Manuscript: Creates a markdown file linking all chapters from a draft, ordered by chapter number. Exported file is saved to the story's root folder.", 8000);
+
     // Get all existing Story notes
     const storyFiles = app.vault.getFiles()
         .filter(file => {
@@ -76,6 +78,17 @@ if (hasNewStoryTitle || hasUntitledTitle) {
     if (!manuscriptTitle) { await abort("Manuscript compilation cancelled."); return; }
 
     manuscriptFileName = `${selectedStory}-Draft ${selectedDraft}-Manuscript`;
+
+    // Delete any existing manuscript before renaming to avoid conflicts
+    const existingManuscript = app.vault.getFiles().find(f =>
+        f.basename === manuscriptFileName &&
+        f.path.startsWith(`Story/${selectedStory}/`) &&
+        f !== tp.config.target_file
+    );
+    if (existingManuscript) {
+        await app.vault.delete(existingManuscript);
+    }
+
     await tp.file.rename(manuscriptFileName);
 } else {
     manuscriptFileName = tp.file.title;
@@ -94,6 +107,19 @@ if (hasNewStoryTitle || hasUntitledTitle) {
 const author = await tp.system.prompt("Author name:", "Your Name");
 const subtitle = await tp.system.prompt("Subtitle (optional):", "");
 const date = await tp.system.prompt("Date:", tp.date.now("YYYY-MM-DD"));
+
+// Select export format
+const exportFormats = [
+    { label: "Word Document (docx)", id: "docx" },
+    { label: "OpenDocument (odt)", id: "odt" },
+    { label: "ePub", id: "epub" },
+    { label: "HTML", id: "html" },
+    { label: "Skip export", id: null },
+];
+const formatLabels = exportFormats.map(f => f.label);
+const formatIds = exportFormats.map(f => f.id);
+const selectedFormat = await tp.system.suggester(formatLabels, formatIds, false, "Export format?");
+// null from "Skip export" or undefined from cancellation — both just skip
 
 // Get all chapter files for this story + draft
 const draftPath = `Story/${selectedStory}/Draft ${selectedDraft}`;
@@ -126,12 +152,8 @@ chapterFiles.sort((a, b) => {
     return 0;
 });
 
-// Move file to Story folder, overwriting any existing manuscript
+// Move file to Story folder
 const targetFolder = `Story/${selectedStory}`;
-const existingManuscript = app.vault.getFileByPath(`${targetFolder}/${manuscriptFileName}.md`);
-if (existingManuscript) {
-    await app.vault.delete(existingManuscript);
-}
 await tp.file.move(`${targetFolder}/${manuscriptFileName}`);
 
 // Group chapters by integer part and build embeds with chapter headings
@@ -155,10 +177,16 @@ for (const file of chapterFiles) {
 const embeds = embedSections.join('\n\n');
 
 new Notice(`Manuscript compiled: ${chapterFiles.length} chapters from Draft ${selectedDraft}`);
+
+// Auto-execute Pandoc export after Templater finishes rendering
+if (selectedFormat) {
+    setTimeout(() => {
+        app.commands.executeCommandById(`obsidian-pandoc:pandoc-export-${selectedFormat}`);
+    }, 1000);
+}
 _%>---
 title: <% manuscriptTitle %>
 author: <% author %><% subtitle ? `\nsubtitle: ${subtitle}` : '' %>
 date: <% date %>
 ---
-<!-- `CTRL+P`, search "Pandoc" and export to your format of choice. -->
 <% embeds %>

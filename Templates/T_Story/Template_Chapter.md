@@ -14,7 +14,8 @@ const abort = async (msg) => {
 };
 
 if (hasNewStoryTitle || hasUntitledTitle) {
-    // Try to infer story from a visible Story-tagged note in the workspace
+    // Try to infer story + draft from a visible Story-tagged note in the workspace
+    let inferredFromDashboard = false;
     const leaves = app.workspace.getLeavesOfType("markdown");
     for (const leaf of leaves) {
         const file = leaf.view?.file;
@@ -23,6 +24,7 @@ if (hasNewStoryTitle || hasUntitledTitle) {
             if (cache?.frontmatter?.tags?.includes("Story") && cache?.frontmatter?.story_title) {
                 selectedStory = cache.frontmatter.story_title;
                 selectedDraft = cache.frontmatter.draft || 1;
+                inferredFromDashboard = true;
                 break;
             }
         }
@@ -59,28 +61,28 @@ if (hasNewStoryTitle || hasUntitledTitle) {
         }
     }
 
-    // Discover available drafts for this story
-    const storyPath = `Story/${selectedStory}`;
-    const allFolders = app.vault.getAllFolders();
-    const draftFolders = allFolders
-        .filter(f => f.path.startsWith(storyPath + "/Draft "))
-        .map(f => {
-            const match = f.path.match(/Draft (\d+)$/);
-            return match ? parseInt(match[1]) : null;
-        })
-        .filter(n => n !== null)
-        .sort((a, b) => a - b);
+    // Only prompt for draft selection if not inferred from an open dashboard
+    if (!inferredFromDashboard) {
+        const storyPath = `Story/${selectedStory}`;
+        const allFolders = app.vault.getAllFolders();
+        const draftFolders = allFolders
+            .filter(f => f.path.startsWith(storyPath + "/Draft "))
+            .map(f => {
+                const match = f.path.match(/Draft (\d+)$/);
+                return match ? parseInt(match[1]) : null;
+            })
+            .filter(n => n !== null)
+            .sort((a, b) => b - a);
 
-    if (draftFolders.length > 1) {
-        // Multiple drafts exist — offer selection, default to active_draft
-        const draftLabels = draftFolders.map(n => `Draft ${n}${n === selectedDraft ? " (active)" : ""}`);
-        const chosen = await tp.system.suggester(draftLabels, draftFolders);
-        if (chosen === null || chosen === undefined) { await abort("Draft selection cancelled."); return; }
-        selectedDraft = chosen;
-    } else if (draftFolders.length === 1) {
-        selectedDraft = draftFolders[0];
+        if (draftFolders.length > 1) {
+            const draftLabels = draftFolders.map(n => `Draft ${n}${n === selectedDraft ? " (active)" : ""}`);
+            const chosen = await tp.system.suggester(draftLabels, draftFolders);
+            if (chosen === null || chosen === undefined) { await abort("Draft selection cancelled."); return; }
+            selectedDraft = chosen;
+        } else if (draftFolders.length === 1) {
+            selectedDraft = draftFolders[0];
+        }
     }
-    // If no draft folders exist yet, keep selectedDraft as-is (defaults to 1)
 } else {
     title = tp.file.title;
 }
