@@ -55,7 +55,7 @@ if (hasNewStoryTitle || hasUntitledTitle) {
             return match ? parseInt(match[1]) : null;
         })
         .filter(n => n !== null)
-        .sort((a, b) => a - b);
+        .sort((a, b) => b - a);
 
     if (draftNumbers.length === 0) {
         await abort("No drafts found. Create a chapter first.");
@@ -126,8 +126,12 @@ chapterFiles.sort((a, b) => {
     return 0;
 });
 
-// Move file to Story folder
+// Move file to Story folder, overwriting any existing manuscript
 const targetFolder = `Story/${selectedStory}`;
+const existingManuscript = app.vault.getFileByPath(`${targetFolder}/${manuscriptFileName}.md`);
+if (existingManuscript) {
+    await app.vault.delete(existingManuscript);
+}
 await tp.file.move(`${targetFolder}/${manuscriptFileName}`);
 
 // Group chapters by integer part and build embeds with chapter headings

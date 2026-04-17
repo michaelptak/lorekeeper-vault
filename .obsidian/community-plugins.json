@@ -14,5 +14,6 @@
   "obsidian-pandoc",
   "dataview",
   "languagetool",
-  "obsidian-focus-mode"
+  "obsidian-focus-mode",
+  "version-control"
 ]

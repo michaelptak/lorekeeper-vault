@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
     },
     {
       "basename": "Story",
       "path": "Indexes/Story.md"
+    },
+    {
+      "basename": "Template_Story",
+      "path": "Templates/T_Story/Template_Story.md"
+    },
+    {
+      "basename": "Template_Compile_Manuscript",
+      "path": "Templates/T_Story/Template_Compile_Manuscript.md"
+    },
+    {
+      "basename": "Template_Chapter",
+      "path": "Templates/T_Story/Template_Chapter.md"
+    },
+    {
+      "basename": "Template_New_Draft",
+      "path": "Templates/T_Story/Template_New_Draft.md"
     },
     {
       "basename": "Button_Story_Selector",
@@ -19,10 +39,6 @@
     {
       "basename": "Button_World_Selector",
       "path": "Templates/z_Scripts/Button_World_Selector.md"
-    },
-    {
-      "basename": "Researching bilbom",
-      "path": "Notes/Researching bilbom.md"
     },
     {
       "basename": "Template_Notes_Blank",
@@ -49,14 +65,6 @@
       "path": "Templates/T_Notes/Template_Notes_Reference.md"
     },
     {
-      "basename": "Plot outline for first part",
-      "path": "Notes/Plot outline for first part.md"
-    },
-    {
-      "basename": "Template_Story",
-      "path": "Templates/T_Story/Template_Story.md"
-    },
-    {
       "basename": "Button_Notes_Selector",
       "path": "Templates/z_Scripts/Button_Notes_Selector.md"
     },
@@ -67,14 +75,6 @@
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "Template_Compile_Manuscript",
-      "path": "Templates/T_Story/Template_Compile_Manuscript.md"
-    },
-    {
-      "basename": "CLAUDE",
-      "path": "CLAUDE.md"
     },
     {
       "basename": "Lore",

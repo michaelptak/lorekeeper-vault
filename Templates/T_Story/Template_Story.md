@@ -114,9 +114,11 @@ views:
       - pov
       - related
       - involves_world
+      - chapter_outline
     sort:
       - property: chapter-number
         direction: ASC
+
 ```
 
 ## Related Notes
@@ -138,7 +140,7 @@ views:
       - property: note_purpose
         direction: ASC
     columnSize:
-      note.note_purpose: 120
+      note.note_purpose: 159
       note.status: 100
 
 ```

@@ -14,9 +14,6 @@ const abort = async (msg) => {
 };
 
 if (hasNewStoryTitle || hasUntitledTitle) {
-    title = await tp.system.prompt("Enter Chapter Name");
-    if (!title) { await abort("Chapter creation cancelled."); return; }
-
     // Try to infer story from a visible Story-tagged note in the workspace
     const leaves = app.workspace.getLeavesOfType("markdown");
     for (const leaf of leaves) {
@@ -84,8 +81,6 @@ if (hasNewStoryTitle || hasUntitledTitle) {
         selectedDraft = draftFolders[0];
     }
     // If no draft folders exist yet, keep selectedDraft as-is (defaults to 1)
-
-    await tp.file.rename(title);
 } else {
     title = tp.file.title;
 }
@@ -109,6 +104,12 @@ for (const f of draftFiles) {
     }
 }
 const chapterNumber = nextChapter;
+
+// Auto-generate title from chapter number if creating new
+if (hasNewStoryTitle || hasUntitledTitle) {
+    title = `Chapter ${chapterNumber}`;
+    await tp.file.rename(title);
+}
 
 // Toggle focus mode if not already active
 if (!document.body.classList.contains("focus-mode")) {
