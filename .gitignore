@@ -1,6 +1,10 @@
 # Personal vault tracking note 
 lorekeeper_meta.md
 
+# Plugins
+.keep-the-rhythm/
+.versiondb/
+
 # Automation Scripts / AI 
 /*.py 
 /*.sh
