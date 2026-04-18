@@ -16,71 +16,71 @@ cssclasses:
 > ![[card-story.jpeg]]
 > **[[Story]]**
 >
-> ![[card-notes.jpg]]
+> ![[card-notes.jpeg]]
 > **[[Notes]]**
 
 > [!lk-cards|2]
 > ![[card-inprogress.jpeg]]
 > **[[InProgress|In Progress]]**
 >
-> ![[card-map.jpg]]
+> ![[card-map.jpeg]]
 > **[[ExampleMap|Map]]**
 
 ## World
 
 > [!lk-cards|4]
-> ![[card-characters.jpg]]
-> **[[Character|Character]]**
+> ![[card-characters.jpeg]]
+> **[[Character]]**
 >
-> ![[card-ancestry.jpg]]
-> **[[Ancestry|Ancestry]]**
+> ![[card-ancestry.jpeg]]
+> **[[Ancestry]]**
 >
-> ![[card-organization.jpg]]
-> **[[Organization|Organization]]**
+> ![[card-organization.jpeg]]
+> **[[Organization]]**
 >
 > ![[card-art.jpeg]]
-> **[[Art|Art]]**
+> **[[Art]]**
 >
 > ![[card-settlement.jpeg]]
-> **[[Settlement|Settlement]]**
+> **[[Settlement]]**
 >
-> ![[card-geography.jpg]]
+> ![[card-geography.jpeg]]
 > **[[Geography]]**
 >
-> ![[card-poi.jpg]]
+> ![[card-poi.jpeg]]
 > **[[POI|POI]]**
 >
-> ![[card-history.jpg]]
-> **[[History|History]]**
+> ![[card-history.jpeg]]
+> **[[History]]**
 >
 > ![[card-country.jpeg]]
 > **[[Country]]**
 >
-> ![[card-lore.jpg]]
-> **[[Lore|Lore]]**
+> ![[card-lore.jpeg]]
+> **[[Lore]]**
 >
 > ![[card-religion.jpeg]]
-> **[[Religion|Religion]]**
+> **[[Religion]]**
 >
-> ![[card-concept.jpg]]
+> ![[card-concept.jpeg]]
 > **[[Concept]]**
 >
 > ![[card-magic.jpeg]]
-> **[[Magic|Magic]]**
+> **[[Magic]]**
 >
-> ![[card-object.jpg]]
+> ![[card-object.jpeg]]
 > **[[Object]]**
 >
-> ![[card-creature.jpeg]]
+> ![[card-nature.jpeg]]
 > **[[Nature]]**
 >
-> ![[card-technology.jpg]]
-> **[[Technology|Technology]]**
+> ![[card-technology.jpeg]]
+> **[[Technology]]**
 >
 > ![[card-language.jpeg]]
-> **[[Language|Language]]**
+> **[[Language]]**
 >
-> ![[card-condition.jpg]]
+> ![[card-misc.jpeg]]
 > **[[Misc]]**
 
 ## Recent

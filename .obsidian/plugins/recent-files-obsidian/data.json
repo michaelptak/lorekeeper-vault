@@ -1,128 +1,132 @@
 {
   "recentFiles": [
     {
+      "basename": "Story",
+      "path": "Indexes/Story.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
-    },
-    {
-      "basename": "Magic",
-      "path": "Indexes/Magic.md"
-    },
-    {
-      "basename": "CLAUDE",
-      "path": "CLAUDE.md"
-    },
-    {
-      "basename": "card-settlement",
-      "path": "Assets/Cards/card-settlement.jpeg"
-    },
-    {
-      "basename": "card-lore",
-      "path": "Assets/Cards/card-lore.jpg"
-    },
-    {
-      "basename": "card-object",
-      "path": "Assets/Cards/card-object.jpg"
-    },
-    {
-      "basename": "card-inprogress",
-      "path": "Assets/Cards/card-inprogress.jpeg"
-    },
-    {
-      "basename": "card-language",
-      "path": "Assets/Cards/card-language.jpeg"
-    },
-    {
-      "basename": "skull_and_quill",
-      "path": "Assets/Cards/skull_and_quill.jpeg"
-    },
-    {
-      "basename": "card-technology",
-      "path": "Assets/Cards/card-technology.jpg"
-    },
-    {
-      "basename": "card-story",
-      "path": "Assets/Cards/card-story.jpeg"
-    },
-    {
-      "basename": "card-religion",
-      "path": "Assets/Cards/card-religion.jpeg"
-    },
-    {
-      "basename": "card-politics",
-      "path": "Assets/Cards/card-politics.jpg"
-    },
-    {
-      "basename": "card-poi",
-      "path": "Assets/Cards/card-poi.jpg"
-    },
-    {
-      "basename": "card-organization",
-      "path": "Assets/Cards/card-organization.jpg"
-    },
-    {
-      "basename": "card-notes",
-      "path": "Assets/Cards/card-notes.jpg"
-    },
-    {
-      "basename": "card-history",
-      "path": "Assets/Cards/card-history.jpg"
-    },
-    {
-      "basename": "card-geography",
-      "path": "Assets/Cards/card-geography.jpg"
-    },
-    {
-      "basename": "card-economy",
-      "path": "Assets/Cards/card-economy.jpg"
-    },
-    {
-      "basename": "card-creature",
-      "path": "Assets/Cards/card-creature.jpeg"
     },
     {
       "basename": "card-country",
       "path": "Assets/Cards/card-country.jpeg"
     },
     {
-      "basename": "card-cosmos",
-      "path": "Assets/Cards/card-cosmos.jpeg"
+      "basename": "card-history",
+      "path": "Assets/Cards/card-history.jpeg"
     },
     {
-      "basename": "card-condition",
-      "path": "Assets/Cards/card-condition.jpg"
+      "basename": "card-religion",
+      "path": "Assets/Cards/card-religion.jpeg"
     },
     {
-      "basename": "card-concept",
-      "path": "Assets/Cards/card-concept.jpg"
+      "basename": "Organization",
+      "path": "Indexes/Organization.md"
     },
     {
       "basename": "card-art",
       "path": "Assets/Cards/card-art.jpeg"
     },
     {
-      "basename": "card-ancestry",
-      "path": "Assets/Cards/card-ancestry.jpg"
+      "basename": "Nature",
+      "path": "Indexes/Nature.md"
+    },
+    {
+      "basename": "card-magic",
+      "path": "Assets/Cards/card-magic.jpeg"
+    },
+    {
+      "basename": "card-map",
+      "path": "Assets/Cards/card-map.jpeg"
+    },
+    {
+      "basename": "card-language",
+      "path": "Assets/Cards/card-language.jpeg"
+    },
+    {
+      "basename": "card-misc",
+      "path": "Assets/Cards/card-misc.jpeg"
+    },
+    {
+      "basename": "card-lore",
+      "path": "Assets/Cards/card-lore.jpeg"
+    },
+    {
+      "basename": "card-concept",
+      "path": "Assets/Cards/card-concept.jpeg"
+    },
+    {
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
     },
     {
       "basename": "card-characters",
-      "path": "Assets/Cards/card-characters.jpg"
+      "path": "Assets/Cards/card-characters.jpeg"
+    },
+    {
+      "basename": "card-geography",
+      "path": "Assets/Cards/card-geography.jpeg"
+    },
+    {
+      "basename": "card-inprogress",
+      "path": "Assets/Cards/card-inprogress.jpeg"
+    },
+    {
+      "basename": "card-notes",
+      "path": "Assets/Cards/card-notes.jpeg"
+    },
+    {
+      "basename": "card-object",
+      "path": "Assets/Cards/card-object.jpeg"
+    },
+    {
+      "basename": "card-poi",
+      "path": "Assets/Cards/card-poi.jpeg"
+    },
+    {
+      "basename": "card-settlement",
+      "path": "Assets/Cards/card-settlement.jpeg"
+    },
+    {
+      "basename": "card-story",
+      "path": "Assets/Cards/card-story.jpeg"
+    },
+    {
+      "basename": "card-technology",
+      "path": "Assets/Cards/card-technology.jpeg"
+    },
+    {
+      "basename": "Technology",
+      "path": "Indexes/Technology.md"
+    },
+    {
+      "basename": "ExampleMap",
+      "path": "Assets/Maps/ExampleMap.md"
+    },
+    {
+      "basename": "Master Tags List",
+      "path": "Notes/Documentation/Master Tags List.md"
+    },
+    {
+      "basename": "Documentation",
+      "path": "Indexes/Documentation.md"
+    },
+    {
+      "basename": "lorekeeper_meta",
+      "path": "lorekeeper_meta.md"
+    },
+    {
+      "basename": "Magic",
+      "path": "Indexes/Magic.md"
     },
     {
       "basename": "InProgress",
       "path": "Indexes/InProgress.md"
     },
     {
-      "basename": "Story",
-      "path": "Indexes/Story.md"
-    },
-    {
       "basename": "Images",
       "path": "Indexes/Images.md"
-    },
-    {
-      "basename": "lorekeeper_meta",
-      "path": "lorekeeper_meta.md"
     },
     {
       "basename": "Excalidraw",
@@ -131,10 +135,6 @@
     {
       "basename": "Notes",
       "path": "Indexes/Notes.md"
-    },
-    {
-      "basename": "Documentation",
-      "path": "Indexes/Documentation.md"
     },
     {
       "basename": "Quality Control Dashboard",
@@ -147,10 +147,6 @@
     {
       "basename": "Object",
       "path": "Indexes/Object.md"
-    },
-    {
-      "basename": "ExampleMap",
-      "path": "Assets/Maps/ExampleMap.md"
     },
     {
       "basename": "Template_Story",
@@ -183,14 +179,6 @@
     {
       "basename": "Template_Notes_Blank",
       "path": "Templates/T_Notes/Template_Notes_Blank.md"
-    },
-    {
-      "basename": "Template_Notes_Brainstorm",
-      "path": "Templates/T_Notes/Template_Notes_Brainstorm.md"
-    },
-    {
-      "basename": "Template_Notes_Documentation",
-      "path": "Templates/T_Notes/Template_Notes_Documentation.md"
     }
   ],
   "omittedPaths": [],

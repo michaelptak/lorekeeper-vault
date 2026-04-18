@@ -8,20 +8,45 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "d2ab2b4f3e467a57",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Assets/Cards/card-language.jpeg"
+              },
+              "icon": "lucide-image",
+              "title": "card-language"
+            }
+          },
+          {
+            "id": "e25604435ce5c299",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Assets/Cards/card-country.jpeg"
+              },
+              "icon": "lucide-image",
+              "title": "card-country"
+            }
+          },
+          {
+            "id": "c647b1b2d1dbe9b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Indexes/Story.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Story"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -104,10 +129,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home.md"
+                "file": "Indexes/Story.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Home"
+              "title": "File properties for Story"
             }
           },
           {
@@ -211,23 +236,39 @@
       "version-control:Open version control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "c647b1b2d1dbe9b5",
   "lastOpenFiles": [
-    "Indexes/Magic.md",
     "Home.md",
-    "CLAUDE.md",
-    "Assets/Cards/card-map.jpg",
-    "Assets/Cards/world_map.jpg",
-    "Assets/Cards/card-settlement.jpeg",
-    "Assets/Cards/card-magic.tmp.jpeg",
+    "Assets/Cards/card-country.jpeg",
+    "Assets/Cards/card-history.jpeg",
+    "Assets/Cards/card-religion.jpeg",
+    "Indexes/Organization.md",
+    "Assets/Cards/card-organization.jpeg",
+    "Assets/Cards/card-art.jpeg",
+    "Assets/Cards/card-art.jpeg",
+    "Assets/Cards/card-ancestry.jpeg",
+    "Indexes/Nature.md",
     "Assets/Cards/card-magic.jpeg",
-    "Assets/Cards/card-lore.jpg",
-    "Assets/Cards/card-object.jpg",
-    "Assets/Cards/card-inprogress.jpeg",
-    "Assets/Cards/card-language.jpeg",
-    "Assets/Cards/skull_and_quill.jpeg",
-    "Indexes/InProgress.md",
+    "Assets/Cards/card-magic.jpeg",
+    "Assets/Cards/card-map.jpeg",
+    "CLAUDE.md",
+    "Indexes/Technology.md",
+    "Assets/Maps/ExampleMap.md",
+    "Notes/Documentation/Master Tags List.md",
+    "Indexes/Documentation.md",
     "Indexes/Story.md",
+    "Story/Test Story/Test Story.md",
+    "lorekeeper_meta.md",
+    "Story/Test Story/Draft 1/Chapter 2.md",
+    "Story/Test Story/Draft 1/Chapter 1.md",
+    "README.md",
+    "Home.md~",
+    "World/Nature/TRest.md",
+    "World/Nature",
+    "Story/Test Story/Draft 1",
+    "Story/Test Story",
+    "Indexes/Magic.md",
+    "Indexes/InProgress.md",
     "lorekeeper_meta.md~",
     "Templates/T_Story/Template_Compile_Manuscript.md.tmp.501747.1776391795983",
     "Templates/T_Story/Template_Compile_Manuscript.md.tmp.501747.1776391788498",
@@ -240,23 +281,7 @@
     "Story/test/Draft 1/Chapter 3.md",
     "Story/test/Draft 1/Chapter 2.md",
     "Story/test/Draft 1/Chapter 1.md",
-    "Templates/T_Story/Template_Compile_Manuscript.md.tmp.501747.1776391451118",
-    "Assets/reference.odt",
     "Indexes/Images.md",
-    "Assets/reference.docx",
-    "lorekeeper_meta.md",
-    "Story/test/Draft 1",
-    "Indexes/Excalidraw.md",
-    "Indexes/Notes.md",
-    "Indexes/Documentation.md",
-    "Notes/Documentation/Quality Control Dashboard.md",
-    "Indexes/Misc.md",
-    "Indexes/Object.md",
-    "Assets/Maps/ExampleMap.md",
-    "NewWorldNote.md",
-    "NewNote.md",
-    "NewStoryNote.md",
-    "Story/fasd/fasd - Draft 2.md",
-    "Story/fasd/NewStoryNote.md"
+    "Indexes/Excalidraw.md"
   ]
 }

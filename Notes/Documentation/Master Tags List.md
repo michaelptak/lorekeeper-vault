@@ -11,13 +11,13 @@ priority:
 > 
 > [[#Story]] ([[#Plot]] · [[#Scene]])
 > 
-> **Core Worldbuilding:** [[#Concept]] | [[#History]] | [[#Timeline]] | [[#Lore]]
+> **Core Worldbuilding:** [[#Concept]] | [[#History]] | [[#Lore]]
 > 
 > **Physical World:** [[#Nature]] | [[#Geography]] | [[#POI]] | [[#Settlement]]
 > 
 > **People & Society:** [[#Ancestry]] | [[#Character]] | [[#Art]]
 >
-> **Systems & Institutions:** [[#Country]] | [[#Language]] | [[#Organization]] | [[#Religion]]
+> **Systems & Institutions:** [[#Country]] | [[#Organization]] | [[#Religion]]
 >
 > **Supernatural & Material:** [[#Magic]] | [[#Object]] | [[#Technology]]
 >

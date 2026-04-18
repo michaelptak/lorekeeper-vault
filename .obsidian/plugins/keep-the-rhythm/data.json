@@ -68,6 +68,111 @@
     "highestStreakStartDate": "",
     "highestStreakEndDate": "",
     "daysWithCompletedGoal": [],
-    "dailyActivity": []
+    "dailyActivity": [
+      {
+        "date": "2026-04-17",
+        "filePath": "Story/Test Story/Test Story.md",
+        "wordCountStart": 320,
+        "charCountStart": 3147,
+        "changes": [
+          {
+            "timeKey": "16:10",
+            "w": -320,
+            "c": -3147
+          }
+        ],
+        "id": 57
+      },
+      {
+        "date": "2026-04-17",
+        "filePath": "Story/Test Story/Draft 1/Chapter 1.md",
+        "wordCountStart": 19,
+        "charCountStart": 181,
+        "changes": [
+          {
+            "timeKey": "15:55",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "16:00",
+            "w": 14,
+            "c": 340
+          },
+          {
+            "timeKey": "16:10",
+            "w": -33,
+            "c": -521
+          }
+        ],
+        "id": 58
+      },
+      {
+        "date": "2026-04-17",
+        "filePath": "Home.md",
+        "wordCountStart": 579,
+        "charCountStart": 5176,
+        "changes": [
+          {
+            "timeKey": "16:00",
+            "w": -25,
+            "c": -161
+          }
+        ],
+        "id": 59
+      },
+      {
+        "date": "2026-04-17",
+        "filePath": "Indexes/Story.md",
+        "wordCountStart": 56,
+        "charCountStart": 553,
+        "changes": [],
+        "id": 60
+      },
+      {
+        "date": "2026-04-17",
+        "filePath": "World/Nature/TRest.md",
+        "wordCountStart": 157,
+        "charCountStart": 1525,
+        "changes": [
+          {
+            "timeKey": "16:10",
+            "w": -157,
+            "c": -1525
+          }
+        ],
+        "id": 61
+      },
+      {
+        "date": "2026-04-17",
+        "filePath": "README.md",
+        "wordCountStart": 1305,
+        "charCountStart": 8578,
+        "changes": [],
+        "id": 62
+      },
+      {
+        "date": "2026-04-17",
+        "filePath": "Story/Test Story/Draft 1/Chapter 2.md",
+        "wordCountStart": 19,
+        "charCountStart": 181,
+        "changes": [
+          {
+            "timeKey": "16:10",
+            "w": -19,
+            "c": -181
+          }
+        ],
+        "id": 63
+      },
+      {
+        "date": "2026-04-17",
+        "filePath": "lorekeeper_meta.md",
+        "wordCountStart": 1093,
+        "charCountStart": 7810,
+        "changes": [],
+        "id": 64
+      }
+    ]
   }
 }
