@@ -1,5 +1,0 @@
-/* Limits the size of an embedded note to 500px */
-
-.markdown-embed * {
-    max-height: 500px;
-}

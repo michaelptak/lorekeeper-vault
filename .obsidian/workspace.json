@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "New_Dash.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "New_Dash"
             }
           }
         ]
@@ -104,10 +104,20 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home.md"
+                "file": "New_Dash.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Home"
+              "title": "File properties for New_Dash"
+            }
+          },
+          {
+            "id": "46a620fc9e8b35bb",
+            "type": "leaf",
+            "state": {
+              "type": "keep-the-rhythm",
+              "state": {},
+              "icon": "calendar-days",
+              "title": "Keep the Rhythm"
             }
           },
           {
@@ -116,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "New_Dash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Home"
+              "title": "Backlinks for New_Dash"
             }
           },
           {
@@ -187,12 +197,11 @@
               "title": "Outline of Home"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 443.5,
+    "width": 436.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -208,14 +217,41 @@
       "templater-obsidian:Templater": false,
       "homepage:Open homepage": false,
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
-      "version-control:Open version control": false
+      "version-control:Open version control": false,
+      "keep-the-rhythm:Word Count Stats": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "README.md",
     "Home.md",
+    "CLAUDE.md",
+    "New_Dash.md",
+    "New_Dash.md.tmp.761838.1777086546700",
+    "Story/Test/Draft 1/Chapter 1.md",
+    "New_Dash.md.tmp.761838.1777086115427",
+    "New_Dash.md.tmp.761838.1777085761625",
+    "Story/Test/Test.md",
+    "Story/Test/Draft 1",
+    "Story/Test",
+    "lorekeeper_meta.md",
+    "New_Dash.md.tmp.761838.1777083538042",
+    "Templates/T_Story/Template_Story.md.tmp.761838.1777083145545",
     "lorekeeper_meta.md~",
+    "Story/Ttest/Ttest.md",
+    "Story/Ttest/Draft 1",
+    "Story/Ttest",
+    "Story/Fellowship/Fellowship.md",
+    "World/Technology/Tech.md",
+    "Indexes/Lore.md",
+    "Indexes/Notes.md",
+    "Assets/Maps/ExampleMap.md",
+    "Indexes/InProgress.md",
     "Indexes/Story.md",
+    "Story/Fellowship/Draft 1/Chapter 1.md",
+    "Indexes/Character.md",
+    "Indexes/Documentation.md",
+    "Notes/Documentation/Master Tags List.md",
     "Assets/Cards/card-country.jpeg",
     "Assets/Cards/card-history.jpeg",
     "Assets/Cards/card-religion.jpeg",
@@ -228,35 +264,9 @@
     "Assets/Cards/card-magic.jpeg",
     "Assets/Cards/card-magic.jpeg",
     "Assets/Cards/card-map.jpeg",
-    "CLAUDE.md",
     "Indexes/Technology.md",
-    "Assets/Maps/ExampleMap.md",
-    "Notes/Documentation/Master Tags List.md",
-    "Indexes/Documentation.md",
     "Story/Test Story/Test Story.md",
-    "lorekeeper_meta.md",
     "Story/Test Story/Draft 1/Chapter 2.md",
-    "Story/Test Story/Draft 1/Chapter 1.md",
-    "README.md",
-    "Home.md~",
-    "World/Nature/TRest.md",
-    "World/Nature",
-    "Story/Test Story/Draft 1",
-    "Story/Test Story",
-    "Indexes/Magic.md",
-    "Indexes/InProgress.md",
-    "Templates/T_Story/Template_Compile_Manuscript.md.tmp.501747.1776391795983",
-    "Templates/T_Story/Template_Compile_Manuscript.md.tmp.501747.1776391788498",
-    "Story/test/test-Draft 1-Manuscript.md",
-    "Story/test/test-Draft 1-Manuscript.docx",
-    "Story/test/test.md",
-    "Templates/T_Story/Template_Compile_Manuscript.md.tmp.501747.1776391680151",
-    "Story/test/test-Draft 1-Manuscript.odt",
-    "Story/test/Draft 1/Chapter 4.md",
-    "Story/test/Draft 1/Chapter 3.md",
-    "Story/test/Draft 1/Chapter 2.md",
-    "Story/test/Draft 1/Chapter 1.md",
-    "Indexes/Images.md",
-    "Indexes/Excalidraw.md"
+    "Story/Test Story/Draft 1/Chapter 1.md"
   ]
 }

@@ -38,10 +38,10 @@
   "Assets": "🖼",
   "Drawings": "LiExcalidrawIcon",
   "Story": "LiScrollText",
-  "Home.md": "LiHomepage",
   "Notes": "LiNotebook",
   "Archive": "LiArchive",
   "Indexes": "LiDatabase",
   "Templates/Metadata": "LiBookTemplate",
-  "World": "LiEarth"
+  "World": "LiEarth",
+  "Home.md": "LiHomepage"
 }

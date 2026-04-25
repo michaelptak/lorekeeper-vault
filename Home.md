@@ -6,7 +6,6 @@ cssclasses:
 
 > [!lk-hero]
 > # Your World Name
-> *Chronicle your creation*
 
 > [!lk-actions]
 > `BUTTON[WorldNoteSelector]` `BUTTON[NotesNoteSelector]`  `BUTTON[StoryNoteSelector]`  `BUTTON[StoryNotesSelector]` 

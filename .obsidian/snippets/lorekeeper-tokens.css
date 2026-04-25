@@ -198,8 +198,7 @@ settings:
      --lk-color-accent-rgb (triplet) is for rgba() transparency.
      To change accent: update both, or just the hex via Style Settings.
   */
-  --lk-color-accent: #7c8a97;
-  --lk-color-accent-rgb: 124, 138, 151;
+  --lk-color-accent: var(--interactive-accent);
 
   /* --- Text Colors ---
      Inherit from the active theme where possible.

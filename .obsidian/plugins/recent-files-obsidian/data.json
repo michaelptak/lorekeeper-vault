@@ -1,12 +1,56 @@
 {
   "recentFiles": [
     {
+      "basename": "New_Dash",
+      "path": "New_Dash.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
     },
     {
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
+    },
+    {
+      "basename": "lorekeeper_meta",
+      "path": "lorekeeper_meta.md"
+    },
+    {
+      "basename": "Lore",
+      "path": "Indexes/Lore.md"
+    },
+    {
+      "basename": "Notes",
+      "path": "Indexes/Notes.md"
+    },
+    {
+      "basename": "ExampleMap",
+      "path": "Assets/Maps/ExampleMap.md"
+    },
+    {
+      "basename": "InProgress",
+      "path": "Indexes/InProgress.md"
+    },
+    {
       "basename": "Story",
       "path": "Indexes/Story.md"
+    },
+    {
+      "basename": "Character",
+      "path": "Indexes/Character.md"
+    },
+    {
+      "basename": "Documentation",
+      "path": "Indexes/Documentation.md"
+    },
+    {
+      "basename": "Master Tags List",
+      "path": "Notes/Documentation/Master Tags List.md"
     },
     {
       "basename": "card-country",
@@ -57,10 +101,6 @@
       "path": "Assets/Cards/card-concept.jpeg"
     },
     {
-      "basename": "CLAUDE",
-      "path": "CLAUDE.md"
-    },
-    {
       "basename": "card-characters",
       "path": "Assets/Cards/card-characters.jpeg"
     },
@@ -101,28 +141,8 @@
       "path": "Indexes/Technology.md"
     },
     {
-      "basename": "ExampleMap",
-      "path": "Assets/Maps/ExampleMap.md"
-    },
-    {
-      "basename": "Master Tags List",
-      "path": "Notes/Documentation/Master Tags List.md"
-    },
-    {
-      "basename": "Documentation",
-      "path": "Indexes/Documentation.md"
-    },
-    {
-      "basename": "lorekeeper_meta",
-      "path": "lorekeeper_meta.md"
-    },
-    {
       "basename": "Magic",
       "path": "Indexes/Magic.md"
-    },
-    {
-      "basename": "InProgress",
-      "path": "Indexes/InProgress.md"
     },
     {
       "basename": "Images",
@@ -131,10 +151,6 @@
     {
       "basename": "Excalidraw",
       "path": "Indexes/Excalidraw.md"
-    },
-    {
-      "basename": "Notes",
-      "path": "Indexes/Notes.md"
     },
     {
       "basename": "Quality Control Dashboard",
@@ -171,14 +187,6 @@
     {
       "basename": "Button_Story_Notes_Selector",
       "path": "Templates/z_Scripts/Button_Story_Notes_Selector.md"
-    },
-    {
-      "basename": "Button_World_Selector",
-      "path": "Templates/z_Scripts/Button_World_Selector.md"
-    },
-    {
-      "basename": "Template_Notes_Blank",
-      "path": "Templates/T_Notes/Template_Notes_Blank.md"
     }
   ],
   "omittedPaths": [],

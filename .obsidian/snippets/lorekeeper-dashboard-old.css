@@ -1,0 +1,381 @@
+/* ============================================================
+   Lorekeeper Dashboard
+   ============================================================
+   Layout and styling for dashboard pages (worldbuilding,
+   story, etc). Activated via cssclasses: lk-dashboard
+
+   Dashboard-specific callouts:
+     [!lk-hero]       — page hero / title banner
+     [!lk-highlight]  — accent-bordered highlight bar
+     [!lk-info]       — multi-column info section
+     [!lk-col]        — column within [!lk-info]
+     [!lk-links]      — styled link list
+
+   Card grids use [!lk-cards] from lorekeeper-callouts.css.
+
+   Fonts: Inter (body) and Crimson Pro (display) should be
+   installed locally or loaded via your base theme.
+
+   Variables: references --lk-* from lorekeeper-tokens.css
+   with inline fallbacks for standalone use.
+   ============================================================ */
+
+
+/* ------------------------------------------------------------
+   Activation & Base Layout
+   ------------------------------------------------------------ */
+.lk-dashboard .markdown-preview-sizer,
+.lk-dashboard.is-readable-line-width .markdown-preview-sizer {
+  max-width: var(--lk-content-max-width, 1200px);
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: var(--lk-font-body, var(--font-text, sans-serif));
+}
+
+.lk-dashboard .inline-title,
+.lk-dashboard .metadata-container,
+.lk-dashboard .frontmatter-container {
+  display: none;
+}
+
+.lk-dashboard hr {
+  border: none;
+  margin: 12px 0;
+}
+
+
+/* ------------------------------------------------------------
+   Shared Callout Reset — dashboard-scoped lk-* callouts
+   Strips default callout chrome so each type starts clean.
+   ------------------------------------------------------------ */
+.lk-dashboard .callout[data-callout="lk-hero"],
+.lk-dashboard .callout[data-callout="lk-highlight"],
+.lk-dashboard .callout[data-callout="lk-info"],
+.lk-dashboard .callout[data-callout="lk-col"],
+.lk-dashboard .callout[data-callout="lk-links"] {
+  --callout-color: 0, 0, 0;
+  background: none;
+  border: none;
+  padding: 0;
+  mix-blend-mode: normal;
+  margin: 0;
+}
+
+.lk-dashboard .callout[data-callout="lk-hero"]>.callout-title,
+.lk-dashboard .callout[data-callout="lk-highlight"]>.callout-title,
+.lk-dashboard .callout[data-callout="lk-info"]>.callout-title,
+.lk-dashboard .callout[data-callout="lk-links"]>.callout-title {
+  display: none;
+}
+
+
+/* ------------------------------------------------------------
+   [!lk-hero] — Hero Section
+   Glass backdrop with gradient text title and ambient glow.
+   ------------------------------------------------------------ */
+.lk-dashboard .callout[data-callout="lk-hero"] {
+  background: rgba(var(--lk-color-accent-rgb, 124, 138, 151), 0.03);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--lk-color-border, var(--background-modifier-border));
+  border-radius: var(--lk-radius-lg, 12px);
+  padding: 56px 40px 48px;
+  margin-bottom: var(--lk-space-lg, 24px);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Ambient glow — left */
+.lk-dashboard .callout[data-callout="lk-hero"]::before {
+  content: '';
+  position: absolute;
+  top: -60%;
+  left: -30%;
+  width: 160%;
+  height: 220%;
+  background: radial-gradient(ellipse at 40% 50%,
+      rgba(var(--lk-color-accent-rgb, 124, 138, 151), 0.07) 0%,
+      transparent 65%);
+  pointer-events: none;
+}
+
+/* Ambient glow — right */
+.lk-dashboard .callout[data-callout="lk-hero"]::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle,
+      rgba(var(--lk-color-accent-rgb, 124, 138, 151), 0.09),
+      transparent 70%);
+  transform: translate(120px, 120px);
+  pointer-events: none;
+}
+
+.lk-dashboard .callout[data-callout="lk-hero"] .callout-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Hero title — large serif with gradient */
+.lk-dashboard .callout[data-callout="lk-hero"] h1 {
+  font-family: var(--lk-font-display, "Crimson Pro", Georgia, serif);
+  font-size: var(--lk-dashboard-hero-size, 3.6em);
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.1;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg,
+      var(--lk-color-text, var(--text-normal)) 20%,
+      var(--lk-color-accent, #7c8a97) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.lk-dashboard .callout[data-callout="lk-hero"] .callout-content>p {
+  margin: 6px 0 0 0;
+}
+
+/* Hero subtitle — italic, faded */
+.lk-dashboard .callout[data-callout="lk-hero"] em {
+  font-size: 1.15em;
+  opacity: 0.45;
+  letter-spacing: 1.5px;
+}
+
+
+/* ------------------------------------------------------------
+   Section Headings (h2)
+   Serif display font with accent underline.
+   ------------------------------------------------------------ */
+.lk-dashboard h2 {
+  font-family: var(--lk-font-display, "Crimson Pro", Georgia, serif);
+  font-size: var(--lk-dashboard-h2-size, 1.7em);
+  font-weight: 600;
+  margin-top: 48px;
+  margin-bottom: 18px;
+  padding-bottom: 10px;
+  letter-spacing: 0.3px;
+  border-bottom: 1px solid rgba(var(--lk-color-accent-rgb, 124, 138, 151), 0.15);
+}
+
+
+/* ------------------------------------------------------------
+   [!lk-highlight] — Highlight Bar
+   Left-border accent block for key info or callouts.
+   ------------------------------------------------------------ */
+.lk-dashboard .callout[data-callout="lk-highlight"] {
+  background: rgba(var(--lk-color-accent-rgb, 124, 138, 151), 0.04);
+  border: 1px solid rgba(var(--lk-color-accent-rgb, 124, 138, 151), 0.1);
+  border-left: 3px solid var(--lk-color-accent, #7c8a97);
+  border-radius: var(--lk-radius-md, 8px);
+  padding: 14px 22px;
+  margin-bottom: 20px;
+  transition: background var(--lk-transition, 0.2s ease),
+    border-color var(--lk-transition, 0.2s ease);
+}
+
+.lk-dashboard .callout[data-callout="lk-highlight"]:hover {
+  background: rgba(var(--lk-color-accent-rgb, 124, 138, 151), 0.07);
+  border-color: rgba(var(--lk-color-accent-rgb, 124, 138, 151), 0.22);
+  border-left-color: var(--lk-color-accent, #7c8a97);
+}
+
+.lk-dashboard .callout[data-callout="lk-highlight"] .callout-content p {
+  margin: 0;
+}
+
+
+/* ------------------------------------------------------------
+   [!lk-info] — Info Column Container
+   3-column grid, responsive to 1-col at 700px.
+   ------------------------------------------------------------ */
+.lk-dashboard .callout[data-callout="lk-info"] {
+  margin-bottom: var(--lk-space-sm, 8px);
+}
+
+.lk-dashboard .callout[data-callout="lk-info"]>.callout-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--lk-space-md, 16px);
+  padding: 0;
+}
+
+/* Hide stray empty <p> between nested callouts */
+.lk-dashboard .callout[data-callout="lk-info"]>.callout-content>p {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .lk-dashboard .callout[data-callout="lk-info"]>.callout-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* ------------------------------------------------------------
+   [!lk-col] — Column Card (nested inside lk-info)
+   Styled card with uppercase title header, list and table
+   support for quick-reference content.
+   ------------------------------------------------------------ */
+.lk-dashboard .callout[data-callout="lk-col"] {
+  --callout-color: var(--lk-color-accent-rgb, 124, 138, 151);
+  background: var(--lk-color-surface, var(--background-secondary));
+  border: 1px solid var(--lk-color-border, var(--background-modifier-border));
+  border-radius: var(--lk-radius-md, 8px);
+  padding: 20px;
+  transition: border-color var(--lk-transition, 0.2s ease);
+}
+
+.lk-dashboard .callout[data-callout="lk-col"]:hover {
+  border-color: rgba(var(--lk-color-accent-rgb, 124, 138, 151), 0.18);
+}
+
+/* Show + restyle the title as column header */
+.lk-dashboard .callout[data-callout="lk-col"]>.callout-title {
+  display: flex;
+  font-family: var(--lk-font-body, var(--font-text, sans-serif));
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--lk-color-accent, #7c8a97);
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(var(--lk-color-accent-rgb, 124, 138, 151), 0.1);
+}
+
+.lk-dashboard .callout[data-callout="lk-col"]>.callout-title .callout-icon,
+.lk-dashboard .callout[data-callout="lk-col"]>.callout-title .callout-fold {
+  display: none;
+}
+
+/* Column list styling */
+.lk-dashboard .callout[data-callout="lk-col"] .callout-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lk-dashboard .callout[data-callout="lk-col"] .callout-content li {
+  padding: 7px 10px;
+  border-radius: var(--lk-radius-md, 8px);
+  transition: background 0.2s ease;
+  font-size: 0.9em;
+}
+
+.lk-dashboard .callout[data-callout="lk-col"] .callout-content li:hover {
+  background: rgba(var(--lk-color-accent-rgb, 124, 138, 151), 0.06);
+}
+
+/* Dataview tables in columns */
+.lk-dashboard .callout[data-callout="lk-col"] .dataview {
+  font-size: 0.82em;
+}
+
+.lk-dashboard .callout[data-callout="lk-col"] table {
+  width: 100%;
+}
+
+.lk-dashboard .callout[data-callout="lk-col"] table th {
+  font-size: 0.75em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--lk-color-accent, #7c8a97);
+  border-bottom: 1px solid rgba(var(--lk-color-accent-rgb, 124, 138, 151), 0.12);
+  padding: 6px 4px;
+  font-weight: 600;
+}
+
+.lk-dashboard .callout[data-callout="lk-col"] table td {
+  padding: 5px 4px;
+  border-bottom: 1px solid rgba(var(--lk-color-accent-rgb, 124, 138, 151), 0.03);
+}
+
+
+/* ------------------------------------------------------------
+   [!lk-links] — Link List
+   Card-style container with hover-highlighted list items.
+   ------------------------------------------------------------ */
+.lk-dashboard .callout[data-callout="lk-links"] {
+  background: var(--lk-color-surface, var(--background-secondary));
+  border: 1px solid var(--lk-color-border, var(--background-modifier-border));
+  border-radius: var(--lk-radius-md, 8px);
+  padding: 18px 22px;
+  margin-top: var(--lk-space-xs, 4px);
+}
+
+.lk-dashboard .callout[data-callout="lk-links"] .callout-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lk-dashboard .callout[data-callout="lk-links"] .callout-content li {
+  padding: 9px 12px;
+  border-radius: 10px;
+  transition: background 0.2s ease;
+  font-size: 0.92em;
+}
+
+.lk-dashboard .callout[data-callout="lk-links"] .callout-content li:hover {
+  background: rgba(var(--lk-color-accent-rgb, 124, 138, 151), 0.06);
+}
+
+
+/* ------------------------------------------------------------
+   Global Link Styling (dashboard-scoped)
+   ------------------------------------------------------------ */
+.lk-dashboard a.internal-link {
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.lk-dashboard a.internal-link:hover {
+  color: var(--lk-color-accent, #7c8a97);
+}
+
+
+/* ------------------------------------------------------------
+   Animations — fade-up entrance with staggered delays
+   ------------------------------------------------------------ */
+.lk-dashboard .callout[data-callout="lk-hero"],
+.lk-dashboard .callout[data-callout="lk-cards"],
+.lk-dashboard .callout[data-callout="lk-info"],
+.lk-dashboard .callout[data-callout="lk-highlight"],
+.lk-dashboard .callout[data-callout="lk-links"] {
+  animation: lk-fade-up 0.6s ease backwards;
+}
+
+.lk-dashboard .callout[data-callout="lk-highlight"] {
+  animation-delay: 0.06s;
+}
+
+.lk-dashboard .callout[data-callout="lk-cards"] {
+  animation-delay: 0.08s;
+}
+
+.lk-dashboard .callout[data-callout="lk-links"] {
+  animation-delay: 0.10s;
+}
+
+.lk-dashboard .callout[data-callout="lk-info"] {
+  animation-delay: 0.14s;
+}
+
+@keyframes lk-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
